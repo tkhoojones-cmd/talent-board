@@ -1,0 +1,234 @@
+<title>VP Talent Board</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+<style>
+/* Layout: one narrow column. Header, a counts strip, tabs per list, filters, then expandable rows. */
+:root {
+  --bg: #f2f5f3;
+  --surface: #ffffff;
+  --ink: #16211c;
+  --muted: #5a6a63;
+  --line: #d9e1dc;
+  --accent: #1d5a48;
+  --accent-soft: #dcebe4;
+  --good: #1c7a46;
+  --good-soft: #dff1e6;
+  --warn: #8a5a00;
+  --warn-soft: #f7ebcf;
+  --font-display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1613; --surface: #17211c; --ink: #e6eee9; --muted: #93a39b; --line: #2a3832;
+    --accent: #6fbf9f; --accent-soft: #1f3a30; --good: #5fd08c; --good-soft: #17341f; --warn: #e2b659; --warn-soft: #3a2f12;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1613; --surface: #17211c; --ink: #e6eee9; --muted: #93a39b; --line: #2a3832;
+  --accent: #6fbf9f; --accent-soft: #1f3a30; --good: #5fd08c; --good-soft: #17341f; --warn: #e2b659; --warn-soft: #3a2f12;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 14px; line-height: 1.5; }
+* { box-sizing: border-box; }
+.wrap { max-width: 920px; margin: 0 auto; padding-inline: 16px; padding-block: 24px 48px; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: 2rem; line-height: 1.1; margin: 0; text-wrap: balance; }
+.sub { color: var(--muted); margin: 6px 0 0; max-width: 62ch; }
+button, select, input { font: inherit; color: inherit; }
+button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.counts { display: flex; flex-wrap: wrap; gap: 8px 28px; margin: 24px 0 8px; padding-block: 14px; border-block: 1px solid var(--line); }
+.count b { display: block; font-family: var(--font-mono); font-weight: 500; font-size: 1.5rem; line-height: 1.2; font-variant-numeric: tabular-nums; }
+.count span { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+nav.tabs { display: flex; gap: 4px; overflow-x: auto; margin-top: 16px; border-bottom: 1px solid var(--line); }
+nav.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 10px 12px; cursor: pointer; white-space: nowrap; color: var(--muted); font-weight: 500; }
+nav.tabs button[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+nav.tabs .n { font-family: var(--font-mono); font-size: 12px; margin-left: 6px; color: var(--muted); }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; margin-block: 14px; align-items: center; }
+.tools input[type="search"] { flex: 1 1 200px; min-width: 0; }
+.tools input, .tools select { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 7px 10px; }
+.tools label.chk { display: inline-flex; gap: 6px; align-items: center; color: var(--muted); cursor: pointer; }
+.note { background: var(--warn-soft); border-radius: 6px; padding: 8px 12px; margin-bottom: 12px; }
+ul.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+details.row { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
+details.row[open] { border-color: var(--accent); }
+details.row > summary { list-style: none; cursor: pointer; display: flex; flex-wrap: wrap; gap: 6px 16px; justify-content: space-between; padding: 10px 14px; }
+details.row > summary::-webkit-details-marker { display: none; }
+.main { flex: 1 1 320px; min-width: 0; }
+.head { font-weight: 600; overflow-wrap: anywhere; }
+.line { color: var(--muted); overflow-wrap: anywhere; }
+.side { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: flex-start; }
+.pill { font-size: 12px; font-weight: 500; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); white-space: nowrap; }
+.pill.good { background: var(--good-soft); color: var(--good); }
+.pill.warn { background: var(--warn-soft); color: var(--warn); }
+.mono { font-family: var(--font-mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.detail { padding: 4px 14px 14px; border-top: 1px solid var(--line); }
+.detail dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 14px; margin: 8px 0; }
+.detail dt { color: var(--muted); }
+.detail dd { margin: 0; overflow-wrap: anywhere; }
+a { color: var(--accent); }
+.empty { padding: 28px 8px; color: var(--muted); text-align: center; }
+footer { margin-top: 28px; color: var(--muted); font-size: 12px; max-width: 70ch; }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>VP Talent Board</h1>
+    <p class="sub">Open VP Talent, Head of Talent, People and Chief People Officer roles in the US and Canada, plus senior recruiting roles and hiring signals. Checked every day.</p>
+  </header>
+  <div class="counts" id="counts"></div>
+  <nav class="tabs" id="tabs" role="tablist" aria-label="Lists"></nav>
+  <div class="tools" id="tools"></div>
+  <div id="note"></div>
+  <ul class="list" id="list"></ul>
+  <footer id="foot"></footer>
+</div>
+
+
+<script>
+fetch("data.json?v=" + Date.now()).then(function (r) { return r.json(); }).then(function (DATA) {
+  var TZ = "America/Vancouver";
+  var TABS = [
+    { key: "roles", label: "Open roles" },
+    { key: "ic", label: "Senior recruiting" },
+    { key: "moves", label: "Leadership moves" },
+    { key: "funding", label: "Funding" }
+  ];
+  var NOTES = {
+    ic: "Individual-contributor recruiting roles with senior-level pay, listed at the employer's posted range where one exists.",
+    moves: "Signals, not openings. These companies recently hired or lost a talent or people leader, which can point to a search. Each links to the press report.",
+    funding: "Watch list, not openings. Companies that recently raised money and may be building out people leadership."
+  };
+  var state = { tab: "roles", q: "", sort: "new", ca: false, since: "any", level: "all", kind: "all" };
+  var $ = function (id) { return document.getElementById(id); };
+
+  function el(tag, props) {
+    var n = document.createElement(tag);
+    if (props) for (var k in props) {
+      if (k === "text") n.textContent = props[k];
+      else if (k === "class") n.className = props[k];
+      else if (k.indexOf("on") === 0) n.addEventListener(k.slice(2), props[k]);
+      else n.setAttribute(k, props[k]);
+    }
+    for (var i = 2; i < arguments.length; i++) { var c = arguments[i]; if (c != null && c !== false) n.appendChild(typeof c === "string" ? document.createTextNode(c) : c); }
+    return n;
+  }
+  var MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+  function fmt(s) { if (!/^\d{4}-\d{2}-\d{2}$/.test(s || "")) return ""; var p = s.split("-"); return MON[+p[1] - 1] + " " + (+p[2]); }
+  function todayStr() { return new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(new Date()); }
+  function daysAgo(s) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(s || "")) return null;
+    var a = s.split("-").map(Number), b = todayStr().split("-").map(Number);
+    return Math.round((Date.UTC(b[0], b[1] - 1, b[2]) - Date.UTC(a[0], a[1] - 1, a[2])) / 864e5);
+  }
+  function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
+  var CA_RE = /remote|vancouver|british columbia|\bbc\b|canada|toronto|montreal|calgary|ottawa|anywhere/i;
+  var LEVELS = {
+    vp: /\b(vp|vice president|svp|evp)\b/i,
+    head: /\b(head|global head|lead)\b/i,
+    chief: /\b(chief|cpo|chro|cpco)\b/i,
+    director: /\bdirector\b/i
+  };
+
+  function items(key) {
+    var rows = (DATA[key] || []).slice(), q = state.q.trim().toLowerCase();
+    if (state.ca && (key === "roles" || key === "ic")) rows = rows.filter(function (r) { return CA_RE.test(r.location || ""); });
+    if (key === "roles" && state.level !== "all") rows = rows.filter(function (r) { return LEVELS[state.level].test(r.title || ""); });
+    if (key === "moves" && state.kind !== "all") rows = rows.filter(function (r) { return r.kind === state.kind; });
+    if (state.since !== "any") {
+      var lim = state.since === "today" ? 0 : state.since === "7" ? 6 : 29;
+      rows = rows.filter(function (r) { var d = daysAgo(r.added); return d != null && d <= lim; });
+    }
+    if (q) rows = rows.filter(function (r) { return Object.keys(r).some(function (k) { return String(r[k]).toLowerCase().indexOf(q) !== -1; }); });
+    rows.sort(function (a, b) {
+      if (state.sort === "company") return (a.company || "").localeCompare(b.company || "");
+      return (b.added || "").localeCompare(a.added || "");
+    });
+    return rows;
+  }
+
+  function paint() {
+    var roles = DATA.roles || [], c = $("counts"); c.textContent = "";
+    function count(n, label) { c.appendChild(el("div", { class: "count" }, el("b", { text: String(n) }), el("span", { text: label }))); }
+    var cos = {}; roles.forEach(function (r) { cos[r.company] = 1; });
+    count(roles.length, "Open roles");
+    count(roles.filter(function (r) { var d = daysAgo(r.added); return d != null && d <= 6; }).length, "New in 7 days");
+    count(Object.keys(cos).length, "Companies hiring");
+    count(roles.filter(function (r) { return CA_RE.test(r.location || ""); }).length, "Remote or Canada");
+
+    var tabs = $("tabs"); tabs.textContent = "";
+    TABS.forEach(function (t) {
+      tabs.appendChild(el("button", { type: "button", role: "tab", "aria-selected": String(state.tab === t.key), onclick: function () { state.tab = t.key; paint(); } },
+        t.label, el("span", { class: "n", text: String((DATA[t.key] || []).length) })));
+    });
+
+    var key = state.tab, tools = $("tools"); tools.textContent = "";
+    var search = el("input", { type: "search", id: "q", placeholder: "Search company or title", "aria-label": "Search", value: state.q });
+    search.addEventListener("input", function () { state.q = search.value; paintList(); });
+    tools.appendChild(search);
+    if (key === "roles") {
+      var lv = el("select", { id: "level", "aria-label": "Level" },
+        el("option", { value: "all", text: "All levels" }), el("option", { value: "vp", text: "VP" }), el("option", { value: "head", text: "Head of" }),
+        el("option", { value: "chief", text: "Chief" }), el("option", { value: "director", text: "Director" }));
+      lv.value = state.level; lv.addEventListener("change", function () { state.level = lv.value; paintList(); });
+      tools.appendChild(lv);
+    }
+    if (key === "moves") {
+      var kd = el("select", { id: "kind", "aria-label": "Type" }, el("option", { value: "all", text: "Hired and left" }), el("option", { value: "Hired", text: "Hired" }), el("option", { value: "Left", text: "Left" }));
+      kd.value = state.kind; kd.addEventListener("change", function () { state.kind = kd.value; paintList(); });
+      tools.appendChild(kd);
+    }
+    var since = el("select", { id: "since", "aria-label": "Date added" },
+      el("option", { value: "any", text: "Any date" }), el("option", { value: "today", text: "Added today" }),
+      el("option", { value: "7", text: "Last 7 days" }), el("option", { value: "30", text: "Last 30 days" }));
+    since.value = state.since; since.addEventListener("change", function () { state.since = since.value; paintList(); });
+    tools.appendChild(since);
+    var sort = el("select", { id: "sort", "aria-label": "Sort" }, el("option", { value: "new", text: "Newest first" }), el("option", { value: "company", text: "Company A to Z" }));
+    sort.value = state.sort; sort.addEventListener("change", function () { state.sort = sort.value; paintList(); });
+    tools.appendChild(sort);
+    if (key === "roles" || key === "ic") {
+      var cb = el("input", { type: "checkbox", id: "ca" }); cb.checked = state.ca;
+      cb.addEventListener("change", function () { state.ca = cb.checked; paintList(); });
+      tools.appendChild(el("label", { class: "chk", for: "ca", title: "Matches Remote or a Canadian location in the posting" }, cb, "Remote or Canada"));
+    }
+    $("note").textContent = "";
+    if (NOTES[key]) $("note").appendChild(el("div", { class: "note", text: NOTES[key] }));
+    paintList();
+  }
+
+  function paintList() {
+    var key = state.tab, list = $("list"); list.textContent = "";
+    var rows = items(key);
+    if (!rows.length) { list.appendChild(el("li", { class: "empty", text: "Nothing matches these filters. Clear the search or widen the date range." })); return; }
+    rows.forEach(function (r) {
+      var head, sub = "", meta = [], pills = [], url = safeUrl(r.url), dl = [];
+      if (key === "roles" || key === "ic") {
+        head = r.title; sub = r.company;
+        if (r.location) { meta.push(r.location); dl.push(["Location", r.location]); }
+        if (r.comp) { meta.push(r.comp); dl.push(["Pay", r.comp]); }
+        if (r.checked) dl.push(["Last confirmed live", fmt(r.checked)]);
+      } else if (key === "moves") {
+        head = r.company; sub = (r.kind === "Hired" ? "New: " : "Left: ") + r.title;
+        pills.push([r.kind, r.kind === "Hired" ? "good" : "warn"]);
+      } else {
+        head = r.company; sub = [r.round, r.amount].filter(Boolean).join(" · ");
+      }
+      if (daysAgo(r.added) === 0) pills.unshift(["New today", ""]);
+      var side = el("div", { class: "side" });
+      pills.forEach(function (p) { side.appendChild(el("span", { class: "pill " + p[1], text: p[0] })); });
+      if (r.added) side.appendChild(el("span", { class: "mono", text: fmt(r.added) }));
+      var main = el("div", { class: "main" }, el("div", { class: "head", text: head }));
+      if (sub) main.appendChild(el("div", { class: "line", text: sub }));
+      if (meta.length) main.appendChild(el("div", { class: "line", text: meta.join(" · ") }));
+      var det = el("div", { class: "detail" });
+      if (dl.length) { var d = el("dl"); dl.forEach(function (p) { d.appendChild(el("dt", { text: p[0] })); d.appendChild(el("dd", { text: p[1] })); }); det.appendChild(d); }
+      if (url) det.appendChild(el("div", {}, el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: (key === "roles" || key === "ic") ? "View the posting" : "Read the source" })));
+      else det.appendChild(el("div", { class: "line", text: "No link available." }));
+      list.appendChild(el("li", {}, el("details", { class: "row" }, el("summary", {}, main, side), det)));
+    });
+  }
+
+  $("foot").textContent = "Updated " + fmt(DATA.generated) + ". Every listing links to the employer's own career site and is re-checked daily, but roles can close without notice, so confirm on the employer's site before you plan around one.";
+  paint();
+}).catch(function () { document.getElementById("foot").textContent = "Could not load listings. Please refresh."; });
+</script>
