@@ -1,0 +1,31 @@
+name: Verify listings
+on:
+  schedule:
+    - cron: "30 13 * * *"   # 6:30 AM Vancouver
+    - cron: "30 1 * * *"    # 6:30 PM Vancouver
+  push:
+    paths: ["candidates.json"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: verify
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm install --no-save playwright
+      - run: npx playwright install --with-deps chromium
+      - run: node verify.js
+      - name: Publish data.json
+        run: |
+          git config user.name "listing-checker"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.json
+          if git diff --cached --quiet; then echo "no change"; else
+            git commit -m "Verified listings $(date -u +%F)"
+            git pull --rebase origin main && git push
+          fi

@@ -86,7 +86,7 @@ footer { margin-top: 28px; color: var(--muted); font-size: 12px; max-width: 70ch
 
 
 <script>
-fetch("data.json?v=" + Date.now()).then(function (r) { return r.json(); }).then(function (DATA) {
+fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.json?v=" + Math.floor(Date.now() / 60000)).then(function (r) { if (!r.ok) throw 0; return r.json(); }).catch(function () { return fetch("data.json?v=" + Date.now()).then(function (r) { return r.json(); }); }).then(function (DATA) {
   var TZ = "America/Vancouver";
   var TABS = [
     { key: "roles", label: "Open roles" },
