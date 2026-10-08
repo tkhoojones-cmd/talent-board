@@ -4,7 +4,7 @@ on:
     - cron: "30 13 * * *"   # 6:30 AM Vancouver
     - cron: "30 1 * * *"    # 6:30 PM Vancouver
   push:
-    paths: ["candidates.json"]
+    paths: ["jobs.json", "signals.json"]
   workflow_dispatch:
 permissions:
   contents: write
@@ -24,7 +24,7 @@ jobs:
         run: |
           git config user.name "listing-checker"
           git config user.email "actions@users.noreply.github.com"
-          git add data.json
+          git add data.json jobs.json
           if git diff --cached --quiet; then echo "no change"; else
             git commit -m "Verified listings $(date -u +%F)"
             git pull --rebase origin main && git push

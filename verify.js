@@ -44,33 +44,48 @@ async function check(ctx, url) {
   } finally { await page.close().catch(() => {}); }
 }
 
+const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|theladders\.com|himalayas\.app|wellfound\.com|ycombinator\.com|indeed\.com|lensa\.com|jobgether\.com|remoterocketship\.com|hollylist\.com|zapply\.jobs|resumegeni\.com|refreshmiami\.com|communitech\.ca|jobs\.a16z\.com|quiet\.com|bhsg\.com|topechelon\.com|jrgpartners\.com|loxo\.co|glassdoor|ziprecruiter|simplyhired|jooble/i;
+
 (async () => {
-  const cand = JSON.parse(fs.readFileSync("candidates.json", "utf8"));
-  const data = JSON.parse(fs.readFileSync("data.json", "utf8"));
+  const store = JSON.parse(fs.readFileSync("jobs.json", "utf8"));
+  const signals = JSON.parse(fs.readFileSync("signals.json", "utf8"));
   const browser = await chromium.launch();
   const ctx = await browser.newContext({
     userAgent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
     viewport: { width: 1280, height: 900 }, locale: "en-US",
   });
   const today = new Date().toISOString().slice(0, 10);
-  const rejected = [];
-  async function run(list) {
-    const out = [];
-    for (const r of list) {
-      let [state, why] = await check(ctx, r.url);
-      if (state === "unverifiable") { [state, why] = await check(ctx, r.url); } // one retry
-      console.log(state.padEnd(12), r.company, "|", r.title, "|", why);
-      if (state === "live") out.push({ ...r, checked: today });
-      else rejected.push({ company: r.company, title: r.title, url: r.url, state, reason: why });
-    }
-    return out;
+  const seen = new Set();
+  const jobs = [];
+  for (const j of store.jobs) {            // dedupe by URL
+    if (seen.has(j.url)) continue;
+    seen.add(j.url); jobs.push(j);
   }
-  data.roles = await run(cand.roles || []);
-  data.ic = await run(cand.ic || []);
-  data.rejected = rejected;
-  data.generated = today;
-  data.verifiedAt = new Date().toISOString();
+  for (const j of jobs) {
+    if (j.status === "closed") continue;   // once closed, stays closed
+    if (AGG.test(new URL(j.url).hostname)) {
+      j.status = "needs_employer_link"; j.reason = "link is a job board, not the employer's own page"; j.lastChecked = today;
+      console.log("needs link ", j.company, "|", j.title); continue;
+    }
+    let [state, why] = await check(ctx, j.url);
+    if (state === "unverifiable") { [state, why] = await check(ctx, j.url); }
+    j.status = state; j.reason = why; j.lastChecked = today;
+    console.log(state.padEnd(12), j.company, "|", j.title, "|", why);
+  }
+  // forget jobs that have been closed for more than 30 days
+  const cutoff = Date.now() - 30 * 864e5;
+  store.jobs = jobs.filter(j => !(j.status === "closed" && j.lastChecked && Date.parse(j.lastChecked) < cutoff));
+  store.updated = today;
+  fs.writeFileSync("jobs.json", JSON.stringify(store, null, 1));
+
+  const pub = (kind) => store.jobs.filter(j => j.status === "live" && j.kind === kind)
+    .map(j => ({ company: j.company, title: j.title, location: j.location, url: j.url, comp: j.comp || "", added: j.added, checked: j.lastChecked }));
+  const data = {
+    generated: today, verifiedAt: new Date().toISOString(),
+    roles: pub("role"), ic: pub("ic"), moves: signals.moves, funding: signals.funding,
+    notPublished: store.jobs.filter(j => j.status !== "live").map(j => ({ company: j.company, title: j.title, url: j.url, state: j.status, reason: j.reason })),
+  };
   fs.writeFileSync("data.json", JSON.stringify(data));
   await browser.close();
-  console.log(`live: ${data.roles.length + data.ic.length}, not published: ${rejected.length}`);
+  console.log(`live: ${data.roles.length + data.ic.length}, not published: ${data.notPublished.length}`);
 })();
