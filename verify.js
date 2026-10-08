@@ -78,7 +78,7 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
   store.updated = today;
   fs.writeFileSync("jobs.json", JSON.stringify(store, null, 1));
 
-  const pub = (kind) => store.jobs.filter(j => j.status === "live" && j.kind === kind)
+  const pub = (kind) => store.jobs.filter(j => j.status === "live" && j.kind === kind && !/^(unknown|location unclear|unclear|not specified)/i.test(j.location || ""))
     .map(j => ({ company: j.company, title: j.title, location: j.location, url: j.url, comp: j.comp || "", added: j.added, checked: j.lastChecked }));
   const data = {
     generated: today, verifiedAt: new Date().toISOString(),
