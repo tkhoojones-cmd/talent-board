@@ -13,6 +13,39 @@ function lastSeg(url) {
   try { return new URL(url).pathname.replace(/\/+$/, "").split("/").pop().toLowerCase(); } catch { return ""; }
 }
 
+async function findLocation(page) {
+  try {
+    return await page.evaluate(() => {
+      const clean = (t) => (t || "").replace(/\s+/g, " ").trim();
+      // 1) schema.org JobPosting
+      for (const el of document.querySelectorAll('script[type="application/ld+json"]')) {
+        try {
+          const j = JSON.parse(el.textContent);
+          const items = Array.isArray(j) ? j : (j["@graph"] || [j]);
+          for (const it of items) {
+            if (it && it["@type"] === "JobPosting") {
+              const locs = [].concat(it.jobLocation || []);
+              const parts = locs.map((l) => {
+                const a = (l && l.address) || {};
+                return [a.addressLocality, a.addressRegion, a.addressCountry && (a.addressCountry.name || a.addressCountry)].filter(Boolean).join(", ");
+              }).filter(Boolean);
+              if (parts.length) return clean(parts.join(" / "));
+              if (it.jobLocationType === "TELECOMMUTE") return "Remote";
+            }
+          }
+        } catch (e) {}
+      }
+      // 2) common ATS selectors
+      const sels = ['[data-automation-id="locations"]', ".job__location", ".posting-categories .location", ".location", '[class*="location" i]'];
+      for (const sel of sels) {
+        const e = document.querySelector(sel);
+        if (e && clean(e.innerText).length > 1 && clean(e.innerText).length < 160) return clean(e.innerText);
+      }
+      return "";
+    });
+  } catch (e) { return ""; }
+}
+
 async function check(ctx, url) {
   const page = await ctx.newPage();
   try {
@@ -38,12 +71,14 @@ async function check(ctx, url) {
     if (text.length < 400) return ["unverifiable", "page had almost no text (blocked or not rendered)"];
     const apply = await page.locator("a, button, input[type=submit]").filter({ hasText: /apply/i }).count();
     if (!apply) return ["unverifiable", "no Apply control found"];
-    return ["live", "opened normally with an Apply control"];
+    return ["live", "opened normally with an Apply control", await findLocation(page)];
   } catch (e) {
     return ["unverifiable", "error: " + e.message.slice(0, 80)];
   } finally { await page.close().catch(() => {}); }
 }
 
+const UNCLEAR = /^(unknown|location unclear|unclear|not specified|us \(location unspecified\))/i;
+const NONNA = /\b(united kingdom|uk|england|london|emea|europe|apac|asia|india|australia|singapore|germany|france|ireland|japan|brazil|mexico|latam|latin america|philippines|israel|spain|portugal|netherlands)\b/i;
 const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|theladders\.com|himalayas\.app|wellfound\.com|ycombinator\.com|indeed\.com|lensa\.com|jobgether\.com|remoterocketship\.com|hollylist\.com|zapply\.jobs|resumegeni\.com|refreshmiami\.com|communitech\.ca|jobs\.a16z\.com|quiet\.com|bhsg\.com|topechelon\.com|jrgpartners\.com|loxo\.co|glassdoor|ziprecruiter|simplyhired|jooble/i;
 
 (async () => {
@@ -67,9 +102,12 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
       j.status = "needs_employer_link"; j.reason = "link is a job board, not the employer's own page"; j.lastChecked = today;
       console.log("needs link ", j.company, "|", j.title); continue;
     }
-    let [state, why] = await check(ctx, j.url);
-    if (state === "unverifiable") { [state, why] = await check(ctx, j.url); }
+    let [state, why, loc] = await check(ctx, j.url);
+    if (state === "unverifiable") { [state, why, loc] = await check(ctx, j.url); }
     j.status = state; j.reason = why; j.lastChecked = today;
+    // take the location from the real posting when ours is missing or vague
+    if (loc && (!j.location || UNCLEAR.test(j.location) || /verify|confirm/i.test(j.location))) j.location = loc;
+    if (loc) j.pageLocation = loc;
     console.log(state.padEnd(12), j.company, "|", j.title, "|", why);
   }
   // forget jobs that have been closed for more than 30 days
@@ -78,7 +116,7 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
   store.updated = today;
   fs.writeFileSync("jobs.json", JSON.stringify(store, null, 1));
 
-  const pub = (kind) => store.jobs.filter(j => j.status === "live" && j.kind === kind && !/^(unknown|location unclear|unclear|not specified)/i.test(j.location || ""))
+  const pub = (kind) => store.jobs.filter(j => j.status === "live" && j.kind === kind && j.location && !UNCLEAR.test(j.location) && !(j.pageLocation && NONNA.test(j.pageLocation) && !/united states|usa|canada|remote/i.test(j.pageLocation)))
     .map(j => ({ company: j.company, title: j.title, location: j.location, url: j.url, comp: j.comp || "", added: j.added, checked: j.lastChecked }));
   const data = {
     generated: today, verifiedAt: new Date().toISOString(),
