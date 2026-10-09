@@ -178,7 +178,10 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
   fs.writeFileSync("jobs.json", JSON.stringify(store, null, 1));
   let prevCount = 0; try { const p = JSON.parse(fs.readFileSync("data.json", "utf8")); prevCount = (p.roles || []).length + (p.ic || []).length; } catch (e) {}
 
+  const norm = (t) => (t || "").toLowerCase().replace(/\b(inc|llc|ltd|corp|group|careers|international)\b/g, "").replace(/[^a-z0-9]+/g, "");
+  const dupSeen = new Set();
   const pub = (kind) => store.jobs.filter(j => j.status === "live" && j.kind === kind && j.location && !UNCLEAR.test(j.location) && !(j.pageLocation && NONNA.test(j.pageLocation) && !/united states|usa|canada|remote/i.test(j.pageLocation)))
+    .filter(j => { const k = norm(j.company).slice(0, 8) + "|" + norm(j.title); if (dupSeen.has(k)) return false; dupSeen.add(k); return true; })
     .map(j => ({ company: j.company, title: j.title, location: j.location, url: j.url, comp: j.comp || "", added: j.added, checked: j.lastChecked }));
   const data = {
     generated: today, verifiedAt: new Date().toISOString(),
