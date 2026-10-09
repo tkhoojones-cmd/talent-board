@@ -128,7 +128,8 @@
   "tala",
   "royalambulance",
   "quantummetric",
-  "knownwell"
+  "nitra",
+  "rise"
  ],
  "ashby": [
   "pylon-labs",
@@ -197,7 +198,8 @@
   "twelve-labs",
   "suno",
   "chaidiscovery",
-  "etched"
+  "etched",
+  "superdial"
  ],
  "workday": [
   {
@@ -464,16 +466,13 @@
   "wandb",
   "Prescriptive Data",
   "Greenhouse Software",
-  "Twilio",
   "Instasks",
-  "SuperDial",
-  "Nitra",
   "Salesforce",
   "Adobe",
-  "Rise",
   "Crew Group",
   "Walmart",
-  "Sage"
+  "Sage",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -583,8 +582,16 @@
   "Valor": 4,
   "Fireworks AI": 4,
   "Tide Rock": 4,
-  "neednova": 2,
-  "wandb": 2
+  "neednova": 3,
+  "wandb": 3,
+  "Instasks": 1,
+  "Salesforce": 1,
+  "Greenhouse Software": 1,
+  "Prescriptive Data": 1,
+  "Walmart": 1,
+  "Adobe": 1,
+  "Sage": 1,
+  "Crew Group": 1
  },
  "dead": [
   "Slate Auto",
@@ -923,7 +930,11 @@
   "workday:comcast:Comcast_Careers": 1,
   "workday:dell:External": 1,
   "workday:qualcomm:External": 1,
-  "lever:knownwell": 2
+  "greenhouse:dept": 0,
+  "greenhouse:viralnation": 0,
+  "lever:rise": 0,
+  "lever:nitra": 0,
+  "ashby:superdial": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1002,7 +1013,11 @@
   "ashby:twelve-labs": "Twelve Labs",
   "ashby:suno": "Suno",
   "ashby:chaidiscovery": "Chai Discovery",
-  "ashby:etched": "Etched"
+  "ashby:etched": "Etched",
+  "greenhouse:twilio": "Twilio",
+  "ashby:superdial": "SuperDial",
+  "lever:nitra": "Nitra",
+  "lever:rise": "Rise"
  },
  "icims": [
   "careers-uhnjcareers",
