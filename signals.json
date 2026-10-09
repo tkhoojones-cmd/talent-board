@@ -188,6 +188,34 @@
    "title": "Head of Global Talent Acquisition",
    "url": "https://www.cxodigitalpulse.com/?p=61882",
    "added": "2026-10-06"
+  },
+  {
+   "kind": "Hired",
+   "company": "Valor",
+   "title": "VP of Talent",
+   "url": "https://www.valorep.com/team/joe-schuster",
+   "added": "2026-10-09"
+  },
+  {
+   "kind": "Hired",
+   "company": "Fortive",
+   "title": "VP Global Talent Acquisition",
+   "url": "https://www.cxodigitalpulse.com/?p=61882",
+   "added": "2026-10-09"
+  },
+  {
+   "kind": "Hired",
+   "company": "LiveRamp",
+   "title": "VP Global Talent Acquisition",
+   "url": "https://huntscanlon.com/akeem-joseph-joins-liveramp-as-vp-global-talent-acquisition/",
+   "added": "2026-10-09"
+  },
+  {
+   "kind": "Left",
+   "company": "Tide Rock",
+   "title": "SVP of Talent",
+   "url": "https://www.valorep.com/team/joe-schuster",
+   "added": "2026-10-09"
   }
  ],
  "funding": [
@@ -547,6 +575,55 @@
    "amount": "$80M (valuation ~$3B)",
    "url": "https://www.sigmacomputing.com/resources/announcements/series-e",
    "added": "2026-09-25"
+  },
+  {
+   "company": "Mecka AI",
+   "round": "Series B",
+   "amount": "$60M USD",
+   "url": "https://betakit.com/mecka-ai-reveals-60-million-usd-series-b-round-backed-by-sequoia-nvidia",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Fireworks AI",
+   "round": "Series D",
+   "amount": "$1.5B",
+   "url": "https://intellizence.com/insights/startup-funding/largest-startup-venture-capital-vc-funding-deals/",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Castelion",
+   "round": "Series C",
+   "amount": "$1B",
+   "url": "https://intellizence.com/insights/startup-funding/largest-startup-venture-capital-vc-funding-deals/",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Wonder",
+   "round": "Series D",
+   "amount": "$650M",
+   "url": "https://intellizence.com/insights/startup-funding/largest-startup-venture-capital-vc-funding-deals/",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Suno",
+   "round": "Series D",
+   "amount": "$400M",
+   "url": "https://techjacksolutions.com/ai-brief/suno-400m-series-d-june-2026-ai-startup-funding-cluster/",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Chai Discovery",
+   "round": "Series C",
+   "amount": "$400M",
+   "url": "https://intellizence.com/insights/startup-funding/largest-startup-venture-capital-vc-funding-deals/",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Etched",
+   "round": "Series C",
+   "amount": "$300M",
+   "url": "https://intellizence.com/insights/startup-funding/largest-startup-venture-capital-vc-funding-deals/",
+   "added": "2026-10-09"
   }
  ]
 }
