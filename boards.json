@@ -697,11 +697,11 @@
   "icims:careers-heritagechristianservices": 0,
   "icims:careers-uhnjcareers": 0,
   "icims:careers-naphcare": 0,
-  "lever:knownwell": 1,
-  "workday:walmart:WalmartExternal": 1,
-  "workday:comcast:Comcast_Careers": 1,
-  "workday:dell:External": 1,
-  "workday:qualcomm:External": 1
+  "lever:knownwell": 2,
+  "workday:walmart:WalmartExternal": 2,
+  "workday:comcast:Comcast_Careers": 2,
+  "workday:dell:External": 2,
+  "workday:qualcomm:External": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
