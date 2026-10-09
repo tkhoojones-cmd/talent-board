@@ -27,7 +27,7 @@ jobs:
           git config user.name "listing-checker"
           git config user.email "actions@users.noreply.github.com"
           for i in 1 2 3; do
-            git add data.json jobs.json crawl-report.json
+            git add data.json jobs.json crawl-report.json boards.json
             if git diff --cached --quiet; then echo "no change"; exit 0; fi
             git commit -m "Verified listings $(date -u +%F)"
             if git pull --rebase origin main && git push; then exit 0; fi

@@ -54,10 +54,32 @@ for (const j of store.jobs) {
   if ((m = j.url.match(/jobs\.ashbyhq\.com\/([^/?]+)/))) abExtra.add(m[1]);
 }
 
+// --- company discovery: try to find the right job-feed address for names we only know by name ---
+boards.candidates = boards.candidates || []; boards.tried = boards.tried || {}; boards.dead = boards.dead || [];
+const slugsOf = (n) => { const b = n.toLowerCase().replace(/&/g, "and").replace(/\b(inc|llc|ltd|corp|co)\b\.?/g, "").trim(); const a = b.replace(/[^a-z0-9]+/g, ""), h = b.replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); return [...new Set([a, h, a + "hq", a + "inc", a + "jobs", a + "careers", h + "-inc"])].filter(Boolean); };
+async function probe(name) {
+  for (const s of slugsOf(name)) {
+    let r = await getJSON(`https://boards-api.greenhouse.io/v1/boards/${s}/jobs`); if (r.status === 200 && r.json.jobs) return ["greenhouse", s];
+    r = await getJSON(`https://api.lever.co/v0/postings/${s}?mode=json`); if (r.status === 200 && Array.isArray(r.json)) return ["lever", s];
+    r = await getJSON(`https://api.ashbyhq.com/posting-api/job-board/${s}`); if (r.status === 200 && r.json.jobs) return ["ashby", s];
+  }
+  return null;
+}
 const found = [], report = { ok: 0, fail: [], scanned: 0 };
 async function each(list, fn) { const q = [...list]; await Promise.all(Array.from({ length: 6 }, async () => { while (q.length) await fn(q.shift()); })); }
 
 (async () => {
+  // probe candidate names (from searches, signals, or feeds that went 404)
+  try {
+    const sig = JSON.parse(fs.readFileSync("signals.json", "utf8"));
+    for (const x of [...(sig.funding || []), ...(sig.moves || [])]) { const c = (x.company || "").trim(); if (c && !boards.dead.includes(c) && !boards.candidates.includes(c) && boards.tried[c] === undefined) boards.candidates.push(c); }
+  } catch (e) {}
+  const names = [...new Set(boards.candidates)].filter((n) => (boards.tried[n] || 0) < 4);
+  await each(names, async (n) => {
+    const hit = await probe(n);
+    if (hit) { const [ats, tok] = hit; boards[ats].push(tok); ({ greenhouse: ghExtra, lever: lvExtra, ashby: abExtra })[ats].add(tok); boards.candidates = boards.candidates.filter((x) => x !== n); console.log("FEED FOUND", n, "->", ats + "/" + tok); }
+    else boards.tried[n] = (boards.tried[n] || 0) + 1;
+  });
   await each(ghExtra, async (t) => {
     const r = await getJSON(`https://boards-api.greenhouse.io/v1/boards/${t}/jobs`);
     if (r.status !== 200) return report.fail.push("gh:" + t + ":" + r.status);
@@ -86,6 +108,15 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     report.ok++;
   });
 
+  for (const f of report.fail) {
+    const m = f.match(/^(gh|lever|ashby):(.+):404$/); if (!m) continue;
+    const key2 = { gh: "greenhouse", lever: "lever", ashby: "ashby" }[m[1]];
+    boards[key2] = boards[key2].filter((x) => x !== m[2]);
+    if (!boards.candidates.includes(m[2]) && !boards.dead.includes(m[2])) boards.candidates.push(m[2]);
+  }
+  for (const n of [...boards.candidates]) if ((boards.tried[n] || 0) >= 4) { boards.dead.push(n); boards.candidates = boards.candidates.filter((x) => x !== n); }
+  for (const k of ["greenhouse", "lever", "ashby"]) boards[k] = [...new Set(boards[k])];
+  fs.writeFileSync("boards.json", JSON.stringify(boards, null, 1));
   let added = 0;
   for (const f of found) {
     if (!f.url) continue;
