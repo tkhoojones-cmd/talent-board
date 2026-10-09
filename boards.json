@@ -68,7 +68,10 @@
   "indeedbtrbt",
   "hootsuite",
   "faire",
-  "attentive"
+  "attentive",
+  "admarketplaceinc",
+  "evergreenservicesgroup",
+  "futurestandard"
  ],
  "lever": [
   "zoox",
@@ -398,7 +401,27 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "Curri",
+  "Excel",
+  "SegmentStream",
+  "Mintlify",
+  "MessageGears",
+  "Hasbro",
+  "CLEAR",
+  "Netomi",
+  "Groove",
+  "VideoAmp",
+  "One Model",
+  "Themis Solutions",
+  "CodePath",
+  "Turn/River",
+  "Phoenix Tailings",
+  "Warner Bros. Discovery",
+  "HubSpot",
+  "Weekday AI",
+  "Liberate"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -537,7 +560,8 @@
   "DHI Group"
  ],
  "workable": [
-  "montera"
+  "montera",
+  "weekday-1"
  ],
  "rippling": [
   "smartsuite",
@@ -546,7 +570,8 @@
   "rippling"
  ],
  "smartrecruiters": [
-  "glean"
+  "glean",
+  "WesternDigital"
  ],
  "recruitee": [
   "riderlevettbucknall",

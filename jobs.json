@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "jobs": [
   {
    "id": "bad760ffba",
@@ -1388,6 +1388,136 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "pageLocation": "Plaza, 751 Broad St., Newark, NJ, United States of America"
+  },
+  {
+   "id": "3a8f938c9a",
+   "kind": "role",
+   "company": "Practice Better",
+   "title": "Head of People",
+   "location": "Canada (remote/hybrid, Toronto HQ)",
+   "url": "https://job-boards.greenhouse.io/practicebetter/jobs/4800964008",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "071e363b68",
+   "kind": "role",
+   "company": "adMarketplace",
+   "title": "Vice President of People",
+   "location": "New York",
+   "url": "https://job-boards.greenhouse.io/admarketplaceinc/jobs/4576619005",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "e7c621c590",
+   "kind": "role",
+   "company": "Evergreen Services Group",
+   "title": "VP Talent Acquisition",
+   "location": "San Francisco",
+   "url": "https://job-boards.greenhouse.io/evergreenservicesgroup/jobs/4535243005",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "b4e7e1f5a9",
+   "kind": "role",
+   "company": "Future Standard",
+   "title": "VP Talent Acquisition and Campus",
+   "location": "Philadelphia",
+   "url": "https://job-boards.greenhouse.io/futurestandard/jobs/8478200002",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "b0f3bcdaf0",
+   "kind": "role",
+   "company": "Files.com",
+   "title": "VP of Recruiting",
+   "location": "Austin, TX",
+   "url": "https://job-boards.greenhouse.io/filescom/jobs/4607831005",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "f5eb1db1b8",
+   "kind": "role",
+   "company": "Knownwell",
+   "title": "VP of People & Talent",
+   "location": "",
+   "url": "https://jobs.lever.co/knownwell/6c3a3ed2-55e1-4610-a43d-d9c4ba4bd33a",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "6e74842069",
+   "kind": "role",
+   "company": "Curri",
+   "title": "VP of People",
+   "location": "Ventura, CA (on-site)",
+   "url": "https://www.curri.com/careers/vp-of-people-bae9b8cb",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "ad4dee950b",
+   "kind": "role",
+   "company": "Excel",
+   "title": "VP Head of People",
+   "location": "Miami, FL",
+   "url": "https://ats.rippling.com/excel/jobs/bb20c0eb-69f9-4b6b-a0dd-473b98b6b38a",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "d7f7c660bf",
+   "kind": "role",
+   "company": "SegmentStream",
+   "title": "Head of People",
+   "location": "Remote",
+   "url": "https://segmentstream.com/careers/head-of-people",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "4719257336",
+   "kind": "role",
+   "company": "Western Digital",
+   "title": "VP Talent, Development and Inclusion (HDD Business)",
+   "location": "",
+   "url": "https://smartrecruiters.com/WesternDigital/744000026802977",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
   }
  ]
 }
