@@ -157,19 +157,30 @@ async function oracle(o) {                       // {host, site, company}
 }
 async function taleo(t) {                        // {tenant, section, company}; portal id comes from the section's own page
   const base = `https://${t.tenant}.taleo.net/careersection`;
-  const shell = await http(`${base}/${t.section}/jobsearch.ftl?lang=en`);
+  let cookie = "";
+  const shell = await (async () => {                 // fetched by hand so the session cookie can be kept for the search call
+    try {
+      const c = new AbortController(); const tm = setTimeout(() => c.abort(), 20000);
+      const r = await fetch(`${base}/${t.section}/jobsearch.ftl?lang=en`, { signal: c.signal, headers: { "user-agent": "Mozilla/5.0" } }); clearTimeout(tm);
+      const sc = r.headers.getSetCookie ? r.headers.getSetCookie() : [];
+      cookie = sc.map((x) => x.split(";")[0]).join("; ");
+      return r.ok ? { status: 200, text: await r.text() } : { status: r.status };
+    } catch (e) { return { status: 0 }; }
+  })();
   const portal = shell.text && (shell.text.match(/portal=(\d{6,})/) || shell.text.match(/"portalNo"\s*:\s*"?(\d{6,})/) || [])[1];
   if (shell.status !== 200) return { status: shell.status };
   if (!portal) return { status: 0 };
+  let lastStatus = 0;
   const seen = new Map(); let any = false;
   for (const term of LEAD_TERMS) {
     if (Date.now() > HOST_DEADLINE) break;
-    const r = await post(`${base}/rest/jobboard/searchjobs?lang=en&portal=${portal}`, {
+    const r = await http(`${base}/rest/jobboard/searchjobs?lang=en&portal=${portal}`, { method: "POST", headers: { "content-type": "application/json", accept: "application/json, text/javascript, */*; q=0.01", "x-requested-with": "XMLHttpRequest", "user-agent": "Mozilla/5.0", referer: `${base}/${t.section}/jobsearch.ftl?lang=en`, tz: "GMT-07:00", tzname: "America/Vancouver", ...(cookie ? { cookie } : {}) }, body: JSON.stringify({
       multilineEnabled: false, sortingSelection: { sortBySelectionParam: "3", ascendingSortingOrder: "false" },
       fieldData: { fields: { KEYWORD: term, LOCATION: "" }, valid: true },
       filterSelectionParam: { searchFilterSelections: [{ id: "POSTING_DATE", selectedValues: [] }, { id: "LOCATION", selectedValues: [] }, { id: "JOB_FIELD", selectedValues: [] }, { id: "JOB_TYPE", selectedValues: [] }, { id: "JOB_SCHEDULE", selectedValues: [] }, { id: "JOB_LEVEL", selectedValues: [] }] },
       advancedSearchFiltersSelectionParam: { searchFilterSelections: [{ id: "ORGANIZATION", selectedValues: [] }, { id: "LOCATION", selectedValues: [] }, { id: "JOB_FIELD", selectedValues: [] }, { id: "JOB_NUMBER", selectedValues: [] }, { id: "URGENT_JOB", selectedValues: [] }, { id: "EMPLOYEE_STATUS", selectedValues: [] }, { id: "STUDY_LEVEL", selectedValues: [] }, { id: "WILL_TRAVEL", selectedValues: [] }, { id: "JOB_SHIFT", selectedValues: [] }] },
-      pageNo: 1 });
+      pageNo: 1 }) });
+    if (r.status !== 200) lastStatus = r.status;
     const list = r.status === 200 && r.json && r.json.requisitionList;
     if (!Array.isArray(list)) continue;
     any = true;
@@ -179,7 +190,7 @@ async function taleo(t) {                        // {tenant, section, company}; 
       seen.set(id, { title: String(col[0]).trim(), location: String(loc).replace(/^[A-Z]{2}-/, "").replace(/-/g, ", "), url: `${base}/${t.section}/jobdetail.ftl?job=${encodeURIComponent(id)}&lang=en` });
     }
   }
-  return any ? { status: 200, jobs: [...seen.values()] } : { status: 404 };
+  return any ? { status: 200, jobs: [...seen.values()] } : { status: lastStatus || 1 };   // real search status, so a failed search is not mistaken for a missing feed
 }
 async function successfactors(s) {               // {host, company}; reads the career site's public sitemap, title comes from the URL slug
   const urls = []; const queue = [`https://${s.host}/sitemap.xml`]; let any = false;
