@@ -137,7 +137,7 @@ async function check(ctx, url, rec) {
       if (!titleAgrees(rec.title, pt) && !squash(text.slice(0, 3000)).includes(squash(rec.title))) return ["unverifiable", "title mismatch: we have '" + rec.title + "', page says '" + pt.slice(0, 90) + "'"];
     }
     const org = await findOrg(page);
-    if (org && rec) rec._org = org;
+    if (org && rec && !/myworkdayjobs\.com/.test(url) && !/^\d/.test(org)) rec._org = org;
     return ["live", feedOk ? "in the employer's job feed today and the page shows the role" : "opened normally with an Apply control", await findLocation(page), pt, false];
   } catch (e) {
     return ["unverifiable", "error: " + e.message.slice(0, 80)];
