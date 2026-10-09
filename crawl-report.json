@@ -1,10 +1,14 @@
 {
- "at": "2026-10-09T01:46:06.973Z",
- "ok": 153,
+ "at": "2026-10-09T02:28:07.063Z",
+ "ok": 183,
  "failed": [
-  "lever:knownwell:404"
+  "lever:knownwell:404",
+  "workday:walmart:WalmartExternal:404",
+  "workday:comcast:Comcast_Careers:404",
+  "workday:dell:External:404",
+  "workday:qualcomm:External:404"
  ],
- "scanned": 20989,
- "matched": 51,
- "added": 0
+ "scanned": 21722,
+ "matched": 62,
+ "added": 13
 }

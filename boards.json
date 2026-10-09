@@ -84,7 +84,8 @@
   "anchorage",
   "astrus",
   "cura",
-  "caseware"
+  "caseware",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -397,9 +398,7 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [
-  "knownwell"
- ],
+ "candidates": [],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -697,7 +696,12 @@
   "icims:careers-uti": 0,
   "icims:careers-heritagechristianservices": 0,
   "icims:careers-uhnjcareers": 0,
-  "icims:careers-naphcare": 0
+  "icims:careers-naphcare": 0,
+  "lever:knownwell": 1,
+  "workday:walmart:WalmartExternal": 1,
+  "workday:comcast:Comcast_Careers": 1,
+  "workday:dell:External": 1,
+  "workday:qualcomm:External": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
