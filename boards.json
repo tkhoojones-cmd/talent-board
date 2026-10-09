@@ -1,0 +1,6 @@
+{
+ "greenhouse": ["anthropic","figma","stripe","databricks","airbnb","discord","dropbox","cloudflare","datadog","coinbase","brex","gitlab","twilio","pinterest","lyft","instacart","reddit","robinhood","samsara","scaleai","vercel","webflow","asana","duolingo","squarespace","grammarly","etsy","carta","gusto","mongodb","elastic","fivetran","airtable","anduril","flexport","toast","chime","affirm","doordash","cresta","practicebetter","admarketplaceinc","waymark","martellgrowthsolutions","khealthcareers","goldenpetbrands","hubspotjobs","okta","samsara","peloton","opendoor","nextdoor","gemini","kraken","sofi","plaid","verkada","rippling","sentry","benchling","calendly","miro","amplitude","braze","zoominfo","genesys","relativityspace","spacex"],
+ "lever": ["zoox","thetrevorproject","minesense","knownwell","copia","palantir","spotify","mistral","plaid","kraken","wealthsimple","clio","ecobee","hootsuite","lightspeedhq","1password","faire","attentive","shieldai","applied","anchorage"],
+ "ashby": ["pylon-labs","oratomic","openai","notion","ramp","linear","deel","vanta","snowflake","cohere","retool","mercury","modal","supabase","perplexity","replit","harvey","glean","runway","elevenlabs","ashby","clickhouse","posthog","zapier","wealthsimple","bench","ada","clearco"],
+ "workday": []
+}

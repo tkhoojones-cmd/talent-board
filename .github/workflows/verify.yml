@@ -20,19 +20,21 @@ jobs:
         with: { node-version: 20 }
       - run: npm install --no-save playwright@1.48.2
       - run: npx playwright install --with-deps chromium
+      - run: node crawl.js
       - run: node verify.js
       - name: Publish data.json
         run: |
           git config user.name "listing-checker"
           git config user.email "actions@users.noreply.github.com"
           for i in 1 2 3; do
-            git add data.json jobs.json
+            git add data.json jobs.json crawl-report.json
             if git diff --cached --quiet; then echo "no change"; exit 0; fi
             git commit -m "Verified listings $(date -u +%F)"
             if git pull --rebase origin main && git push; then exit 0; fi
             # a search task pushed while we were checking: start over from the latest
             git rebase --abort || true
             git fetch origin main && git reset --hard origin/main
+            node crawl.js || true
             node verify.js || true
           done
           exit 1
