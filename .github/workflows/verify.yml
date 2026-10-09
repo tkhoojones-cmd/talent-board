@@ -13,14 +13,16 @@ concurrency: verify
 jobs:
   verify:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - run: npm install --no-save playwright@1.48.2
       - run: npx playwright install --with-deps chromium
+      - run: node test/lib.test.js
       - run: node crawl.js
+        continue-on-error: true
       - run: node verify.js
       - name: Publish data.json
         run: |

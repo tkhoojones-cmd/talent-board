@@ -1,0 +1,12 @@
+const { wanted, isNA } = require("../lib");
+let bad = 0;
+const t = (name, got, want) => { if (got !== want) { bad++; console.log("FAIL", name, "got", got, "want", want); } };
+const yes = ["Chief People Officer","VP, People","Head of People & Places","SVP Human Resources","Vice President of Talent Acquisition","Vice-President, People","V.P. People","VP, International People","VP Talent & Leadership Development","Head of Talent Acquisition, Engineering & Product","Chief People Officer & General Counsel","VP, Employee Relations & Engagement","Director of Human Resources","Director of People","Director, HR","Head of Executive Recruiting","Head of Technical Recruiting","Head of Learning & Development","Head of Employee Success","Head of the People Team","Head of North America Talent","Chief Human Resources Officer","VP Total Rewards","Head of Talent","Senior Director, Talent Acquisition","VP, HR - Operations"];
+const no = ["Recruiting Coordinator","Senior Software Engineer","VP Engineering","Director, Business Partner People","People Analyst","Head of Sales","Talent Acquisition Specialist","Director of Marketing","Chief Financial Officer","Payroll Manager"];
+yes.forEach((x) => t("wanted: " + x, wanted(x), true));
+no.forEach((x) => t("not wanted: " + x, wanted(x), false));
+const locYes = ["San Francisco, CA","Remote","Remote - US","Remote (US only)","Toronto, ON","Vancouver, BC","New York or London","San Francisco / London","Santa Fe, New Mexico, US","London, Ontario, Canada","Kansas City, MO","","Remote, Canada; Remote, United States","UK / Remote (US)","Hybrid (NYC)","Foster City, CA"];
+const locNo = ["London, UK","Remote - India","Remote - Europe","Remote, Mexico","Bangalore, IN","Sydney, Australia","Remote - EMEA","Berlin, Germany","Singapore"];
+locYes.forEach((x) => t("NA: " + x, isNA(x), true));
+locNo.forEach((x) => t("not NA: " + x, isNA(x), false));
+console.log(bad ? bad + " failures" : "all passed"); process.exit(bad ? 1 : 0);

@@ -62,7 +62,9 @@
   "island",
   "dhigroupinc",
   "epicgames",
-  "ovoenergy"
+  "ovoenergy",
+  "compeerfinancial",
+  "filescom"
  ],
  "lever": [
   "zoox",
@@ -77,7 +79,8 @@
   "shieldai",
   "anchorage",
   "astrus",
-  "cura"
+  "cura",
+  "caseware"
  ],
  "ashby": [
   "pylon-labs",
@@ -115,7 +118,11 @@
   "eliseai",
   "instinct",
   "sierra",
-  "liveramp-inc"
+  "liveramp-inc",
+  "helpscout",
+  "hyperbolic",
+  "primeintellect",
+  "exa"
  ],
  "workday": [],
  "candidates": [
@@ -247,5 +254,13 @@
   "Avalara": 1,
   "Google": 1
  },
- "dead": []
+ "dead": [],
+ "workable": [
+  "montera"
+ ],
+ "rippling": [
+  "smartsuite"
+ ],
+ "smartrecruiters": [],
+ "recruitee": []
 }

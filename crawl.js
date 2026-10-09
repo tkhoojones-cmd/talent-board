@@ -1,132 +1,230 @@
-// Reads the employers' own job feeds (Greenhouse, Lever, Ashby, Workday) and adds any leadership
-// people/talent role it finds to jobs.json as "new". The checker then opens each one in a browser.
+// Reads employers' own job feeds (Greenhouse, Lever, Ashby, Workable, Rippling, SmartRecruiters, Recruitee, Workday)
+// and adds any matching leadership people/talent role to jobs.json as "new".
+// It also records which jobs are in the employer's feed today (evidence the role is open).
 const fs = require("fs");
+const { wanted, isNA } = require("./lib");
 const boards = JSON.parse(fs.readFileSync("boards.json", "utf8"));
 const store = JSON.parse(fs.readFileSync("jobs.json", "utf8"));
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver" }).format(new Date());
+const ATS = ["greenhouse", "lever", "ashby", "workable", "rippling", "smartrecruiters", "recruitee"];
+for (const a of ATS) boards[a] = boards[a] || [];
+boards.workday = boards.workday || []; boards.candidates = boards.candidates || []; boards.tried = boards.tried || {};
+boards.dead = boards.dead || []; boards.misses = boards.misses || {}; boards.names = boards.names || {};
 
-const LEVEL = /\b(vp|v\.p\.|vice president|svp|evp|head|chief|cpo|chro|cto?o|director|general manager)\b/i;
-const TOPIC = /\b(people|talent|recruit\w*|human resources|hr|human capital|workforce|culture|employee experience|total rewards|chro|chief people|chief human|chief talent)\b/i;
-const NOISE = /\b(recruiting operations|lead|manager|programs?|pmo|operations lead|intern|coordinator|assistant|sourcer|partner|business partner|hrbp|analyst|specialist|generalist|engineer|software|product manager|designer|counsel|legal|payroll|benefits administrator|recruiter\b(?!.*(head|vp|director)))/i;
-const BIG = /(anthropic|figma|stripe|databricks|airbnb|cloudflare|datadog|coinbase|snowflake|openai|palantir|spotify|doordash|rippling|gitlab|twilio|okta|shopify)/i;
-const FOREIGN = /\b(united kingdom|uk|london(?!, ?(on|ontario))|emea|europe|apac|asia|india|australia|singapore|germany|berlin|paris|france|ireland|dublin|japan|tokyo|brazil|(?<!new )mexico|latam|latin america|philippines|israel|tel aviv|spain|portugal|netherlands|amsterdam|poland|sweden|switzerland)\b/i;
-const NA = /\b(united states|usa|u\.s\.|canada|remote|north america|americas)\b|,\s?[A-Z]{2}\b/i;
-
-function wanted(company, title, loc) {
-  const ho = title.match(/\bhead of\s+([^,&(-]*)/i);
-  if (ho && !/^(global |people|talent|recruit|hr\b|human|culture|workforce|employee|total rewards|chief)/i.test(ho[1].trim())) return false;
-  if (!LEVEL.test(title) || !TOPIC.test(title) || NOISE.test(title)) return false;
-  if (/\bdirector\b/i.test(title) && !/\b(vp|vice|head|chief|svp)\b/i.test(title) && !BIG.test(company)) return false;
-  if (loc && FOREIGN.test(loc) && !NA.test(loc)) return false;
-  return true;
-}
 const key = (u) => {
   let m;
   if ((m = u.match(/greenhouse\.io\/(?:embed\/job_app\?.*token=|[^/]+\/jobs\/)(\d+)/)) || (m = u.match(/[?&]gh_jid=(\d+)/))) return "gh:" + m[1];
   if ((m = u.match(/(?:lever\.co|ashbyhq\.com)\/[^/]+\/([0-9a-f-]{36})/i))) return "id:" + m[1].toLowerCase();
-  return u.toLowerCase().replace(/^https?:\/\//, "").replace(/[?#].*$/, "").replace(/\/+$/, "");
+  if ((m = u.match(/myworkdayjobs\.com\/.*_(R-?\d+[\w-]*)/i))) return "wd:" + m[1].toLowerCase();
+  if ((m = u.match(/apply\.workable\.com\/[^/]+\/j\/([A-Z0-9]+)/i))) return "wk:" + m[1].toUpperCase();
+  const keep = (u.match(/[?&](id|jobid|job_id|jid|req|reqid|gh_jid|jobId)=[^&]+/i) || [""])[0];
+  return u.toLowerCase().replace(/^https?:\/\//, "").replace(/[?#].*$/, "").replace(/\/+$/, "") + keep.toLowerCase();
 };
-store.jobs = store.jobs.filter((j) => j.source !== "feed" || wanted(j.company, j.title, j.location));
-const have = new Set(store.jobs.map((j) => key(j.url)));
 const sha = (s) => require("crypto").createHash("sha1").update(s).digest("hex").slice(0, 10);
 const nice = (t) => t.replace(/[-_]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+const display = (ats, tok) => boards.names[ats + ":" + tok] || nice(tok);
 
-async function getJSON(url, opt) {
+async function http(url, opt) {
   try {
     const c = new AbortController(); const t = setTimeout(() => c.abort(), 20000);
     const r = await fetch(url, { ...(opt || {}), signal: c.signal }); clearTimeout(t);
     if (!r.ok) return { status: r.status };
-    return { status: 200, json: await r.json() };
+    const ct = r.headers.get("content-type") || "";
+    return { status: 200, json: ct.includes("json") ? await r.json() : null, text: ct.includes("json") ? "" : await r.text() };
   } catch (e) { return { status: 0 }; }
 }
+const post = (u, body) => http(u, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
 
-// extra Workday tenants taken from links we already have
-const wd = new Set((boards.workday || []).map((x) => JSON.stringify(x)));
+// each fetcher: token -> {status, jobs:[{title, location, url}]}   (all jobs on that board)
+const FETCH = {
+  async greenhouse(t) {
+    for (const host of ["boards-api.greenhouse.io", "boards-api.eu.greenhouse.io"]) {
+      const r = await http(`https://${host}/v1/boards/${t}/jobs`);
+      if (r.status === 200 && r.json && Array.isArray(r.json.jobs)) return { status: 200, jobs: r.json.jobs.map((j) => ({ title: j.title, location: (j.location && j.location.name) || "", url: j.absolute_url })) };
+      if (r.status !== 404) return { status: r.status };
+    }
+    return { status: 404 };
+  },
+  async lever(t) {
+    for (const host of ["api.lever.co", "api.eu.lever.co"]) {
+      const r = await http(`https://${host}/v0/postings/${t}?mode=json`);
+      if (r.status === 200 && Array.isArray(r.json)) return { status: 200, jobs: r.json.map((j) => ({ title: j.text, location: [(j.categories && j.categories.location) || "", ...((j.allLocations) || [])].filter(Boolean).join(" / "), url: j.hostedUrl })) };
+      if (r.status !== 404) return { status: r.status };
+    }
+    return { status: 404 };
+  },
+  async ashby(t) {
+    const r = await http(`https://api.ashbyhq.com/posting-api/job-board/${t}`);
+    if (r.status !== 200 || !r.json || !r.json.jobs) return { status: r.status || 0 };
+    return { status: 200, jobs: r.json.jobs.filter((j) => j.isListed !== false).map((j) => ({ title: j.title, location: [j.location || "", ...((j.secondaryLocations || []).map((x) => x.location || x))].filter(Boolean).join(" / "), url: j.jobUrl })) };
+  },
+  async workable(t) {
+    const out = []; let token;
+    for (let i = 0; i < 10; i++) {
+      const r = await post(`https://apply.workable.com/api/v3/accounts/${t}/jobs`, { query: "", location: [], department: [], worktype: [], remote: [], ...(token ? { token } : {}) });
+      if (r.status !== 200 || !r.json || !r.json.results) return i === 0 ? { status: r.status || 0 } : { status: 200, jobs: out };
+      for (const j of r.json.results) out.push({ title: j.title, location: [j.location && j.location.city, j.location && j.location.region, j.location && j.location.country].filter(Boolean).join(", "), url: `https://apply.workable.com/${t}/j/${j.shortcode}/` });
+      token = r.json.nextPage; if (!token) break;
+    }
+    return { status: 200, jobs: out };
+  },
+  async rippling(t) {
+    const out = [];
+    for (let p = 0; p < 10; p++) {
+      const r = await http(`https://ats.rippling.com/api/v2/board/${t}/jobs?page=${p}&pageSize=100`);
+      if (r.status !== 200 || !r.json) return p === 0 ? { status: r.status || 0 } : { status: 200, jobs: out };
+      const items = r.json.items || r.json.results || (Array.isArray(r.json) ? r.json : []);
+      for (const j of items) out.push({ title: j.name || j.title, location: (j.workLocation && j.workLocation.name) || (j.locations && j.locations[0] && (j.locations[0].name || j.locations[0])) || "", url: j.url || `https://ats.rippling.com/${t}/jobs/${j.id}` });
+      if (!items.length || p + 1 >= (r.json.totalPages || 1)) break;
+    }
+    return { status: 200, jobs: out };
+  },
+  async smartrecruiters(t) {
+    const out = []; let total = 1;
+    for (let off = 0; off < Math.min(total, 1000); off += 100) {
+      const r = await http(`https://api.smartrecruiters.com/v1/companies/${t}/postings?limit=100&offset=${off}`);
+      if (r.status !== 200 || !r.json || !r.json.content) return off === 0 ? { status: r.status || 0 } : { status: 200, jobs: out };
+      total = r.json.totalFound || 0;
+      for (const j of r.json.content) out.push({ title: j.name, location: [j.location && j.location.city, j.location && j.location.region, j.location && j.location.country].filter(Boolean).join(", "), url: `https://jobs.smartrecruiters.com/${t}/${j.id}` });
+    }
+    return out.length || total === 0 ? { status: 200, jobs: out } : { status: 404 };
+  },
+  async recruitee(t) {
+    const r = await http(`https://${t}.recruitee.com/api/offers/`);
+    if (r.status !== 200 || !r.json || !r.json.offers) return { status: r.status || 0 };
+    return { status: 200, jobs: r.json.offers.map((j) => ({ title: j.title, location: [j.city, j.country_code].filter(Boolean).join(", ") || j.location || "", url: j.careers_url })) };
+  },
+};
+async function workday(w) {
+  const base = `https://${w.tenant}.${w.wd}.myworkdayjobs.com`;
+  const terms = ["people", "talent", "human resources", "HR", "recruiting", "recruitment", "human capital", "chief people", "culture", "workforce", "total rewards"];
+  const seen = new Map(); let any = false;
+  for (const term of terms) {
+    let off = 0, total = 1;
+    while (off < total && off < 300) {
+      const r = await post(`${base}/wday/cxs/${w.tenant}/${w.site}/jobs`, { appliedFacets: {}, limit: 20, offset: off, searchText: term });
+      if (r.status !== 200 || !r.json || !r.json.jobPostings) break;
+      any = true; total = r.json.total || 0; off += 20;
+      for (const j of r.json.jobPostings) seen.set(j.externalPath, { title: j.title, location: /^\d+ locations?$/i.test(j.locationsText || "") ? "" : (j.locationsText || ""), url: `${base}/${w.site}${j.externalPath}` });
+    }
+  }
+  return any ? { status: 200, jobs: [...seen.values()] } : { status: 404 };
+}
+
+// Workday tenants taken from links we already have
+const wdSet = new Map((boards.workday || []).map((x) => [x.tenant + x.site, x]));
 for (const j of store.jobs) {
   const m = j.url.match(/^https:\/\/([^.]+)\.(wd\d+)\.myworkdayjobs\.com\/(?:[a-z]{2}-[A-Z]{2}\/)?([^/]+)/);
-  if (m) wd.add(JSON.stringify({ tenant: m[1], wd: m[2], site: m[3], company: nice(m[1]) }));
+  if (m && !wdSet.has(m[1] + m[3])) wdSet.set(m[1] + m[3], { tenant: m[1], wd: m[2], site: m[3], company: nice(m[1]) });
 }
-const ghExtra = new Set(boards.greenhouse), lvExtra = new Set(boards.lever), abExtra = new Set(boards.ashby);
+// feed tokens taken from links we already have
+const add = (a, t) => { if (!boards[a].includes(t)) boards[a].push(t); };
 for (const j of store.jobs) {
   let m;
-  if ((m = j.url.match(/greenhouse\.io\/([^/?]+)\//))) ghExtra.add(m[1]);
-  if ((m = j.url.match(/jobs\.lever\.co\/([^/?]+)/))) lvExtra.add(m[1]);
-  if ((m = j.url.match(/jobs\.ashbyhq\.com\/([^/?]+)/))) abExtra.add(m[1]);
+  if ((m = j.url.match(/greenhouse\.io\/([^/?]+)\//)) && !/^(embed|v1)$/.test(m[1])) add("greenhouse", m[1]);
+  if ((m = j.url.match(/jobs\.lever\.co\/([^/?]+)/))) add("lever", m[1]);
+  if ((m = j.url.match(/jobs\.ashbyhq\.com\/([^/?]+)/))) add("ashby", m[1]);
+  if ((m = j.url.match(/apply\.workable\.com\/([^/?]+)/))) add("workable", m[1]);
+  if ((m = j.url.match(/ats\.rippling\.com\/([^/?]+)/))) add("rippling", m[1]);
+  if ((m = j.url.match(/jobs\.smartrecruiters\.com\/([^/?]+)/))) add("smartrecruiters", m[1]);
 }
+// companies from funding / hiring news are candidates too
+try {
+  const sig = JSON.parse(fs.readFileSync("signals.json", "utf8"));
+  for (const x of [...(sig.funding || []), ...(sig.moves || [])]) { const c = (x.company || "").trim(); if (c && !boards.dead.includes(c) && !boards.candidates.includes(c) && boards.tried[c] === undefined) boards.candidates.push(c); }
+} catch (e) {}
 
-// --- company discovery: try to find the right job-feed address for names we only know by name ---
-boards.candidates = boards.candidates || []; boards.tried = boards.tried || {}; boards.dead = boards.dead || [];
-const slugsOf = (n) => { const b = n.toLowerCase().replace(/&/g, "and").replace(/\b(inc|llc|ltd|corp|co)\b\.?/g, "").trim(); const a = b.replace(/[^a-z0-9]+/g, ""), h = b.replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); return [...new Set([a, h, a + "hq", a + "inc", a + "jobs", a + "careers", h + "-inc"])].filter(Boolean); };
+const slugsOf = (n) => { const b = n.toLowerCase().replace(/&/g, "and").replace(/\b(inc|llc|ltd|corp|co)\b\.?/g, "").trim(); return [...new Set([b.replace(/[^a-z0-9]+/g, ""), b.replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")])].filter(Boolean); };
+const sq = (s) => (s || "").toLowerCase().replace(/[^a-z0-9]/g, "");
 async function probe(name) {
   for (const s of slugsOf(name)) {
-    let r = await getJSON(`https://boards-api.greenhouse.io/v1/boards/${s}/jobs`); if (r.status === 200 && r.json.jobs) return ["greenhouse", s];
-    r = await getJSON(`https://api.lever.co/v0/postings/${s}?mode=json`); if (r.status === 200 && Array.isArray(r.json)) return ["lever", s];
-    r = await getJSON(`https://api.ashbyhq.com/posting-api/job-board/${s}`); if (r.status === 200 && r.json.jobs) return ["ashby", s];
+    const g = await http(`https://boards-api.greenhouse.io/v1/boards/${s}`);       // gives the board's real company name
+    if (g.status === 200 && g.json && g.json.name && (sq(g.json.name).includes(sq(name)) || sq(name).includes(sq(g.json.name)))) return ["greenhouse", s];
+    for (const a of ["lever", "ashby", "workable", "smartrecruiters", "recruitee", "rippling"]) {
+      const r = await FETCH[a](s); if (r.status === 200 && r.jobs.length) return [a, s];
+    }
   }
   return null;
 }
-const found = [], report = { ok: 0, fail: [], scanned: 0 };
-async function each(list, fn) { const q = [...list]; await Promise.all(Array.from({ length: 6 }, async () => { while (q.length) await fn(q.shift()); })); }
+
+const report = { ok: 0, fail: [], scanned: 0, probed: 0 };
+async function each(list, fn) { const q = [...list]; await Promise.all(Array.from({ length: 6 }, async () => { while (q.length) { const x = q.shift(); try { await fn(x); } catch (e) { report.fail.push("error:" + e.message.slice(0, 60)); } } })); }
 
 (async () => {
-  // probe candidate names (from searches, signals, or feeds that went 404)
-  try {
-    const sig = JSON.parse(fs.readFileSync("signals.json", "utf8"));
-    for (const x of [...(sig.funding || []), ...(sig.moves || [])]) { const c = (x.company || "").trim(); if (c && !boards.dead.includes(c) && !boards.candidates.includes(c) && boards.tried[c] === undefined) boards.candidates.push(c); }
-  } catch (e) {}
-  const names = [...new Set(boards.candidates)].filter((n) => (boards.tried[n] || 0) < 4);
+  const names = boards.candidates.filter((n) => (boards.tried[n] || 0) < 4 || (Date.now() % 30 === 0));
   await each(names, async (n) => {
+    report.probed++;
     const hit = await probe(n);
-    if (hit) { const [ats, tok] = hit; boards[ats].push(tok); ({ greenhouse: ghExtra, lever: lvExtra, ashby: abExtra })[ats].add(tok); boards.candidates = boards.candidates.filter((x) => x !== n); console.log("FEED FOUND", n, "->", ats + "/" + tok); }
+    if (hit) { const [a, tok] = hit; add(a, tok); boards.names[a + ":" + tok] = n; boards.candidates = boards.candidates.filter((x) => x !== n); console.log("FEED FOUND", n, "->", a + "/" + tok); }
     else boards.tried[n] = (boards.tried[n] || 0) + 1;
   });
-  await each(ghExtra, async (t) => {
-    const r = await getJSON(`https://boards-api.greenhouse.io/v1/boards/${t}/jobs`);
-    if (r.status !== 200) return report.fail.push("gh:" + t + ":" + r.status);
-    report.ok++; report.scanned += r.json.jobs.length;
-    for (const j of r.json.jobs) { const loc = (j.location && j.location.name) || ""; if (wanted(t, j.title, loc)) found.push({ company: nice(t), title: j.title, location: loc, url: j.absolute_url }); }
-  });
-  await each(lvExtra, async (t) => {
-    const r = await getJSON(`https://api.lever.co/v0/postings/${t}?mode=json`);
-    if (r.status !== 200 || !Array.isArray(r.json)) return report.fail.push("lever:" + t + ":" + r.status);
-    report.ok++; report.scanned += r.json.length;
-    for (const j of r.json) { const loc = (j.categories && j.categories.location) || ""; if (wanted(t, j.text, loc)) found.push({ company: nice(t), title: j.text, location: loc, url: j.hostedUrl }); }
-  });
-  await each(abExtra, async (t) => {
-    const r = await getJSON(`https://api.ashbyhq.com/posting-api/job-board/${t}`);
-    if (r.status !== 200 || !r.json.jobs) return report.fail.push("ashby:" + t + ":" + r.status);
-    report.ok++; report.scanned += r.json.jobs.length;
-    for (const j of r.json.jobs) { if (j.isListed === false) continue; const loc = j.location || ""; if (wanted(t, j.title, loc)) found.push({ company: nice(t), title: j.title, location: loc, url: j.jobUrl }); }
-  });
-  await each([...wd].map((x) => JSON.parse(x)), async (w) => {
-    for (const term of ["people", "talent", "human resources"]) {
-      const r = await getJSON(`https://${w.tenant}.${w.wd}.myworkdayjobs.com/wday/cxs/${w.tenant}/${w.site}/jobs`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ appliedFacets: {}, limit: 20, offset: 0, searchText: term }) });
-      if (r.status !== 200 || !r.json.jobPostings) { report.fail.push("workday:" + w.tenant + ":" + r.status); return; }
-      report.scanned += r.json.jobPostings.length;
-      for (const j of r.json.jobPostings) { const loc = j.locationsText || ""; if (wanted(w.company, j.title, loc)) found.push({ company: w.company, title: j.title, location: /^\d+ locations?$/i.test(loc) ? "" : loc, url: `https://${w.tenant}.${w.wd}.myworkdayjobs.com/${w.site}${j.externalPath}` }); }
+
+  const feedKeys = new Map();          // "ats:token" -> Set of job keys currently in that employer's feed
+  const matches = [];
+  const jobsToRead = [];
+  for (const a of ATS) for (const t of boards[a]) jobsToRead.push({ a, t });
+  await each(jobsToRead, async ({ a, t }) => {
+    const r = await FETCH[a](t);
+    const id = a + ":" + t;
+    if (r.status !== 200) { report.fail.push(`${a}:${t}:${r.status}`); return; }
+    boards.misses[id] = 0; report.ok++; report.scanned += r.jobs.length;
+    const ks = new Set();
+    for (const j of r.jobs) {
+      if (!j.url || !j.title) continue;
+      ks.add(key(j.url));
+      if (wanted(j.title) && isNA(j.location)) matches.push({ company: display(a, t), title: j.title, location: j.location, url: j.url, feed: id });
     }
-    report.ok++;
+    feedKeys.set(id, ks);
+  });
+  await each([...wdSet.values()], async (w) => {
+    const r = await workday(w); const id = "workday:" + w.tenant + ":" + w.site;
+    if (r.status !== 200) { report.fail.push(`${id}:${r.status}`); return; }
+    report.ok++; report.scanned += r.jobs.length;
+    const ks = new Set();
+    for (const j of r.jobs) { ks.add(key(j.url)); if (wanted(j.title) && isNA(j.location)) matches.push({ company: w.company, title: j.title, location: j.location, url: j.url, feed: id }); }
+    feedKeys.set(id, ks);
   });
 
+  // dead feeds: remove only after 3 misses in a row
   for (const f of report.fail) {
-    const m = f.match(/^(gh|lever|ashby):(.+):404$/); if (!m) continue;
-    const key2 = { gh: "greenhouse", lever: "lever", ashby: "ashby" }[m[1]];
-    boards[key2] = boards[key2].filter((x) => x !== m[2]);
-    if (!boards.candidates.includes(m[2]) && !boards.dead.includes(m[2])) boards.candidates.push(m[2]);
+    const m = f.match(/^([a-z]+):(.+):404$/); if (!m || !boards[m[1]]) continue;
+    const id = m[1] + ":" + m[2]; boards.misses[id] = (boards.misses[id] || 0) + 1;
+    if (boards.misses[id] >= 3) { boards[m[1]] = boards[m[1]].filter((x) => x !== m[2]); if (!boards.candidates.includes(m[2]) && !boards.dead.includes(m[2])) boards.candidates.push(m[2]); delete boards.misses[id]; }
   }
   for (const n of [...boards.candidates]) if ((boards.tried[n] || 0) >= 4) { boards.dead.push(n); boards.candidates = boards.candidates.filter((x) => x !== n); }
-  for (const k of ["greenhouse", "lever", "ashby"]) boards[k] = [...new Set(boards[k])];
-  fs.writeFileSync("boards.json", JSON.stringify(boards, null, 1));
+  for (const a of ATS) boards[a] = [...new Set(boards[a])];
+  boards.workday = [...wdSet.values()];
+
+  // evidence for existing jobs: present in / missing from the employer's own feed today
+  const feedOf = (u) => { let m;
+    if ((m = u.match(/greenhouse\.io\/([^/?]+)\//))) return "greenhouse:" + m[1];
+    if ((m = u.match(/jobs\.lever\.co\/([^/?]+)/))) return "lever:" + m[1];
+    if ((m = u.match(/jobs\.ashbyhq\.com\/([^/?]+)/))) return "ashby:" + m[1];
+    if ((m = u.match(/apply\.workable\.com\/([^/?]+)/))) return "workable:" + m[1];
+    if ((m = u.match(/^https:\/\/([^.]+)\.wd\d+\.myworkdayjobs\.com\/(?:[a-z]{2}-[A-Z]{2}\/)?([^/]+)/))) return "workday:" + m[1] + ":" + m[2];
+    return null; };
+  const wasInFeed = new Set(matches.map((m) => key(m.url)));
+  for (const j of store.jobs) {
+    const id = j.feed || feedOf(j.url); if (!id) continue;
+    const ks = feedKeys.get(id); if (!ks || ks.size === 0) continue;
+    j.feed = id;
+    if (ks.has(key(j.url))) { j.inFeed = today; delete j.notInFeed; } else if (j.status !== "closed" || true) j.notInFeed = today;
+  }
+
+  const have = new Set(store.jobs.map((j) => key(j.url)));
   let added = 0;
-  for (const f of found) {
-    if (!f.url) continue;
+  for (const f of matches) {
     const k = key(f.url); if (have.has(k)) continue; have.add(k);
-    store.jobs.push({ id: sha(f.url), kind: "role", company: f.company, title: f.title, location: f.location, url: f.url, comp: "", added: today, status: "new", lastChecked: null, reason: null, source: "feed" });
+    store.jobs.push({ id: sha(f.url), kind: "role", company: f.company, title: f.title, location: f.location, url: f.url, comp: "", added: today, status: "new", lastChecked: null, reason: null, source: "feed", feed: f.feed, inFeed: today });
     added++; console.log("NEW", f.company, "|", f.title, "|", f.location);
   }
-  console.log(`feeds ok: ${report.ok}, failed: ${report.fail.length}, jobs scanned: ${report.scanned}, matched: ${found.length}, new: ${added}`);
+  // feed-added jobs that no longer pass the rules: drop only if never confirmed live
+  store.jobs = store.jobs.filter((j) => { if (j.source !== "feed" || j.status === "live") return true; const keep = wanted(j.title) && isNA(j.location); if (!keep) console.log("REMOVED (no longer matches rules):", j.company, "|", j.title); return keep; });
+
+  console.log(`feeds ok: ${report.ok}, failed: ${report.fail.length}, jobs scanned: ${report.scanned}, matched: ${matches.length}, new: ${added}, probed: ${report.probed}`);
   if (report.fail.length) console.log("failed feeds:", report.fail.join(" "));
   fs.writeFileSync("jobs.json", JSON.stringify(store, null, 1));
-  fs.writeFileSync("crawl-report.json", JSON.stringify({ at: new Date().toISOString(), ok: report.ok, failed: report.fail, scanned: report.scanned, matched: found.length, added }, null, 1));
+  fs.writeFileSync("boards.json", JSON.stringify(boards, null, 1));
+  fs.writeFileSync("crawl-report.json", JSON.stringify({ at: new Date().toISOString(), ok: report.ok, failed: report.fail, scanned: report.scanned, matched: matches.length, added }, null, 1));
   if (report.ok === 0) { console.error("No feed could be read at all"); process.exit(1); }
 })();
