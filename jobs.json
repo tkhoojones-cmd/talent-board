@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "jobs": [
   {
    "id": "bad760ffba",
@@ -11,8 +11,9 @@
    "comp": "",
    "added": "2026-09-10",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Conway, Arkansas, United States"
   },
   {
    "id": "4153fe7ead",
@@ -24,21 +25,23 @@
    "comp": "$175,000-$200,000 + bonus, RRSP match",
    "added": "2026-09-27",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Vancouver"
   },
   {
    "id": "ad81226139",
    "kind": "role",
    "company": "Gilead",
    "title": "Sr. Director, Talent Acquisition - Global Executive Recruiting Head",
-   "location": "Unknown",
+   "location": "US - CA - Foster City, United States of America",
    "url": "https://gilead.wd1.myworkdayjobs.com/en-US/gileadcareers/job/Sr-Director--Talent-Acquisition---Global-Executive-Recruiting-Head_R0052913-2",
    "comp": "",
    "added": "2026-10-07",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "US - CA - Foster City, United States of America"
   },
   {
    "id": "4b22290326",
@@ -50,8 +53,9 @@
    "comp": "",
    "added": "2026-10-07",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "New York City"
   },
   {
    "id": "1c7822c770",
@@ -63,8 +67,9 @@
    "comp": "",
    "added": "2026-09-07",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Corporate Office – Newton, MA, United States of America"
   },
   {
    "id": "aba406458f",
@@ -76,8 +81,9 @@
    "comp": "",
    "added": "2026-10-07",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "ADVENTHEALTH HEADQUARTERS, United States of America"
   },
   {
    "id": "a1c305e260",
@@ -89,8 +95,9 @@
    "comp": "",
    "added": "2026-08-21",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "New York, NY"
   },
   {
    "id": "47b4a83caf",
@@ -102,8 +109,9 @@
    "comp": "From $175K",
    "added": "2026-10-08",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Kelowna, BC"
   },
   {
    "id": "1d30524bb8",
@@ -115,21 +123,23 @@
    "comp": "",
    "added": "2026-08-21",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Beemok Hospitality Holdings, United States of America"
   },
   {
    "id": "5a4e8ab135",
    "kind": "role",
    "company": "Manhattan Associates",
    "title": "Senior Director, Talent Management",
-   "location": "Location unclear",
+   "location": "Atlanta, GA, United States of America",
    "url": "https://manh.wd5.myworkdayjobs.com/External/job/Senior-Director-Talent-Management_16995",
    "comp": "",
    "added": "2026-09-28",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Atlanta, GA, United States of America"
   },
   {
    "id": "d8a44c471f",
@@ -141,8 +151,9 @@
    "comp": "$288K-$360K",
    "added": "2026-09-07",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "El Segundo, CA and/or Burbank/North Hollywood, CA"
   },
   {
    "id": "1b37f99b85",
@@ -154,8 +165,9 @@
    "comp": "",
    "added": "2026-10-07",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Westminster, CO, United States of America"
   },
   {
    "id": "80e0418b5e",
@@ -167,8 +179,9 @@
    "comp": "$260,000-$280,000",
    "added": "2026-09-07",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Remote - United States"
   },
   {
    "id": "48bc622e13",
@@ -180,21 +193,23 @@
    "comp": "$110K-$185K + bonus",
    "added": "2026-09-01",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Charlotte Engagement Hub NC, United States of America"
   },
   {
    "id": "a603a39037",
    "kind": "role",
    "company": "Figma",
-   "title": "Director, People Partners \u2013 Product, Design & Engineering",
+   "title": "Director, People Partners – Product, Design & Engineering",
    "location": "On-site (San Francisco, CA)",
    "url": "https://boards.greenhouse.io/figma/jobs/6150563004",
-   "comp": "$235K\u2013$317K",
+   "comp": "$235K–$317K",
    "added": "2026-09-16",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "San Francisco, CA"
   },
   {
    "id": "08e07c8451",
@@ -206,8 +221,9 @@
    "comp": "",
    "added": "2026-10-07",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "San Francisco, California, United States"
   },
   {
    "id": "b5fecb7190",
@@ -219,8 +235,9 @@
    "comp": "",
    "added": "2026-08-24",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Stamford, CT- WWE Headquarters, United States of America"
   },
   {
    "id": "ff2cd61018",
@@ -232,8 +249,9 @@
    "comp": "$200K-$300K + equity",
    "added": "2026-10-08",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Pasadena, California, United States"
   },
   {
    "id": "f37c0129f3",
@@ -245,8 +263,9 @@
    "comp": "",
    "added": "2026-10-07",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "St Louis Park, MN, US, United States of America"
   },
   {
    "id": "38b9f2c497",
@@ -258,8 +277,9 @@
    "comp": "$244K-$321K base + equity",
    "added": "2026-08-27",
    "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "opened normally with an Apply control"
+   "lastChecked": "2026-10-09",
+   "reason": "opened normally with an Apply control",
+   "pageLocation": "Foster City, CA"
   },
   {
    "id": "7d865a2bdc",
@@ -296,9 +316,9 @@
    "url": "https://www.curri.com/careers/vp-of-people-bae9b8cb",
    "comp": "",
    "added": "2026-10-08",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-09",
+   "reason": "HTTP 404"
   },
   {
    "id": "f5eb1db1b8",
@@ -309,9 +329,9 @@
    "url": "https://jobs.lever.co/knownwell/6c3a3ed2-55e1-4610-a43d-d9c4ba4bd33a",
    "comp": "",
    "added": "2026-10-08",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-09",
+   "reason": "HTTP 404"
   }
  ]
 }
