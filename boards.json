@@ -78,7 +78,17 @@
   "onemodel",
   "codepath",
   "clear",
-  "liberate"
+  "liberate",
+  "iconiq",
+  "magnolia",
+  "achievementfirstnetworksupportcareers",
+  "evolutioncloudservicesevocs",
+  "wellist",
+  "sparkadvisors",
+  "arizeai",
+  "gongio",
+  "figureai",
+  "notion"
  ],
  "lever": [
   "zoox",
@@ -95,7 +105,10 @@
   "astrus",
   "cura",
   "caseware",
-  "netomi"
+  "netomi",
+  "tala",
+  "neednova",
+  "wandb"
  ],
  "ashby": [
   "pylon-labs",
@@ -424,7 +437,30 @@
   "walmart:WalmartExternal",
   "comcast:Comcast_Careers",
   "dell:External",
-  "qualcomm:External"
+  "qualcomm:External",
+  "Thinkific",
+  "Hyde Park Venture Partners",
+  "Drive Capital",
+  "Emergence Capital",
+  "OpenAI Foundation",
+  "Sapphire Ventures",
+  "Modo Energy",
+  "Ocient",
+  "Sila Nanotechnologies",
+  "Chewy",
+  "Expedia Group",
+  "CoreWeave",
+  "Waymo",
+  "Moxie",
+  "Microsoft",
+  "Royal Ambulance",
+  "Venture for America",
+  "Orbidi",
+  "Hippocratic AI",
+  "Bretton AI",
+  "Smartsheet",
+  "Instructure",
+  "Cosm"
  ],
  "tried": {
   "UniUni": 1,
@@ -584,7 +620,8 @@
  ],
  "smartrecruiters": [
   "glean",
-  "WesternDigital"
+  "WesternDigital",
+  "ProcoreTechnologies"
  ],
  "recruitee": [
   "riderlevettbucknall",
