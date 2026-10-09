@@ -187,10 +187,10 @@
    "id": "a603a39037",
    "kind": "role",
    "company": "Figma",
-   "title": "Director, People Partners – Product, Design & Engineering",
+   "title": "Director, People Partners \u2013 Product, Design & Engineering",
    "location": "On-site (San Francisco, CA)",
    "url": "https://boards.greenhouse.io/figma/jobs/6150563004",
-   "comp": "$235K–$317K",
+   "comp": "$235K\u2013$317K",
    "added": "2026-09-16",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -286,6 +286,32 @@
    "status": "closed",
    "lastChecked": "2026-10-08",
    "reason": "redirected to board with error=true"
+  },
+  {
+   "id": "6e74842069",
+   "kind": "role",
+   "company": "Curri",
+   "title": "VP of People",
+   "location": "Ventura, CA",
+   "url": "https://www.curri.com/careers/vp-of-people-bae9b8cb",
+   "comp": "",
+   "added": "2026-10-08",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "f5eb1db1b8",
+   "kind": "role",
+   "company": "Knownwell",
+   "title": "VP of People & Talent",
+   "location": "",
+   "url": "https://jobs.lever.co/knownwell/6c3a3ed2-55e1-4610-a43d-d9c4ba4bd33a",
+   "comp": "",
+   "added": "2026-10-08",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
   }
  ]
 }
