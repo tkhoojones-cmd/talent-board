@@ -1,0 +1,2370 @@
+{
+ "at": "2026-10-09T14:55:53.448Z",
+ "sources": [
+  {
+   "id": "ashby:1password",
+   "company": "1password",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 70,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:achievementfirstnetworksupportcareers",
+   "company": "Achievementfirstnetworksupportcareers",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 6,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:admarketplaceinc",
+   "company": "Admarketplaceinc",
+   "ats": "greenhouse",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "workday:adobe:external_experienced",
+   "company": "Adobe",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 51,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:adventhealth:AH_External_Career_Site",
+   "company": "Adventhealth",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 81,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:affirm",
+   "company": "Affirm",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 192,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:airbnb",
+   "company": "Airbnb",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 160,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:airtable",
+   "company": "Airtable",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 4,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:alphahawaii",
+   "company": "Alphahawaii",
+   "ats": "greenhouse",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "greenhouse:alphasense",
+   "company": "Alphasense",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 194,
+   "failStreak": 0
+  },
+  {
+   "id": "bigtech:amazon",
+   "company": "Amazon",
+   "ats": "own site",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:amplitude",
+   "company": "amplitude",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 39,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:anchorage",
+   "company": "Anchorage",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 22,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:andurilindustries",
+   "company": "Andurilindustries",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 2478,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:anthropic",
+   "company": "Anthropic",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 643,
+   "failStreak": 0
+  },
+  {
+   "id": "bigtech:apple",
+   "company": "Apple",
+   "ats": "own site",
+   "ok": true,
+   "jobs": 34,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:applied",
+   "company": "applied",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 323,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:arizeai",
+   "company": "Arizeai",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 24,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:asana",
+   "company": "Asana",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 101,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:ashby",
+   "company": "Ashby",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 68,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:astranis",
+   "company": "Astranis",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 182,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:astrus",
+   "company": "Astrus",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:attentive",
+   "company": "attentive",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 28,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:autodesk:Ext",
+   "company": "Autodesk",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 15,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:babylist",
+   "company": "Babylist",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 44,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:ghr:Lateral-US",
+   "company": "Bank of America",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 13,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:banyansoftware",
+   "company": "Banyansoftware",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 44,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:baseten",
+   "company": "Baseten",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 110,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:beemok:BHC_Careers",
+   "company": "Beemok",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 6,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:benchling",
+   "company": "benchling",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 57,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:bestbuycanada:BestBuyCA_Career",
+   "company": "Best Buy Canada",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 14,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:blackrock:BlackRock_Professional",
+   "company": "BlackRock",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 65,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:braze",
+   "company": "Braze",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 337,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:brettonai",
+   "company": "Bretton AI",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 6,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:brex",
+   "company": "Brex",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 287,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:calendly",
+   "company": "Calendly",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 9,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:capitalone:Capital_One",
+   "company": "Capital One",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 67,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:carta",
+   "company": "Carta",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 72,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:caseware",
+   "company": "Caseware",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 43,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:chaidiscovery",
+   "company": "Chai Discovery",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 19,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:checkr",
+   "company": "Checkr",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 43,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:chime",
+   "company": "Chime",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 71,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:cigna:cignacareers",
+   "company": "Cigna",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 40,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:cisco:Cisco_Careers",
+   "company": "Cisco",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 15,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:citi:2",
+   "company": "Citi",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 162,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:clear",
+   "company": "CLEAR",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 49,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:clearco",
+   "company": "Clearco",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 4,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:clearstreet",
+   "company": "Clearstreet",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 45,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:clickhouse",
+   "company": "Clickhouse",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 195,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:cloudflare",
+   "company": "Cloudflare",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 420,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:codepath",
+   "company": "CodePath",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 10,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:cognition",
+   "company": "Cognition",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 102,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:cohere",
+   "company": "Cohere",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 120,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:coinbase",
+   "company": "Coinbase",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 220,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:collibra",
+   "company": "Collibra",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 29,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:comcast:Comcast_Careers",
+   "company": "Comcast / NBCUniversal",
+   "ats": "workday",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "ashby:commure",
+   "company": "Commure",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 83,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:compeerfinancial",
+   "company": "Compeerfinancial",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 74,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:copia",
+   "company": "Copia",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 4,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:coreweave",
+   "company": "CoreWeave",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 311,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:cresta",
+   "company": "Cresta",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 87,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:crusoe",
+   "company": "Crusoe",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 353,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:cura",
+   "company": "Cura",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 4,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:curri",
+   "company": "Curri",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 21,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:cvshealth:CVS_Health_Careers",
+   "company": "CVS Health",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 70,
+   "failStreak": 0
+  },
+  {
+   "id": "taleo:drhorton:2",
+   "company": "D.R. Horton",
+   "ats": "taleo",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:databricks",
+   "company": "Databricks",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 893,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:datadog",
+   "company": "Datadog",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 432,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:dataiku",
+   "company": "Dataiku",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 20,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:deel",
+   "company": "Deel",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:dell:External",
+   "company": "Dell",
+   "ats": "workday",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "greenhouse:dept",
+   "company": "Dept",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 197,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:dhigroupinc",
+   "company": "Dhigroupinc",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 3,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:discord",
+   "company": "Discord",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 48,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:disney:disneycareer",
+   "company": "Disney",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 18,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:dropbox",
+   "company": "Dropbox",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 32,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:duolingo",
+   "company": "Duolingo",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 58,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:eightsleep",
+   "company": "Eight Sleep",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 36,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:elastic",
+   "company": "Elastic",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 422,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:elevancehealth:ANT",
+   "company": "Elevance Health",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:elevenlabs",
+   "company": "ElevenLabs",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 134,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:eliseai",
+   "company": "EliseAI",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 124,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:epicgames",
+   "company": "Epic Games",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 145,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:etched",
+   "company": "Etched",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 109,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:evergreenservicesgroup",
+   "company": "Evergreenservicesgroup",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 8,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:evolutioncloudservicesevocs",
+   "company": "Evolutioncloudservicesevocs",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 11,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:exa",
+   "company": "Exa",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 58,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:excel",
+   "company": "Excel",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 39,
+   "failStreak": 0
+  },
+  {
+   "id": "rippling:excel",
+   "company": "Excel",
+   "ats": "rippling",
+   "ok": true,
+   "jobs": 4,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:faire",
+   "company": "faire",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 81,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:fmr:FidelityCareers",
+   "company": "Fidelity",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 52,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:figma",
+   "company": "Figma",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 153,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:figureai",
+   "company": "Figureai",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 94,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:filescom",
+   "company": "Filescom",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 3,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:fivetran",
+   "company": "Fivetran",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 201,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:flexport",
+   "company": "Flexport",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 197,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:futurestandard",
+   "company": "Futurestandard",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 15,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:gc-ai",
+   "company": "GC AI",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 28,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:gemini",
+   "company": "Gemini",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 35,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:gilead:gileadcareers",
+   "company": "Gilead",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 69,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:gitlab",
+   "company": "Gitlab",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 220,
+   "failStreak": 0
+  },
+  {
+   "id": "smartrecruiters:glean",
+   "company": "glean",
+   "ats": "smartrecruiters",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:goldenpetbrands",
+   "company": "Goldenpetbrands",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 13,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:gongio",
+   "company": "Gongio",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 99,
+   "failStreak": 0
+  },
+  {
+   "id": "recruitee:google",
+   "company": "Google",
+   "ats": "recruitee",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
+   "id": "bigtech:google",
+   "company": "Google",
+   "ats": "own site",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:gusto",
+   "company": "Gusto",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 97,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:harvey",
+   "company": "Harvey",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 347,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:hasbro",
+   "company": "Hasbro",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 118,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:helpscout",
+   "company": "Helpscout",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 7,
+   "failStreak": 0
+  },
+  {
+   "id": "icims:careers-heritagechristianservices",
+   "company": "Heritagechristianservices",
+   "ats": "icims",
+   "ok": true,
+   "jobs": 25,
+   "failStreak": 0
+  },
+  {
+   "id": "smartrecruiters:hibob",
+   "company": "HiBob",
+   "ats": "smartrecruiters",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:hivemq",
+   "company": "HiveMQ",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:hootsuite",
+   "company": "hootsuite",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 4,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:hp:ExternalCareerSite",
+   "company": "HP",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 45,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:humana:Humana_External_Career_Site",
+   "company": "Humana",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 34,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:hyperbolic",
+   "company": "Hyperbolic",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 16,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:iconiq",
+   "company": "Iconiq",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 16,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:indeedbtrbt",
+   "company": "Indeedbtrbt",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 93,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:instacart",
+   "company": "Instacart",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 120,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:instinct",
+   "company": "Instinct",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:instructure",
+   "company": "Instructure",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 46,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:intel:External",
+   "company": "Intel",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 17,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:island",
+   "company": "Island",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 24,
+   "failStreak": 0
+  },
+  {
+   "id": "icims:careers-jobyaviation",
+   "company": "Jobyaviation",
+   "ats": "icims",
+   "ok": true,
+   "jobs": 104,
+   "failStreak": 0
+  },
+  {
+   "id": "oracle:jpmc.fa.oraclecloud.com:CX_1001",
+   "company": "JPMorgan Chase",
+   "ats": "oracle",
+   "ok": true,
+   "jobs": 106,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:keyfactorinc",
+   "company": "Keyfactorinc",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 35,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:khealthcareers",
+   "company": "Khealthcareers",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 20,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:knownwell",
+   "company": "knownwell",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 10,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:knownwell",
+   "company": "Knownwell",
+   "ats": "lever",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "lever:kraken",
+   "company": "Kraken",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:liberate",
+   "company": "Liberate",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 13,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:lightspeedhq",
+   "company": "lightspeedhq",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 134,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:linear",
+   "company": "Linear",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 31,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:liveramp-inc",
+   "company": "Liveramp Inc",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 52,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:lovable",
+   "company": "Lovable",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 61,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:lucidmotors",
+   "company": "Lucidmotors",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 446,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:lumaai",
+   "company": "Luma AI",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 37,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:lyft",
+   "company": "Lyft",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 190,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:magnolia",
+   "company": "Magnolia",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 20,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:manh:External",
+   "company": "Manh",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 5,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:marqeta",
+   "company": "Marqeta",
+   "ats": "greenhouse",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "greenhouse:martellgrowthsolutions",
+   "company": "Martellgrowthsolutions",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 11,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:mastercard:CorporateCareers",
+   "company": "Mastercard",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 77,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:maxar:Vantor",
+   "company": "Maxar",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 11,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:mercury",
+   "company": "Mercury",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "bigtech:meta",
+   "company": "Meta",
+   "ats": "own site",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "workday:micron:External",
+   "company": "Micron",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 43,
+   "failStreak": 0
+  },
+  {
+   "id": "bigtech:microsoft",
+   "company": "Microsoft",
+   "ats": "own site",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "lever:minesense",
+   "company": "Minesense",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 4,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:mintlify",
+   "company": "Mintlify",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 13,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:miro",
+   "company": "miro",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 24,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:mistral",
+   "company": "Mistral",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:modal",
+   "company": "Modal",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 41,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:modoenergy",
+   "company": "Modo Energy",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 11,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:monaco",
+   "company": "Monaco",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 15,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:mongodb",
+   "company": "Mongodb",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 392,
+   "failStreak": 0
+  },
+  {
+   "id": "workable:montera",
+   "company": "Montera",
+   "ats": "workable",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "ashby:moxie",
+   "company": "Moxie",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 10,
+   "failStreak": 0
+  },
+  {
+   "id": "icims:careers-naphcare",
+   "company": "Naphcare",
+   "ats": "icims",
+   "ok": true,
+   "jobs": 15,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:nerostechnologies",
+   "company": "Neros Technologies",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 106,
+   "failStreak": 0
+  },
+  {
+   "id": "bigtech:netflix",
+   "company": "Netflix",
+   "ats": "own site",
+   "ok": true,
+   "jobs": 18,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:netomi",
+   "company": "Netomi",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 23,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:nextdoor",
+   "company": "Nextdoor",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 22,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:nitra",
+   "company": "Nitra",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 62,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:notion",
+   "company": "Notion",
+   "ats": "greenhouse",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "ashby:notion",
+   "company": "Notion",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 133,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:numeral",
+   "company": "Numeral",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 24,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:nuro",
+   "company": "Nuro",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 106,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:nvent:nVent",
+   "company": "Nvent",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 47,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:nvidia:NVIDIAExternalCareerSite",
+   "company": "NVIDIA",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 65,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:odyssey",
+   "company": "Odyssey",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 6,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:okta",
+   "company": "Okta",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 379,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:onemodel",
+   "company": "One Model",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:openai",
+   "company": "OpenAI",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 819,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:openai-foundation",
+   "company": "OpenAI Foundation",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 15,
+   "failStreak": 0
+  },
+  {
+   "id": "rippling:opendoor",
+   "company": "opendoor",
+   "ats": "rippling",
+   "ok": true,
+   "jobs": 61,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:openrouter",
+   "company": "OpenRouter",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 28,
+   "failStreak": 0
+  },
+  {
+   "id": "oracle:eeho.fa.us2.oraclecloud.com:CX_45001",
+   "company": "Oracle",
+   "ats": "oracle",
+   "ok": true,
+   "jobs": 79,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:oratomic",
+   "company": "Oratomic",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 18,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:ovoenergy",
+   "company": "Ovo Energy",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 6,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:palantir",
+   "company": "Palantir",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 312,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:paypal:jobs",
+   "company": "PayPal",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 40,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:peloton",
+   "company": "Peloton",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 55,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:perplexity",
+   "company": "Perplexity",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 132,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:physicsx",
+   "company": "PhysicsX",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 42,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:pinecone",
+   "company": "Pinecone",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 5,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:pinterest",
+   "company": "Pinterest",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 179,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:plaid",
+   "company": "plaid",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 121,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:posthog",
+   "company": "Posthog",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 10,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:practicebetter",
+   "company": "Practicebetter",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 5,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:primeintellect",
+   "company": "Prime Intellect",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 32,
+   "failStreak": 0
+  },
+  {
+   "id": "smartrecruiters:ProcoreTechnologies",
+   "company": "ProcoreTechnologies",
+   "ats": "smartrecruiters",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:pru:Careers",
+   "company": "Prudential",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 61,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:pylon-labs",
+   "company": "Pylon Labs",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 17,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:qualcomm:External",
+   "company": "Qualcomm",
+   "ats": "workday",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "lever:quantummetric",
+   "company": "Quantum Metric",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 7,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:quince",
+   "company": "Quince",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 150,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:ramp",
+   "company": "Ramp",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 163,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:reddit",
+   "company": "Reddit",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 155,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:reitmr:Sonesta",
+   "company": "Reitmr",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 39,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:replit",
+   "company": "Replit",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 73,
+   "failStreak": 0
+  },
+  {
+   "id": "recruitee:riderlevettbucknall",
+   "company": "Rider Levett Bucknall",
+   "ats": "recruitee",
+   "ok": true,
+   "jobs": 8,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:rillet",
+   "company": "Rillet",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 40,
+   "failStreak": 0
+  },
+  {
+   "id": "rippling:rippling",
+   "company": "rippling",
+   "ats": "rippling",
+   "ok": true,
+   "jobs": 629,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:rise",
+   "company": "Rise",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 25,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:robinhood",
+   "company": "Robinhood",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 169,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:royalambulance",
+   "company": "Royal Ambulance",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 12,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:runway",
+   "company": "Runway",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 3,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:salesforce:External_Career_Site",
+   "company": "Salesforce",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 72,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:samsara",
+   "company": "Samsara",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 237,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:saronic",
+   "company": "Saronic",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 209,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:scaleai",
+   "company": "Scaleai",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 181,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:seekout",
+   "company": "SeekOut",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:sentry",
+   "company": "sentry",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 43,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:shieldai",
+   "company": "Shieldai",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 593,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:sierra",
+   "company": "Sierra",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 195,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:sigmacomputing",
+   "company": "Sigma Computing",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 73,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:silananotechnologies",
+   "company": "Sila Nanotechnologies",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 35,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:smartsheet",
+   "company": "Smartsheet",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 95,
+   "failStreak": 0
+  },
+  {
+   "id": "rippling:smartsuite",
+   "company": "Smartsuite",
+   "ats": "rippling",
+   "ok": true,
+   "jobs": 2,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:snorkelai",
+   "company": "Snorkel AI",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 45,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:snowflake",
+   "company": "Snowflake",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 361,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:sofi",
+   "company": "Sofi",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 54,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:sonobello",
+   "company": "Sono Bello",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 74,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:sonymusicentertainment",
+   "company": "Sonymusicentertainment",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 137,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:spacex",
+   "company": "Spacex",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 2697,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:sparkadvisors",
+   "company": "Sparkadvisors",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 10,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:spotify",
+   "company": "Spotify",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 79,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:squarespace",
+   "company": "Squarespace",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 32,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:stripe",
+   "company": "Stripe",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 729,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:sunlife:Experienced-Jobs",
+   "company": "Sun Life",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 49,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:suno",
+   "company": "Suno",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 70,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:supabase",
+   "company": "Supabase",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 53,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:superdial",
+   "company": "SuperDial",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 8,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:synchronyfinancial:careers",
+   "company": "Synchronyfinancial",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 6,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:taketwo",
+   "company": "Take-Two",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 35,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:tala",
+   "company": "Tala",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 9,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:target:targetcareers",
+   "company": "Target",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 16,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:terminal",
+   "company": "Terminal",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 8,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:thetrevorproject",
+   "company": "Thetrevorproject",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 5,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:thinkific",
+   "company": "Thinkific",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:thri5",
+   "company": "Thri5",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 2,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:toast",
+   "company": "Toast",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 311,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:trueanomalyinc",
+   "company": "Trueanomalyinc",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 208,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:turn-river",
+   "company": "Turn/River",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 9,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:twelve-labs",
+   "company": "Twelve Labs",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 13,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:twilio",
+   "company": "Twilio",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 138,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:usbank:US_Bank_Careers",
+   "company": "U.S. Bank",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 15,
+   "failStreak": 0
+  },
+  {
+   "id": "smartrecruiters:uber",
+   "company": "Uber",
+   "ats": "smartrecruiters",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
+   "id": "icims:careers-uhnjcareers",
+   "company": "Uhnjcareers",
+   "ats": "icims",
+   "ok": true,
+   "jobs": 26,
+   "failStreak": 0
+  },
+  {
+   "id": "rippling:uniuni",
+   "company": "UniUni",
+   "ats": "rippling",
+   "ok": true,
+   "jobs": 26,
+   "failStreak": 0
+  },
+  {
+   "id": "icims:careers-uti",
+   "company": "Uti",
+   "ats": "icims",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:vanguard:vanguard_external",
+   "company": "Vanguard",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 15,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:vanta",
+   "company": "Vanta",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 84,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:vapi",
+   "company": "Vapi",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 25,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:vercel",
+   "company": "Vercel",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 88,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:verkada",
+   "company": "Verkada",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 308,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:videoamp",
+   "company": "VideoAmp",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:viralnation",
+   "company": "Viralnation",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 63,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:visa:Visa",
+   "company": "Visa",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 35,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:visiersolutionsinc",
+   "company": "Visiersolutionsinc",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 8,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:walmart:WalmartExternal",
+   "company": "Walmart",
+   "ats": "workday",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "workday:warnerbros:global",
+   "company": "Warner Bros Discovery",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 23,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:waymark",
+   "company": "Waymark",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 20,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:waymo",
+   "company": "Waymo",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 371,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:wealthsimple",
+   "company": "Wealthsimple",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:wealthsimple",
+   "company": "Wealthsimple",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 46,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:webflow",
+   "company": "Webflow",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 23,
+   "failStreak": 0
+  },
+  {
+   "id": "workable:weekday-1",
+   "company": "Weekday 1",
+   "ats": "workable",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
+  },
+  {
+   "id": "greenhouse:wellist",
+   "company": "Wellist",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 5,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:wf:WellsFargoJobs",
+   "company": "Wells Fargo",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 45,
+   "failStreak": 0
+  },
+  {
+   "id": "smartrecruiters:WesternDigital",
+   "company": "WesternDigital",
+   "ats": "smartrecruiters",
+   "ok": true,
+   "jobs": 338,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:workday:Workday",
+   "company": "Workday",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 45,
+   "failStreak": 0
+  },
+  {
+   "id": "workday:wwecorp:wwecorp",
+   "company": "Wwecorp",
+   "ats": "workday",
+   "ok": true,
+   "jobs": 0,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:zapier",
+   "company": "Zapier",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 11,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:zoominfo",
+   "company": "Zoominfo",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 98,
+   "failStreak": 0
+  },
+  {
+   "id": "lever:zoox",
+   "company": "Zoox",
+   "ats": "lever",
+   "ok": true,
+   "jobs": 236,
+   "failStreak": 0
+  }
+ ],
+ "waitingForFeed": [
+  "Walt Disney",
+  "Klarity",
+  "Palo Alto Networks",
+  "SentinelOne",
+  "SafetyCulture",
+  "Paylocity",
+  "Blue Origin",
+  "Alation",
+  "Rivian",
+  "AIM Intelligent Machines",
+  "Fractional AI",
+  "Applied Intuition",
+  "Alignment Health",
+  "Visier",
+  "DayOne",
+  "Emergent",
+  "Sigma",
+  "Coforge",
+  "Deloitte India",
+  "Matrix Pharmacorp",
+  "Magnit",
+  "CuraTeQ Biologics"
+ ],
+ "gaveUp": [
+  "Slate Auto",
+  "Orbits",
+  "Cognition AI",
+  "OSCP",
+  "Multiverse Computing",
+  "Axya",
+  "Biossil",
+  "Daedal",
+  "Woveo",
+  "The Boring Company",
+  "Commonwealth Fusion Systems",
+  "Cyera",
+  "Bird&Be",
+  "Heidi",
+  "Temporal Technologies",
+  "Tekever",
+  "Stoke Space",
+  "Blair Health",
+  "SambaNova",
+  "Kanin Energy",
+  "Safe Superintelligence",
+  "Greentank Technologies",
+  "Varda Space Industries",
+  "SiftMed",
+  "PixVerse",
+  "D-Robotics",
+  "AT&T",
+  "TekSynap",
+  "ReBIT (Reserve Bank Information Technology)",
+  "Lincoln Electric",
+  "Zebra Technologies",
+  "Blue Light Card",
+  "Aegon",
+  "Innova Solutions",
+  "National Australia Bank",
+  "ArcelorMittal Global Business & Technologies",
+  "Fortive",
+  "The Coca-Cola Company",
+  "Yum! Brands",
+  "Sanofi",
+  "Staples",
+  "Westfield Insurance",
+  "Maxar Technologies",
+  "Aristocrat",
+  "Avalara",
+  "grammarly",
+  "etsy",
+  "anduril",
+  "doordash",
+  "admarketplaceinc",
+  "hubspotjobs",
+  "kraken",
+  "genesys",
+  "relativityspace",
+  "clio",
+  "ecobee",
+  "retool",
+  "ada",
+  "bench",
+  "Keyfactor",
+  "Astrus",
+  "Instinct",
+  "True Anomaly",
+  "LiveRamp",
+  "DHI Group",
+  "SegmentStream",
+  "MessageGears",
+  "Groove",
+  "Themis Solutions",
+  "Phoenix Tailings",
+  "Warner Bros. Discovery",
+  "HubSpot",
+  "Weekday AI",
+  "walmart:WalmartExternal",
+  "comcast:Comcast_Careers",
+  "dell:External",
+  "qualcomm:External",
+  "Hyde Park Venture Partners",
+  "Drive Capital",
+  "Emergence Capital",
+  "Sapphire Ventures",
+  "Ocient",
+  "Chewy",
+  "Expedia Group",
+  "Microsoft",
+  "Venture for America",
+  "Orbidi",
+  "Hippocratic AI",
+  "Cosm",
+  "LeapXpert",
+  "Mecka AI",
+  "iCIMS",
+  "Ironclad",
+  "Joby Aviation",
+  "Sony Music Entertainment",
+  "Ford Motor",
+  "Intuit",
+  "Oscar Health",
+  "Take-Two Interactive",
+  "Fireworks AI",
+  "Castelion",
+  "Wonder",
+  "Valor",
+  "Tide Rock",
+  "neednova",
+  "wandb",
+  "Prescriptive Data",
+  "Greenhouse Software",
+  "Instasks",
+  "Salesforce",
+  "Adobe",
+  "Crew Group",
+  "Walmart",
+  "Sage",
+  "Kontakt.io"
+ ]
+}

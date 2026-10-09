@@ -136,7 +136,8 @@
   "royalambulance",
   "quantummetric",
   "nitra",
-  "rise"
+  "rise",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -472,7 +473,6 @@
   }
  ],
  "candidates": [
-  "Kontakt.io",
   "Walt Disney",
   "Klarity",
   "Palo Alto Networks",
@@ -494,8 +494,7 @@
   "Deloitte India",
   "Matrix Pharmacorp",
   "Magnit",
-  "CuraTeQ Biologics",
-  "knownwell"
+  "CuraTeQ Biologics"
  ],
  "tried": {
   "UniUni": 1,
@@ -615,29 +614,29 @@
   "Adobe": 4,
   "Sage": 4,
   "Crew Group": 4,
-  "Kontakt.io": 3,
-  "Klarity": 2,
-  "SentinelOne": 2,
-  "SafetyCulture": 2,
-  "Palo Alto Networks": 2,
-  "Walt Disney": 2,
-  "Paylocity": 2,
-  "Alation": 2,
-  "Rivian": 2,
-  "Blue Origin": 2,
-  "Visier": 2,
-  "AIM Intelligent Machines": 2,
-  "Applied Intuition": 2,
-  "Fractional AI": 2,
-  "Alignment Health": 2,
-  "DayOne": 2,
-  "Emergent": 2,
-  "Sigma": 2,
-  "Coforge": 2,
-  "Magnit": 2,
-  "Deloitte India": 2,
-  "Matrix Pharmacorp": 2,
-  "CuraTeQ Biologics": 2
+  "Kontakt.io": 4,
+  "Klarity": 3,
+  "SentinelOne": 3,
+  "SafetyCulture": 3,
+  "Palo Alto Networks": 3,
+  "Walt Disney": 3,
+  "Paylocity": 3,
+  "Alation": 3,
+  "Rivian": 3,
+  "Blue Origin": 3,
+  "Visier": 3,
+  "AIM Intelligent Machines": 3,
+  "Applied Intuition": 3,
+  "Fractional AI": 3,
+  "Alignment Health": 3,
+  "DayOne": 3,
+  "Emergent": 3,
+  "Sigma": 3,
+  "Coforge": 3,
+  "Magnit": 3,
+  "Deloitte India": 3,
+  "Matrix Pharmacorp": 3,
+  "CuraTeQ Biologics": 3
  },
  "dead": [
   "Slate Auto",
@@ -753,7 +752,8 @@
   "Adobe",
   "Crew Group",
   "Walmart",
-  "Sage"
+  "Sage",
+  "Kontakt.io"
  ],
  "workable": [
   "montera",
@@ -1002,7 +1002,8 @@
   "greenhouse:physicsx": 0,
   "ashby:cognition": 0,
   "ashby:saronic": 0,
-  "icims:careers-jobyaviation": 0
+  "icims:careers-jobyaviation": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1122,5 +1123,20 @@
    "company": "D.R. Horton"
   }
  ],
- "successfactors": []
+ "successfactors": [],
+ "feedFails": {
+  "greenhouse:admarketplaceinc": 1,
+  "greenhouse:notion": 1,
+  "greenhouse:marqeta": 1,
+  "greenhouse:alphahawaii": 1,
+  "lever:knownwell": 1,
+  "workable:weekday-1": 1,
+  "workable:montera": 1,
+  "workday:walmart:WalmartExternal": 1,
+  "workday:comcast:Comcast_Careers": 1,
+  "workday:dell:External": 1,
+  "workday:qualcomm:External": 1,
+  "bigtech:microsoft": 1,
+  "bigtech:meta": 1
+ }
 }
