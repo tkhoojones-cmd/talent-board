@@ -531,5 +531,11 @@
   "greenhouse:epicgames": "Epic Games",
   "ashby:openai": "OpenAI",
   "greenhouse:ovoenergy": "Ovo Energy"
- }
+ },
+ "icims": [
+  "careers-uhnjcareers",
+  "careers-heritagechristianservices",
+  "careers-naphcare",
+  "careers-uti"
+ ]
 }

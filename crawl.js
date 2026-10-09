@@ -6,7 +6,7 @@ const { wanted, isNA } = require("./lib");
 const boards = JSON.parse(fs.readFileSync("boards.json", "utf8"));
 const store = JSON.parse(fs.readFileSync("jobs.json", "utf8"));
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver" }).format(new Date());
-const ATS = ["greenhouse", "lever", "ashby", "workable", "rippling", "smartrecruiters", "recruitee"];
+const ATS = ["greenhouse", "lever", "ashby", "workable", "rippling", "smartrecruiters", "recruitee", "icims"];
 for (const a of ATS) boards[a] = boards[a] || [];
 boards.workday = boards.workday || []; boards.candidates = boards.candidates || []; boards.tried = boards.tried || {};
 boards.dead = boards.dead || []; boards.misses = boards.misses || {}; boards.names = boards.names || {};
@@ -16,13 +16,14 @@ const key = (u) => {
   if ((m = u.match(/greenhouse\.io\/(?:embed\/job_app\?.*token=|[^/]+\/jobs\/)(\d+)/)) || (m = u.match(/[?&]gh_jid=(\d+)/))) return "gh:" + m[1];
   if ((m = u.match(/(?:lever\.co|ashbyhq\.com)\/[^/]+\/([0-9a-f-]{36})/i))) return "id:" + m[1].toLowerCase();
   if ((m = u.match(/myworkdayjobs\.com\/.*_(R-?\d+[\w-]*)/i))) return "wd:" + m[1].toLowerCase();
+  if ((m = u.match(/icims\.com\/jobs\/(\d+)\//))) return "ic:" + m[1];
   if ((m = u.match(/apply\.workable\.com\/[^/]+\/j\/([A-Z0-9]+)/i))) return "wk:" + m[1].toUpperCase();
   const keep = (u.match(/[?&](id|jobid|job_id|jid|req|reqid|gh_jid|jobId)=[^&]+/i) || [""])[0];
   return u.toLowerCase().replace(/^https?:\/\//, "").replace(/[?#].*$/, "").replace(/\/+$/, "") + keep.toLowerCase();
 };
 const sha = (s) => require("crypto").createHash("sha1").update(s).digest("hex").slice(0, 10);
 const nice = (t) => t.replace(/[-_]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-const display = (ats, tok) => boards.names[ats + ":" + tok] || nice(tok);
+const display = (ats, tok) => boards.names[ats + ":" + tok] || nice(tok.replace(/^careers-/, ""));
 
 async function http(url, opt) {
   try {
@@ -89,6 +90,25 @@ const FETCH = {
     }
     return out.length || total === 0 ? { status: 200, jobs: out } : { status: 404 };
   },
+  async icims(host) {
+    // iCIMS has no public JSON; read the search result pages (in_iframe view) for several keywords
+    const out = new Map(); let okAny = false;
+    for (const kw of ["people", "talent", "human resources", "recruiting", "chief"]) {
+      for (let pr = 0; pr < 5; pr++) {
+        const r = await http(`https://${host}.icims.com/jobs/search?ss=1&searchKeyword=${encodeURIComponent(kw)}&in_iframe=1&pr=${pr}`);
+        if (r.status !== 200 || !r.text) { if (pr === 0 && !okAny) break; else break; }
+        okAny = true; let found = 0;
+        for (const m of r.text.matchAll(/<a[^>]+href="(https?:\/\/[^"]*?\/jobs\/(\d+)\/([^"\/?]*)\/job[^"]*)"[^>]*>([\s\S]*?)<\/a>/gi)) {
+          const url = m[1].split("?")[0]; if (out.has(url)) continue; found++;
+          let title = m[4].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").replace(/^\s*Title\s*/i, "").trim();
+          if (!title || title.length > 140) title = decodeURIComponent(m[3]).replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+          out.set(url, { title, location: "", url });
+        }
+        if (!found) break;
+      }
+    }
+    return okAny ? { status: 200, jobs: [...out.values()] } : { status: 404 };
+  },
   async recruitee(t) {
     const r = await http(`https://${t}.recruitee.com/api/offers/`);
     if (r.status !== 200 || !r.json || !r.json.offers) return { status: r.status || 0 };
@@ -127,6 +147,7 @@ for (const j of store.jobs) {
   if ((m = j.url.match(/apply\.workable\.com\/([^/?]+)/))) add("workable", m[1]);
   if ((m = j.url.match(/ats\.rippling\.com\/([^/?]+)/))) add("rippling", m[1]);
   if ((m = j.url.match(/jobs\.smartrecruiters\.com\/([^/?]+)/))) add("smartrecruiters", m[1]);
+  if ((m = j.url.match(/^https:\/\/(careers-[a-z0-9-]+)\.icims\.com\//))) add("icims", m[1]);
 }
 // companies from funding / hiring news are candidates too
 try {
@@ -201,6 +222,7 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     if ((m = u.match(/jobs\.lever\.co\/([^/?]+)/))) return "lever:" + m[1];
     if ((m = u.match(/jobs\.ashbyhq\.com\/([^/?]+)/))) return "ashby:" + m[1];
     if ((m = u.match(/apply\.workable\.com\/([^/?]+)/))) return "workable:" + m[1];
+    if ((m = u.match(/^https:\/\/(careers-[a-z0-9-]+)\.icims\.com\//))) return "icims:" + m[1];
     if ((m = u.match(/^https:\/\/([^.]+)\.wd\d+\.myworkdayjobs\.com\/(?:[a-z]{2}-[A-Z]{2}\/)?([^/]+)/))) return "workday:" + m[1] + ":" + m[2];
     return null; };
   const wasInFeed = new Set(matches.map((m) => key(m.url)));
