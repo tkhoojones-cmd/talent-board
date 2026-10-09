@@ -105,7 +105,9 @@
   "waymo",
   "smartsheet",
   "nuro",
-  "collibra"
+  "collibra",
+  "dept",
+  "viralnation"
  ],
  "lever": [
   "zoox",
@@ -459,7 +461,19 @@
  ],
  "candidates": [
   "neednova",
-  "wandb"
+  "wandb",
+  "Prescriptive Data",
+  "Greenhouse Software",
+  "Twilio",
+  "Instasks",
+  "SuperDial",
+  "Nitra",
+  "Salesforce",
+  "Adobe",
+  "Rise",
+  "Crew Group",
+  "Walmart",
+  "Sage"
  ],
  "tried": {
   "UniUni": 1,
