@@ -2359,6 +2359,19 @@
    "failStreak": 0,
    "lastLive": "2026-10-09",
    "pageLocation": "New York, New York, USA"
+  },
+  {
+   "id": "09f5c84453",
+   "kind": "role",
+   "company": "Alpha Inc.",
+   "title": "Chief People Officer",
+   "location": "Kahului, Hawaii",
+   "url": "https://job-boards.greenhouse.io/alphahawaii/jobs/4933434008",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
   }
  ]
 }
