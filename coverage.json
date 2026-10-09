@@ -1,5 +1,5 @@
 {
- "at": "2026-10-09T14:55:53.448Z",
+ "at": "2026-10-09T15:03:22.816Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -23,7 +23,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -71,7 +71,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "greenhouse:alphasense",
@@ -110,7 +110,7 @@
    "company": "Andurilindustries",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 2478,
+   "jobs": 2477,
    "failStreak": 0
   },
   {
@@ -118,7 +118,7 @@
    "company": "Anthropic",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 643,
+   "jobs": 644,
    "failStreak": 0
   },
   {
@@ -447,7 +447,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "ashby:commure",
@@ -542,7 +542,7 @@
    "company": "Datadog",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 432,
+   "jobs": 433,
    "failStreak": 0
   },
   {
@@ -567,7 +567,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "greenhouse:dept",
@@ -646,7 +646,7 @@
    "company": "ElevenLabs",
    "ats": "ashby",
    "ok": true,
-   "jobs": 134,
+   "jobs": 130,
    "failStreak": 0
   },
   {
@@ -718,7 +718,7 @@
    "company": "faire",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 81,
+   "jobs": 80,
    "failStreak": 0
   },
   {
@@ -1039,7 +1039,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "lever:kraken",
@@ -1062,7 +1062,7 @@
    "company": "lightspeedhq",
    "ats": "ashby",
    "ok": true,
-   "jobs": 134,
+   "jobs": 130,
    "failStreak": 0
   },
   {
@@ -1135,7 +1135,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1175,7 +1175,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "workday:micron:External",
@@ -1191,7 +1191,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "lever:minesense",
@@ -1261,9 +1261,9 @@
    "id": "workable:montera",
    "company": "Montera",
    "ats": "workable",
-   "ok": false,
-   "jobs": 0,
-   "failStreak": 1
+   "ok": true,
+   "jobs": 11,
+   "failStreak": 0
   },
   {
    "id": "ashby:moxie",
@@ -1293,9 +1293,9 @@
    "id": "bigtech:netflix",
    "company": "Netflix",
    "ats": "own site",
-   "ok": true,
-   "jobs": 18,
-   "failStreak": 0
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
   },
   {
    "id": "lever:netomi",
@@ -1327,7 +1327,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "ashby:notion",
@@ -1470,7 +1470,7 @@
    "company": "Peloton",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 55,
+   "jobs": 54,
    "failStreak": 0
   },
   {
@@ -1567,7 +1567,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "lever:quantummetric",
@@ -1654,7 +1654,7 @@
    "company": "Robinhood",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 169,
+   "jobs": 170,
    "failStreak": 0
   },
   {
@@ -1726,7 +1726,7 @@
    "company": "Shieldai",
    "ats": "lever",
    "ok": true,
-   "jobs": 593,
+   "jobs": 594,
    "failStreak": 0
   },
   {
@@ -2103,7 +2103,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 1
+   "failStreak": 2
   },
   {
    "id": "workday:warnerbros:global",
@@ -2157,9 +2157,9 @@
    "id": "workable:weekday-1",
    "company": "Weekday 1",
    "ats": "workable",
-   "ok": false,
-   "jobs": 0,
-   "failStreak": 1
+   "ok": true,
+   "jobs": 100,
+   "failStreak": 0
   },
   {
    "id": "greenhouse:wellist",
@@ -2226,30 +2226,7 @@
    "failStreak": 0
   }
  ],
- "waitingForFeed": [
-  "Walt Disney",
-  "Klarity",
-  "Palo Alto Networks",
-  "SentinelOne",
-  "SafetyCulture",
-  "Paylocity",
-  "Blue Origin",
-  "Alation",
-  "Rivian",
-  "AIM Intelligent Machines",
-  "Fractional AI",
-  "Applied Intuition",
-  "Alignment Health",
-  "Visier",
-  "DayOne",
-  "Emergent",
-  "Sigma",
-  "Coforge",
-  "Deloitte India",
-  "Matrix Pharmacorp",
-  "Magnit",
-  "CuraTeQ Biologics"
- ],
+ "waitingForFeed": [],
  "gaveUp": [
   "Slate Auto",
   "Orbits",
@@ -2365,6 +2342,28 @@
   "Crew Group",
   "Walmart",
   "Sage",
-  "Kontakt.io"
+  "Kontakt.io",
+  "Walt Disney",
+  "Klarity",
+  "Palo Alto Networks",
+  "SentinelOne",
+  "SafetyCulture",
+  "Paylocity",
+  "Blue Origin",
+  "Alation",
+  "Rivian",
+  "AIM Intelligent Machines",
+  "Fractional AI",
+  "Applied Intuition",
+  "Alignment Health",
+  "Visier",
+  "DayOne",
+  "Emergent",
+  "Sigma",
+  "Coforge",
+  "Deloitte India",
+  "Matrix Pharmacorp",
+  "Magnit",
+  "CuraTeQ Biologics"
  ]
 }
