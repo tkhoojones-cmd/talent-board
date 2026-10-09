@@ -42,4 +42,5 @@ jobs:
         if: failure()
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh issue create --title "Listing checker failed $(date -u +%F)" --body "The daily check failed or the sanity gate stopped publishing. See the run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+        run: |
+          gh issue create --title "Listing checker failed" --body "The daily check failed or the sanity gate stopped publishing. Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
