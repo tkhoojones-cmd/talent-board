@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+  issues: write
 concurrency: verify
 jobs:
   verify:
@@ -17,15 +18,26 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
-      - run: npm install --no-save playwright
+      - run: npm install --no-save playwright@1.48.2
       - run: npx playwright install --with-deps chromium
       - run: node verify.js
       - name: Publish data.json
         run: |
           git config user.name "listing-checker"
           git config user.email "actions@users.noreply.github.com"
-          git add data.json jobs.json
-          if git diff --cached --quiet; then echo "no change"; else
+          for i in 1 2 3; do
+            git add data.json jobs.json
+            if git diff --cached --quiet; then echo "no change"; exit 0; fi
             git commit -m "Verified listings $(date -u +%F)"
-            git pull --rebase origin main && git push
-          fi
+            if git pull --rebase origin main && git push; then exit 0; fi
+            # a search task pushed while we were checking: start over from the latest
+            git rebase --abort || true
+            git fetch origin main && git reset --hard origin/main
+            node verify.js || true
+          done
+          exit 1
+      - name: Open an issue if the check failed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue create --title "Listing checker failed $(date -u +%F)" --body "The daily check failed or the sanity gate stopped publishing. See the run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
