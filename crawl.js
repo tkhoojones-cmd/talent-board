@@ -121,7 +121,7 @@ async function workday(w) {
   const seen = new Map(); let any = false;
   for (const term of terms) {
     let off = 0, total = 1;
-    while (off < total && off < 300) {
+    while (off < total && off < 200) {
       const r = await post(`${base}/wday/cxs/${w.tenant}/${w.site}/jobs`, { appliedFacets: {}, limit: 20, offset: off, searchText: term });
       if (r.status !== 200 || !r.json || !r.json.jobPostings) break;
       any = true; total = r.json.total || 0; off += 20;

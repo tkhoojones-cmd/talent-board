@@ -191,6 +191,210 @@
    "wd": "wd5",
    "site": "nVent",
    "company": "Nvent"
+  },
+  {
+   "tenant": "walmart",
+   "wd": "wd5",
+   "site": "WalmartExternal",
+   "company": "Walmart"
+  },
+  {
+   "tenant": "target",
+   "wd": "wd5",
+   "site": "targetcareers",
+   "company": "Target"
+  },
+  {
+   "tenant": "bestbuycanada",
+   "wd": "wd3",
+   "site": "BestBuyCA_Career",
+   "company": "Best Buy Canada"
+  },
+  {
+   "tenant": "disney",
+   "wd": "wd5",
+   "site": "disneycareer",
+   "company": "Disney"
+  },
+  {
+   "tenant": "comcast",
+   "wd": "wd5",
+   "site": "Comcast_Careers",
+   "company": "Comcast / NBCUniversal"
+  },
+  {
+   "tenant": "warnerbros",
+   "wd": "wd5",
+   "site": "global",
+   "company": "Warner Bros Discovery"
+  },
+  {
+   "tenant": "salesforce",
+   "wd": "wd12",
+   "site": "External_Career_Site",
+   "company": "Salesforce"
+  },
+  {
+   "tenant": "adobe",
+   "wd": "wd5",
+   "site": "external_experienced",
+   "company": "Adobe"
+  },
+  {
+   "tenant": "workday",
+   "wd": "wd5",
+   "site": "Workday",
+   "company": "Workday"
+  },
+  {
+   "tenant": "nvidia",
+   "wd": "wd5",
+   "site": "NVIDIAExternalCareerSite",
+   "company": "NVIDIA"
+  },
+  {
+   "tenant": "intel",
+   "wd": "wd1",
+   "site": "External",
+   "company": "Intel"
+  },
+  {
+   "tenant": "cisco",
+   "wd": "wd5",
+   "site": "Cisco_Careers",
+   "company": "Cisco"
+  },
+  {
+   "tenant": "dell",
+   "wd": "wd1",
+   "site": "External",
+   "company": "Dell"
+  },
+  {
+   "tenant": "hp",
+   "wd": "wd5",
+   "site": "ExternalCareerSite",
+   "company": "HP"
+  },
+  {
+   "tenant": "qualcomm",
+   "wd": "wd5",
+   "site": "External",
+   "company": "Qualcomm"
+  },
+  {
+   "tenant": "micron",
+   "wd": "wd1",
+   "site": "External",
+   "company": "Micron"
+  },
+  {
+   "tenant": "paypal",
+   "wd": "wd1",
+   "site": "jobs",
+   "company": "PayPal"
+  },
+  {
+   "tenant": "visa",
+   "wd": "wd5",
+   "site": "Visa",
+   "company": "Visa"
+  },
+  {
+   "tenant": "mastercard",
+   "wd": "wd1",
+   "site": "CorporateCareers",
+   "company": "Mastercard"
+  },
+  {
+   "tenant": "capitalone",
+   "wd": "wd12",
+   "site": "Capital_One",
+   "company": "Capital One"
+  },
+  {
+   "tenant": "wf",
+   "wd": "wd1",
+   "site": "WellsFargoJobs",
+   "company": "Wells Fargo"
+  },
+  {
+   "tenant": "citi",
+   "wd": "wd5",
+   "site": "2",
+   "company": "Citi"
+  },
+  {
+   "tenant": "ghr",
+   "wd": "wd1",
+   "site": "Lateral-US",
+   "company": "Bank of America"
+  },
+  {
+   "tenant": "usbank",
+   "wd": "wd1",
+   "site": "US_Bank_Careers",
+   "company": "U.S. Bank"
+  },
+  {
+   "tenant": "fmr",
+   "wd": "wd1",
+   "site": "FidelityCareers",
+   "company": "Fidelity"
+  },
+  {
+   "tenant": "vanguard",
+   "wd": "wd5",
+   "site": "vanguard_external",
+   "company": "Vanguard"
+  },
+  {
+   "tenant": "blackrock",
+   "wd": "wd1",
+   "site": "BlackRock_Professional",
+   "company": "BlackRock"
+  },
+  {
+   "tenant": "pru",
+   "wd": "wd5",
+   "site": "Careers",
+   "company": "Prudential"
+  },
+  {
+   "tenant": "humana",
+   "wd": "wd5",
+   "site": "Humana_External_Career_Site",
+   "company": "Humana"
+  },
+  {
+   "tenant": "cvshealth",
+   "wd": "wd1",
+   "site": "CVS_Health_Careers",
+   "company": "CVS Health"
+  },
+  {
+   "tenant": "cigna",
+   "wd": "wd5",
+   "site": "cignacareers",
+   "company": "Cigna"
+  },
+  {
+   "tenant": "elevancehealth",
+   "wd": "wd1",
+   "site": "ANT",
+   "company": "Elevance Health"
+  },
+  {
+   "tenant": "autodesk",
+   "wd": "wd1",
+   "site": "Ext",
+   "company": "Autodesk"
+  },
+  {
+   "tenant": "sunlife",
+   "wd": "wd3",
+   "site": "Experienced-Jobs",
+   "company": "Sun Life"
   }
  ],
  "candidates": [
