@@ -520,7 +520,7 @@
   {
    "id": "6a1c2440ed",
    "kind": "role",
-   "company": "Okta",
+   "company": "Okta, Inc.",
    "title": "Director, Global Tech Recruiting",
    "location": "San Francisco, California",
    "url": "https://www.okta.com/company/careers/opportunity/8212083?gh_jid=8212083",
@@ -538,7 +538,7 @@
   {
    "id": "d61c840baa",
    "kind": "role",
-   "company": "Okta",
+   "company": "Okta, Inc.",
    "title": "Senior Director, GTM Recruiting",
    "location": "San Francisco, California",
    "url": "https://www.okta.com/company/careers/opportunity/8196226?gh_jid=8196226",
@@ -619,7 +619,7 @@
   {
    "id": "a863d6b8a3",
    "kind": "role",
-   "company": "Beemok",
+   "company": "Beemok Hospitality Holdings LLC",
    "title": "Vice President, Talent Acquisition and Employer Brand",
    "location": "Beemok Hospitality Holdings, 200 Meeting Street, Charleston, South Carolina",
    "url": "https://beemok.wd5.myworkdayjobs.com/BHC_Careers/job/Beemok-Hospitality-Holdings/Vice-President--Talent-and-Employer-Brand_R-103120",
@@ -640,7 +640,7 @@
   {
    "id": "da087f01eb",
    "kind": "role",
-   "company": "Beemok",
+   "company": "Beemok Hospitality Holdings LLC",
    "title": "Vice President, Talent and Organizational Development",
    "location": "Beemok Hospitality Holdings, 200 Meeting Street, Charleston, South Carolina",
    "url": "https://beemok.wd5.myworkdayjobs.com/BHC_Careers/job/Beemok-Hospitality-Holdings/Vice-President--Talent-and-Organizational-Development_R-103062",
@@ -661,7 +661,7 @@
   {
    "id": "aa800c87a5",
    "kind": "role",
-   "company": "Gilead",
+   "company": "1010 Gilead Sciences, Inc.",
    "title": "Sr. Director, Talent Acquisition – Global Executive Recruiting Head",
    "location": "United States - California - Foster City",
    "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Sr-Director--Talent-Acquisition---Global-Executive-Recruiting-Head_R0052913-2",
@@ -682,7 +682,7 @@
   {
    "id": "36eaa7fe3a",
    "kind": "role",
-   "company": "Adventhealth",
+   "company": "1061 Team Member Services Executive",
    "title": "VP Talent Acquisition",
    "location": "ADVENTHEALTH HEADQUARTERS",
    "url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/ADVENTHEALTH-HEADQUARTERS/VP-Talent-Acquisition_R-0373281",
@@ -699,27 +699,6 @@
    "pageLocation": "ADVENTHEALTH HEADQUARTERS, United States of America",
    "feed": "workday:adventhealth:AH_External_Career_Site",
    "inFeed": "2026-10-08"
-  },
-  {
-   "id": "369145ab5c",
-   "kind": "role",
-   "company": "Cloudflare",
-   "title": "Senior Director, R&D HR Business Partnering",
-   "location": "Hybrid",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8161890?gh_jid=8161890",
-   "comp": "",
-   "added": "2026-10-08",
-   "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "greenhouse:cloudflare",
-   "inFeed": "2026-10-08",
-   "pageTitle": "Senior Director, R&D HR Business Partnering",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-10-08",
-   "pageLocation": "Hybrid"
   },
   {
    "id": "f2c1b6d0bf",
@@ -741,26 +720,6 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "pageLocation": "San Francisco, CA"
-  },
-  {
-   "id": "1fbac80c30",
-   "kind": "role",
-   "company": "Duolingo",
-   "title": "Director, Talent Acquisition – Sourcing",
-   "location": "Pittsburgh, PA",
-   "url": "https://careers.duolingo.com/jobs/8691257002?gh_jid=8691257002",
-   "comp": "",
-   "added": "2026-10-08",
-   "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "greenhouse:duolingo",
-   "inFeed": "2026-10-08",
-   "pageTitle": "Director, Talent Acquisition – Sourcing",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-10-08"
   },
   {
    "id": "77d96ea055",
@@ -804,30 +763,9 @@
    "pageLocation": "Remote US"
   },
   {
-   "id": "672a52649e",
-   "kind": "role",
-   "company": "Khealthcareers",
-   "title": "Senior Director of Clinical Recruiting",
-   "location": "New York, NY",
-   "url": "https://job-boards.greenhouse.io/khealthcareers/jobs/6114902004",
-   "comp": "",
-   "added": "2026-10-08",
-   "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "greenhouse:khealthcareers",
-   "inFeed": "2026-10-08",
-   "pageTitle": "Senior Director of Clinical Recruiting",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-10-08",
-   "pageLocation": "New York, NY"
-  },
-  {
    "id": "8d774328c2",
    "kind": "role",
-   "company": "Sofi",
+   "company": "SoFi",
    "title": "Director of Digital Employee Experience",
    "location": "CA - San Francisco",
    "url": "https://sofi.com/careers/job/7930079003?gh_jid=7930079003",
@@ -865,27 +803,6 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "pageLocation": "New York City, NY (Hybrid); San Francisco, CA (Hybrid)"
-  },
-  {
-   "id": "defec11436",
-   "kind": "role",
-   "company": "Trueanomalyinc",
-   "title": "Director, People Business Partners",
-   "location": "Denver, CO",
-   "url": "https://job-boards.greenhouse.io/trueanomalyinc/jobs/5207578007",
-   "comp": "",
-   "added": "2026-10-08",
-   "status": "live",
-   "lastChecked": "2026-10-08",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "greenhouse:trueanomalyinc",
-   "inFeed": "2026-10-08",
-   "pageTitle": "Director, People Business Partners",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-10-08",
-   "pageLocation": "Denver, CO"
   },
   {
    "id": "9e7ab75c42",
@@ -1016,7 +933,7 @@
   {
    "id": "1dfc36f73b",
    "kind": "role",
-   "company": "Helpscout",
+   "company": "Help Scout",
    "title": "VP of People",
    "location": "United States",
    "url": "https://jobs.ashbyhq.com/helpscout/320931c6-e9c5-4b28-91f1-c6b0c1811fb8",
@@ -1100,7 +1017,7 @@
   {
    "id": "001cad52b4",
    "kind": "role",
-   "company": "Shieldai",
+   "company": "Shield AI",
    "title": "Director, People Operations (R5390)",
    "location": "Seattle, Washington",
    "url": "https://jobs.lever.co/shieldai/9f3bb3e2-acea-4f52-b6af-9445920877b0",
@@ -1121,7 +1038,7 @@
   {
    "id": "f818157c6c",
    "kind": "role",
-   "company": "Hyperbolic",
+   "company": "Hyperbolic Labs",
    "title": "Head of Talent",
    "location": "San Francisco, CA",
    "url": "https://jobs.ashbyhq.com/hyperbolic/4283d14e-f7d6-4a85-954b-52def69f8fc5",
@@ -1184,7 +1101,7 @@
   {
    "id": "4337a3f157",
    "kind": "role",
-   "company": "Primeintellect",
+   "company": "Prime Intellect",
    "title": "Head of Talent",
    "location": "San Francisco",
    "url": "https://jobs.ashbyhq.com/primeintellect/cf9f2534-962f-41b2-b240-89f3e85f5b6d",
@@ -1205,7 +1122,7 @@
   {
    "id": "441cf54126",
    "kind": "role",
-   "company": "applied",
+   "company": "Applied Intuition",
    "title": "Head of Recruiting Operations ",
    "location": "Sunnyvale",
    "url": "https://jobs.ashbyhq.com/applied/5a3658a5-39e3-42ad-9c2a-f5e4bfc23da3",
@@ -1226,7 +1143,7 @@
   {
    "id": "01610b34b9",
    "kind": "role",
-   "company": "Manh",
+   "company": "10 Manhattan Associates, Inc.",
    "title": "Senior Director Talent Management",
    "location": "Atlanta, GA",
    "url": "https://manh.wd5.myworkdayjobs.com/External/job/Atlanta-GA/Senior-Director-Talent-Management_16995",
@@ -1247,7 +1164,7 @@
   {
    "id": "857490b7a7",
    "kind": "role",
-   "company": "Adventhealth",
+   "company": "1061 Team Member Services Executive",
    "title": "VP, Learning and Development",
    "location": "ADVENTHEALTH HEADQUARTERS",
    "url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/ADVENTHEALTH-HEADQUARTERS/VP--Learning-and-Development_R-0384495",
@@ -1268,7 +1185,7 @@
   {
    "id": "23a69e1fb2",
    "kind": "role",
-   "company": "Nvent",
+   "company": "ERICO International Corporation",
    "title": "Senior Human Resources Director",
    "location": "St Louis Park, MN, US",
    "url": "https://nvent.wd5.myworkdayjobs.com/nVent/job/St-Louis-Park-MN-US/Senior-Human-Resources-Director_R22794",
