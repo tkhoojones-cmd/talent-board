@@ -1297,7 +1297,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-09",
-   "closedStreak": 10
+   "closedStreak": 11
   },
   {
    "id": "a23feff7b7",
@@ -2404,22 +2404,10 @@
    "url": "https://www.pinecone.io/careers/c654236b-a053-47d3-a7c8-9cdef5a299c4",
    "comp": "$190K-$280K + equity",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "9d04230496",
-   "kind": "role",
-   "company": "Cresta",
-   "title": "Head of Global Talent Acquisition",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/cresta/jobs/5106247008",
-   "comp": "$220K-$300K",
-   "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-10-09",
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
    "id": "c51f7e1966",
@@ -2430,9 +2418,11 @@
    "url": "https://job-boards.greenhouse.io/taketwo/jobs/6933495",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-09",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:taketwo",
+   "notInFeed": "2026-10-09"
   },
   {
    "id": "9bc3889ea1",
@@ -2443,22 +2433,10 @@
    "url": "https://jobs.intuit.com/job/mountain-view/director-global-ta-programs/27595/70694946320",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "360d6d0b80",
-   "kind": "role",
-   "company": "Ford Motor",
-   "title": "Senior Director, Talent Management",
-   "location": "Dearborn, MI",
-   "url": "https://www.careers.ford.com/job/dearborn/senior-director-talent-management/48560/93154698240",
-   "comp": "",
-   "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-10-09",
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
    "id": "1c0e6761d2",
@@ -2469,9 +2447,12 @@
    "url": "https://careers-jobyaviation.icims.com/jobs/4912/talent-acquisition-lead-(head-of-ta)/job",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-10-09",
+   "reason": "title mismatch: we have 'Talent Acquisition Lead (Head of TA)', page says 'Careers | Joby Aviation'",
+   "feed": "icims:careers-jobyaviation",
+   "inFeed": "2026-10-09",
+   "closedStreak": 0
   },
   {
    "id": "2ecf21afc2",
@@ -2482,9 +2463,11 @@
    "url": "https://job-boards.greenhouse.io/banyansoftware/jobs/4978837007",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-09",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:banyansoftware",
+   "notInFeed": "2026-10-09"
   },
   {
    "id": "2fa4e08cf0",
@@ -2495,9 +2478,76 @@
    "url": "https://job-boards.greenhouse.io/babylist/jobs/5813133004",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-09",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:babylist",
+   "notInFeed": "2026-10-09"
+  },
+  {
+   "id": "a75dfd5298",
+   "kind": "role",
+   "company": "Banyansoftware",
+   "title": "Head of Global People Operations",
+   "location": "Toronto, Ontario, Canada; United States",
+   "url": "https://job-boards.greenhouse.io/banyansoftware/jobs/5146059007",
+   "comp": "$180,000 - $230,000",
+   "added": "2026-10-09",
+   "status": "live",
+   "lastChecked": "2026-10-09",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:banyansoftware",
+   "inFeed": "2026-10-09",
+   "compMax": 230000,
+   "pageTitle": "Head of Global People Operations",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-09",
+   "pageLocation": "Toronto, Ontario, Canada; United States"
+  },
+  {
+   "id": "d06f21e97e",
+   "kind": "ic",
+   "company": "Babylist",
+   "title": "Principal Technical Recruiter",
+   "location": "United States",
+   "url": "https://job-boards.greenhouse.io/babylist/jobs/5982397004",
+   "comp": "$163,443 to $218,000",
+   "added": "2026-10-09",
+   "status": "live",
+   "lastChecked": "2026-10-09",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:babylist",
+   "inFeed": "2026-10-09",
+   "compMax": 218000,
+   "pageTitle": "Principal Technical Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-09",
+   "pageLocation": "United States"
+  },
+  {
+   "id": "048fbc67c8",
+   "kind": "ic",
+   "company": "Babylist",
+   "title": "Principal Technical Recruiter",
+   "location": "Canada",
+   "url": "https://job-boards.greenhouse.io/babylist/jobs/6138049004",
+   "comp": "",
+   "added": "2026-10-09",
+   "status": "live",
+   "lastChecked": "2026-10-09",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:babylist",
+   "inFeed": "2026-10-09",
+   "pageTitle": "Principal Technical Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-09",
+   "pageLocation": "Canada"
   }
  ]
 }

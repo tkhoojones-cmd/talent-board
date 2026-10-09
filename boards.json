@@ -112,7 +112,9 @@
   "sonobello",
   "banyansoftware",
   "babylist",
-  "dataiku"
+  "dataiku",
+  "seekout",
+  "physicsx"
  ],
  "lever": [
   "zoox",
@@ -206,7 +208,9 @@
   "chaidiscovery",
   "etched",
   "superdial",
-  "gc-ai"
+  "gc-ai",
+  "cognition",
+  "saronic"
  ],
  "workday": [
   {
@@ -478,26 +482,28 @@
   "Walmart",
   "Sage",
   "Kontakt.io",
-  "Luma AI",
-  "Eight Sleep",
   "Walt Disney",
   "Klarity",
   "Palo Alto Networks",
   "SentinelOne",
   "SafetyCulture",
   "Paylocity",
-  "Take-Two",
   "Blue Origin",
   "Alation",
   "Rivian",
-  "SeekOut",
-  "One Model",
   "AIM Intelligent Machines",
   "Fractional AI",
-  "Twelve Labs",
   "Applied Intuition",
   "Alignment Health",
-  "Visier"
+  "Visier",
+  "DayOne",
+  "Emergent",
+  "Sigma",
+  "Coforge",
+  "Deloitte India",
+  "Matrix Pharmacorp",
+  "Magnit",
+  "CuraTeQ Biologics"
  ],
  "tried": {
   "UniUni": 1,
@@ -609,15 +615,37 @@
   "Tide Rock": 4,
   "neednova": 4,
   "wandb": 4,
-  "Instasks": 2,
-  "Salesforce": 2,
-  "Greenhouse Software": 2,
-  "Prescriptive Data": 2,
-  "Walmart": 2,
-  "Adobe": 2,
-  "Sage": 2,
-  "Crew Group": 2,
-  "Kontakt.io": 1
+  "Instasks": 3,
+  "Salesforce": 3,
+  "Greenhouse Software": 3,
+  "Prescriptive Data": 3,
+  "Walmart": 3,
+  "Adobe": 3,
+  "Sage": 3,
+  "Crew Group": 3,
+  "Kontakt.io": 2,
+  "Klarity": 1,
+  "SentinelOne": 1,
+  "SafetyCulture": 1,
+  "Palo Alto Networks": 1,
+  "Walt Disney": 1,
+  "Paylocity": 1,
+  "Alation": 1,
+  "Rivian": 1,
+  "Blue Origin": 1,
+  "Visier": 1,
+  "AIM Intelligent Machines": 1,
+  "Applied Intuition": 1,
+  "Fractional AI": 1,
+  "Alignment Health": 1,
+  "DayOne": 1,
+  "Emergent": 1,
+  "Sigma": 1,
+  "Coforge": 1,
+  "Magnit": 1,
+  "Deloitte India": 1,
+  "Matrix Pharmacorp": 1,
+  "CuraTeQ Biologics": 1
  },
  "dead": [
   "Slate Auto",
@@ -967,7 +995,15 @@
   "greenhouse:sonobello": 0,
   "ashby:gc-ai": 0,
   "smartrecruiters:uber": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "greenhouse:banyansoftware": 0,
+  "greenhouse:babylist": 0,
+  "greenhouse:dataiku": 0,
+  "greenhouse:seekout": 0,
+  "greenhouse:physicsx": 0,
+  "ashby:cognition": 0,
+  "ashby:saronic": 0,
+  "icims:careers-jobyaviation": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1054,13 +1090,19 @@
   "greenhouse:sonobello": "Sono Bello",
   "ashby:primeintellect": "Prime Intellect",
   "smartrecruiters:uber": "Uber",
-  "ashby:gc-ai": "GC AI"
+  "ashby:gc-ai": "GC AI",
+  "greenhouse:taketwo": "Take-Two",
+  "greenhouse:seekout": "SeekOut",
+  "greenhouse:physicsx": "PhysicsX",
+  "ashby:cognition": "Cognition",
+  "ashby:saronic": "Saronic"
  },
  "icims": [
   "careers-uhnjcareers",
   "careers-heritagechristianservices",
   "careers-naphcare",
-  "careers-uti"
+  "careers-uti",
+  "careers-jobyaviation"
  ],
  "oracle": [
   {
