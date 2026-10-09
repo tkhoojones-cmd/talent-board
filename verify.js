@@ -47,6 +47,17 @@ async function findTitle(page) {
     });
   } catch (e) { return ""; }
 }
+async function findOrg(page) {
+  try {
+    return await page.evaluate(() => {
+      for (const el of document.querySelectorAll('script[type="application/ld+json"]')) {
+        try { const j = JSON.parse(el.textContent); const items = Array.isArray(j) ? j : (j["@graph"] || [j]);
+          for (const it of items) if (it && it["@type"] === "JobPosting" && it.hiringOrganization) { const o = it.hiringOrganization; const n = typeof o === "string" ? o : o.name; if (n && n.length < 60) return n.trim(); } } catch (e) {}
+      }
+      const og = document.querySelector('meta[property="og:site_name"]'); return og && og.content && og.content.length < 60 ? og.content.trim() : "";
+    });
+  } catch (e) { return ""; }
+}
 async function validThroughPast(page) {
   try {
     return await page.evaluate(() => {
@@ -125,6 +136,8 @@ async function check(ctx, url, rec) {
     if (rec && rec.title && pt && !feedOk) {
       if (!titleAgrees(rec.title, pt) && !squash(text.slice(0, 3000)).includes(squash(rec.title))) return ["unverifiable", "title mismatch: we have '" + rec.title + "', page says '" + pt.slice(0, 90) + "'"];
     }
+    const org = await findOrg(page);
+    if (org && rec) rec._org = org;
     return ["live", feedOk ? "in the employer's job feed today and the page shows the role" : "opened normally with an Apply control", await findLocation(page), pt, false];
   } catch (e) {
     return ["unverifiable", "error: " + e.message.slice(0, 80)];
@@ -162,6 +175,7 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
     let [state, why, loc, pt, definitive] = await check(ctx, j.url, j);
     if (state === "unverifiable") { [state, why, loc, pt, definitive] = await check(ctx, j.url, j); }
     if (pt) j.pageTitle = pt;
+    if (j._org) { if (j.source === "feed" && /^[A-Za-z0-9 ]+$/.test(j.company) && j.company === j.company.charAt(0).toUpperCase() + j.company.slice(1).toLowerCase() || j.source === "feed" && j.company === j.company.toLowerCase()) j.company = j._org; delete j._org; }
     if (state === "closed" && !definitive) {
       j.closedStreak = (j.closedStreak || 0) + 1;
       if (j.closedStreak < 2) { state = "unverifiable"; why = "looked closed once, rechecking: " + why; }

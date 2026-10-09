@@ -219,7 +219,7 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     added++; console.log("NEW", f.company, "|", f.title, "|", f.location);
   }
   // feed-added jobs that no longer pass the rules: drop only if never confirmed live
-  store.jobs = store.jobs.filter((j) => { if (j.source !== "feed" || j.status === "live") return true; const keep = wanted(j.title) && isNA(j.location); if (!keep) console.log("REMOVED (no longer matches rules):", j.company, "|", j.title); return keep; });
+  store.jobs = store.jobs.filter((j) => { if (j.source !== "feed") return true; const keep = wanted(j.title) && isNA(j.location); if (!keep) console.log("REMOVED (no longer matches rules):", j.company, "|", j.title); return keep; });
 
   console.log(`feeds ok: ${report.ok}, failed: ${report.fail.length}, jobs scanned: ${report.scanned}, matched: ${matches.length}, new: ${added}, probed: ${report.probed}`);
   if (report.fail.length) console.log("failed feeds:", report.fail.join(" "));

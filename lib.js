@@ -4,7 +4,7 @@ const STRONG = /\b(vp|svp|evp|vice president|head|chief|cpo|chro|ctlo)\b/i;
 const LEVEL = /\b(vp|svp|evp|vice president|head|chief|cpo|chro|ctlo|director|general manager)\b/i;
 const TOPIC = /\b(people|talent|recruit\w*|human resources|hr|human capital|workforce|culture|employee (experience|relations|engagement|success)|total rewards|learning (and|&) development|organizational (development|effectiveness)|staffing|chro|chief people|chief human|chief talent)\b/i;
 const NOISE = /\b(intern|interns|internship|coordinator|assistant|sourcer|analyst|specialist|generalist|engineer|software|designer|payroll|paralegal|apprentice|trainee)\b/i;
-const DIR_NOISE = /\b(business partner|people partner|hrbp|partner|operations analyst|payroll|systems|technology|technical program)\b/i;
+const DIR_NOISE = /\b(business partner\w*|people partner\w*|hrbp|partner\w*|sourcing|clinical|operations analyst|payroll|systems|technology|technical program)\b/i;
 
 function wanted(title) {
   const t = normTitle(title);
