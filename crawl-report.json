@@ -1,21 +1,20 @@
 {
- "at": "2026-10-09T12:26:22.592Z",
- "ok": 260,
+ "at": "2026-10-09T13:53:04.332Z",
+ "ok": 261,
  "failed": [
   "greenhouse:admarketplaceinc:0",
   "greenhouse:notion:0",
   "greenhouse:marqeta:0",
-  "greenhouse:alphahawaii:0",
   "lever:knownwell:404",
   "workable:montera:429",
   "workable:weekday-1:429",
-  "greenhouse:andurilindustries:0",
+  "greenhouse:alphahawaii:0",
   "workday:walmart:WalmartExternal:404",
   "workday:comcast:Comcast_Careers:404",
   "workday:dell:External:404",
   "workday:qualcomm:External:404"
  ],
- "scanned": 26253,
- "matched": 91,
- "added": 3
+ "scanned": 28737,
+ "matched": 92,
+ "added": 0
 }

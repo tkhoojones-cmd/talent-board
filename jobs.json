@@ -1297,7 +1297,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-09",
-   "closedStreak": 11
+   "closedStreak": 12
   },
   {
    "id": "a23feff7b7",
@@ -2404,10 +2404,10 @@
    "url": "https://www.pinecone.io/careers/c654236b-a053-47d3-a7c8-9cdef5a299c4",
    "comp": "$190K-$280K + equity",
    "added": "2026-10-09",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-10-09",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "c51f7e1966",
@@ -2433,10 +2433,10 @@
    "url": "https://jobs.intuit.com/job/mountain-view/director-global-ta-programs/27595/70694946320",
    "comp": "",
    "added": "2026-10-09",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-10-09",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "1c0e6761d2",
