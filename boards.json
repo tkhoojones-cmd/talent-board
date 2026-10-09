@@ -488,7 +488,12 @@
   "smartrecruiters:glean": 0,
   "recruitee:riderlevettbucknall": 0,
   "rippling:rippling": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "workable:montera": 0,
+  "icims:careers-uti": 0,
+  "icims:careers-heritagechristianservices": 0,
+  "icims:careers-uhnjcareers": 0,
+  "icims:careers-naphcare": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",

@@ -1202,6 +1202,27 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "pageLocation": "St Louis Park, MN, US, United States of America"
+  },
+  {
+   "id": "7654f99564",
+   "kind": "role",
+   "company": "Montera",
+   "title": "Vice President, People",
+   "location": "San Francisco, California, United States",
+   "url": "https://apply.workable.com/montera/j/49CB1A370E/",
+   "comp": "",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workable:montera",
+   "inFeed": "2026-10-08",
+   "pageTitle": "Vice President, People",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "Remote"
   }
  ]
 }
