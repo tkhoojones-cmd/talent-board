@@ -228,6 +228,8 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
     });
   }
 
+  var ageH = DATA.verifiedAt ? (Date.now() - Date.parse(DATA.verifiedAt)) / 36e5 : 999;
+  if (ageH > 30) { var b = document.createElement("div"); b.setAttribute("style", "background:#b3261e;color:#fff;padding:10px 16px;font:600 14px system-ui;text-align:center"); b.textContent = "Not re-checked since " + (DATA.verifiedAt ? new Date(DATA.verifiedAt).toLocaleString() : "unknown") + ". Some of these roles may have closed; confirm on the employer's site."; document.body.insertBefore(b, document.body.firstChild); }
   $("foot").textContent = "Updated " + fmt(DATA.generated) + ". Every listing links to the employer's own career site and is re-checked daily, but roles can close without notice, so confirm on the employer's site before you plan around one.";
   paint();
 }).catch(function () { document.getElementById("foot").textContent = "Could not load listings. Please refresh."; });
