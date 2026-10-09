@@ -1,4 +1,4 @@
-const { wanted, isNA } = require("../lib");
+const { wanted, wantedIC, payRange, isNA } = require("../lib");
 let bad = 0;
 const t = (name, got, want) => { if (got !== want) { bad++; console.log("FAIL", name, "got", got, "want", want); } };
 const yes = ["Chief People Officer","VP, People","Head of People & Places","SVP Human Resources","Vice President of Talent Acquisition","Vice-President, People","V.P. People","VP, International People","VP Talent & Leadership Development","Head of Talent Acquisition, Engineering & Product","Chief People Officer & General Counsel","VP, Employee Relations & Engagement","Director of Human Resources","Director of People","Director, HR","Head of Executive Recruiting","Head of Technical Recruiting","Head of Learning & Development","Head of Employee Success","Head of the People Team","Head of North America Talent","Chief Human Resources Officer","VP Total Rewards","Head of Talent","Senior Director, Talent Acquisition","VP, HR - Operations"];
@@ -9,4 +9,12 @@ const locYes = ["San Francisco, CA","Remote","Remote - US","Remote (US only)","T
 const locNo = ["London, UK","Remote - India","Remote - Europe","Remote, Mexico","Bangalore, IN","Sydney, Australia","Remote - EMEA","Berlin, Germany","Singapore"];
 locYes.forEach((x) => t("NA: " + x, isNA(x), true));
 locNo.forEach((x) => t("not NA: " + x, isNA(x), false));
+const icYes = ["Executive Recruiter","Principal Recruiter","Staff Technical Recruiter","Principal Talent Partner","Executive Recruiting Lead","Lead Executive Recruiter","Senior Executive Recruiter, Engineering","Principal Executive Recruiter"];
+const icNo = ["Senior Recruiter","Technical Recruiter","Recruiting Manager","Head of Recruiting","VP Recruiting","Director, Executive Recruiting","Recruiting Coordinator","Executive Assistant","Recruiter","Executive Recruiter Intern","Principal Software Engineer","Recruiting Operations Lead","Contract Executive Recruiter"];
+icYes.forEach((x) => t("IC: " + x, wantedIC(x), true));
+icNo.forEach((x) => t("not IC: " + x, wantedIC(x), false));
+t("pay 1", (payRange("Pay range: $185,000 - $309,000 per year") || {}).max, 309000);
+t("pay 2", (payRange("$250K to $300K") || {}).max, 300000);
+t("pay 3", payRange("We pay well"), null);
+t("pay 4", (payRange("$120 - $150 per hour") || {}).max, undefined);
 console.log(bad ? bad + " failures" : "all passed"); process.exit(bad ? 1 : 0);

@@ -3,7 +3,7 @@
 // and adds any matching leadership people/talent role to jobs.json as "new".
 // It also records which jobs are in the employer's feed today (evidence the role is open).
 const fs = require("fs");
-const { wanted, isNA } = require("./lib");
+const { wanted, wantedIC, isNA } = require("./lib");
 const boards = JSON.parse(fs.readFileSync("boards.json", "utf8"));
 const store = JSON.parse(fs.readFileSync("jobs.json", "utf8"));
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver" }).format(new Date());
@@ -192,7 +192,7 @@ async function successfactors(s) {               // {host, company}; reads the c
   const jobs = [];
   for (const u of urls) {
     const slug = decodeURIComponent((u.match(/\/job\/([^/]+)\/\d+/) || [])[1] || "").replace(/-/g, " ").trim();
-    if (slug && wanted(slug)) jobs.push({ title: slug, location: "", url: u, slug: true });
+    if (slug && (wanted(slug) || wantedIC(slug))) jobs.push({ title: slug, location: "", url: u, slug: true });
   }
   return any ? { status: 200, jobs } : { status: 404 };
 }
@@ -266,7 +266,7 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     for (const j of r.jobs) {
       if (!j.url || !j.title) continue;
       ks.add(key(j.url));
-      if (wanted(j.title) && isNA(j.location)) matches.push({ company: display(a, t), title: j.title, location: j.location, url: j.url, feed: id });
+      if ((wanted(j.title) || wantedIC(j.title)) && isNA(j.location)) matches.push({ company: display(a, t), title: j.title, location: j.location, url: j.url, feed: id, kind: wanted(j.title) ? "role" : "ic" });
     }
     feedKeys.set(id, ks);
   });
@@ -275,7 +275,7 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     if (r.status !== 200) { report.fail.push(`${id}:${r.status}`); return; }
     report.ok++; report.scanned += r.jobs.length;
     const ks = new Set();
-    for (const j of r.jobs) { ks.add(key(j.url)); if (wanted(j.title) && isNA(j.location)) matches.push({ company: w.company, title: j.title, location: j.location, url: j.url, feed: id }); }
+    for (const j of r.jobs) { ks.add(key(j.url)); if ((wanted(j.title) || wantedIC(j.title)) && isNA(j.location)) matches.push({ company: w.company, title: j.title, location: j.location, url: j.url, feed: id, kind: wanted(j.title) ? "role" : "ic" }); }
     feedKeys.set(id, ks);
   });
 
@@ -285,7 +285,7 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
       const id = idOf(x); const r = await fn(x);
       if (r.status !== 200) { report.fail.push(`${id}:${r.status}`); return; }
       report.ok++; report.scanned += r.jobs.length;
-      for (const j of r.jobs) if (wanted(j.title) && isNA(j.location)) matches.push({ company: x.company, title: j.title, location: j.location, url: j.url, feed: id, slug: j.slug });
+      for (const j of r.jobs) if ((wanted(j.title) || wantedIC(j.title)) && isNA(j.location)) matches.push({ company: x.company, title: j.title, location: j.location, url: j.url, feed: id, slug: j.slug, kind: wanted(j.title) ? "role" : "ic" });
     });
   }
 
@@ -320,11 +320,11 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
   let added = 0;
   for (const f of matches) {
     const k = key(f.url); if (have.has(k)) continue; have.add(k);
-    store.jobs.push({ id: sha(f.url), kind: "role", company: f.company, title: f.title, location: f.location, url: f.url, comp: "", added: today, status: "new", lastChecked: null, reason: null, source: "feed", feed: f.feed, inFeed: today, ...(f.slug ? { titleFromSlug: true } : {}) });
+    store.jobs.push({ id: sha(f.url), kind: f.kind || "role", company: f.company, title: f.title, location: f.location, url: f.url, comp: "", added: today, status: "new", lastChecked: null, reason: null, source: "feed", feed: f.feed, inFeed: today, ...(f.slug ? { titleFromSlug: true } : {}) });
     added++; console.log("NEW", f.company, "|", f.title, "|", f.location);
   }
   // feed-added jobs that no longer pass the rules: drop only if never confirmed live
-  store.jobs = store.jobs.filter((j) => { if (j.source !== "feed") return true; const keep = wanted(j.title) && isNA(j.location); if (!keep) console.log("REMOVED (no longer matches rules):", j.company, "|", j.title); return keep; });
+  store.jobs = store.jobs.filter((j) => { if (j.source !== "feed") return true; const keep = (j.kind === "ic" ? wantedIC(j.title) : wanted(j.title)) && isNA(j.location); if (!keep) console.log("REMOVED (no longer matches rules):", j.company, "|", j.title); return keep; });
 
   console.log(`feeds ok: ${report.ok}, failed: ${report.fail.length}, jobs scanned: ${report.scanned}, matched: ${matches.length}, new: ${added}, probed: ${report.probed}`);
   if (report.fail.length) console.log("failed feeds:", report.fail.join(" "));

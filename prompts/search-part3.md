@@ -294,3 +294,4 @@ Steps:
 ## CHANGE LOG
 - 2026-10-08: moved off Airtable; the repo is the database; verification is done by the GitHub Action robot with a real browser (WebFetch/page-render checks proved unreliable: Greenhouse keeps closed job pages up). Search tiers and filters unchanged.
 - 2026-10-08 (later): searches now mainly discover companies for the feed crawl (boards.json); roles are added by the crawl and also directly when an employer link is found. Skip list removed.
+- 2026-10-09: the robot's feed crawl now also adds senior individual-contributor recruiting roles itself (titles with Executive/Principal/Staff + Recruiter/Recruiting/Talent Partner; kind "ic"), and only publishes a feed-found IC role when the posting shows pay of $250K or more. Tier 8 below still applies its own $300K+ bar to roles YOU add; add a role you verify yourself with kind "ic" and the comp range in `comp`.

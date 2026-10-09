@@ -17,6 +17,26 @@ function wanted(title) {
   return true;
 }
 
+
+// Senior individual-contributor recruiting roles (the "Senior recruiting" tab): executive / principal / staff level, not managers.
+const IC_LEVEL = /\b(executive|principal|staff|lead|senior executive)\b/i;
+const IC_TOPIC = /\b(recruiter|recruiting|talent partner|talent acquisition partner|executive search|talent sourcer|talent acquisition lead)\b/i;
+const IC_NOISE = /\b(intern|interns|internship|coordinator|assistant|associate|junior|apprentice|trainee|contract|temporary|temp|operations|ops|enablement|analyst|engineer|software|designer|payroll|paralegal|legal|manager|director)\b/i;
+function wantedIC(title) {
+  const t = normTitle(title);
+  if (!IC_LEVEL.test(t) || !IC_TOPIC.test(t) || IC_NOISE.test(t)) return false;
+  if (!/\b(executive|principal|staff)\b/i.test(t) && !/\blead\b.*\b(executive|technical|principal)\b|\b(executive|technical|principal)\b.*\blead\b/i.test(t)) return false;
+  return !wanted(t);                                  // leadership roles belong on the roles tab
+}
+// highest figure in a pay range such as "$185,000 - $309,000" or "$250K to $300K"; returns {text, max} or null
+function payRange(text) {
+  const m = String(text || "").match(/\$\s?(\d{2,3}(?:,\d{3})+|\d{2,3}(?:\.\d)?\s?[kK])\s*(?:-|–|—|to)\s*\$?\s?(\d{2,3}(?:,\d{3})+|\d{2,3}(?:\.\d)?\s?[kK])/);
+  if (!m) return null;
+  const n = (x) => /k$/i.test(x.trim()) ? Math.round(parseFloat(x) * 1000) : parseInt(x.replace(/,/g, ""), 10);
+  const lo = n(m[1]), hi = n(m[2]); if (!(lo >= 20000 && hi >= lo)) return null;
+  return { text: m[0].replace(/\s+/g, " "), max: hi };
+}
+
 const STATES = "AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC|AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|QC|SK|YT";
 const STATE_RE = new RegExp(",\\s?(" + STATES + ")\\b(?!\\w)");
 const EXPLICIT_NA = /\b(united states|usa|u\.s\.a?|canada|north america|americas)\b|\bUS\b/i;
@@ -38,4 +58,4 @@ function isNA(loc) {
   }
   return !anyForeign;
 }
-module.exports = { wanted, isNA, normTitle, TOPIC };
+module.exports = { wanted, wantedIC, payRange, isNA, normTitle, TOPIC };

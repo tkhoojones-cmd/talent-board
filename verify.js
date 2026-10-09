@@ -2,7 +2,7 @@
 // and publishes only the ones that are clearly still open.
 const { chromium } = require("playwright");
 const fs = require("fs");
-const { isNA, TOPIC, normTitle, wanted } = require("./lib");
+const { isNA, TOPIC, normTitle, wanted, wantedIC, payRange } = require("./lib");
 
 const CLOSED = /no longer (available|accepting|open|active|posted|listed|hiring)|(position|job|role|posting|opening|requisition|opportunity)( has been| is| was)? (filled|closed|removed|expired|unavailable|no longer|cancelled|canceled)|this (job|position|posting|role|opportunity) (has|is|isn.t)( been)? (expired|closed|removed|filled|available|open)|page (you are looking for )?(doesn.t|does not) exist|we couldn.t find|couldn.t find that|sorry,? (but )?(the|this) (job|page|position)|job not found|has expired|not (currently )?accepting (new )?applications|applications? (are|is) (now )?closed|applications are no longer being accepted|deadline (has|had) passed|position (is )?(on hold|paused)/i;
 
@@ -122,7 +122,7 @@ async function check(ctx, url, rec) {
     const past = await validThroughPast(page);
     if (past) return ["closed", "posting's validThrough date has passed: " + past, "", "", false];
     const pt = await findTitle(page);
-    if (rec && rec.titleFromSlug && pt) { if (wanted(pt)) { rec.title = pt; delete rec.titleFromSlug; } else return ["unverifiable", "page title does not look like the role: " + pt.slice(0, 80)]; }
+    if (rec && rec.titleFromSlug && pt) { if (wanted(pt) || wantedIC(pt)) { rec.title = pt; delete rec.titleFromSlug; } else return ["unverifiable", "page title does not look like the role: " + pt.slice(0, 80)]; }
     // positive evidence: the employer's own job feed lists this role today AND the page shows the role's title
     const feedOk = rec && rec.inFeed === new Date().toLocaleDateString("en-CA", { timeZone: "America/Vancouver" }) && rec.title && squash(text).includes(squash(rec.title));
     if (!id) {
@@ -137,6 +137,7 @@ async function check(ctx, url, rec) {
     if (rec && rec.title && pt && !feedOk) {
       if (!titleAgrees(rec.title, pt) && !squash(text.slice(0, 3000)).includes(squash(rec.title))) return ["unverifiable", "title mismatch: we have '" + rec.title + "', page says '" + pt.slice(0, 90) + "'"];
     }
+    const pay = payRange(text); if (rec && pay) { rec.comp = pay.text; rec.compMax = pay.max; }
     const org = await findOrg(page);
     if (org && rec && !/myworkdayjobs\.com/.test(url) && !/^\d/.test(org)) rec._org = org;
     return ["live", feedOk ? "in the employer's job feed today and the page shows the role" : "opened normally with an Apply control", await findLocation(page), pt, false];
@@ -210,6 +211,7 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
   const dupSeen = new Set();
   const pub = (kind) => store.jobs.filter((j) => {
     if (j.status !== "live" || j.kind !== kind) return false;
+    if (kind === "ic" && j.source === "feed" && !(j.compMax >= 250000)) return false;   // senior recruiting tab: the posting must show pay of $250K or more
     if (j.location && !UNCLEAR.test(j.location) && !isNA(j.location)) return false;
     if (j.pageLocation && !isNA(j.pageLocation)) return false;
     const clearLoc = (j.location && !UNCLEAR.test(j.location)) || (j.pageLocation && !UNCLEAR.test(j.pageLocation));
