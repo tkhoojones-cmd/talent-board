@@ -170,8 +170,7 @@ NOTE: Companies large enough to not surface via Ashby/Lever aggregator searches 
 - **Vancouver compatibility** flag in the Location field: `Remote-first (global ✓)` / `Remote (US + Canada ✓)` / `Remote (US only ⚠️)` / `Hybrid ([City] ⚠️)` / `On-site ([City] ⚠️)`
 - **Fractional/Interim roles (Tier 6.9):** flag clearly in Notes with "FRACTIONAL/INTERIM" as the first word.
 
-**Skip list — do not add these companies again (applies to ALL tables):**
-Cocreate Talent, Daversa, Adverb Ventures, Founder Collective, Casa, Tofu, Ascent Sports Group, Instacart, Microsoft, Cerebras, Artisanal Talent, True, One North Talent, RevenueCat, Babylist, LTV, Move Concierge, Nitra, Lumos, Orbital, RADAR, Armada, CSC Generation, Mecka AI, Luminai, Turn/River, Inspiren, NABIS, Hermeus, Machinify, Runpod, Casper Studios, CharterUP, Corgi Insurance, GoGlobal, Salient, F2, Clio, OpenFX, Dexory, Blackstone (and its portfolio companies, e.g. LivCor/Revantage), Vestiaire Collective, Perry Ellis International, Okta, Shift4, Greenhouse, Engine, Mochi Health, Kontakt.io, Toptal, Transcarent, Kensington Tours, Empower, Pave America, Mintlify, Lightfield, Solstice, Conduct, Vancity, FAR.AI, Affirm, Marqeta, Tigera.
+**Skip list: none.** Do not skip companies. De-dup only against jobs.json (Step 4). If a company seems unwanted, add it anyway; Tim will say so.
 
 **Note:** being on this skip list does NOT mean every existing record for that company is dead.
 
