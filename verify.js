@@ -3,7 +3,7 @@
 const { chromium } = require("playwright");
 const fs = require("fs");
 
-const CLOSED = /no longer (available|accepting|open|active)|(position|job|role|posting|opening|requisition)( has been| is| was)? (filled|closed|removed|expired|unavailable|no longer)|this (job|position|posting|role) (has|is)( been)? (expired|closed|removed|filled)|page (you are looking for )?(doesn.t|does not) exist|we couldn.t find|couldn.t find that|sorry,? (but )?(the|this) (job|page|position)|404|not found|job not found|has expired/i;
+const CLOSED = /no longer (available|accepting|open|active)|(position|job|role|posting|opening|requisition)( has been| is| was)? (filled|closed|removed|expired|unavailable|no longer)|this (job|position|posting|role) (has|is)( been)? (expired|closed|removed|filled)|page (you are looking for )?(doesn.t|does not) exist|we couldn.t find|couldn.t find that|sorry,? (but )?(the|this) (job|page|position)|404|not found|job not found|has expired|not (currently )?accepting (new )?applications|applications? (are|is) (now )?closed|no longer taking applications|position (is )?(on hold|paused)/i;
 
 function idFrom(url) {
   const m = url.match(/\/jobs\/(\d+)/) || url.match(/lever\.co\/[^/]+\/([0-9a-f-]{36})/i) || url.match(/_(R-?\d+[\w-]*)/);
@@ -46,7 +46,38 @@ async function findLocation(page) {
   } catch (e) { return ""; }
 }
 
-async function check(ctx, url) {
+
+// the job title as the posting itself shows it
+async function findTitle(page) {
+  try {
+    return await page.evaluate(() => {
+      const clean = (t) => (t || "").replace(/\s+/g, " ").trim();
+      for (const el of document.querySelectorAll('script[type="application/ld+json"]')) {
+        try {
+          const j = JSON.parse(el.textContent);
+          const items = Array.isArray(j) ? j : (j["@graph"] || [j]);
+          for (const it of items) if (it && it["@type"] === "JobPosting" && it.title) return clean(it.title);
+        } catch (e) {}
+      }
+      const h1 = document.querySelector("h1");
+      if (h1 && clean(h1.innerText).length > 2) return clean(h1.innerText);
+      const og = document.querySelector('meta[property="og:title"]');
+      if (og && og.content) return clean(og.content);
+      return clean(document.title);
+    });
+  } catch (e) { return ""; }
+}
+const STOP = new Set(["of","and","the","a","for","to","in","at","head","vp","vice","president","senior","sr"]);
+const toks = (t) => (t || "").toLowerCase().replace(/[^a-z0-9 ]/g, " ").split(/\s+/).filter(w => w && !STOP.has(w));
+// does the posting's title agree with what we recorded?
+function titleAgrees(recorded, onPage) {
+  const a = toks(recorded), b = new Set(toks(onPage));
+  if (!a.length) return true;
+  return a.some(w => b.has(w));
+}
+const LEADER_TOPIC = /people|talent|recruit|human|hr\b|culture|workforce|chro|chief/i;
+
+async function check(ctx, url, rec) {
   const page = await ctx.newPage();
   try {
     let resp;
@@ -71,7 +102,12 @@ async function check(ctx, url) {
     if (text.length < 400) return ["unverifiable", "page had almost no text (blocked or not rendered)"];
     const apply = await page.locator("a, button, input[type=submit]").filter({ hasText: /apply/i }).count();
     if (!apply) return ["unverifiable", "no Apply control found"];
-    return ["live", "opened normally with an Apply control", await findLocation(page)];
+    const pt = await findTitle(page);
+    if (rec && rec.title && pt) {
+      if (!titleAgrees(rec.title, pt)) return ["unverifiable", "title mismatch: we have '" + rec.title + "', page says '" + pt.slice(0, 90) + "'"];
+      if (rec.kind === "role" && !LEADER_TOPIC.test(pt)) return ["unverifiable", "page title doesn't look like a people/talent role: '" + pt.slice(0, 90) + "'"];
+    }
+    return ["live", "opened normally with an Apply control", await findLocation(page), pt];
   } catch (e) {
     return ["unverifiable", "error: " + e.message.slice(0, 80)];
   } finally { await page.close().catch(() => {}); }
@@ -102,8 +138,9 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
       j.status = "needs_employer_link"; j.reason = "link is a job board, not the employer's own page"; j.lastChecked = today;
       console.log("needs link ", j.company, "|", j.title); continue;
     }
-    let [state, why, loc] = await check(ctx, j.url);
-    if (state === "unverifiable") { [state, why, loc] = await check(ctx, j.url); }
+    let [state, why, loc, pt] = await check(ctx, j.url, j);
+    if (state === "unverifiable") { [state, why, loc, pt] = await check(ctx, j.url, j); }
+    if (pt) j.pageTitle = pt;
     j.status = state; j.reason = why; j.lastChecked = today;
     // take the location from the real posting when ours is missing or vague
     if (loc && (!j.location || UNCLEAR.test(j.location) || /verify|confirm/i.test(j.location))) j.location = loc;
