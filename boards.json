@@ -569,8 +569,8 @@
   "Valor": 4,
   "Fireworks AI": 4,
   "Tide Rock": 4,
-  "neednova": 1,
-  "wandb": 1
+  "neednova": 2,
+  "wandb": 2
  },
  "dead": [
   "Slate Auto",
@@ -909,7 +909,7 @@
   "workday:comcast:Comcast_Careers": 1,
   "workday:dell:External": 1,
   "workday:qualcomm:External": 1,
-  "lever:knownwell": 1
+  "lever:knownwell": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
