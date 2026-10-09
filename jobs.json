@@ -28,7 +28,7 @@
    "title": "Head of People",
    "location": "Hybrid (Vancouver, BC)",
    "url": "https://jobs.lever.co/minesense/90bb8c5b-32aa-4692-8e38-c57d1e0353dd",
-   "comp": "$175,000-$200,000 + bonus, RRSP match",
+   "comp": "$175,000 - $200,000",
    "added": "2026-09-27",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -39,7 +39,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "feed": "lever:minesense",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 200000
   },
   {
    "id": "ad81226139",
@@ -68,7 +69,7 @@
    "title": "Head of People",
    "location": "Hybrid (NYC)",
    "url": "https://jobs.lever.co/copia/5a914d30-5ec8-43f2-9366-b64d7e55f670",
-   "comp": "",
+   "comp": "$240,000 - $260,000",
    "added": "2026-10-07",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -79,7 +80,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "feed": "lever:copia",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 260000
   },
   {
    "id": "1c7822c770",
@@ -88,7 +90,7 @@
    "title": "Chief People Officer",
    "location": "On-site (US)",
    "url": "https://reitmr.wd5.myworkdayjobs.com/en-US/Sonesta/job/Chief-People-Officer_R-0073172",
-   "comp": "",
+   "comp": "$260,000 to $290,000",
    "added": "2026-09-07",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -99,7 +101,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "feed": "workday:reitmr:Sonesta",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 290000
   },
   {
    "id": "aba406458f",
@@ -128,7 +131,7 @@
    "title": "VP of People (HR)",
    "location": "Hybrid (New York, NY)",
    "url": "https://job-boards.greenhouse.io/khealthcareers/jobs/6114888004",
-   "comp": "",
+   "comp": "$225,000 - $275,000",
    "added": "2026-08-21",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -139,7 +142,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "feed": "greenhouse:khealthcareers",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 275000
   },
   {
    "id": "47b4a83caf",
@@ -208,7 +212,7 @@
    "title": "Chief People Officer",
    "location": "On-site (US)",
    "url": "https://job-boards.greenhouse.io/goldenpetbrands/jobs/4696730005",
-   "comp": "$288K-$360K",
+   "comp": "$288,000-$360,000",
    "added": "2026-09-07",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -219,7 +223,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "feed": "greenhouse:goldenpetbrands",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 360000
   },
   {
    "id": "1b37f99b85",
@@ -248,7 +253,7 @@
    "title": "Chief People Officer",
    "location": "Remote (US only)",
    "url": "https://jobs.lever.co/thetrevorproject/14d23690-1308-4837-a129-c2213736fb20",
-   "comp": "$260,000-$280,000",
+   "comp": "$260,000 - $280,000",
    "added": "2026-09-07",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -259,7 +264,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "feed": "lever:thetrevorproject",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 280000
   },
   {
    "id": "48bc622e13",
@@ -288,7 +294,7 @@
    "title": "Director, People Partners – Product, Design & Engineering",
    "location": "On-site (San Francisco, CA)",
    "url": "https://boards.greenhouse.io/figma/jobs/6150563004",
-   "comp": "$235K–$317K",
+   "comp": "$235,000 - $317,000",
    "added": "2026-09-16",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -299,7 +305,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "feed": "greenhouse:figma",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 317000
   },
   {
    "id": "08e07c8451",
@@ -348,7 +355,7 @@
    "title": "Head of Talent",
    "location": "On-site (Pasadena, CA)",
    "url": "https://jobs.ashbyhq.com/oratomic/3d067da3-c5f4-4eaf-a710-f18429ed898f",
-   "comp": "$200K-$300K + equity",
+   "comp": "$200K – $300K",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -359,7 +366,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "feed": "ashby:oratomic",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 300000
   },
   {
    "id": "f37c0129f3",
@@ -388,7 +396,7 @@
    "title": "Executive Recruiting Lead",
    "location": "Foster City, CA (hybrid, 3 days on-site)",
    "url": "https://jobs.lever.co/zoox/c7ae5688-4bee-4378-b4de-6c9ad0c186ec",
-   "comp": "$244K-$321K base + equity",
+   "comp": "$244,000 - $321,000",
    "added": "2026-08-27",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -399,7 +407,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "feed": "lever:zoox",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 321000
   },
   {
    "id": "7d865a2bdc",
@@ -464,7 +473,7 @@
    "title": "Head of Recruiting, Communications, Brand, & Marketing",
    "location": "San Francisco, CA",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5440891008",
-   "comp": "",
+   "comp": "$295,000 - $375,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -476,7 +485,8 @@
    "lastLive": "2026-10-08",
    "pageLocation": "San Francisco, CA",
    "feed": "greenhouse:anthropic",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 375000
   },
   {
    "id": "ef15131d11",
@@ -485,7 +495,7 @@
    "title": "Director, People M&A",
    "location": "San Francisco, California",
    "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8637368002",
-   "comp": "",
+   "comp": "$225,300—$309,750",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -494,7 +504,8 @@
    "closedStreak": 0,
    "pageTitle": "Director, People M&A",
    "failStreak": 0,
-   "lastLive": "2026-10-08"
+   "lastLive": "2026-10-08",
+   "compMax": 309750
   },
   {
    "id": "efb3ff9648",
@@ -503,7 +514,7 @@
    "title": "Director, Global People Operations & Compliance",
    "location": "Remote, Canada; Remote, United States",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8872500002",
-   "comp": "",
+   "comp": "$152,800 - $259,200",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -515,7 +526,8 @@
    "lastLive": "2026-10-08",
    "pageLocation": "Remote, Canada; Remote, United States",
    "feed": "greenhouse:gitlab",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 259200
   },
   {
    "id": "6a1c2440ed",
@@ -524,7 +536,7 @@
    "title": "Director, Global Tech Recruiting",
    "location": "San Francisco, California",
    "url": "https://www.okta.com/company/careers/opportunity/8212083?gh_jid=8212083",
-   "comp": "",
+   "comp": "$224,000—$308,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -533,7 +545,8 @@
    "closedStreak": 0,
    "pageTitle": "Director, Global Tech Recruiting",
    "failStreak": 0,
-   "lastLive": "2026-10-08"
+   "lastLive": "2026-10-08",
+   "compMax": 308000
   },
   {
    "id": "d61c840baa",
@@ -542,7 +555,7 @@
    "title": "Senior Director, GTM Recruiting",
    "location": "San Francisco, California",
    "url": "https://www.okta.com/company/careers/opportunity/8196226?gh_jid=8196226",
-   "comp": "",
+   "comp": "$264,000—$363,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -551,7 +564,8 @@
    "closedStreak": 0,
    "pageTitle": "Senior Director, GTM Recruiting",
    "failStreak": 0,
-   "lastLive": "2026-10-08"
+   "lastLive": "2026-10-08",
+   "compMax": 363000
   },
   {
    "id": "ef71157977",
@@ -560,7 +574,7 @@
    "title": "Senior Director/ VP, People Operations",
    "location": "San Mateo, CA United States",
    "url": "https://job-boards.greenhouse.io/verkada/jobs/5170948007",
-   "comp": "",
+   "comp": "$280,000 - $420,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -572,7 +586,8 @@
    "lastLive": "2026-10-08",
    "pageLocation": "San Mateo, CA United States",
    "feed": "greenhouse:verkada",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 420000
   },
   {
    "id": "ab53072cbe",
@@ -581,7 +596,7 @@
    "title": "Head of Talent Acquisition",
    "location": "Foster City, CA",
    "url": "https://jobs.lever.co/zoox/48639085-6179-4a14-94c5-5b5ba027879c",
-   "comp": "",
+   "comp": "$291,000 - $369,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -593,7 +608,8 @@
    "lastLive": "2026-10-08",
    "pageLocation": "Foster City, CA",
    "feed": "lever:zoox",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 369000
   },
   {
    "id": "e2d4d0d222",
@@ -602,7 +618,7 @@
    "title": "Chief People Officer",
    "location": "Corporate Office – Newton, MA",
    "url": "https://reitmr.wd5.myworkdayjobs.com/Sonesta/job/Corporate-Office--Newton-MA/Chief-People-Officer_R-0073172",
-   "comp": "",
+   "comp": "$260,000 to $290,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -614,7 +630,8 @@
    "lastLive": "2026-10-08",
    "pageLocation": "Corporate Office – Newton, MA, United States of America",
    "feed": "workday:reitmr:Sonesta",
-   "inFeed": "2026-10-08"
+   "inFeed": "2026-10-08",
+   "compMax": 290000
   },
   {
    "id": "a863d6b8a3",
@@ -728,7 +745,7 @@
    "title": "Head of Talent Management Programs and PMO",
    "location": "Pittsburgh, PA",
    "url": "https://careers.duolingo.com/jobs/8590178002?gh_jid=8590178002",
-   "comp": "",
+   "comp": "$183,200—$274,800",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -739,7 +756,8 @@
    "pageTitle": "Head of Talent Management Programs and PMO",
    "closedStreak": 0,
    "failStreak": 0,
-   "lastLive": "2026-10-08"
+   "lastLive": "2026-10-08",
+   "compMax": 274800
   },
   {
    "id": "293d0b6f48",
@@ -748,7 +766,7 @@
    "title": "Vice President, People Business Partner & Employee Relations",
    "location": "Remote US",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7894014003",
-   "comp": "",
+   "comp": "$340,000 - $380,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -760,7 +778,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Remote US"
+   "pageLocation": "Remote US",
+   "compMax": 380000
   },
   {
    "id": "8d774328c2",
@@ -790,7 +809,7 @@
    "title": "Director of Technical Recruiting",
    "location": "New York City, NY (Hybrid); San Francisco, CA (Hybrid)",
    "url": "https://job-boards.greenhouse.io/snorkelai/jobs/6122805004",
-   "comp": "",
+   "comp": "$170,000 - $300,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -802,7 +821,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "New York City, NY (Hybrid); San Francisco, CA (Hybrid)"
+   "pageLocation": "New York City, NY (Hybrid); San Francisco, CA (Hybrid)",
+   "compMax": 300000
   },
   {
    "id": "9e7ab75c42",
@@ -811,7 +831,7 @@
    "title": "Head of Early Career Recruiting",
    "location": "San Francisco, California / New York, New York",
    "url": "https://jobs.ashbyhq.com/notion/076371b1-e9b0-4ad7-b67b-ae9e4572f65a",
-   "comp": "",
+   "comp": "$225,000 - $275,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -823,7 +843,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, United States"
+   "pageLocation": "San Francisco, California, United States",
+   "compMax": 275000
   },
   {
    "id": "274e93ce87",
@@ -832,7 +853,7 @@
    "title": "Head of Sales Recruiting, AMER",
    "location": "San Francisco, California / New York, New York",
    "url": "https://jobs.ashbyhq.com/notion/e9827815-0e9a-489f-a121-41ae83f54f77",
-   "comp": "",
+   "comp": "$225,000 - $275,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -844,7 +865,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, United States"
+   "pageLocation": "San Francisco, California, United States",
+   "compMax": 275000
   },
   {
    "id": "82fc84f045",
@@ -853,7 +875,7 @@
    "title": "Senior Manager, Head of Talent Operations",
    "location": "New York, NY (HQ) / San Francisco, CA / Remote (US)",
    "url": "https://jobs.ashbyhq.com/ramp/bdd28c40-f95b-43df-bebe-3b8a25c8f602",
-   "comp": "",
+   "comp": "$220K – $302K",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -865,7 +887,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "New York City, NY, USA"
+   "pageLocation": "New York City, NY, USA",
+   "compMax": 302000
   },
   {
    "id": "79f90fafd6",
@@ -874,7 +897,7 @@
    "title": "Head of Global Recruiting Operations",
    "location": "San Francisco",
    "url": "https://jobs.ashbyhq.com/harvey/e3d380e5-e376-44a2-93cd-e4f9983cd4d6",
-   "comp": "",
+   "comp": "$196.2K – $294.2K",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -886,7 +909,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, USA"
+   "pageLocation": "San Francisco, California, USA",
+   "compMax": 294200
   },
   {
    "id": "82d60d0c3c",
@@ -895,7 +919,7 @@
    "title": "Head of Global Recruiting Operations",
    "location": "New York",
    "url": "https://jobs.ashbyhq.com/harvey/c3709b39-8517-4301-be38-cca1105146e7",
-   "comp": "",
+   "comp": "$196.2K – $294.2K",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -907,7 +931,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "New York, New York, USA"
+   "pageLocation": "New York, New York, USA",
+   "compMax": 294200
   },
   {
    "id": "1190e19be9",
@@ -916,7 +941,7 @@
    "title": "Director of Talent",
    "location": "New York City",
    "url": "https://jobs.ashbyhq.com/eliseai/0e368ef3-b272-429d-a85e-e558df1493de",
-   "comp": "",
+   "comp": "$200,000 - $275,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -928,7 +953,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "New York , NY , United States"
+   "pageLocation": "New York , NY , United States",
+   "compMax": 275000
   },
   {
    "id": "1dfc36f73b",
@@ -937,7 +963,7 @@
    "title": "VP of People",
    "location": "United States",
    "url": "https://jobs.ashbyhq.com/helpscout/320931c6-e9c5-4b28-91f1-c6b0c1811fb8",
-   "comp": "",
+   "comp": "$227K – $250K",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -949,7 +975,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "United States"
+   "pageLocation": "United States",
+   "compMax": 250000
   },
   {
    "id": "dae0c16373",
@@ -958,7 +985,7 @@
    "title": "Director, Recruiting, Digital Infrastructure",
    "location": "San Francisco, CA - US",
    "url": "https://jobs.ashbyhq.com/crusoe/09b085c5-dc6e-4009-b330-378ff0c11fb2",
-   "comp": "",
+   "comp": "$215,000 - $255,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -970,7 +997,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, USA"
+   "pageLocation": "San Francisco, California, USA",
+   "compMax": 255000
   },
   {
    "id": "21d6d156af",
@@ -979,7 +1007,7 @@
    "title": "Director, People Success - Digital Infrastructure Group",
    "location": "San Francisco, CA - US",
    "url": "https://jobs.ashbyhq.com/crusoe/2875f7e1-7cfc-41d4-ba4d-1ed6be4939c8",
-   "comp": "",
+   "comp": "$195,000 - $270,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -991,7 +1019,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, USA"
+   "pageLocation": "San Francisco, California, USA",
+   "compMax": 270000
   },
   {
    "id": "bc5406c2ad",
@@ -1000,7 +1029,7 @@
    "title": "Director, People Success - Tech",
    "location": "San Francisco, CA - US",
    "url": "https://jobs.ashbyhq.com/crusoe/c14b835d-d8d4-45e0-ba88-c9a41911631d",
-   "comp": "",
+   "comp": "$195,000 - $270,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1012,7 +1041,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, USA"
+   "pageLocation": "San Francisco, California, USA",
+   "compMax": 270000
   },
   {
    "id": "001cad52b4",
@@ -1021,7 +1051,7 @@
    "title": "Director, People Operations (R5390)",
    "location": "Seattle, Washington",
    "url": "https://jobs.lever.co/shieldai/9f3bb3e2-acea-4f52-b6af-9445920877b0",
-   "comp": "",
+   "comp": "$170,000 - $300,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1033,7 +1063,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Diego, California / Dallas, Texas / San Mateo, California / Seattle, Washington"
+   "pageLocation": "San Diego, California / Dallas, Texas / San Mateo, California / Seattle, Washington",
+   "compMax": 300000
   },
   {
    "id": "f818157c6c",
@@ -1063,7 +1094,7 @@
    "title": "Head of Talent",
    "location": "San Francisco, California",
    "url": "https://jobs.ashbyhq.com/exa/3804115b-24c5-4854-8bc6-6b6f0de85a1f",
-   "comp": "",
+   "comp": "$200K – $300K",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1075,7 +1106,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, United States"
+   "pageLocation": "San Francisco, California, United States",
+   "compMax": 300000
   },
   {
    "id": "9777762317",
@@ -1084,7 +1116,7 @@
    "title": "Head of People",
    "location": "San Francisco, California",
    "url": "https://jobs.ashbyhq.com/exa/d24ba483-3d39-4552-a9cf-61a4f57c494c",
-   "comp": "",
+   "comp": "$200K – $350K",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1096,7 +1128,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, United States"
+   "pageLocation": "San Francisco, California, United States",
+   "compMax": 350000
   },
   {
    "id": "4337a3f157",
@@ -1126,7 +1159,7 @@
    "title": "Head of Recruiting Operations ",
    "location": "Sunnyvale",
    "url": "https://jobs.ashbyhq.com/applied/5a3658a5-39e3-42ad-9c2a-f5e4bfc23da3",
-   "comp": "",
+   "comp": "$198.3K – $238K",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1138,7 +1171,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Sunnyvale, California, United States"
+   "pageLocation": "Sunnyvale, California, United States",
+   "compMax": 238000
   },
   {
    "id": "01610b34b9",
@@ -1211,7 +1245,7 @@
    "title": "Vice President, People",
    "location": "San Francisco, California, United States",
    "url": "https://apply.workable.com/montera/j/49CB1A370E/",
-   "comp": "",
+   "comp": "$275,000 – $325,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1223,7 +1257,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Remote"
+   "pageLocation": "Remote",
+   "compMax": 325000
   },
   {
    "id": "ed6aa9aa1e",
@@ -1232,7 +1267,7 @@
    "title": "VP, Employee Success Business Partner, Finance",
    "location": "Washington - Seattle, United States of America",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Washington---Seattle/VP--Employee-Success-Business-Partner--Finance_JR354363-1",
-   "comp": "",
+   "comp": "$212,700 - $374,400",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1244,7 +1279,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Washington - Seattle, United States of America"
+   "pageLocation": "Washington - Seattle, United States of America",
+   "compMax": 374400
   },
   {
    "id": "a4354e0d23",
@@ -1261,7 +1297,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-08",
-   "closedStreak": 6
+   "closedStreak": 7
   },
   {
    "id": "a23feff7b7",
@@ -1270,7 +1306,7 @@
    "title": "Director, Talent Attraction",
    "location": "Texas - Dallas, United States of America",
    "url": "https://salesforce.wd12.myworkdayjobs.com/External_Career_Site/job/Texas---Dallas/Director--Talent-Attraction_JR362987",
-   "comp": "",
+   "comp": "$164,000 - $261,500",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1282,7 +1318,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Texas - Dallas, United States of America"
+   "pageLocation": "Texas - Dallas, United States of America",
+   "compMax": 261500
   },
   {
    "id": "19d343af88",
@@ -1333,7 +1370,7 @@
    "title": "Vice President, Total Rewards, Executive Compensation",
    "location": "Purchase, New York",
    "url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/Purchase-New-York/Vice-President--Total-Rewards--Executive-Compensation_R-292621",
-   "comp": "",
+   "comp": "$221,000 - $353,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1345,7 +1382,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Purchase, New York, United States of America"
+   "pageLocation": "Purchase, New York, United States of America",
+   "compMax": 353000
   },
   {
    "id": "316397a1e0",
@@ -1514,7 +1552,7 @@
    "title": "VP, Engineering – HR Technology ",
    "location": "New York, New York, United States",
    "url": "https://job-boards.greenhouse.io/futurestandard/jobs/8467692002",
-   "comp": "",
+   "comp": "$150,000 - $185,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1526,7 +1564,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "New York, New York, United States"
+   "pageLocation": "New York, New York, United States",
+   "compMax": 185000
   },
   {
    "id": "954cc1197a",
@@ -1535,7 +1574,7 @@
    "title": "Head of Talent Acquisition",
    "location": "Remote, United States",
    "url": "https://job-boards.greenhouse.io/codepath/jobs/5190130007",
-   "comp": "",
+   "comp": "$175,000 - $200,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1547,7 +1586,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Remote, United States"
+   "pageLocation": "Remote, United States",
+   "compMax": 200000
   },
   {
    "id": "961896723e",
@@ -1556,7 +1596,7 @@
    "title": "Director, Technical Recruiting",
    "location": "New York, New York, United States",
    "url": "https://job-boards.greenhouse.io/clear/jobs/8199797",
-   "comp": "",
+   "comp": "$180,000 - $230,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1568,7 +1608,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "New York, New York, United States"
+   "pageLocation": "New York, New York, United States",
+   "compMax": 230000
   },
   {
    "id": "866d91371f",
@@ -1577,7 +1618,7 @@
    "title": "VP, Talent Partner",
    "location": "San Francisco, CA",
    "url": "https://jobs.ashbyhq.com/turn-river/c8a6a57a-13cc-44a7-90cf-39c95fa4a4b7",
-   "comp": "",
+   "comp": "$345,000 - $355,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1589,7 +1630,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, United States"
+   "pageLocation": "San Francisco, California, United States",
+   "compMax": 355000
   },
   {
    "id": "dd57d788ca",
@@ -1731,7 +1773,7 @@
    "title": "Director, Executive Talent Acquisition Delivery",
    "location": "Mountain View, CA",
    "url": "https://jobs.intuit.com/job/mountain-view/director-executive-talent-acquisition-delivery/27595/93197310512",
-   "comp": "$259k-350k",
+   "comp": "$271,500 - $367,500",
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1740,7 +1782,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Mountain View, California, United States"
+   "pageLocation": "Mountain View, California, United States",
+   "compMax": 367500
   },
   {
    "id": "546350d2a3",
@@ -1749,7 +1792,7 @@
    "title": "Senior Director, Talent",
    "location": "Denver, Colorado, United States; San Francisco, California, United States",
    "url": "https://job-boards.greenhouse.io/checkr/jobs/8226444",
-   "comp": "",
+   "comp": "$292,000 - $343,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1761,7 +1804,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Denver, Colorado, United States; San Francisco, California, United States"
+   "pageLocation": "Denver, Colorado, United States; San Francisco, California, United States",
+   "compMax": 343000
   },
   {
    "id": "371d876e04",
@@ -1770,7 +1814,7 @@
    "title": "Associate Director - Business Manager, People Strategy",
    "location": "New York, NY",
    "url": "https://job-boards.greenhouse.io/clearstreet/jobs/7958665",
-   "comp": "",
+   "comp": "$150,000-$200,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1782,7 +1826,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "New York, NY"
+   "pageLocation": "New York, NY",
+   "compMax": 200000
   },
   {
    "id": "bb252d9d91",
@@ -1791,7 +1836,7 @@
    "title": "Head of Talent Acquisition",
    "location": "Vancouver, BC, Canada",
    "url": "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4718854006",
-   "comp": "",
+   "comp": "$150,000 - $195,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1803,7 +1848,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "Vancouver, BC, Canada"
+   "pageLocation": "Vancouver, BC, Canada",
+   "compMax": 195000
   },
   {
    "id": "c93310ab9c",
@@ -1833,7 +1879,7 @@
    "title": "Director, Talent Acquisition",
    "location": "New York, New York, USA; Raleigh, North Carolina, USA",
    "url": "https://www.collibra.com/us/en/company/careers/job-listing/?gh_jid=7940004",
-   "comp": "",
+   "comp": "$184,000 - $210,000",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1845,7 +1891,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "New York, New York"
+   "pageLocation": "New York, New York",
+   "compMax": 210000
   },
   {
    "id": "84971ef673",
@@ -1854,7 +1901,7 @@
    "title": "Head of Talent ",
    "location": "San Francisco Bay Area or Remote",
    "url": "https://jobs.ashbyhq.com/commure/c11e47c4-d137-48c2-8f91-41c8271a9827",
-   "comp": "",
+   "comp": "$250K – $280K",
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-08",
@@ -1866,7 +1913,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-08",
-   "pageLocation": "San Francisco, California, United States"
+   "pageLocation": "San Francisco, California, United States",
+   "compMax": 280000
   },
   {
    "id": "b8096612cb",
@@ -1993,6 +2041,267 @@
    "failStreak": 0,
    "lastLive": "2026-10-08",
    "pageLocation": "Jersey City, NJ, United States"
+  },
+  {
+   "id": "628c8fbbbf",
+   "kind": "ic",
+   "company": "Chime",
+   "title": "Lead Technical Recruiter",
+   "location": "San Francisco, CA, USA",
+   "url": "https://boards.greenhouse.io/chime/jobs/8643775002?gh_jid=8643775002",
+   "comp": "$130,000 - $180,000",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:chime",
+   "inFeed": "2026-10-08",
+   "compMax": 180000,
+   "pageTitle": "Lead Technical Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "San Francisco, CA, USA"
+  },
+  {
+   "id": "2e94841d82",
+   "kind": "ic",
+   "company": "Neros Technologies",
+   "title": "Principal/Senior Technical Recruiter II",
+   "location": "Torrance, California, United States",
+   "url": "https://job-boards.greenhouse.io/nerostechnologies/jobs/5209120007",
+   "comp": "$205,000 - $275,000",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:nerostechnologies",
+   "inFeed": "2026-10-08",
+   "compMax": 275000,
+   "pageTitle": "Principal/Senior Technical Recruiter II",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "Torrance, California, United States"
+  },
+  {
+   "id": "83069258bd",
+   "kind": "ic",
+   "company": "Andurilindustries",
+   "title": "Senior Executive Recruiter",
+   "location": "Washington, District of Columbia, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5151696007?gh_jid=5151696007",
+   "comp": "$166,000 - $220,000",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:andurilindustries",
+   "inFeed": "2026-10-08",
+   "compMax": 220000,
+   "pageTitle": "Senior Executive Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "Washington, District of Columbia, United States"
+  },
+  {
+   "id": "f3f9ab7357",
+   "kind": "ic",
+   "company": "Harvey",
+   "title": "Executive Recruiter",
+   "location": "New York",
+   "url": "https://jobs.ashbyhq.com/harvey/19f859d7-1565-4ca3-a9df-ceea73fba678",
+   "comp": "$157K – $213K",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "ashby:harvey",
+   "inFeed": "2026-10-08",
+   "compMax": 213000,
+   "pageTitle": "Executive Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "New York, New York, USA"
+  },
+  {
+   "id": "80eb274dcc",
+   "kind": "ic",
+   "company": "Harvey",
+   "title": "Executive Recruiter",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/harvey/48b4e3ff-c317-4279-b214-dfb025e6be12",
+   "comp": "$157K – $213K",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "ashby:harvey",
+   "inFeed": "2026-10-08",
+   "compMax": 213000,
+   "pageTitle": "Executive Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "San Francisco, California, USA"
+  },
+  {
+   "id": "b07c958035",
+   "kind": "ic",
+   "company": "Harvey",
+   "title": "Lead Technical Recruiter - Research",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/harvey/d6ceb665-d5a2-483e-82ee-8b6f1445d29c",
+   "comp": "$163.9K – $245.9K",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "ashby:harvey",
+   "inFeed": "2026-10-08",
+   "compMax": 245900,
+   "pageTitle": "Lead Technical Recruiter - Research",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "San Francisco, California, USA"
+  },
+  {
+   "id": "1cc9187bce",
+   "kind": "ic",
+   "company": "Harvey",
+   "title": "Lead Technical Recruiter - Research",
+   "location": "New York",
+   "url": "https://jobs.ashbyhq.com/harvey/da713961-ca51-4b13-a744-d089058cc9c5",
+   "comp": "$163.9K – $245.9K",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "ashby:harvey",
+   "inFeed": "2026-10-08",
+   "compMax": 245900,
+   "pageTitle": "Lead Technical Recruiter - Research",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "New York, New York, USA"
+  },
+  {
+   "id": "93a303223f",
+   "kind": "ic",
+   "company": "Numeral",
+   "title": "Technical Recruiting Lead",
+   "location": "New York / San Francisco (HQ)",
+   "url": "https://jobs.ashbyhq.com/numeral/851fd8cf-bb36-4b53-b2fe-48680cba6e05",
+   "comp": "$160K – $230K",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "ashby:numeral",
+   "inFeed": "2026-10-08",
+   "compMax": 230000,
+   "pageTitle": "Technical Recruiting Lead",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "New York, New York, United States"
+  },
+  {
+   "id": "73808a5dd1",
+   "kind": "ic",
+   "company": "Shield AI",
+   "title": "Senior Staff Talent Sourcer - G&A",
+   "location": "Dallas, Texas",
+   "url": "https://jobs.lever.co/shieldai/6b190f15-b33e-40d7-99b3-e88881374a40",
+   "comp": "",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "lever:shieldai",
+   "inFeed": "2026-10-08",
+   "pageTitle": "Senior Staff Talent Sourcer - G&amp;A",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "San Diego, California / Washington, D.C. / Seattle, Washington / Dallas, Texas"
+  },
+  {
+   "id": "c7754c867c",
+   "kind": "ic",
+   "company": "Shield AI",
+   "title": "Staff Hardware Recruiter",
+   "location": "Remote",
+   "url": "https://jobs.lever.co/shieldai/7866a552-dd2f-4e81-89cd-67a52d1bbb39",
+   "comp": "$120,000 - $180,000",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "lever:shieldai",
+   "inFeed": "2026-10-08",
+   "compMax": 180000,
+   "pageTitle": "Staff Hardware Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "Boston, Massachusetts / Dallas, Texas / San Diego, California / San Mateo, California / Washington, D.C. / Remote"
+  },
+  {
+   "id": "071152421b",
+   "kind": "ic",
+   "company": "WesternDigital",
+   "title": "Principal Technical Recruiter",
+   "location": "San Jose, CA, us",
+   "url": "https://jobs.smartrecruiters.com/WesternDigital/744000153556539",
+   "comp": "",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "smartrecruiters:WesternDigital",
+   "inFeed": "2026-10-08",
+   "pageTitle": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08"
+  },
+  {
+   "id": "f45a72b351",
+   "kind": "ic",
+   "company": "HP",
+   "title": "Executive Recruiter",
+   "location": "TEX01 - Houston, Texas (TEX01), United States of America",
+   "url": "https://hp.wd5.myworkdayjobs.com/ExternalCareerSite/job/Spring-Texas-United-States-of-America/Executive-Recruiter_3168978-1",
+   "comp": "$120,000 to $170,000",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:hp:ExternalCareerSite",
+   "inFeed": "2026-10-08",
+   "compMax": 170000,
+   "pageTitle": "Executive Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "TEX01 - Houston, Texas (TEX01), United States of America"
   }
  ]
 }
