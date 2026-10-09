@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-08",
  "jobs": [
   {
    "id": "bad760ffba",
@@ -1261,7 +1261,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-08",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "a23feff7b7",
@@ -1398,9 +1398,11 @@
    "url": "https://job-boards.greenhouse.io/practicebetter/jobs/4800964008",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-08",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:practicebetter",
+   "notInFeed": "2026-10-08"
   },
   {
    "id": "071e363b68",
@@ -1411,9 +1413,9 @@
    "url": "https://job-boards.greenhouse.io/admarketplaceinc/jobs/4576619005",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-08",
+   "reason": "HTTP 404"
   },
   {
    "id": "e7c621c590",
@@ -1424,9 +1426,11 @@
    "url": "https://job-boards.greenhouse.io/evergreenservicesgroup/jobs/4535243005",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-08",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:evergreenservicesgroup",
+   "notInFeed": "2026-10-08"
   },
   {
    "id": "b4e7e1f5a9",
@@ -1437,9 +1441,11 @@
    "url": "https://job-boards.greenhouse.io/futurestandard/jobs/8478200002",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-08",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:futurestandard",
+   "notInFeed": "2026-10-08"
   },
   {
    "id": "b0f3bcdaf0",
@@ -1450,35 +1456,11 @@
    "url": "https://job-boards.greenhouse.io/filescom/jobs/4607831005",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "f5eb1db1b8",
-   "kind": "role",
-   "company": "Knownwell",
-   "title": "VP of People & Talent",
-   "location": "",
-   "url": "https://jobs.lever.co/knownwell/6c3a3ed2-55e1-4610-a43d-d9c4ba4bd33a",
-   "comp": "",
-   "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "6e74842069",
-   "kind": "role",
-   "company": "Curri",
-   "title": "VP of People",
-   "location": "Ventura, CA (on-site)",
-   "url": "https://www.curri.com/careers/vp-of-people-bae9b8cb",
-   "comp": "",
-   "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-08",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:filescom",
+   "notInFeed": "2026-10-08"
   },
   {
    "id": "ad4dee950b",
@@ -1489,9 +1471,13 @@
    "url": "https://ats.rippling.com/excel/jobs/bb20c0eb-69f9-4b6b-a0dd-473b98b6b38a",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "opened normally with an Apply control",
+   "pageTitle": "About Excel™",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08"
   },
   {
    "id": "d7f7c660bf",
@@ -1502,9 +1488,10 @@
    "url": "https://segmentstream.com/careers/head-of-people",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-10-08",
+   "reason": "redirected to a different page: https://segmentstream.com/",
+   "closedStreak": 0
   },
   {
    "id": "4719257336",
@@ -1515,9 +1502,94 @@
    "url": "https://smartrecruiters.com/WesternDigital/744000026802977",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-10-08",
+   "reason": "no Apply control found",
+   "closedStreak": 0
+  },
+  {
+   "id": "2212a7ed54",
+   "kind": "role",
+   "company": "Futurestandard",
+   "title": "VP, Engineering – HR Technology ",
+   "location": "New York, New York, United States",
+   "url": "https://job-boards.greenhouse.io/futurestandard/jobs/8467692002",
+   "comp": "",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:futurestandard",
+   "inFeed": "2026-10-08",
+   "pageTitle": "VP, Engineering – HR Technology",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "New York, New York, United States"
+  },
+  {
+   "id": "954cc1197a",
+   "kind": "role",
+   "company": "CodePath",
+   "title": "Head of Talent Acquisition",
+   "location": "Remote, United States",
+   "url": "https://job-boards.greenhouse.io/codepath/jobs/5190130007",
+   "comp": "",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:codepath",
+   "inFeed": "2026-10-08",
+   "pageTitle": "Head of Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "Remote, United States"
+  },
+  {
+   "id": "961896723e",
+   "kind": "role",
+   "company": "CLEAR",
+   "title": "Director, Technical Recruiting",
+   "location": "New York, New York, United States",
+   "url": "https://job-boards.greenhouse.io/clear/jobs/8199797",
+   "comp": "",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:clear",
+   "inFeed": "2026-10-08",
+   "pageTitle": "Director, Technical Recruiting",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "New York, New York, United States"
+  },
+  {
+   "id": "866d91371f",
+   "kind": "role",
+   "company": "Turn/River",
+   "title": "VP, Talent Partner",
+   "location": "San Francisco, CA",
+   "url": "https://jobs.ashbyhq.com/turn-river/c8a6a57a-13cc-44a7-90cf-39c95fa4a4b7",
+   "comp": "",
+   "added": "2026-10-08",
+   "status": "live",
+   "lastChecked": "2026-10-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "ashby:turn-river",
+   "inFeed": "2026-10-08",
+   "pageTitle": "VP, Talent Partner",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-08",
+   "pageLocation": "San Francisco, California, United States"
   }
  ]
 }

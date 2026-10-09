@@ -71,7 +71,14 @@
   "attentive",
   "admarketplaceinc",
   "evergreenservicesgroup",
-  "futurestandard"
+  "futurestandard",
+  "excel",
+  "hasbro",
+  "videoamp",
+  "onemodel",
+  "codepath",
+  "clear",
+  "liberate"
  ],
  "lever": [
   "zoox",
@@ -88,7 +95,7 @@
   "astrus",
   "cura",
   "caseware",
-  "knownwell"
+  "netomi"
  ],
  "ashby": [
   "pylon-labs",
@@ -139,7 +146,10 @@
   "benchling",
   "lightspeedhq",
   "1password",
-  "applied"
+  "applied",
+  "mintlify",
+  "curri",
+  "turn-river"
  ],
  "workday": [
   {
@@ -402,25 +412,19 @@
   }
  ],
  "candidates": [
-  "Curri",
-  "Excel",
   "SegmentStream",
-  "Mintlify",
   "MessageGears",
-  "Hasbro",
-  "CLEAR",
-  "Netomi",
   "Groove",
-  "VideoAmp",
-  "One Model",
   "Themis Solutions",
-  "CodePath",
-  "Turn/River",
   "Phoenix Tailings",
   "Warner Bros. Discovery",
   "HubSpot",
   "Weekday AI",
-  "Liberate"
+  "knownwell",
+  "walmart:WalmartExternal",
+  "comcast:Comcast_Careers",
+  "dell:External",
+  "qualcomm:External"
  ],
  "tried": {
   "UniUni": 1,
@@ -490,7 +494,15 @@
   "Instinct": 4,
   "LiveRamp": 4,
   "True Anomaly": 4,
-  "DHI Group": 4
+  "DHI Group": 4,
+  "Groove": 1,
+  "SegmentStream": 1,
+  "MessageGears": 1,
+  "Themis Solutions": 1,
+  "HubSpot": 1,
+  "Warner Bros. Discovery": 1,
+  "Phoenix Tailings": 1,
+  "Weekday AI": 1
  },
  "dead": [
   "Slate Auto",
@@ -567,7 +579,8 @@
   "smartsuite",
   "uniuni",
   "opendoor",
-  "rippling"
+  "rippling",
+  "excel"
  ],
  "smartrecruiters": [
   "glean",
@@ -722,11 +735,22 @@
   "icims:careers-heritagechristianservices": 0,
   "icims:careers-uhnjcareers": 0,
   "icims:careers-naphcare": 0,
-  "lever:knownwell": 2,
-  "workday:walmart:WalmartExternal": 2,
-  "workday:comcast:Comcast_Careers": 2,
-  "workday:dell:External": 2,
-  "workday:qualcomm:External": 2
+  "greenhouse:evergreenservicesgroup": 0,
+  "greenhouse:futurestandard": 0,
+  "greenhouse:excel": 0,
+  "greenhouse:hasbro": 0,
+  "greenhouse:videoamp": 0,
+  "greenhouse:codepath": 0,
+  "greenhouse:onemodel": 0,
+  "greenhouse:clear": 0,
+  "greenhouse:liberate": 0,
+  "lever:netomi": 0,
+  "ashby:mintlify": 0,
+  "ashby:turn-river": 0,
+  "ashby:curri": 0,
+  "rippling:excel": 0,
+  "workable:weekday-1": 0,
+  "smartrecruiters:WesternDigital": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -768,7 +792,18 @@
   "ashby:sierra": "Sierra",
   "greenhouse:epicgames": "Epic Games",
   "ashby:openai": "OpenAI",
-  "greenhouse:ovoenergy": "Ovo Energy"
+  "greenhouse:ovoenergy": "Ovo Energy",
+  "greenhouse:excel": "Excel",
+  "greenhouse:hasbro": "Hasbro",
+  "ashby:mintlify": "Mintlify",
+  "ashby:curri": "Curri",
+  "greenhouse:videoamp": "VideoAmp",
+  "greenhouse:onemodel": "One Model",
+  "greenhouse:codepath": "CodePath",
+  "greenhouse:clear": "CLEAR",
+  "lever:netomi": "Netomi",
+  "ashby:turn-river": "Turn/River",
+  "greenhouse:liberate": "Liberate"
  },
  "icims": [
   "careers-uhnjcareers",
