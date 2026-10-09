@@ -4,7 +4,7 @@ const { chromium } = require("playwright");
 const fs = require("fs");
 const { isNA, TOPIC, normTitle, wanted, wantedIC, payRange } = require("./lib");
 
-const CLOSED = /no longer (available|accepting|open|active|posted|listed|hiring)|(position|job|role|posting|opening|requisition|opportunity)( has been| is| was)? (filled|closed|removed|expired|unavailable|no longer|cancelled|canceled)|this (job|position|posting|role|opportunity) (has|is|isn.t)( been)? (expired|closed|removed|filled|available|open)|page (you are looking for )?(doesn.t|does not) exist|we couldn.t find|couldn.t find that|sorry,? (but )?(the|this) (job|page|position)|job not found|has expired|not (currently )?accepting (new )?applications|applications? (are|is) (now )?closed|applications are no longer being accepted|deadline (has|had) passed|position (is )?(on hold|paused)/i;
+const CLOSED = /no longer (available|accepting|open|active|posted|listed|hiring)|(position|job|role|posting|opening|requisition|opportunity)( has been| is| was)? (filled|closed|removed|expired|unavailable|no longer|cancelled|canceled)|this (job|position|posting|role|opportunity) (has|is|isn.t)( been)? (expired|closed|removed|filled|available|open)|page (you are looking for )?(doesn.t|does not) exist|we couldn.t find|couldn.t find that|sorry,? (but )?(the|this) (job|page|position)|job not found|has expired|not (currently )?accepting (new )?applications|applications? (are|is) (now )?closed|applications are no longer being accepted|deadline (has|had) passed|position (is )?(on hold|paused)|(job|role|position|posting|requisition) (is )?(closed|no longer exists)|no longer exists|this job (is )?closed|posting (has )?closed|(has|have) been filled|not (currently )?(open|hiring) for this|isn.t accepting|is not accepting/i;
 
 const idFrom = (url) => { const m = url.match(/\/jobs\/(\d+)/) || url.match(/lever\.co\/[^/]+\/([0-9a-f-]{36})/i) || url.match(/_(R-?\d+[\w-]*)/); return m ? m[1] : null; };
 const lastSeg = (url) => { try { return new URL(url).pathname.replace(/\/+$/, "").split("/").pop().toLowerCase(); } catch { return ""; } };
@@ -211,17 +211,18 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
   const dupSeen = new Set();
   const pub = (kind) => store.jobs.filter((j) => {
     if (j.status !== "live" || j.kind !== kind) return false;
+    const conf = j.lastLive || j.lastChecked; if (!conf || (Date.parse(today) - Date.parse(conf)) / 864e5 > 3) return false;   // not confirmed live in 3 days: hide
     if (j.location && !UNCLEAR.test(j.location) && !isNA(j.location)) return false;
     if (j.pageLocation && !isNA(j.pageLocation)) return false;
     const clearLoc = (j.location && !UNCLEAR.test(j.location)) || (j.pageLocation && !UNCLEAR.test(j.pageLocation));
     if (!clearLoc && j.source !== "feed") return false;      // unclear location: hide, except roles read from the employer's own feed
     return true;
   }).filter((j) => { const k = norm(j.company) + "|" + norm(j.title) + "|" + norm(j.pageLocation || j.location); if (dupSeen.has(k)) return false; dupSeen.add(k); return true; })
-    .map((j) => ({ company: j.company, title: j.title, location: (j.location && !UNCLEAR.test(j.location)) ? j.location : (j.pageLocation || "See job posting"), url: j.url, comp: j.comp || "", added: j.added, checked: j.lastChecked }));
+    .map((j) => ({ company: j.company, title: j.title, location: (j.location && !UNCLEAR.test(j.location)) ? j.location : (j.pageLocation || "See job posting"), url: j.url, comp: j.comp || "", added: j.added, checked: j.lastChecked, confirmed: j.lastLive || j.lastChecked }));
   const crawl = (() => { try { const c = JSON.parse(fs.readFileSync("crawl-report.json", "utf8")); return { at: c.at, ok: c.ok, failed: (c.failed || []).length, scanned: c.scanned }; } catch (e) { return null; } })();
   const data = {
     generated: today, verifiedAt: new Date().toISOString(),
-    roles: pub("role"), ic: pub("ic"), moves: signals.moves, funding: signals.funding,
+    roles: pub("role"), ic: pub("ic"), review: pub("review"), coverage: (() => { try { const c = JSON.parse(fs.readFileSync("coverage.json", "utf8")); return { at: c.at, sources: c.sources.map((x) => ({ company: x.company, ats: x.ats, ok: x.ok, jobs: x.jobs, streak: x.failStreak })), waiting: c.waitingForFeed, gaveUp: c.gaveUp }; } catch (e) { return null; } })(), moves: signals.moves, funding: signals.funding,
     crawl, checkedNow: jobs.filter((j) => j.lastChecked === today).length, unverifiableNow,
     notPublished: store.jobs.filter((j) => j.status !== "live").map((j) => ({ company: j.company, title: j.title, url: j.url, state: j.status, reason: j.reason })),
   };

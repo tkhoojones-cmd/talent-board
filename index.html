@@ -91,11 +91,15 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
   var TABS = [
     { key: "roles", label: "Open roles" },
     { key: "ic", label: "Senior recruiting" },
+    { key: "review", label: "To review" },
     { key: "moves", label: "Leadership moves" },
-    { key: "funding", label: "Funding" }
+    { key: "funding", label: "Funding" },
+    { key: "coverage", label: "Coverage" }
   ];
   var NOTES = {
     ic: "Individual-contributor recruiting roles with senior-level pay, listed at the employer's posted range where one exists.",
+    review: "Titles close to what you want but not a clean match, such as Senior Manager or Lead roles in talent and people. Each one was opened and confirmed live, but you decide whether it fits.",
+    coverage: "Which employers the checker can read. Failing and waiting companies are the blind spots, so roles there could be missed.",
     moves: "Signals, not openings. These companies recently hired or lost a talent or people leader, which can point to a search. Each links to the press report.",
     funding: "Watch list, not openings. Companies that recently raised money and may be building out people leadership."
   };
@@ -132,7 +136,7 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
 
   function items(key) {
     var rows = (DATA[key] || []).slice(), q = state.q.trim().toLowerCase();
-    if (state.ca && (key === "roles" || key === "ic")) rows = rows.filter(function (r) { return CA_RE.test(r.location || ""); });
+    if (state.ca && (key === "roles" || key === "ic" || key === "review")) rows = rows.filter(function (r) { return CA_RE.test(r.location || ""); });
     if (key === "roles" && state.level !== "all") rows = rows.filter(function (r) { return LEVELS[state.level].test(r.title || ""); });
     if (key === "moves" && state.kind !== "all") rows = rows.filter(function (r) { return r.kind === state.kind; });
     if (state.since !== "any") {
@@ -159,7 +163,7 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
     var tabs = $("tabs"); tabs.textContent = "";
     TABS.forEach(function (t) {
       tabs.appendChild(el("button", { type: "button", role: "tab", "aria-selected": String(state.tab === t.key), onclick: function () { state.tab = t.key; paint(); } },
-        t.label, el("span", { class: "n", text: String((DATA[t.key] || []).length) })));
+        t.label, el("span", { class: "n", text: t.key === "coverage" ? String(((DATA.coverage || {}).sources || []).filter(function (x) { return !x.ok; }).length) + " failing" : String((DATA[t.key] || []).length) })));
     });
 
     var key = state.tab, tools = $("tools"); tools.textContent = "";
@@ -186,7 +190,7 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
     var sort = el("select", { id: "sort", "aria-label": "Sort" }, el("option", { value: "new", text: "Newest first" }), el("option", { value: "company", text: "Company A to Z" }));
     sort.value = state.sort; sort.addEventListener("change", function () { state.sort = sort.value; paintList(); });
     tools.appendChild(sort);
-    if (key === "roles" || key === "ic") {
+    if (key === "roles" || key === "ic" || key === "review") {
       var cb = el("input", { type: "checkbox", id: "ca" }); cb.checked = state.ca;
       cb.addEventListener("change", function () { state.ca = cb.checked; paintList(); });
       tools.appendChild(el("label", { class: "chk", for: "ca", title: "Matches Remote or a Canadian location in the posting" }, cb, "Remote or Canada"));
@@ -196,17 +200,35 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
     paintList();
   }
 
+  function paintCoverage() {
+    var list = $("list"), cov = DATA.coverage; list.textContent = "";
+    if (!cov) { list.appendChild(el("li", { class: "empty", text: "Coverage report not available yet." })); return; }
+    var q = state.q.trim().toLowerCase();
+    var src = (cov.sources || []).filter(function (x) { return !q || (x.company + " " + x.ats).toLowerCase().indexOf(q) !== -1; });
+    var bad = src.filter(function (x) { return !x.ok; }), good = src.filter(function (x) { return x.ok; });
+    function row(head, sub, pill) {
+      var side = el("div", { class: "side" }); if (pill) side.appendChild(el("span", { class: "pill " + pill[1], text: pill[0] }));
+      list.appendChild(el("li", {}, el("div", { class: "row", style: "padding:10px 14px;background:var(--surface);border:1px solid var(--line);border-radius:8px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap" }, el("div", { class: "main" }, el("div", { class: "head", text: head }), el("div", { class: "line", text: sub })), side)));
+    }
+    row(good.length + " employers readable, " + bad.length + " failing", "Last crawl " + (cov.at ? new Date(cov.at).toLocaleString() : "unknown") + ". Total postings scanned in the latest run: " + good.reduce(function (n, x) { return n + (x.jobs || 0); }, 0), ["Summary", ""]);
+    bad.forEach(function (x) { row(x.company, x.ats + " feed could not be read" + (x.streak > 1 ? ", " + x.streak + " runs in a row" : ""), ["Failing", "warn"]); });
+    (cov.waiting || []).forEach(function (n) { if (!q || n.toLowerCase().indexOf(q) !== -1) row(n, "Looking for a readable career feed", ["Waiting", "warn"]); });
+    good.forEach(function (x) { row(x.company, x.ats + " · " + x.jobs + " postings scanned", ["Readable", "good"]); });
+  }
+
   function paintList() {
     var key = state.tab, list = $("list"); list.textContent = "";
+    if (key === "coverage") { paintCoverage(); return; }
     var rows = items(key);
     if (!rows.length) { list.appendChild(el("li", { class: "empty", text: "Nothing matches these filters. Clear the search or widen the date range." })); return; }
     rows.forEach(function (r) {
       var head, sub = "", meta = [], pills = [], url = safeUrl(r.url), dl = [];
-      if (key === "roles" || key === "ic") {
+      if (key === "roles" || key === "ic" || key === "review") {
         head = r.title; sub = r.company;
         if (r.location) { meta.push(r.location); dl.push(["Location", r.location]); }
         if (r.comp) { meta.push(r.comp); dl.push(["Pay", r.comp]); }
-        if (r.checked) dl.push(["Last confirmed live", fmt(r.checked)]);
+        if (r.confirmed || r.checked) dl.push(["Last confirmed live", fmt(r.confirmed || r.checked)]);
+        if (r.confirmed || r.checked) pills.push(["Confirmed " + fmt(r.confirmed || r.checked), "good"]);
       } else if (key === "moves") {
         head = r.company; sub = (r.kind === "Hired" ? "New: " : "Left: ") + r.title;
         pills.push([r.kind, r.kind === "Hired" ? "good" : "warn"]);
@@ -222,7 +244,7 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
       if (meta.length) main.appendChild(el("div", { class: "line", text: meta.join(" · ") }));
       var det = el("div", { class: "detail" });
       if (dl.length) { var d = el("dl"); dl.forEach(function (p) { d.appendChild(el("dt", { text: p[0] })); d.appendChild(el("dd", { text: p[1] })); }); det.appendChild(d); }
-      if (url) det.appendChild(el("div", {}, el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: (key === "roles" || key === "ic") ? "View the posting" : "Read the source" })));
+      if (url) det.appendChild(el("div", {}, el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: (key === "roles" || key === "ic" || key === "review") ? "View the posting" : "Read the source" })));
       else det.appendChild(el("div", { class: "line", text: "No link available." }));
       list.appendChild(el("li", {}, el("details", { class: "row" }, el("summary", {}, main, side), det)));
     });

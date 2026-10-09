@@ -28,6 +28,16 @@ function wantedIC(title) {
   if (!/\b(executive|principal|staff)\b/i.test(t) && !/\blead\b.*\b(executive|technical|principal)\b|\b(executive|technical|principal)\b.*\blead\b/i.test(t)) return false;
   return !wanted(t);                                  // leadership roles belong on the roles tab
 }
+// Borderline titles: close to what Tim wants but not matched by the strict rules. They go to a "To review" list
+// (still opened in a real browser and checked live) so nothing is silently dropped.
+const B_TOPIC = /\b(people|talent|recruit\w*|human resources|hr|human capital|culture|employee (experience|success|relations)|total rewards|learning (and|&) development)\b/i;
+const B_LEVEL = /\b(head of|leader|lead|chief of staff|senior manager|sr\.? manager|associate director|executive director|managing director|principal|partner)\b/i;
+const B_NOISE = /\b(intern|interns|internship|coordinator|assistant|sourcer|analyst|specialist|generalist|engineer|software|designer|payroll|paralegal|apprentice|trainee|legal|attorney|contract|temporary|business partner\w*|people partner\w*|hrbp|operations analyst|data|analytics|systems|technical program)\b/i;
+function borderline(title) {
+  const t = normTitle(title);
+  if (!B_TOPIC.test(t) || !B_LEVEL.test(t) || B_NOISE.test(t)) return false;
+  return !wanted(t) && !wantedIC(t);
+}
 // highest figure in a pay range such as "$185,000 - $309,000" or "$250K to $300K"; returns {text, max} or null
 function payRange(text) {
   const m = String(text || "").match(/\$\s?(\d{2,3}(?:,\d{3})+|\d{2,3}(?:\.\d)?\s?[kK])\s*(?:-|–|—|to)\s*\$?\s?(\d{2,3}(?:,\d{3})+|\d{2,3}(?:\.\d)?\s?[kK])/);
@@ -58,4 +68,4 @@ function isNA(loc) {
   }
   return !anyForeign;
 }
-module.exports = { wanted, wantedIC, payRange, isNA, normTitle, TOPIC };
+module.exports = { wanted, wantedIC, borderline, payRange, isNA, normTitle, TOPIC };

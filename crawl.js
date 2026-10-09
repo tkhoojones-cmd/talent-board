@@ -3,7 +3,9 @@
 // and adds any matching leadership people/talent role to jobs.json as "new".
 // It also records which jobs are in the employer's feed today (evidence the role is open).
 const fs = require("fs");
-const { wanted, wantedIC, isNA } = require("./lib");
+const { wanted, wantedIC, borderline, isNA } = require("./lib");
+const kindOf = (t) => wanted(t) ? "role" : wantedIC(t) ? "ic" : borderline(t) ? "review" : null;
+let prevReport = {}; try { prevReport = JSON.parse(fs.readFileSync("crawl-report.json", "utf8")); } catch (e) {}
 const boards = JSON.parse(fs.readFileSync("boards.json", "utf8"));
 const store = JSON.parse(fs.readFileSync("jobs.json", "utf8"));
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver" }).format(new Date());
@@ -252,7 +254,7 @@ async function probe(name) {
   return null;
 }
 
-const report = { ok: 0, fail: [], scanned: 0, probed: 0 };
+const report = { ok: 0, fail: [], scanned: 0, probed: 0, cov: [] };
 async function each(list, fn) { const q = [...list]; await Promise.all(Array.from({ length: 6 }, async () => { while (q.length) { const x = q.shift(); try { await fn(x); } catch (e) { report.fail.push("error:" + e.message.slice(0, 60)); } } })); }
 
 (async () => {
@@ -271,22 +273,24 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
   await each(jobsToRead, async ({ a, t }) => {
     const r = await FETCH[a](t);
     const id = a + ":" + t;
-    if (r.status !== 200) { report.fail.push(`${a}:${t}:${r.status}`); return; }
+    if (r.status !== 200) { report.fail.push(`${a}:${t}:${r.status}`); report.cov.push({ id, company: display(a, t), ats: a, ok: false, jobs: 0 }); return; }
+    report.cov.push({ id, company: display(a, t), ats: a, ok: true, jobs: r.jobs.length });
     boards.misses[id] = 0; report.ok++; report.scanned += r.jobs.length;
     const ks = new Set();
     for (const j of r.jobs) {
       if (!j.url || !j.title) continue;
       ks.add(key(j.url));
-      if ((wanted(j.title) || wantedIC(j.title)) && isNA(j.location)) matches.push({ company: display(a, t), title: j.title, location: j.location, url: j.url, feed: id, kind: wanted(j.title) ? "role" : "ic" });
+      if (kindOf(j.title) && isNA(j.location)) matches.push({ company: display(a, t), title: j.title, location: j.location, url: j.url, feed: id, kind: kindOf(j.title) });
     }
     feedKeys.set(id, ks);
   });
   await each([...wdSet.values()], async (w) => {
     const r = await workday(w); const id = "workday:" + w.tenant + ":" + w.site;
-    if (r.status !== 200) { report.fail.push(`${id}:${r.status}`); return; }
+    if (r.status !== 200) { report.fail.push(`${id}:${r.status}`); report.cov.push({ id, company: w.company, ats: "workday", ok: false, jobs: 0 }); return; }
+    report.cov.push({ id, company: w.company, ats: "workday", ok: true, jobs: r.jobs.length });
     report.ok++; report.scanned += r.jobs.length;
     const ks = new Set();
-    for (const j of r.jobs) { ks.add(key(j.url)); if ((wanted(j.title) || wantedIC(j.title)) && isNA(j.location)) matches.push({ company: w.company, title: j.title, location: j.location, url: j.url, feed: id, kind: wanted(j.title) ? "role" : "ic" }); }
+    for (const j of r.jobs) { ks.add(key(j.url)); if (kindOf(j.title) && isNA(j.location)) matches.push({ company: w.company, title: j.title, location: j.location, url: j.url, feed: id, kind: kindOf(j.title) }); }
     feedKeys.set(id, ks);
   });
 
@@ -294,11 +298,24 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
   for (const [kind, [fn, idOf]] of Object.entries(HOSTED)) {
     await each(boards[kind], async (x) => {
       const id = idOf(x); const r = await fn(x);
-      if (r.status !== 200) { report.fail.push(`${id}:${r.status}`); return; }
+      if (r.status !== 200) { report.fail.push(`${id}:${r.status}`); report.cov.push({ id, company: x.company, ats: kind, ok: false, jobs: 0 }); return; }
+      report.cov.push({ id, company: x.company, ats: kind, ok: true, jobs: r.jobs.length });
       report.ok++; report.scanned += r.jobs.length;
-      for (const j of r.jobs) if ((wanted(j.title) || wantedIC(j.title)) && isNA(j.location)) matches.push({ company: x.company, title: j.title, location: j.location, url: j.url, feed: id, slug: j.slug, kind: wanted(j.title) ? "role" : "ic" });
+      for (const j of r.jobs) if (kindOf(j.title) && isNA(j.location)) matches.push({ company: x.company, title: j.title, location: j.location, url: j.url, feed: id, slug: j.slug, kind: kindOf(j.title) });
     });
   }
+
+  // large employers with their own career sites (Amazon, Netflix, Microsoft, Apple, Google, Meta): add-only, never closed by absence
+  let browser = null;
+  try { browser = await require("playwright").chromium.launch(); } catch (e) { console.log("no browser for the browser-read sites:", e.message.slice(0, 60)); }
+  const bctx = { http, terms: LEAD_TERMS, browser, deadline: Date.now() + 6 * 60 * 1000 };
+  for (const site of require("./bigtech").SITES) {
+    let r; try { r = await site.read(bctx); } catch (e) { r = { status: 0 }; }
+    if (r.status !== 200) { report.fail.push(`${site.id}:${r.status}`); report.cov.push({ id: site.id, company: site.company, ats: "own site", ok: false, jobs: 0 }); continue; }
+    report.ok++; report.scanned += r.jobs.length; report.cov.push({ id: site.id, company: site.company, ats: "own site", ok: true, jobs: r.jobs.length });
+    for (const j of r.jobs) if (kindOf(j.title) && isNA(j.location)) matches.push({ company: site.company, title: j.title, location: j.location, url: j.url, feed: null, kind: kindOf(j.title) });
+  }
+  if (browser) await browser.close().catch(() => {});
 
   // dead feeds: remove only after 3 misses in a row
   for (const f of report.fail) {
@@ -335,12 +352,22 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     added++; console.log("NEW", f.company, "|", f.title, "|", f.location);
   }
   // feed-added jobs that no longer pass the rules: drop only if never confirmed live
-  store.jobs = store.jobs.filter((j) => { if (j.source !== "feed") return true; const keep = (j.kind === "ic" ? wantedIC(j.title) : wanted(j.title)) && isNA(j.location); if (!keep) console.log("REMOVED (no longer matches rules):", j.company, "|", j.title); return keep; });
+  store.jobs = store.jobs.filter((j) => { if (j.source !== "feed") return true; const keep = (j.kind === "ic" ? wantedIC(j.title) : j.kind === "review" ? (borderline(j.title) || wanted(j.title) || wantedIC(j.title)) : wanted(j.title)) && isNA(j.location); if (!keep) console.log("REMOVED (no longer matches rules):", j.company, "|", j.title); return keep; });
 
   console.log(`feeds ok: ${report.ok}, failed: ${report.fail.length}, jobs scanned: ${report.scanned}, matched: ${matches.length}, new: ${added}, probed: ${report.probed}`);
   if (report.fail.length) console.log("failed feeds:", report.fail.join(" "));
   fs.writeFileSync("jobs.json", JSON.stringify(store, null, 1));
   fs.writeFileSync("boards.json", JSON.stringify(boards, null, 1));
-  fs.writeFileSync("crawl-report.json", JSON.stringify({ at: new Date().toISOString(), ok: report.ok, failed: report.fail, scanned: report.scanned, matched: matches.length, added }, null, 1));
+  // health: how many runs in a row each feed has failed, and anything that needs attention
+  boards.feedFails = boards.feedFails || {};
+  for (const c of report.cov) { if (c.ok) delete boards.feedFails[c.id]; else boards.feedFails[c.id] = (boards.feedFails[c.id] || 0) + 1; c.failStreak = boards.feedFails[c.id] || 0; }
+  const alerts = [];
+  const stuck = report.cov.filter((c) => c.failStreak >= 3).map((c) => `${c.company} (${c.id}) has failed ${c.failStreak} runs in a row`);
+  if (stuck.length) alerts.push(...stuck);
+  if (prevReport.scanned && report.scanned < prevReport.scanned * 0.75) alerts.push(`Jobs scanned fell from ${prevReport.scanned} to ${report.scanned}`);
+  if (prevReport.ok && report.ok < prevReport.ok * 0.85) alerts.push(`Readable feeds fell from ${prevReport.ok} to ${report.ok}`);
+  fs.writeFileSync("boards.json", JSON.stringify(boards, null, 1));
+  fs.writeFileSync("coverage.json", JSON.stringify({ at: new Date().toISOString(), sources: report.cov.sort((a, b) => a.company.localeCompare(b.company)), waitingForFeed: boards.candidates, gaveUp: boards.dead }, null, 1));
+  fs.writeFileSync("crawl-report.json", JSON.stringify({ at: new Date().toISOString(), ok: report.ok, failed: report.fail, scanned: report.scanned, matched: matches.length, added, alerts }, null, 1));
   if (report.ok === 0) { console.error("No feed could be read at all"); process.exit(1); }
 })();

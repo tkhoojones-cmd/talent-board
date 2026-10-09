@@ -24,12 +24,18 @@ jobs:
       - run: node crawl.js
         continue-on-error: true
       - run: node verify.js
+      - name: Alert on feed problems
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: node alert.js
       - name: Publish data.json
         run: |
           git config user.name "listing-checker"
           git config user.email "actions@users.noreply.github.com"
           for i in 1 2 3; do
-            git add data.json jobs.json crawl-report.json boards.json
+            git add data.json jobs.json crawl-report.json coverage.json boards.json
             if git diff --cached --quiet; then echo "no change"; exit 0; fi
             git commit -m "Verified listings $(date -u +%F)"
             if git pull --rebase origin main && git push; then exit 0; fi
@@ -45,4 +51,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh issue create --title "Listing checker failed" --body "The daily check failed or the sanity gate stopped publishing. Run: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          RUN="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          N=$(gh issue list --state open --search '"Listing checker failed" in:title' --json number --jq '.[0].number')
+          if [ -n "$N" ]; then gh issue comment "$N" --body "Failed again. Run: $RUN"; else gh issue create --title "Listing checker failed" --body "The daily check failed or the sanity gate stopped publishing. Run: $RUN"; fi
