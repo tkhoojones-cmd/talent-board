@@ -115,13 +115,15 @@ const FETCH = {
     return { status: 200, jobs: r.json.offers.map((j) => ({ title: j.title, location: [j.city, j.country_code].filter(Boolean).join(", ") || j.location || "", url: j.careers_url })) };
   },
 };
+const WD_DEADLINE = Date.now() + 12 * 60 * 1000;
 async function workday(w) {
+  if (Date.now() > WD_DEADLINE) return { status: 0 };
   const base = `https://${w.tenant}.${w.wd}.myworkdayjobs.com`;
-  const terms = ["people", "talent", "human resources", "HR", "recruiting", "recruitment", "human capital", "chief people", "culture", "workforce", "total rewards"];
+  const terms = ["chief people officer", "vice president people", "vice president human resources", "head of talent", "head of people", "vice president talent"];
   const seen = new Map(); let any = false;
   for (const term of terms) {
     let off = 0, total = 1;
-    while (off < total && off < 200) {
+    while (off < total && off < 40 && Date.now() < WD_DEADLINE) {
       const r = await post(`${base}/wday/cxs/${w.tenant}/${w.site}/jobs`, { appliedFacets: {}, limit: 20, offset: off, searchText: term });
       if (r.status !== 200 || !r.json || !r.json.jobPostings) break;
       any = true; total = r.json.total || 0; off += 20;
