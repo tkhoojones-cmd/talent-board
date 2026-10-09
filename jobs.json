@@ -1297,7 +1297,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-09",
-   "closedStreak": 9
+   "closedStreak": 10
   },
   {
    "id": "a23feff7b7",
@@ -2369,9 +2369,31 @@
    "url": "https://job-boards.greenhouse.io/alphahawaii/jobs/4933434008",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-09",
+   "reason": "HTTP 404"
+  },
+  {
+   "id": "b4c4fb05ee",
+   "kind": "role",
+   "company": "GC AI",
+   "title": "VP of People",
+   "location": "San Mateo, California",
+   "url": "https://jobs.ashbyhq.com/gc-ai/38dd64c3-4397-4548-a2e1-aaf93f14d76b",
+   "comp": "$265K – $365K",
+   "added": "2026-10-09",
+   "status": "live",
+   "lastChecked": "2026-10-09",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "ashby:gc-ai",
+   "inFeed": "2026-10-09",
+   "compMax": 365000,
+   "pageTitle": "VP of People",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-09",
+   "pageLocation": "California, United States"
   }
  ]
 }

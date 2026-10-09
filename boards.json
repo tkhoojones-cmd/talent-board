@@ -108,7 +108,8 @@
   "collibra",
   "dept",
   "viralnation",
-  "alphahawaii"
+  "alphahawaii",
+  "sonobello"
  ],
  "lever": [
   "zoox",
@@ -130,7 +131,8 @@
   "royalambulance",
   "quantummetric",
   "nitra",
-  "rise"
+  "rise",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -200,7 +202,8 @@
   "suno",
   "chaidiscovery",
   "etched",
-  "superdial"
+  "superdial",
+  "gc-ai"
  ],
  "workday": [
   {
@@ -463,8 +466,6 @@
   }
  ],
  "candidates": [
-  "neednova",
-  "wandb",
   "Prescriptive Data",
   "Greenhouse Software",
   "Instasks",
@@ -473,11 +474,6 @@
   "Crew Group",
   "Walmart",
   "Sage",
-  "knownwell",
-  "GC AI",
-  "Uber",
-  "Prime Intellect",
-  "Sono Bello",
   "Kontakt.io"
  ],
  "tried": {
@@ -588,16 +584,17 @@
   "Valor": 4,
   "Fireworks AI": 4,
   "Tide Rock": 4,
-  "neednova": 3,
-  "wandb": 3,
-  "Instasks": 1,
-  "Salesforce": 1,
-  "Greenhouse Software": 1,
-  "Prescriptive Data": 1,
-  "Walmart": 1,
-  "Adobe": 1,
-  "Sage": 1,
-  "Crew Group": 1
+  "neednova": 4,
+  "wandb": 4,
+  "Instasks": 2,
+  "Salesforce": 2,
+  "Greenhouse Software": 2,
+  "Prescriptive Data": 2,
+  "Walmart": 2,
+  "Adobe": 2,
+  "Sage": 2,
+  "Crew Group": 2,
+  "Kontakt.io": 1
  },
  "dead": [
   "Slate Auto",
@@ -703,7 +700,9 @@
   "Castelion",
   "Wonder",
   "Valor",
-  "Tide Rock"
+  "Tide Rock",
+  "neednova",
+  "wandb"
  ],
  "workable": [
   "montera",
@@ -720,7 +719,8 @@
   "glean",
   "WesternDigital",
   "ProcoreTechnologies",
-  "hibob"
+  "hibob",
+  "uber"
  ],
  "recruitee": [
   "riderlevettbucknall",
@@ -940,7 +940,11 @@
   "greenhouse:viralnation": 0,
   "lever:rise": 0,
   "lever:nitra": 0,
-  "ashby:superdial": 0
+  "ashby:superdial": 0,
+  "greenhouse:sonobello": 0,
+  "ashby:gc-ai": 0,
+  "smartrecruiters:uber": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1023,7 +1027,11 @@
   "greenhouse:twilio": "Twilio",
   "ashby:superdial": "SuperDial",
   "lever:nitra": "Nitra",
-  "lever:rise": "Rise"
+  "lever:rise": "Rise",
+  "greenhouse:sonobello": "Sono Bello",
+  "ashby:primeintellect": "Prime Intellect",
+  "smartrecruiters:uber": "Uber",
+  "ashby:gc-ai": "GC AI"
  },
  "icims": [
   "careers-uhnjcareers",
