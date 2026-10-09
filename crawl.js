@@ -5,14 +5,16 @@ const boards = JSON.parse(fs.readFileSync("boards.json", "utf8"));
 const store = JSON.parse(fs.readFileSync("jobs.json", "utf8"));
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver" }).format(new Date());
 
-const LEVEL = /\b(vp|v\.p\.|vice president|svp|evp|head|chief|cpo|chro|cto?o|director|general manager|lead)\b/i;
+const LEVEL = /\b(vp|v\.p\.|vice president|svp|evp|head|chief|cpo|chro|cto?o|director|general manager)\b/i;
 const TOPIC = /\b(people|talent|recruit\w*|human resources|hr|human capital|workforce|culture|employee experience|total rewards|chro|chief people|chief human|chief talent)\b/i;
-const NOISE = /\b(intern|coordinator|assistant|sourcer|partner|business partner|hrbp|analyst|specialist|generalist|engineer|software|product manager|designer|counsel|legal|payroll|benefits administrator|recruiter\b(?!.*(head|vp|director)))/i;
+const NOISE = /\b(recruiting operations|lead|manager|programs?|pmo|operations lead|intern|coordinator|assistant|sourcer|partner|business partner|hrbp|analyst|specialist|generalist|engineer|software|product manager|designer|counsel|legal|payroll|benefits administrator|recruiter\b(?!.*(head|vp|director)))/i;
 const BIG = /(anthropic|figma|stripe|databricks|airbnb|cloudflare|datadog|coinbase|snowflake|openai|palantir|spotify|doordash|rippling|gitlab|twilio|okta|shopify)/i;
 const FOREIGN = /\b(united kingdom|uk|london(?!, ?(on|ontario))|emea|europe|apac|asia|india|australia|singapore|germany|berlin|paris|france|ireland|dublin|japan|tokyo|brazil|(?<!new )mexico|latam|latin america|philippines|israel|tel aviv|spain|portugal|netherlands|amsterdam|poland|sweden|switzerland)\b/i;
 const NA = /\b(united states|usa|u\.s\.|canada|remote|north america|americas)\b|,\s?[A-Z]{2}\b/i;
 
 function wanted(company, title, loc) {
+  const ho = title.match(/\bhead of\s+([^,&(-]*)/i);
+  if (ho && !/^(global |people|talent|recruit|hr\b|human|culture|workforce|employee|total rewards|chief)/i.test(ho[1].trim())) return false;
   if (!LEVEL.test(title) || !TOPIC.test(title) || NOISE.test(title)) return false;
   if (/\bdirector\b/i.test(title) && !/\b(vp|vice|head|chief|svp)\b/i.test(title) && !BIG.test(company)) return false;
   if (loc && FOREIGN.test(loc) && !NA.test(loc)) return false;
@@ -24,6 +26,7 @@ const key = (u) => {
   if ((m = u.match(/(?:lever\.co|ashbyhq\.com)\/[^/]+\/([0-9a-f-]{36})/i))) return "id:" + m[1].toLowerCase();
   return u.toLowerCase().replace(/^https?:\/\//, "").replace(/[?#].*$/, "").replace(/\/+$/, "");
 };
+store.jobs = store.jobs.filter((j) => j.source !== "feed" || wanted(j.company, j.title, j.location));
 const have = new Set(store.jobs.map((j) => key(j.url)));
 const sha = (s) => require("crypto").createHash("sha1").update(s).digest("hex").slice(0, 10);
 const nice = (t) => t.replace(/[-_]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
