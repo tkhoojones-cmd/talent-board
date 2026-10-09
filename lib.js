@@ -31,8 +31,8 @@ function wantedIC(title) {
 // Borderline titles: close to what Tim wants but not matched by the strict rules. They go to a "To review" list
 // (still opened in a real browser and checked live) so nothing is silently dropped.
 const B_TOPIC = /\b(people|talent|recruit\w*|human resources|hr|human capital|culture|employee (experience|success|relations)|total rewards|learning (and|&) development)\b/i;
-const B_LEVEL = /\b(head of|leader|lead|chief of staff|senior manager|sr\.? manager|associate director|executive director|managing director|principal|partner)\b/i;
-const B_NOISE = /\b(intern|interns|internship|coordinator|assistant|sourcer|analyst|specialist|generalist|engineer|software|designer|payroll|paralegal|apprentice|trainee|legal|attorney|contract|temporary|business partner\w*|people partner\w*|hrbp|operations analyst|data|analytics|systems|technical program)\b/i;
+const B_LEVEL = /\b(head of|leader|lead|chief of staff|senior manager|sr\.? manager|associate director|executive director|managing director|principal)\b/i;
+const B_NOISE = /\b(intern|interns|internship|coordinator|assistant|sourcer|analyst|specialist|generalist|engineer|software|designer|payroll|paralegal|apprentice|trainee|legal|attorney|contract|temporary|business partner\w*|people partner\w*|hrbp|operations analyst|data|analytics|systems|technical program|product|sales|engineering|business system|project|program|design|real estate|netsuite|relations|compliance)\b/i;
 function borderline(title) {
   const t = normTitle(title);
   if (!B_TOPIC.test(t) || !B_LEVEL.test(t) || B_NOISE.test(t)) return false;
@@ -50,7 +50,7 @@ function payRange(text) {
 const STATES = "AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC|AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|QC|SK|YT";
 const STATE_RE = new RegExp(",\\s?(" + STATES + ")\\b(?!\\w)");
 const EXPLICIT_NA = /\b(united states|usa|u\.s\.a?|canada|north america|americas)\b|\bUS\b/i;
-const FOREIGN = /\b(united kingdom|uk|england|scotland|london(?!,?\s?(on|ontario))|emea|europe|apac|asia|india|bangalore|bengaluru|mumbai|delhi|hyderabad|pune|australia|sydney|melbourne|new zealand|singapore|hong kong|china|beijing|shanghai|korea|seoul|japan|tokyo|germany|berlin|munich|france|paris|ireland|dublin|italy|milan|spain|madrid|barcelona|portugal|lisbon|netherlands|amsterdam|belgium|brussels|poland|warsaw|sweden|stockholm|denmark|copenhagen|norway|oslo|finland|helsinki|switzerland|zurich|austria|vienna|israel|tel aviv|dubai|uae|saudi|south africa|nigeria|kenya|egypt|brazil|sao paulo|argentina|colombia|chile|peru|(?<!new )mexico|latam|latin america|philippines|manila|vietnam|thailand|indonesia|malaysia|pakistan|turkey|ukraine|romania|czech|prague|hungary|budapest|greece)\b/i;
+const FOREIGN = /\b(united kingdom|uk|england|scotland|london(?!,?\s?(on|ontario))|emea|europe|apac|asia|india|bangalore|bengaluru|mumbai|delhi|hyderabad|pune|australia|sydney|melbourne|new zealand|singapore|hong kong|china|beijing|shanghai|korea|seoul|japan|tokyo|germany|berlin|munich|france|paris|ireland|dublin|italy|milan|spain|madrid|barcelona|portugal|lisbon|netherlands|amsterdam|belgium|brussels|poland|warsaw|sweden|stockholm|denmark|copenhagen|norway|oslo|finland|helsinki|switzerland|zurich|austria|vienna|israel|tel aviv|dubai|uae|saudi|south africa|nigeria|kenya|egypt|brazil|sao paulo|argentina|colombia|chile|peru|(?<!new )mexico|latam|latin america|philippines|manila|vietnam|thailand|indonesia|malaysia|pakistan|turkey|ukraine|romania|czech|prague|hungary|budapest|greece|brasil|kyiv|kiev|kanagawa|fujisawa|jp)\b/i;
 const REMOTE = /\b(remote|anywhere|distributed|work from home)\b/i;
 
 // true if the location is (or could be) in the US/Canada. Drops only when EVERY listed place is outside North America.

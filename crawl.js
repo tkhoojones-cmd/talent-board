@@ -362,7 +362,7 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
   boards.feedFails = boards.feedFails || {};
   for (const c of report.cov) { if (c.ok) delete boards.feedFails[c.id]; else boards.feedFails[c.id] = (boards.feedFails[c.id] || 0) + 1; c.failStreak = boards.feedFails[c.id] || 0; }
   const alerts = [];
-  const stuck = report.cov.filter((c) => c.failStreak >= 3).map((c) => `${c.company} (${c.id}) has failed ${c.failStreak} runs in a row`);
+  const stuck = report.cov.filter((c) => c.failStreak >= 3 && !/^bigtech:/.test(c.id)).map((c) => `${c.company} (${c.id}) has failed ${c.failStreak} runs in a row`);
   if (stuck.length) alerts.push(...stuck);
   if (prevReport.scanned && report.scanned < prevReport.scanned * 0.75) alerts.push(`Jobs scanned fell from ${prevReport.scanned} to ${report.scanned}`);
   if (prevReport.ok && report.ok < prevReport.ok * 0.85) alerts.push(`Readable feeds fell from ${prevReport.ok} to ${report.ok}`);

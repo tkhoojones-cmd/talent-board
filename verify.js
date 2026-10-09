@@ -217,7 +217,7 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
     const clearLoc = (j.location && !UNCLEAR.test(j.location)) || (j.pageLocation && !UNCLEAR.test(j.pageLocation));
     if (!clearLoc && j.source !== "feed") return false;      // unclear location: hide, except roles read from the employer's own feed
     return true;
-  }).filter((j) => { const k = norm(j.company) + "|" + norm(j.title) + "|" + norm(j.pageLocation || j.location); if (dupSeen.has(k)) return false; dupSeen.add(k); return true; })
+  }).filter((j) => { const k = norm(j.company) + "|" + norm(j.title) + (kind === "review" ? "" : "|" + norm(j.pageLocation || j.location)); if (dupSeen.has(k)) return false; dupSeen.add(k); return true; })
     .map((j) => ({ company: j.company, title: j.title, location: (j.location && !UNCLEAR.test(j.location)) ? j.location : (j.pageLocation || "See job posting"), url: j.url, comp: j.comp || "", added: j.added, checked: j.lastChecked, confirmed: j.lastLive || j.lastChecked }));
   const crawl = (() => { try { const c = JSON.parse(fs.readFileSync("crawl-report.json", "utf8")); return { at: c.at, ok: c.ok, failed: (c.failed || []).length, scanned: c.scanned }; } catch (e) { return null; } })();
   const data = {
