@@ -2,13 +2,14 @@
 const normTitle = (t) => (t || "").replace(/[–—‑]/g, "-").replace(/\bv\.?\s?p\.?(?=[\s,\/-]|$)/gi, "VP").replace(/vice[- ]president/gi, "vice president");
 const STRONG = /\b(vp|svp|evp|vice president|head|chief|cpo|chro|ctlo)\b/i;
 const LEVEL = /\b(vp|svp|evp|vice president|head|chief|cpo|chro|ctlo|director|general manager)\b/i;
-const TOPIC = /\b(people|talent|recruit\w*|human resources|hr|human capital|workforce|culture|employee (experience|relations|engagement|success)|total rewards|learning (and|&) development|organizational (development|effectiveness)|staffing|chro|chief people|chief human|chief talent)\b/i;
+const TOPIC = /\b(people|talent|recruit\w*|human resources|hr|human capital|culture|employee (experience|relations|engagement|success)|total rewards|learning (and|&) development|organizational (development|effectiveness)|staffing|chro|chief people|chief human|chief talent)\b/i;
 const NOISE = /\b(intern|interns|internship|coordinator|assistant|sourcer|analyst|specialist|generalist|engineer|software|designer|payroll|paralegal|apprentice|trainee)\b/i;
-const DIR_NOISE = /\b(business partner\w*|people partner\w*|hrbp|partner\w*|sourcing|clinical|operations analyst|payroll|systems|technology|technical program)\b/i;
+const DIR_NOISE = /\b(business partner\w*|people partner\w*|hrbp|partner\w*|sourcing|clinical|design|data|architect\w*|analytics|engineering|legal|operations analyst|payroll|systems|technology|technical program)\b/i;
 
 function wanted(title) {
   const t = normTitle(title);
   if (!LEVEL.test(t) || !TOPIC.test(t)) return false;
+  if (/\b(legal|attorney|paralegal)\b/i.test(t)) return false;
   if (!STRONG.test(t)) {                         // Director / GM level: stricter
     if (NOISE.test(t) || DIR_NOISE.test(t)) return false;
     if (!/\b(people|talent|hr|human resources|recruit\w*|culture|total rewards|human capital|workforce|employee)\b/i.test(t)) return false;
