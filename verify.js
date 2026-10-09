@@ -211,7 +211,6 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
   const dupSeen = new Set();
   const pub = (kind) => store.jobs.filter((j) => {
     if (j.status !== "live" || j.kind !== kind) return false;
-    if (kind === "ic" && j.source === "feed" && !(j.compMax >= 250000)) return false;   // senior recruiting tab: the posting must show pay of $250K or more
     if (j.location && !UNCLEAR.test(j.location) && !isNA(j.location)) return false;
     if (j.pageLocation && !isNA(j.pageLocation)) return false;
     const clearLoc = (j.location && !UNCLEAR.test(j.location)) || (j.pageLocation && !UNCLEAR.test(j.pageLocation));
