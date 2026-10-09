@@ -109,7 +109,10 @@
   "dept",
   "viralnation",
   "alphahawaii",
-  "sonobello"
+  "sonobello",
+  "banyansoftware",
+  "babylist",
+  "dataiku"
  ],
  "lever": [
   "zoox",
@@ -474,7 +477,27 @@
   "Crew Group",
   "Walmart",
   "Sage",
-  "Kontakt.io"
+  "Kontakt.io",
+  "Luma AI",
+  "Eight Sleep",
+  "Walt Disney",
+  "Klarity",
+  "Palo Alto Networks",
+  "SentinelOne",
+  "SafetyCulture",
+  "Paylocity",
+  "Take-Two",
+  "Blue Origin",
+  "Alation",
+  "Rivian",
+  "SeekOut",
+  "One Model",
+  "AIM Intelligent Machines",
+  "Fractional AI",
+  "Twelve Labs",
+  "Applied Intuition",
+  "Alignment Health",
+  "Visier"
  ],
  "tried": {
   "UniUni": 1,

@@ -216,6 +216,41 @@
    "title": "SVP of Talent",
    "url": "https://www.valorep.com/team/joe-schuster",
    "added": "2026-10-09"
+  },
+  {
+   "kind": "Hired",
+   "company": "Coforge",
+   "title": "Head of Talent Acquisition, Business Process Services",
+   "url": "https://www.hrkatha.com/tag/allegis-global-solutions/",
+   "added": "2026-10-09"
+  },
+  {
+   "kind": "Hired",
+   "company": "Deloitte India",
+   "title": "VP of Talent Acquisition",
+   "url": "https://www.hrkatha.com/?p=56189",
+   "added": "2026-10-09"
+  },
+  {
+   "kind": "Hired",
+   "company": "Matrix Pharmacorp",
+   "title": "Head of Talent Acquisition",
+   "url": "https://www.hrkatha.com/people/movement/naresh-kumar-g-appointed-head-of-talent-acquisition-matrix-pharmacorp/",
+   "added": "2026-10-09"
+  },
+  {
+   "kind": "Left",
+   "company": "Magnit",
+   "title": "VP Client Services and Site Head, Bengaluru",
+   "url": "https://www.hrkatha.com/?p=56189",
+   "added": "2026-10-09"
+  },
+  {
+   "kind": "Left",
+   "company": "CuraTeQ Biologics",
+   "title": "AGM Talent Acquisition",
+   "url": "https://www.hrkatha.com/people/movement/naresh-kumar-g-appointed-head-of-talent-acquisition-matrix-pharmacorp/",
+   "added": "2026-10-09"
   }
  ],
  "funding": [
@@ -623,6 +658,55 @@
    "round": "Series C",
    "amount": "$300M",
    "url": "https://intellizence.com/insights/startup-funding/largest-startup-venture-capital-vc-funding-deals/",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Waymo",
+   "round": "Series D",
+   "amount": "$16B",
+   "url": "https://www.zeni.ai/blog/series-d-funding",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "DayOne",
+   "round": "Series C",
+   "amount": "$2B",
+   "url": "https://www.zeni.ai/blog/series-c-funding",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Saronic",
+   "round": "Series D",
+   "amount": "$1.75B",
+   "url": "https://news.crunchbase.com/?pages=43",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Cognition",
+   "round": "Series D",
+   "amount": "$1B+",
+   "url": "https://www.zeni.ai/blog/series-d-funding",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "PhysicsX",
+   "round": "Series C",
+   "amount": "$300M",
+   "url": "https://runtimewire.com/fundings?page=18",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Emergent",
+   "round": "Series C",
+   "amount": "$130M",
+   "url": "https://siliconvalleyinvestclub.com/funding-rounds/",
+   "added": "2026-10-09"
+  },
+  {
+   "company": "Sigma",
+   "round": "Series E",
+   "amount": "$80M",
+   "url": "https://runtimewire.com/fundings?page=18",
    "added": "2026-10-09"
   }
  ]
