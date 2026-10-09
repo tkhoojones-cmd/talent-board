@@ -995,5 +995,25 @@
   "careers-heritagechristianservices",
   "careers-naphcare",
   "careers-uti"
- ]
+ ],
+ "oracle": [
+  {
+   "host": "jpmc.fa.oraclecloud.com",
+   "site": "CX_1001",
+   "company": "JPMorgan Chase"
+  },
+  {
+   "host": "eeho.fa.us2.oraclecloud.com",
+   "site": "CX_45001",
+   "company": "Oracle"
+  }
+ ],
+ "taleo": [
+  {
+   "tenant": "drhorton",
+   "section": "2",
+   "company": "D.R. Horton"
+  }
+ ],
+ "successfactors": []
 }

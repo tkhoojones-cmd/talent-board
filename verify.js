@@ -2,7 +2,7 @@
 // and publishes only the ones that are clearly still open.
 const { chromium } = require("playwright");
 const fs = require("fs");
-const { isNA, TOPIC, normTitle } = require("./lib");
+const { isNA, TOPIC, normTitle, wanted } = require("./lib");
 
 const CLOSED = /no longer (available|accepting|open|active|posted|listed|hiring)|(position|job|role|posting|opening|requisition|opportunity)( has been| is| was)? (filled|closed|removed|expired|unavailable|no longer|cancelled|canceled)|this (job|position|posting|role|opportunity) (has|is|isn.t)( been)? (expired|closed|removed|filled|available|open)|page (you are looking for )?(doesn.t|does not) exist|we couldn.t find|couldn.t find that|sorry,? (but )?(the|this) (job|page|position)|job not found|has expired|not (currently )?accepting (new )?applications|applications? (are|is) (now )?closed|applications are no longer being accepted|deadline (has|had) passed|position (is )?(on hold|paused)/i;
 
@@ -122,6 +122,7 @@ async function check(ctx, url, rec) {
     const past = await validThroughPast(page);
     if (past) return ["closed", "posting's validThrough date has passed: " + past, "", "", false];
     const pt = await findTitle(page);
+    if (rec && rec.titleFromSlug && pt) { if (wanted(pt)) { rec.title = pt; delete rec.titleFromSlug; } else return ["unverifiable", "page title does not look like the role: " + pt.slice(0, 80)]; }
     // positive evidence: the employer's own job feed lists this role today AND the page shows the role's title
     const feedOk = rec && rec.inFeed === new Date().toLocaleDateString("en-CA", { timeZone: "America/Vancouver" }) && rec.title && squash(text).includes(squash(rec.title));
     if (!id) {

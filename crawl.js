@@ -1,4 +1,5 @@
-// Reads employers' own job feeds (Greenhouse, Lever, Ashby, Workable, Rippling, SmartRecruiters, Recruitee, Workday)
+// Reads employers' own job feeds (Greenhouse, Lever, Ashby, Workable, Rippling, SmartRecruiters, Recruitee, iCIMS, Workday,
+// Oracle Recruiting Cloud, Taleo, SuccessFactors)
 // and adds any matching leadership people/talent role to jobs.json as "new".
 // It also records which jobs are in the employer's feed today (evidence the role is open).
 const fs = require("fs");
@@ -8,7 +9,7 @@ const store = JSON.parse(fs.readFileSync("jobs.json", "utf8"));
 const today = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Vancouver" }).format(new Date());
 const ATS = ["greenhouse", "lever", "ashby", "workable", "rippling", "smartrecruiters", "recruitee", "icims"];
 for (const a of ATS) boards[a] = boards[a] || [];
-boards.workday = boards.workday || []; boards.candidates = boards.candidates || []; boards.tried = boards.tried || {};
+boards.workday = boards.workday || []; boards.oracle = boards.oracle || []; boards.taleo = boards.taleo || []; boards.successfactors = boards.successfactors || []; boards.candidates = boards.candidates || []; boards.tried = boards.tried || {};
 boards.dead = boards.dead || []; boards.misses = boards.misses || {}; boards.names = boards.names || {};
 
 const key = (u) => {
@@ -17,6 +18,9 @@ const key = (u) => {
   if ((m = u.match(/(?:lever\.co|ashbyhq\.com)\/[^/]+\/([0-9a-f-]{36})/i))) return "id:" + m[1].toLowerCase();
   if ((m = u.match(/myworkdayjobs\.com\/.*_(R-?\d+[\w-]*)/i))) return "wd:" + m[1].toLowerCase();
   if ((m = u.match(/icims\.com\/jobs\/(\d+)\//))) return "ic:" + m[1];
+  if ((m = u.match(/oraclecloud\.com\/hcmUI\/CandidateExperience\/[^/]+\/sites\/[^/]+\/job\/(\d+)/i))) return "or:" + m[1];
+  if ((m = u.match(/taleo\.net\/careersection\/[^?]*jobdetail\.ftl\?[^#]*\bjob=([\w-]+)/i))) return "tl:" + m[1].toLowerCase();
+  if ((m = u.match(/successfactors\.(?:com|eu)\/.*\/job\/[^/]+\/(\d+)/i)) || (m = u.match(/\/job\/[^/]+\/(\d{5,})\/?$/))) return "sf:" + m[1];
   if ((m = u.match(/apply\.workable\.com\/[^/]+\/j\/([A-Z0-9]+)/i))) return "wk:" + m[1].toUpperCase();
   const keep = (u.match(/[?&](id|jobid|job_id|jid|req|reqid|gh_jid|jobId)=[^&]+/i) || [""])[0];
   return u.toLowerCase().replace(/^https?:\/\//, "").replace(/[?#].*$/, "").replace(/\/+$/, "") + keep.toLowerCase();
@@ -133,11 +137,78 @@ async function workday(w) {
   return any ? { status: 200, jobs: [...seen.values()] } : { status: 404 };
 }
 
+
+// ---------- Oracle Recruiting Cloud, Taleo and SuccessFactors (employer-hosted systems, mostly big companies) ----------
+// These are read for NEW roles only. Their absence from a read is never used to close a role (the page check does that).
+const LEAD_TERMS = ["chief people officer", "vice president people", "vice president human resources", "head of talent", "head of people", "vice president talent"];
+const HOST_DEADLINE = Date.now() + 10 * 60 * 1000;
+async function oracle(o) {                       // {host, site, company}
+  const seen = new Map(); let any = false;
+  for (const term of LEAD_TERMS) {
+    if (Date.now() > HOST_DEADLINE) break;
+    const q = `https://${o.host}/hcmRestApi/resources/latest/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList.secondaryLocations&finder=findReqs;siteNumber=${encodeURIComponent(o.site)},keyword=${encodeURIComponent('"' + term + '"')},limit=25,sortBy=POSTING_DATES_DESC`;
+    const r = await http(q);
+    const list = r.status === 200 && r.json && r.json.items && r.json.items[0] && r.json.items[0].requisitionList;
+    if (!list) { if (r.status && r.status !== 200 && !any) return { status: r.status }; continue; }
+    any = true;
+    for (const j of list) if (j.Id && j.Title) seen.set(j.Id, { title: j.Title, location: j.PrimaryLocation || "", url: `https://${o.host}/hcmUI/CandidateExperience/en/sites/${o.site}/job/${j.Id}` });
+  }
+  return any ? { status: 200, jobs: [...seen.values()] } : { status: 404 };
+}
+async function taleo(t) {                        // {tenant, section, company}; portal id comes from the section's own page
+  const base = `https://${t.tenant}.taleo.net/careersection`;
+  const shell = await http(`${base}/${t.section}/jobsearch.ftl?lang=en`);
+  const portal = shell.text && (shell.text.match(/portal=(\d{6,})/) || shell.text.match(/"portalNo"\s*:\s*"?(\d{6,})/) || [])[1];
+  if (shell.status !== 200) return { status: shell.status };
+  if (!portal) return { status: 0 };
+  const seen = new Map(); let any = false;
+  for (const term of LEAD_TERMS) {
+    if (Date.now() > HOST_DEADLINE) break;
+    const r = await post(`${base}/rest/jobboard/searchjobs?lang=en&portal=${portal}`, {
+      multilineEnabled: false, sortingSelection: { sortBySelectionParam: "3", ascendingSortingOrder: "false" },
+      fieldData: { fields: { KEYWORD: term, LOCATION: "" }, valid: true },
+      filterSelectionParam: { searchFilterSelections: [{ id: "POSTING_DATE", selectedValues: [] }, { id: "LOCATION", selectedValues: [] }, { id: "JOB_FIELD", selectedValues: [] }, { id: "JOB_TYPE", selectedValues: [] }, { id: "JOB_SCHEDULE", selectedValues: [] }, { id: "JOB_LEVEL", selectedValues: [] }] },
+      advancedSearchFiltersSelectionParam: { searchFilterSelections: [{ id: "ORGANIZATION", selectedValues: [] }, { id: "LOCATION", selectedValues: [] }, { id: "JOB_FIELD", selectedValues: [] }, { id: "JOB_NUMBER", selectedValues: [] }, { id: "URGENT_JOB", selectedValues: [] }, { id: "EMPLOYEE_STATUS", selectedValues: [] }, { id: "STUDY_LEVEL", selectedValues: [] }, { id: "WILL_TRAVEL", selectedValues: [] }, { id: "JOB_SHIFT", selectedValues: [] }] },
+      pageNo: 1 });
+    const list = r.status === 200 && r.json && r.json.requisitionList;
+    if (!Array.isArray(list)) continue;
+    any = true;
+    for (const j of list) {
+      const col = j.column || []; const id = j.contestNo || j.jobId; if (!id || !col[0]) continue;
+      let loc = col[1] || ""; try { const a = JSON.parse(loc); if (Array.isArray(a)) loc = a.join("; "); } catch (e) {}
+      seen.set(id, { title: String(col[0]).trim(), location: String(loc).replace(/^[A-Z]{2}-/, "").replace(/-/g, ", "), url: `${base}/${t.section}/jobdetail.ftl?job=${encodeURIComponent(id)}&lang=en` });
+    }
+  }
+  return any ? { status: 200, jobs: [...seen.values()] } : { status: 404 };
+}
+async function successfactors(s) {               // {host, company}; reads the career site's public sitemap, title comes from the URL slug
+  const urls = []; const queue = [`https://${s.host}/sitemap.xml`]; let any = false;
+  for (let n = 0; n < 6 && queue.length; n++) {
+    const r = await http(queue.shift());
+    if (r.status !== 200 || !r.text) { if (!any && n === 0) return { status: r.status }; continue; }
+    any = true;
+    for (const m of r.text.matchAll(/<loc>\s*([^<\s]+)\s*<\/loc>/g)) { const u = m[1].replace(/&amp;/g, "&"); if (/\.xml(\.gz)?$/i.test(u)) queue.push(u); else if (/\/job\/[^/]+\/\d+/.test(u)) urls.push(u); }
+  }
+  const jobs = [];
+  for (const u of urls) {
+    const slug = decodeURIComponent((u.match(/\/job\/([^/]+)\/\d+/) || [])[1] || "").replace(/-/g, " ").trim();
+    if (slug && wanted(slug)) jobs.push({ title: slug, location: "", url: u, slug: true });
+  }
+  return any ? { status: 200, jobs } : { status: 404 };
+}
+const HOSTED = { oracle: [oracle, (x) => `oracle:${x.host}:${x.site}`], taleo: [taleo, (x) => `taleo:${x.tenant}:${x.section}`], successfactors: [successfactors, (x) => `successfactors:${x.host}`] };
+
 // Workday tenants taken from links we already have
 const wdSet = new Map((boards.workday || []).map((x) => [x.tenant + x.site, x]));
 for (const j of store.jobs) {
   const m = j.url.match(/^https:\/\/([^.]+)\.(wd\d+)\.myworkdayjobs\.com\/(?:[a-z]{2}-[A-Z]{2}\/)?([^/]+)/);
   if (m && !wdSet.has(m[1] + m[3])) wdSet.set(m[1] + m[3], { tenant: m[1], wd: m[2], site: m[3], company: nice(m[1]) });
+}
+
+for (const j of store.jobs) {
+  let m;
+  if ((m = j.url.match(/^https:\/\/([a-z0-9.-]+\.oraclecloud\.com)\/hcmUI\/CandidateExperience\/[^/]+\/sites\/([^/]+)\//i)) && !boards.oracle.some((x) => x.host === m[1] && x.site === m[2])) boards.oracle.push({ host: m[1], site: m[2], company: j.company });
+  if ((m = j.url.match(/^https:\/\/([a-z0-9-]+)\.taleo\.net\/careersection\/([^/]+)\//i)) && m[2] !== "rest" && !boards.taleo.some((x) => x.tenant === m[1] && x.section === m[2])) boards.taleo.push({ tenant: m[1], section: m[2], company: j.company });
 }
 // feed tokens taken from links we already have
 const add = (a, t) => { if (!boards[a].includes(t)) boards[a].push(t); };
@@ -208,9 +279,19 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     feedKeys.set(id, ks);
   });
 
+
+  for (const [kind, [fn, idOf]] of Object.entries(HOSTED)) {
+    await each(boards[kind], async (x) => {
+      const id = idOf(x); const r = await fn(x);
+      if (r.status !== 200) { report.fail.push(`${id}:${r.status}`); return; }
+      report.ok++; report.scanned += r.jobs.length;
+      for (const j of r.jobs) if (wanted(j.title) && isNA(j.location)) matches.push({ company: x.company, title: j.title, location: j.location, url: j.url, feed: id, slug: j.slug });
+    });
+  }
+
   // dead feeds: remove only after 3 misses in a row
   for (const f of report.fail) {
-    const m = f.match(/^([a-z]+):(.+):404$/); if (!m || !boards[m[1]]) continue;
+    const m = f.match(/^([a-z]+):(.+):404$/); if (!m || !ATS.includes(m[1])) continue;
     const id = m[1] + ":" + m[2]; boards.misses[id] = (boards.misses[id] || 0) + 1;
     if (boards.misses[id] >= 3) { boards[m[1]] = boards[m[1]].filter((x) => x !== m[2]); if (!boards.candidates.includes(m[2]) && !boards.dead.includes(m[2])) boards.candidates.push(m[2]); delete boards.misses[id]; }
   }
@@ -239,7 +320,7 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
   let added = 0;
   for (const f of matches) {
     const k = key(f.url); if (have.has(k)) continue; have.add(k);
-    store.jobs.push({ id: sha(f.url), kind: "role", company: f.company, title: f.title, location: f.location, url: f.url, comp: "", added: today, status: "new", lastChecked: null, reason: null, source: "feed", feed: f.feed, inFeed: today });
+    store.jobs.push({ id: sha(f.url), kind: "role", company: f.company, title: f.title, location: f.location, url: f.url, comp: "", added: today, status: "new", lastChecked: null, reason: null, source: "feed", feed: f.feed, inFeed: today, ...(f.slug ? { titleFromSlug: true } : {}) });
     added++; console.log("NEW", f.company, "|", f.title, "|", f.location);
   }
   // feed-added jobs that no longer pass the rules: drop only if never confirmed live
