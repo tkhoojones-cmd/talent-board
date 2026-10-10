@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T11:50:27.131Z",
+ "at": "2026-10-10T12:00:17.471Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -23,7 +23,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -71,7 +71,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "greenhouse:alphasense",
@@ -447,7 +447,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "ashby:commure",
@@ -567,7 +567,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "greenhouse:dept",
@@ -1039,7 +1039,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "lever:kraken",
@@ -1110,7 +1110,7 @@
    "company": "Lyft",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 188,
+   "jobs": 187,
    "failStreak": 0
   },
   {
@@ -1135,7 +1135,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1175,7 +1175,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "workday:micron:External",
@@ -1191,7 +1191,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "lever:minesense",
@@ -1327,7 +1327,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "ashby:notion",
@@ -1567,7 +1567,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "lever:quantummetric",
@@ -2103,7 +2103,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "workday:warnerbros:global",
