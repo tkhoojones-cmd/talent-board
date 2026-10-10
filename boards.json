@@ -140,7 +140,8 @@
   "royalambulance",
   "quantummetric",
   "nitra",
-  "rise"
+  "rise",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -478,16 +479,10 @@
   }
  ],
  "candidates": [
-  "Crossix",
-  "Vital",
-  "Brown University Health",
-  "MiQ",
-  "Emergence Software",
   "Electronic Arts",
   "Live Nation",
   "Mercury Systems",
-  "NinjaOne",
-  "knownwell"
+  "NinjaOne"
  ],
  "tried": {
   "UniUni": 1,
@@ -630,15 +625,15 @@
   "Deloitte India": 4,
   "Matrix Pharmacorp": 4,
   "CuraTeQ Biologics": 4,
-  "Vital": 3,
-  "Crossix": 3,
-  "MiQ": 3,
-  "Emergence Software": 3,
-  "Brown University Health": 3,
-  "Electronic Arts": 1,
-  "NinjaOne": 1,
-  "Live Nation": 1,
-  "Mercury Systems": 1
+  "Vital": 4,
+  "Crossix": 4,
+  "MiQ": 4,
+  "Emergence Software": 4,
+  "Brown University Health": 4,
+  "Electronic Arts": 2,
+  "NinjaOne": 2,
+  "Live Nation": 2,
+  "Mercury Systems": 2
  },
  "dead": [
   "Slate Auto",
@@ -777,7 +772,12 @@
   "Deloitte India",
   "Matrix Pharmacorp",
   "Magnit",
-  "CuraTeQ Biologics"
+  "CuraTeQ Biologics",
+  "Crossix",
+  "Vital",
+  "Brown University Health",
+  "MiQ",
+  "Emergence Software"
  ],
  "workable": [
   "montera",
@@ -1038,7 +1038,8 @@
   "ashby:grow-therapy": 0,
   "smartrecruiters:advantagesolutions": 0,
   "recruitee:personio": 0,
-  "smartrecruiters:servicenow": 0
+  "smartrecruiters:servicenow": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1170,16 +1171,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 6,
-  "greenhouse:notion": 6,
-  "greenhouse:marqeta": 6,
-  "greenhouse:alphahawaii": 6,
-  "lever:knownwell": 6,
-  "workday:walmart:WalmartExternal": 6,
-  "workday:comcast:Comcast_Careers": 6,
-  "workday:dell:External": 6,
-  "workday:qualcomm:External": 6,
-  "bigtech:microsoft": 6,
-  "bigtech:meta": 6
+  "greenhouse:admarketplaceinc": 7,
+  "greenhouse:notion": 7,
+  "greenhouse:marqeta": 7,
+  "greenhouse:alphahawaii": 7,
+  "lever:knownwell": 7,
+  "workday:walmart:WalmartExternal": 7,
+  "workday:comcast:Comcast_Careers": 7,
+  "workday:dell:External": 7,
+  "workday:qualcomm:External": 7,
+  "bigtech:microsoft": 7,
+  "bigtech:meta": 7
  }
 }

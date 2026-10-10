@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T12:25:24.083Z",
+ "at": "2026-10-10T13:46:05.007Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -23,7 +23,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -79,7 +79,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "greenhouse:alphasense",
@@ -455,7 +455,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "ashby:commure",
@@ -575,7 +575,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "greenhouse:dept",
@@ -1063,7 +1063,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "lever:kraken",
@@ -1159,7 +1159,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1199,7 +1199,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "workday:micron:External",
@@ -1215,7 +1215,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "lever:minesense",
@@ -1351,7 +1351,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "ashby:notion",
@@ -1607,7 +1607,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "greenhouse:qualtrics",
@@ -1782,7 +1782,7 @@
    "company": "Shieldai",
    "ats": "lever",
    "ok": true,
-   "jobs": 613,
+   "jobs": 614,
    "failStreak": 0
   },
   {
@@ -2094,7 +2094,7 @@
    "company": "Vanguard",
    "ats": "workday",
    "ok": true,
-   "jobs": 15,
+   "jobs": 14,
    "failStreak": 0
   },
   {
@@ -2167,7 +2167,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 6
+   "failStreak": 7
   },
   {
    "id": "workday:warnerbros:global",
@@ -2299,16 +2299,10 @@
   }
  ],
  "waitingForFeed": [
-  "Crossix",
-  "Vital",
-  "Brown University Health",
-  "MiQ",
-  "Emergence Software",
   "Electronic Arts",
   "Live Nation",
   "Mercury Systems",
-  "NinjaOne",
-  "knownwell"
+  "NinjaOne"
  ],
  "gaveUp": [
   "Slate Auto",
@@ -2447,6 +2441,11 @@
   "Deloitte India",
   "Matrix Pharmacorp",
   "Magnit",
-  "CuraTeQ Biologics"
+  "CuraTeQ Biologics",
+  "Crossix",
+  "Vital",
+  "Brown University Health",
+  "MiQ",
+  "Emergence Software"
  ]
 }
