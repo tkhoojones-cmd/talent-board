@@ -114,7 +114,11 @@
   "babylist",
   "dataiku",
   "seekout",
-  "physicsx"
+  "physicsx",
+  "qualtrics",
+  "zscaler",
+  "psiquantum",
+  "helsing"
  ],
  "lever": [
   "zoox",
@@ -136,8 +140,7 @@
   "royalambulance",
   "quantummetric",
   "nitra",
-  "rise",
-  "knownwell"
+  "rise"
  ],
  "ashby": [
   "pylon-labs",
@@ -210,7 +213,9 @@
   "superdial",
   "gc-ai",
   "cognition",
-  "saronic"
+  "saronic",
+  "synthesia",
+  "grow-therapy"
  ],
  "workday": [
   {
@@ -479,18 +484,10 @@
   "MiQ",
   "Emergence Software",
   "Electronic Arts",
-  "Advantage Solutions",
-  "Qualtrics",
   "Live Nation",
-  "Zscaler",
-  "Personio",
-  "PsiQuantum",
-  "Grow Therapy",
-  "Banyan Software",
   "Mercury Systems",
-  "Helsing",
-  "Synthesia",
-  "NinjaOne"
+  "NinjaOne",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -633,11 +630,15 @@
   "Deloitte India": 4,
   "Matrix Pharmacorp": 4,
   "CuraTeQ Biologics": 4,
-  "Vital": 2,
-  "Crossix": 2,
-  "MiQ": 2,
-  "Emergence Software": 2,
-  "Brown University Health": 2
+  "Vital": 3,
+  "Crossix": 3,
+  "MiQ": 3,
+  "Emergence Software": 3,
+  "Brown University Health": 3,
+  "Electronic Arts": 1,
+  "NinjaOne": 1,
+  "Live Nation": 1,
+  "Mercury Systems": 1
  },
  "dead": [
   "Slate Auto",
@@ -794,11 +795,14 @@
   "WesternDigital",
   "ProcoreTechnologies",
   "hibob",
-  "uber"
+  "uber",
+  "advantagesolutions",
+  "servicenow"
  ],
  "recruitee": [
   "riderlevettbucknall",
-  "google"
+  "google",
+  "personio"
  ],
  "misses": {
   "greenhouse:figma": 0,
@@ -1026,7 +1030,15 @@
   "ashby:cognition": 0,
   "ashby:saronic": 0,
   "icims:careers-jobyaviation": 0,
-  "lever:knownwell": 2
+  "greenhouse:qualtrics": 0,
+  "greenhouse:psiquantum": 0,
+  "greenhouse:zscaler": 0,
+  "greenhouse:helsing": 0,
+  "ashby:synthesia": 0,
+  "ashby:grow-therapy": 0,
+  "smartrecruiters:advantagesolutions": 0,
+  "recruitee:personio": 0,
+  "smartrecruiters:servicenow": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1118,7 +1130,17 @@
   "greenhouse:seekout": "SeekOut",
   "greenhouse:physicsx": "PhysicsX",
   "ashby:cognition": "Cognition",
-  "ashby:saronic": "Saronic"
+  "ashby:saronic": "Saronic",
+  "greenhouse:qualtrics": "Qualtrics",
+  "greenhouse:zscaler": "Zscaler",
+  "smartrecruiters:advantagesolutions": "Advantage Solutions",
+  "greenhouse:psiquantum": "PsiQuantum",
+  "recruitee:personio": "Personio",
+  "greenhouse:banyansoftware": "Banyan Software",
+  "greenhouse:helsing": "Helsing",
+  "ashby:synthesia": "Synthesia",
+  "ashby:grow-therapy": "Grow Therapy",
+  "smartrecruiters:servicenow": "ServiceNow"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1148,16 +1170,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 5,
-  "greenhouse:notion": 5,
-  "greenhouse:marqeta": 5,
-  "greenhouse:alphahawaii": 5,
-  "lever:knownwell": 5,
-  "workday:walmart:WalmartExternal": 5,
-  "workday:comcast:Comcast_Careers": 5,
-  "workday:dell:External": 5,
-  "workday:qualcomm:External": 5,
-  "bigtech:microsoft": 5,
-  "bigtech:meta": 5
+  "greenhouse:admarketplaceinc": 6,
+  "greenhouse:notion": 6,
+  "greenhouse:marqeta": 6,
+  "greenhouse:alphahawaii": 6,
+  "lever:knownwell": 6,
+  "workday:walmart:WalmartExternal": 6,
+  "workday:comcast:Comcast_Careers": 6,
+  "workday:dell:External": 6,
+  "workday:qualcomm:External": 6,
+  "bigtech:microsoft": 6,
+  "bigtech:meta": 6
  }
 }

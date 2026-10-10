@@ -1,5 +1,5 @@
 {
- "at": "2026-10-10T12:00:17.471Z",
+ "at": "2026-10-10T12:25:24.083Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -23,7 +23,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -31,6 +31,14 @@
    "ats": "workday",
    "ok": true,
    "jobs": 51,
+   "failStreak": 0
+  },
+  {
+   "id": "smartrecruiters:advantagesolutions",
+   "company": "Advantage Solutions",
+   "ats": "smartrecruiters",
+   "ok": true,
+   "jobs": 4,
    "failStreak": 0
   },
   {
@@ -71,7 +79,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "greenhouse:alphasense",
@@ -211,7 +219,7 @@
   },
   {
    "id": "greenhouse:banyansoftware",
-   "company": "Banyansoftware",
+   "company": "Banyan Software",
    "ats": "greenhouse",
    "ok": true,
    "jobs": 44,
@@ -447,7 +455,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "ashby:commure",
@@ -567,7 +575,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "greenhouse:dept",
@@ -850,6 +858,14 @@
    "failStreak": 0
   },
   {
+   "id": "ashby:grow-therapy",
+   "company": "Grow Therapy",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 29,
+   "failStreak": 0
+  },
+  {
    "id": "greenhouse:gusto",
    "company": "Gusto",
    "ats": "greenhouse",
@@ -879,6 +895,14 @@
    "ats": "ashby",
    "ok": true,
    "jobs": 7,
+   "failStreak": 0
+  },
+  {
+   "id": "greenhouse:helsing",
+   "company": "Helsing",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 158,
    "failStreak": 0
   },
   {
@@ -1039,7 +1063,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "lever:kraken",
@@ -1135,7 +1159,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1175,7 +1199,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "workday:micron:External",
@@ -1191,7 +1215,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "lever:minesense",
@@ -1327,7 +1351,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "ashby:notion",
@@ -1482,6 +1506,14 @@
    "failStreak": 0
   },
   {
+   "id": "recruitee:personio",
+   "company": "Personio",
+   "ats": "recruitee",
+   "ok": true,
+   "jobs": 1,
+   "failStreak": 0
+  },
+  {
    "id": "greenhouse:physicsx",
    "company": "PhysicsX",
    "ats": "greenhouse",
@@ -1554,6 +1586,14 @@
    "failStreak": 0
   },
   {
+   "id": "greenhouse:psiquantum",
+   "company": "PsiQuantum",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 78,
+   "failStreak": 0
+  },
+  {
    "id": "ashby:pylon-labs",
    "company": "Pylon Labs",
    "ats": "ashby",
@@ -1567,7 +1607,15 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
+  },
+  {
+   "id": "greenhouse:qualtrics",
+   "company": "Qualtrics",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 65,
+   "failStreak": 0
   },
   {
    "id": "lever:quantummetric",
@@ -1719,6 +1767,14 @@
    "ats": "ashby",
    "ok": true,
    "jobs": 46,
+   "failStreak": 0
+  },
+  {
+   "id": "smartrecruiters:servicenow",
+   "company": "ServiceNow",
+   "ats": "smartrecruiters",
+   "ok": true,
+   "jobs": 697,
    "failStreak": 0
   },
   {
@@ -1887,6 +1943,14 @@
    "ats": "workday",
    "ok": true,
    "jobs": 5,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:synthesia",
+   "company": "Synthesia",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 46,
    "failStreak": 0
   },
   {
@@ -2103,7 +2167,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 5
+   "failStreak": 6
   },
   {
    "id": "workday:warnerbros:global",
@@ -2224,6 +2288,14 @@
    "ok": true,
    "jobs": 239,
    "failStreak": 0
+  },
+  {
+   "id": "greenhouse:zscaler",
+   "company": "Zscaler",
+   "ats": "greenhouse",
+   "ok": true,
+   "jobs": 378,
+   "failStreak": 0
   }
  ],
  "waitingForFeed": [
@@ -2231,7 +2303,12 @@
   "Vital",
   "Brown University Health",
   "MiQ",
-  "Emergence Software"
+  "Emergence Software",
+  "Electronic Arts",
+  "Live Nation",
+  "Mercury Systems",
+  "NinjaOne",
+  "knownwell"
  ],
  "gaveUp": [
   "Slate Auto",
