@@ -136,7 +136,8 @@
   "royalambulance",
   "quantummetric",
   "nitra",
-  "rise"
+  "rise",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -472,7 +473,6 @@
   }
  ],
  "candidates": [
-  "knownwell",
   "Crossix",
   "Vital",
   "Brown University Health",
@@ -619,7 +619,12 @@
   "Magnit": 4,
   "Deloitte India": 4,
   "Matrix Pharmacorp": 4,
-  "CuraTeQ Biologics": 4
+  "CuraTeQ Biologics": 4,
+  "Vital": 1,
+  "Crossix": 1,
+  "MiQ": 1,
+  "Emergence Software": 1,
+  "Brown University Health": 1
  },
  "dead": [
   "Slate Auto",
@@ -1007,7 +1012,8 @@
   "greenhouse:physicsx": 0,
   "ashby:cognition": 0,
   "ashby:saronic": 0,
-  "icims:careers-jobyaviation": 0
+  "icims:careers-jobyaviation": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1129,16 +1135,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 3,
-  "greenhouse:notion": 3,
-  "greenhouse:marqeta": 3,
-  "greenhouse:alphahawaii": 3,
-  "lever:knownwell": 3,
-  "workday:walmart:WalmartExternal": 3,
-  "workday:comcast:Comcast_Careers": 3,
-  "workday:dell:External": 3,
-  "workday:qualcomm:External": 3,
-  "bigtech:microsoft": 3,
-  "bigtech:meta": 3
+  "greenhouse:admarketplaceinc": 4,
+  "greenhouse:notion": 4,
+  "greenhouse:marqeta": 4,
+  "greenhouse:alphahawaii": 4,
+  "lever:knownwell": 4,
+  "workday:walmart:WalmartExternal": 4,
+  "workday:comcast:Comcast_Careers": 4,
+  "workday:dell:External": 4,
+  "workday:qualcomm:External": 4,
+  "bigtech:microsoft": 4,
+  "bigtech:meta": 4
  }
 }
