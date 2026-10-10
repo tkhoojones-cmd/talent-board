@@ -339,11 +339,11 @@
    "added": "2026-08-24",
    "status": "live",
    "lastChecked": "2026-10-09",
-   "reason": "opened normally with an Apply control",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-10-09",
    "pageLocation": "Stamford, CT- WWE Headquarters, United States of America",
    "pageTitle": "VP, Recruiting",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-09",
    "feed": "workday:wwecorp:wwecorp",
    "inFeed": "2026-10-08"
@@ -1297,7 +1297,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-09",
-   "closedStreak": 14
+   "closedStreak": 15
   },
   {
    "id": "a23feff7b7",
@@ -2053,16 +2053,17 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-09",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-10-09",
    "source": "feed",
    "feed": "greenhouse:chime",
    "inFeed": "2026-10-09",
    "compMax": 180000,
    "pageTitle": "Lead Technical Recruiter",
    "closedStreak": 0,
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-10-09",
-   "pageLocation": "San Francisco, CA, USA"
+   "pageLocation": "San Francisco, CA, USA",
+   "notInFeed": "2026-10-09"
   },
   {
    "id": "2e94841d82",
@@ -2393,7 +2394,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-09",
-   "pageLocation": "California, United States"
+   "pageLocation": "United States"
   },
   {
    "id": "6093e2a1ef",
@@ -3042,6 +3043,28 @@
    "failStreak": 0,
    "lastLive": "2026-10-09",
    "pageLocation": "Plaza, 751 Broad St., Newark, NJ, United States of America"
+  },
+  {
+   "id": "10f1577d88",
+   "kind": "role",
+   "company": "Visa",
+   "title": "Director, Talent Acquisition",
+   "location": "Austin, TX, United States of America",
+   "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/US---Austin-TX/Director--Talent-Acquisition_REF089374W",
+   "comp": "$166,700 to $216,800",
+   "added": "2026-10-09",
+   "status": "live",
+   "lastChecked": "2026-10-09",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:visa:Visa",
+   "inFeed": "2026-10-09",
+   "compMax": 216800,
+   "pageTitle": "Director, Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-09",
+   "pageLocation": "Austin, TX, United States of America"
   }
  ]
 }

@@ -136,8 +136,7 @@
   "royalambulance",
   "quantummetric",
   "nitra",
-  "rise",
-  "knownwell"
+  "rise"
  ],
  "ashby": [
   "pylon-labs",
@@ -472,7 +471,9 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "knownwell"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -1001,8 +1002,7 @@
   "greenhouse:physicsx": 0,
   "ashby:cognition": 0,
   "ashby:saronic": 0,
-  "icims:careers-jobyaviation": 0,
-  "lever:knownwell": 2
+  "icims:careers-jobyaviation": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1124,17 +1124,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 2,
-  "greenhouse:notion": 2,
-  "greenhouse:marqeta": 2,
-  "greenhouse:alphahawaii": 2,
-  "lever:knownwell": 2,
-  "workday:walmart:WalmartExternal": 2,
-  "workday:comcast:Comcast_Careers": 2,
-  "workday:dell:External": 2,
-  "workday:qualcomm:External": 2,
-  "bigtech:microsoft": 2,
-  "bigtech:meta": 2,
-  "bigtech:netflix": 1
+  "greenhouse:admarketplaceinc": 3,
+  "greenhouse:notion": 3,
+  "greenhouse:marqeta": 3,
+  "greenhouse:alphahawaii": 3,
+  "lever:knownwell": 3,
+  "workday:walmart:WalmartExternal": 3,
+  "workday:comcast:Comcast_Careers": 3,
+  "workday:dell:External": 3,
+  "workday:qualcomm:External": 3,
+  "bigtech:microsoft": 3,
+  "bigtech:meta": 3
  }
 }
