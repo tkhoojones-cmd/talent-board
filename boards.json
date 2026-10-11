@@ -143,7 +143,6 @@
   "quantummetric",
   "nitra",
   "rise",
-  "knownwell",
   "bumbleinc",
   "matchgroup"
  ],
@@ -485,13 +484,12 @@
   }
  ],
  "candidates": [
-  "Collectivus",
-  "Ivo",
   "Ford",
   "Eightfold",
   "Deloitte",
   "GovCIO",
-  "Icertis"
+  "Icertis",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -643,13 +641,13 @@
   "NinjaOne": 4,
   "Live Nation": 4,
   "Mercury Systems": 4,
-  "Collectivus": 3,
-  "Ivo": 3,
-  "Ford": 1,
-  "Eightfold": 1,
-  "Deloitte": 1,
-  "GovCIO": 1,
-  "Icertis": 1
+  "Collectivus": 4,
+  "Ivo": 4,
+  "Ford": 2,
+  "Eightfold": 2,
+  "Deloitte": 2,
+  "GovCIO": 2,
+  "Icertis": 2
  },
  "dead": [
   "Slate Auto",
@@ -797,7 +795,9 @@
   "Electronic Arts",
   "Live Nation",
   "Mercury Systems",
-  "NinjaOne"
+  "NinjaOne",
+  "Collectivus",
+  "Ivo"
  ],
  "workable": [
   "montera",
@@ -1060,7 +1060,6 @@
   "recruitee:personio": 0,
   "smartrecruiters:servicenow": 0,
   "greenhouse:turing": 0,
-  "lever:knownwell": 2,
   "greenhouse:highradius": 0,
   "lever:bumbleinc": 0,
   "lever:matchgroup": 0,
@@ -1207,16 +1206,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 11,
-  "greenhouse:notion": 11,
-  "greenhouse:marqeta": 11,
-  "greenhouse:alphahawaii": 11,
-  "lever:knownwell": 11,
-  "workday:walmart:WalmartExternal": 11,
-  "workday:comcast:Comcast_Careers": 11,
-  "workday:dell:External": 11,
-  "workday:qualcomm:External": 11,
-  "bigtech:microsoft": 11,
-  "bigtech:meta": 11
+  "greenhouse:admarketplaceinc": 12,
+  "greenhouse:notion": 12,
+  "greenhouse:marqeta": 12,
+  "greenhouse:alphahawaii": 12,
+  "lever:knownwell": 12,
+  "workday:walmart:WalmartExternal": 12,
+  "workday:comcast:Comcast_Careers": 12,
+  "workday:dell:External": 12,
+  "workday:qualcomm:External": 12,
+  "bigtech:microsoft": 12,
+  "bigtech:meta": 12
  }
 }
