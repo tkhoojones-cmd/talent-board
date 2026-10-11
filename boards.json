@@ -118,7 +118,8 @@
   "qualtrics",
   "zscaler",
   "psiquantum",
-  "helsing"
+  "helsing",
+  "turing"
  ],
  "lever": [
   "zoox",
@@ -140,8 +141,7 @@
   "royalambulance",
   "quantummetric",
   "nitra",
-  "rise",
-  "knownwell"
+  "rise"
  ],
  "ashby": [
   "pylon-labs",
@@ -479,19 +479,9 @@
   }
  ],
  "candidates": [
-  "Electronic Arts",
-  "Live Nation",
-  "Mercury Systems",
-  "NinjaOne",
   "Collectivus",
-  "One Model",
-  "Cohere",
   "Ivo",
-  "Lyft",
-  "Exa",
-  "Turing",
-  "Toast",
-  "Squarespace"
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -639,10 +629,12 @@
   "MiQ": 4,
   "Emergence Software": 4,
   "Brown University Health": 4,
-  "Electronic Arts": 3,
-  "NinjaOne": 3,
-  "Live Nation": 3,
-  "Mercury Systems": 3
+  "Electronic Arts": 4,
+  "NinjaOne": 4,
+  "Live Nation": 4,
+  "Mercury Systems": 4,
+  "Collectivus": 1,
+  "Ivo": 1
  },
  "dead": [
   "Slate Auto",
@@ -786,7 +778,11 @@
   "Vital",
   "Brown University Health",
   "MiQ",
-  "Emergence Software"
+  "Emergence Software",
+  "Electronic Arts",
+  "Live Nation",
+  "Mercury Systems",
+  "NinjaOne"
  ],
  "workable": [
   "montera",
@@ -1048,7 +1044,7 @@
   "smartrecruiters:advantagesolutions": 0,
   "recruitee:personio": 0,
   "smartrecruiters:servicenow": 0,
-  "lever:knownwell": 2
+  "greenhouse:turing": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1150,7 +1146,13 @@
   "greenhouse:helsing": "Helsing",
   "ashby:synthesia": "Synthesia",
   "ashby:grow-therapy": "Grow Therapy",
-  "smartrecruiters:servicenow": "ServiceNow"
+  "smartrecruiters:servicenow": "ServiceNow",
+  "ashby:cohere": "Cohere",
+  "greenhouse:lyft": "Lyft",
+  "greenhouse:turing": "Turing",
+  "greenhouse:toast": "Toast",
+  "greenhouse:squarespace": "Squarespace",
+  "ashby:exa": "Exa"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1180,16 +1182,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 8,
-  "greenhouse:notion": 8,
-  "greenhouse:marqeta": 8,
-  "greenhouse:alphahawaii": 8,
-  "lever:knownwell": 8,
-  "workday:walmart:WalmartExternal": 8,
-  "workday:comcast:Comcast_Careers": 8,
-  "workday:dell:External": 8,
-  "workday:qualcomm:External": 8,
-  "bigtech:microsoft": 8,
-  "bigtech:meta": 8
+  "greenhouse:admarketplaceinc": 9,
+  "greenhouse:notion": 9,
+  "greenhouse:marqeta": 9,
+  "greenhouse:alphahawaii": 9,
+  "lever:knownwell": 9,
+  "workday:walmart:WalmartExternal": 9,
+  "workday:comcast:Comcast_Careers": 9,
+  "workday:dell:External": 9,
+  "workday:qualcomm:External": 9,
+  "bigtech:microsoft": 9,
+  "bigtech:meta": 9
  }
 }
