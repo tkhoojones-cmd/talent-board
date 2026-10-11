@@ -141,7 +141,8 @@
   "royalambulance",
   "quantummetric",
   "nitra",
-  "rise"
+  "rise",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -480,8 +481,7 @@
  ],
  "candidates": [
   "Collectivus",
-  "Ivo",
-  "knownwell"
+  "Ivo"
  ],
  "tried": {
   "UniUni": 1,
@@ -633,8 +633,8 @@
   "NinjaOne": 4,
   "Live Nation": 4,
   "Mercury Systems": 4,
-  "Collectivus": 1,
-  "Ivo": 1
+  "Collectivus": 2,
+  "Ivo": 2
  },
  "dead": [
   "Slate Auto",
@@ -1044,7 +1044,8 @@
   "smartrecruiters:advantagesolutions": 0,
   "recruitee:personio": 0,
   "smartrecruiters:servicenow": 0,
-  "greenhouse:turing": 0
+  "greenhouse:turing": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1182,16 +1183,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 9,
-  "greenhouse:notion": 9,
-  "greenhouse:marqeta": 9,
-  "greenhouse:alphahawaii": 9,
-  "lever:knownwell": 9,
-  "workday:walmart:WalmartExternal": 9,
-  "workday:comcast:Comcast_Careers": 9,
-  "workday:dell:External": 9,
-  "workday:qualcomm:External": 9,
-  "bigtech:microsoft": 9,
-  "bigtech:meta": 9
+  "greenhouse:admarketplaceinc": 10,
+  "greenhouse:notion": 10,
+  "greenhouse:marqeta": 10,
+  "greenhouse:alphahawaii": 10,
+  "lever:knownwell": 10,
+  "workday:walmart:WalmartExternal": 10,
+  "workday:comcast:Comcast_Careers": 10,
+  "workday:dell:External": 10,
+  "workday:qualcomm:External": 10,
+  "bigtech:microsoft": 10,
+  "bigtech:meta": 10
  }
 }

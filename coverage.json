@@ -1,5 +1,5 @@
 {
- "at": "2026-10-11T11:50:23.878Z",
+ "at": "2026-10-11T12:03:02.090Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -23,7 +23,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -79,7 +79,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "greenhouse:alphasense",
@@ -455,7 +455,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "ashby:commure",
@@ -575,7 +575,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "greenhouse:dept",
@@ -1063,7 +1063,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "lever:kraken",
@@ -1159,7 +1159,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1199,7 +1199,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "workday:micron:External",
@@ -1215,7 +1215,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "lever:minesense",
@@ -1351,7 +1351,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "ashby:notion",
@@ -1607,7 +1607,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "greenhouse:qualtrics",
@@ -2175,7 +2175,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "workday:warnerbros:global",
@@ -2308,8 +2308,7 @@
  ],
  "waitingForFeed": [
   "Collectivus",
-  "Ivo",
-  "knownwell"
+  "Ivo"
  ],
  "gaveUp": [
   "Slate Auto",
