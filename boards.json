@@ -630,10 +630,10 @@
   "MiQ": 4,
   "Emergence Software": 4,
   "Brown University Health": 4,
-  "Electronic Arts": 2,
-  "NinjaOne": 2,
-  "Live Nation": 2,
-  "Mercury Systems": 2
+  "Electronic Arts": 3,
+  "NinjaOne": 3,
+  "Live Nation": 3,
+  "Mercury Systems": 3
  },
  "dead": [
   "Slate Auto",
@@ -1039,7 +1039,7 @@
   "smartrecruiters:advantagesolutions": 0,
   "recruitee:personio": 0,
   "smartrecruiters:servicenow": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1171,16 +1171,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 7,
-  "greenhouse:notion": 7,
-  "greenhouse:marqeta": 7,
-  "greenhouse:alphahawaii": 7,
-  "lever:knownwell": 7,
-  "workday:walmart:WalmartExternal": 7,
-  "workday:comcast:Comcast_Careers": 7,
-  "workday:dell:External": 7,
-  "workday:qualcomm:External": 7,
-  "bigtech:microsoft": 7,
-  "bigtech:meta": 7
+  "greenhouse:admarketplaceinc": 8,
+  "greenhouse:notion": 8,
+  "greenhouse:marqeta": 8,
+  "greenhouse:alphahawaii": 8,
+  "lever:knownwell": 8,
+  "workday:walmart:WalmartExternal": 8,
+  "workday:comcast:Comcast_Careers": 8,
+  "workday:dell:External": 8,
+  "workday:qualcomm:External": 8,
+  "bigtech:microsoft": 8,
+  "bigtech:meta": 8
  }
 }
