@@ -119,7 +119,8 @@
   "zscaler",
   "psiquantum",
   "helsing",
-  "turing"
+  "turing",
+  "highradius"
  ],
  "lever": [
   "zoox",
@@ -143,7 +144,8 @@
   "nitra",
   "rise",
   "knownwell",
-  "bumbleinc"
+  "bumbleinc",
+  "matchgroup"
  ],
  "ashby": [
   "pylon-labs",
@@ -218,7 +220,9 @@
   "cognition",
   "saronic",
   "synthesia",
-  "grow-therapy"
+  "grow-therapy",
+  "ideogram",
+  "hims-and-hers"
  ],
  "workday": [
   {
@@ -483,17 +487,11 @@
  "candidates": [
   "Collectivus",
   "Ivo",
-  "HiBob",
-  "Twelve Labs",
-  "Eight Sleep",
-  "Luma AI",
-  "Quantum Metric",
   "Ford",
-  "Hims & Hers",
-  "Match Group",
   "Eightfold",
-  "Ideogram",
-  "Chai Discovery"
+  "Deloitte",
+  "GovCIO",
+  "Icertis"
  ],
  "tried": {
   "UniUni": 1,
@@ -645,8 +643,13 @@
   "NinjaOne": 4,
   "Live Nation": 4,
   "Mercury Systems": 4,
-  "Collectivus": 2,
-  "Ivo": 2
+  "Collectivus": 3,
+  "Ivo": 3,
+  "Ford": 1,
+  "Eightfold": 1,
+  "Deloitte": 1,
+  "GovCIO": 1,
+  "Icertis": 1
  },
  "dead": [
   "Slate Auto",
@@ -1057,7 +1060,12 @@
   "recruitee:personio": 0,
   "smartrecruiters:servicenow": 0,
   "greenhouse:turing": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "greenhouse:highradius": 0,
+  "lever:bumbleinc": 0,
+  "lever:matchgroup": 0,
+  "ashby:ideogram": 0,
+  "ashby:hims-and-hers": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1165,7 +1173,11 @@
   "greenhouse:turing": "Turing",
   "greenhouse:toast": "Toast",
   "greenhouse:squarespace": "Squarespace",
-  "ashby:exa": "Exa"
+  "ashby:exa": "Exa",
+  "lever:matchgroup": "Match Group",
+  "ashby:ideogram": "Ideogram",
+  "ashby:hims-and-hers": "Hims & Hers",
+  "greenhouse:highradius": "HighRadius"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1195,16 +1207,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 10,
-  "greenhouse:notion": 10,
-  "greenhouse:marqeta": 10,
-  "greenhouse:alphahawaii": 10,
-  "lever:knownwell": 10,
-  "workday:walmart:WalmartExternal": 10,
-  "workday:comcast:Comcast_Careers": 10,
-  "workday:dell:External": 10,
-  "workday:qualcomm:External": 10,
-  "bigtech:microsoft": 10,
-  "bigtech:meta": 10
+  "greenhouse:admarketplaceinc": 11,
+  "greenhouse:notion": 11,
+  "greenhouse:marqeta": 11,
+  "greenhouse:alphahawaii": 11,
+  "lever:knownwell": 11,
+  "workday:walmart:WalmartExternal": 11,
+  "workday:comcast:Comcast_Careers": 11,
+  "workday:dell:External": 11,
+  "workday:qualcomm:External": 11,
+  "bigtech:microsoft": 11,
+  "bigtech:meta": 11
  }
 }
