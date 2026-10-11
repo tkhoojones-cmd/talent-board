@@ -142,7 +142,8 @@
   "quantummetric",
   "nitra",
   "rise",
-  "knownwell"
+  "knownwell",
+  "bumbleinc"
  ],
  "ashby": [
   "pylon-labs",
@@ -481,7 +482,18 @@
  ],
  "candidates": [
   "Collectivus",
-  "Ivo"
+  "Ivo",
+  "HiBob",
+  "Twelve Labs",
+  "Eight Sleep",
+  "Luma AI",
+  "Quantum Metric",
+  "Ford",
+  "Hims & Hers",
+  "Match Group",
+  "Eightfold",
+  "Ideogram",
+  "Chai Discovery"
  ],
  "tried": {
   "UniUni": 1,
