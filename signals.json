@@ -307,6 +307,20 @@
    "title": "SVP Talent",
    "url": "https://www.valorep.com/team/joe-schuster",
    "added": "2026-10-11"
+  },
+  {
+   "kind": "Hired",
+   "company": "Island",
+   "title": "VP, Talent Acquisition",
+   "url": "https://hrtoday.in/tag/dialpad/",
+   "added": "2026-10-12"
+  },
+  {
+   "kind": "Hired",
+   "company": "Healthpro Heritage",
+   "title": "VP of Talent Acquisition",
+   "url": "https://www.healthpro-heritage.com/newsroom/new-vp-of-talent-acquisition",
+   "added": "2026-10-12"
   }
  ],
  "funding": [
@@ -778,6 +792,27 @@
    "amount": "$200M",
    "url": "https://runtimewire.com/fundings?page=18",
    "added": "2026-10-10"
+  },
+  {
+   "company": "Nscale",
+   "round": "Series C",
+   "amount": "EUR 1.7B",
+   "url": "https://funding.tech.eu/geographies/uk/2026/h1",
+   "added": "2026-10-12"
+  },
+  {
+   "company": "Oxford Quantum Circuits",
+   "round": "Series C",
+   "amount": "EUR 301M",
+   "url": "https://funding.tech.eu/geographies/uk/2026/h1",
+   "added": "2026-10-12"
+  },
+  {
+   "company": "Muon Space",
+   "round": "Series C",
+   "amount": "$250M",
+   "url": "https://theconsensus.dev/company/muon-space.html",
+   "added": "2026-10-12"
   }
  ]
 }

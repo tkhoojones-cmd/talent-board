@@ -122,7 +122,8 @@
   "turing",
   "highradius",
   "shapercapital",
-  "cognite"
+  "cognite",
+  "clickhouse"
  ],
  "lever": [
   "zoox",
@@ -494,7 +495,9 @@
   "Expedia",
   "FitXR",
   "Snap",
-  "knownwell"
+  "knownwell",
+  "EA",
+  "WHOOP"
  ],
  "tried": {
   "UniUni": 1,
