@@ -144,7 +144,8 @@
   "nitra",
   "rise",
   "bumbleinc",
-  "matchgroup"
+  "matchgroup",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -488,8 +489,7 @@
   "Eightfold",
   "Deloitte",
   "GovCIO",
-  "Icertis",
-  "knownwell"
+  "Icertis"
  ],
  "tried": {
   "UniUni": 1,
@@ -643,11 +643,11 @@
   "Mercury Systems": 4,
   "Collectivus": 4,
   "Ivo": 4,
-  "Ford": 2,
-  "Eightfold": 2,
-  "Deloitte": 2,
-  "GovCIO": 2,
-  "Icertis": 2
+  "Ford": 3,
+  "Eightfold": 3,
+  "Deloitte": 3,
+  "GovCIO": 3,
+  "Icertis": 3
  },
  "dead": [
   "Slate Auto",
@@ -1064,7 +1064,8 @@
   "lever:bumbleinc": 0,
   "lever:matchgroup": 0,
   "ashby:ideogram": 0,
-  "ashby:hims-and-hers": 0
+  "ashby:hims-and-hers": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1206,16 +1207,16 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 12,
-  "greenhouse:notion": 12,
-  "greenhouse:marqeta": 12,
-  "greenhouse:alphahawaii": 12,
-  "lever:knownwell": 12,
-  "workday:walmart:WalmartExternal": 12,
-  "workday:comcast:Comcast_Careers": 12,
-  "workday:dell:External": 12,
-  "workday:qualcomm:External": 12,
-  "bigtech:microsoft": 12,
-  "bigtech:meta": 12
+  "greenhouse:admarketplaceinc": 13,
+  "greenhouse:notion": 13,
+  "greenhouse:marqeta": 13,
+  "greenhouse:alphahawaii": 13,
+  "lever:knownwell": 13,
+  "workday:walmart:WalmartExternal": 13,
+  "workday:comcast:Comcast_Careers": 13,
+  "workday:dell:External": 13,
+  "workday:qualcomm:External": 13,
+  "bigtech:microsoft": 13,
+  "bigtech:meta": 13
  }
 }
