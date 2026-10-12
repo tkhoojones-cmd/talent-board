@@ -1298,7 +1298,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-12",
-   "closedStreak": 26
+   "closedStreak": 27
   },
   {
    "id": "a23feff7b7",
@@ -3301,10 +3301,10 @@
    "url": "https://careers.telus.com/job/Vancouver-Vice-president-Human-Capital-Development-Lifecycle-BC/594694117",
    "comp": "",
    "added": "2026-10-12",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-10-12",
-   "reason": "looked closed once, rechecking: page says: posting is no longer",
-   "closedStreak": 1
+   "reason": "page says: posting is no longer",
+   "closedStreak": 2
   },
   {
    "id": "6a6a8bc8f2",
@@ -3349,71 +3349,6 @@
    "failStreak": 0,
    "lastLive": "2026-10-12",
    "pageLocation": "Sunnyvale, California, United States"
-  },
-  {
-   "id": "454f6f1eba",
-   "kind": "role",
-   "company": "Magnolia",
-   "title": "Chief People Officer",
-   "location": "Waco, TX",
-   "url": "https://job-boards.greenhouse.io/magnolia/jobs/4917041008",
-   "comp": "",
-   "added": "2026-10-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "531a97dadb",
-   "kind": "role",
-   "company": "Wellist",
-   "title": "Chief People Officer",
-   "location": "Boston, MA (hybrid)",
-   "url": "https://job-boards.greenhouse.io/wellist/jobs/8431772002",
-   "comp": "",
-   "added": "2026-10-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "65a5926265",
-   "kind": "role",
-   "company": "EVOCS",
-   "title": "Chief People Officer",
-   "location": "US",
-   "url": "https://job-boards.greenhouse.io/evolutioncloudservicesevocs/jobs/4149932009",
-   "comp": "",
-   "added": "2026-10-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "ff9a27eadd",
-   "kind": "role",
-   "company": "Achievement First",
-   "title": "Chief People Officer",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/achievementfirstnetworksupportcareers/jobs/5725281004",
-   "comp": "",
-   "added": "2026-10-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "4151b3dcaa",
-   "kind": "role",
-   "company": "Tala",
-   "title": "Chief People Officer",
-   "location": "",
-   "url": "https://jobs.lever.co/tala/11640793-b2db-4e1e-88d2-2ae2b8a1f49c",
-   "comp": "",
-   "added": "2026-10-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
   }
  ]
 }

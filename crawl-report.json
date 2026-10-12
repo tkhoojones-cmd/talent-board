@@ -1,6 +1,6 @@
 {
- "at": "2026-10-12T11:23:09.803Z",
- "ok": 284,
+ "at": "2026-10-12T11:46:14.030Z",
+ "ok": 287,
  "failed": [
   "greenhouse:admarketplaceinc:0",
   "greenhouse:notion:0",
@@ -9,23 +9,23 @@
   "lever:knownwell:404",
   "workday:walmart:WalmartExternal:404",
   "workday:comcast:Comcast_Careers:404",
-  "workday:dell:External:404",
   "workday:qualcomm:External:404",
+  "workday:dell:External:404",
   "bigtech:microsoft:404",
   "bigtech:meta:404"
  ],
- "scanned": 30651,
+ "scanned": 30763,
  "matched": 119,
- "added": 2,
+ "added": 0,
  "alerts": [
-  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 14 runs in a row",
-  "Notion (greenhouse:notion) has failed 14 runs in a row",
-  "Marqeta (greenhouse:marqeta) has failed 14 runs in a row",
-  "Alphahawaii (greenhouse:alphahawaii) has failed 14 runs in a row",
-  "Knownwell (lever:knownwell) has failed 14 runs in a row",
-  "Walmart (workday:walmart:WalmartExternal) has failed 14 runs in a row",
-  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 14 runs in a row",
-  "Dell (workday:dell:External) has failed 14 runs in a row",
-  "Qualcomm (workday:qualcomm:External) has failed 14 runs in a row"
+  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 15 runs in a row",
+  "Notion (greenhouse:notion) has failed 15 runs in a row",
+  "Marqeta (greenhouse:marqeta) has failed 15 runs in a row",
+  "Alphahawaii (greenhouse:alphahawaii) has failed 15 runs in a row",
+  "Knownwell (lever:knownwell) has failed 15 runs in a row",
+  "Walmart (workday:walmart:WalmartExternal) has failed 15 runs in a row",
+  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 15 runs in a row",
+  "Qualcomm (workday:qualcomm:External) has failed 15 runs in a row",
+  "Dell (workday:dell:External) has failed 15 runs in a row"
  ]
 }
