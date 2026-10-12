@@ -1298,7 +1298,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-12",
-   "closedStreak": 28
+   "closedStreak": 29
   },
   {
    "id": "a23feff7b7",
@@ -3413,6 +3413,27 @@
    "failStreak": 0,
    "lastLive": "2026-10-12",
    "pageLocation": "Boston, Massachusetts, United States"
+  },
+  {
+   "id": "4c81abdebd",
+   "kind": "review",
+   "company": "MongoDB",
+   "title": "Senior Manager, GTM Customer Recruiting",
+   "location": "New York City",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8229901",
+   "comp": "$104,000—$204,000",
+   "added": "2026-10-12",
+   "status": "live",
+   "lastChecked": "2026-10-12",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:mongodb",
+   "inFeed": "2026-10-12",
+   "compMax": 204000,
+   "pageTitle": "Senior Manager, GTM Customer Recruiting New York City",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-12"
   }
  ]
 }

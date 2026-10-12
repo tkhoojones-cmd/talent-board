@@ -492,9 +492,6 @@
   }
  ],
  "candidates": [
-  "TELUS",
-  "Turn/River Capital",
-  "DocuSign",
   "Expedia",
   "FitXR",
   "Snap",
@@ -660,16 +657,16 @@
   "Deloitte": 4,
   "GovCIO": 4,
   "Icertis": 4,
-  "TELUS": 3,
-  "DocuSign": 3,
-  "Turn/River Capital": 3,
-  "Expedia": 2,
-  "FitXR": 2,
-  "Snap": 2,
-  "EA": 1,
-  "Oxford Quantum Circuits": 1,
-  "Healthpro Heritage": 1,
-  "Nscale": 1
+  "TELUS": 4,
+  "DocuSign": 4,
+  "Turn/River Capital": 4,
+  "Expedia": 3,
+  "FitXR": 3,
+  "Snap": 3,
+  "EA": 2,
+  "Oxford Quantum Circuits": 2,
+  "Healthpro Heritage": 2,
+  "Nscale": 2
  },
  "dead": [
   "Slate Auto",
@@ -824,7 +821,10 @@
   "Eightfold",
   "Deloitte",
   "GovCIO",
-  "Icertis"
+  "Icertis",
+  "TELUS",
+  "Turn/River Capital",
+  "DocuSign"
  ],
  "workable": [
   "montera",
@@ -1100,7 +1100,7 @@
   "smartrecruiters:gong": 0,
   "greenhouse:muonspace": 0,
   "ashby:whoop": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1248,17 +1248,19 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 16,
-  "greenhouse:notion": 16,
-  "greenhouse:marqeta": 16,
-  "greenhouse:alphahawaii": 16,
-  "lever:knownwell": 16,
-  "workday:walmart:WalmartExternal": 16,
-  "workday:comcast:Comcast_Careers": 16,
-  "workday:dell:External": 16,
-  "workday:qualcomm:External": 16,
-  "bigtech:microsoft": 16,
-  "bigtech:meta": 16,
-  "greenhouse:clickhouse": 1
+  "greenhouse:admarketplaceinc": 17,
+  "greenhouse:notion": 17,
+  "greenhouse:marqeta": 17,
+  "greenhouse:alphahawaii": 17,
+  "lever:knownwell": 17,
+  "workday:walmart:WalmartExternal": 17,
+  "workday:comcast:Comcast_Careers": 17,
+  "workday:dell:External": 17,
+  "workday:qualcomm:External": 17,
+  "bigtech:microsoft": 17,
+  "bigtech:meta": 17,
+  "greenhouse:clickhouse": 2,
+  "greenhouse:asana": 1,
+  "bigtech:netflix": 1
  }
 }
