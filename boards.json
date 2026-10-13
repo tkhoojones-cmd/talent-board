@@ -497,13 +497,7 @@
   }
  ],
  "candidates": [
-  "EA",
-  "Nscale",
-  "Oxford Quantum Circuits",
-  "Healthpro Heritage",
-  "knownwell",
-  "Randstad",
-  "Files.com"
+  "Randstad"
  ],
  "tried": {
   "UniUni": 1,
@@ -668,10 +662,11 @@
   "Expedia": 4,
   "FitXR": 4,
   "Snap": 4,
-  "EA": 3,
-  "Oxford Quantum Circuits": 3,
-  "Healthpro Heritage": 3,
-  "Nscale": 3
+  "EA": 4,
+  "Oxford Quantum Circuits": 4,
+  "Healthpro Heritage": 4,
+  "Nscale": 4,
+  "Randstad": 1
  },
  "dead": [
   "Slate Auto",
@@ -832,7 +827,11 @@
   "DocuSign",
   "Expedia",
   "FitXR",
-  "Snap"
+  "Snap",
+  "EA",
+  "Nscale",
+  "Oxford Quantum Circuits",
+  "Healthpro Heritage"
  ],
  "workable": [
   "montera",
@@ -1107,7 +1106,12 @@
   "ashby:writer": 0,
   "smartrecruiters:gong": 0,
   "greenhouse:muonspace": 0,
-  "ashby:whoop": 0
+  "ashby:whoop": 0,
+  "greenhouse:unitedmedia": 0,
+  "greenhouse:projectaservicesgmbhcokg": 0,
+  "greenhouse:momentic": 0,
+  "greenhouse:vmlenterprisesolutions": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1225,7 +1229,8 @@
   "smartrecruiters:gong": "Gong",
   "ashby:writer": "Writer",
   "ashby:whoop": "WHOOP",
-  "greenhouse:muonspace": "Muon Space"
+  "greenhouse:muonspace": "Muon Space",
+  "greenhouse:filescom": "Files.com"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1255,17 +1260,19 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 18,
-  "greenhouse:notion": 18,
-  "greenhouse:marqeta": 18,
-  "greenhouse:alphahawaii": 18,
-  "lever:knownwell": 18,
-  "workday:walmart:WalmartExternal": 18,
-  "workday:comcast:Comcast_Careers": 18,
-  "workday:dell:External": 18,
-  "workday:qualcomm:External": 18,
-  "bigtech:microsoft": 18,
-  "bigtech:meta": 18,
-  "greenhouse:clickhouse": 3
+  "greenhouse:admarketplaceinc": 19,
+  "greenhouse:notion": 19,
+  "greenhouse:marqeta": 19,
+  "greenhouse:alphahawaii": 19,
+  "lever:knownwell": 19,
+  "workday:walmart:WalmartExternal": 19,
+  "workday:comcast:Comcast_Careers": 19,
+  "workday:dell:External": 19,
+  "workday:qualcomm:External": 19,
+  "bigtech:microsoft": 19,
+  "bigtech:meta": 19,
+  "greenhouse:clickhouse": 4,
+  "lever:jobgether": 1,
+  "bigtech:netflix": 1
  }
 }
