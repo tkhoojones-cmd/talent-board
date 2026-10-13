@@ -148,8 +148,7 @@
   "nitra",
   "rise",
   "bumbleinc",
-  "matchgroup",
-  "knownwell"
+  "matchgroup"
  ],
  "ashby": [
   "pylon-labs",
@@ -492,13 +491,11 @@
   }
  ],
  "candidates": [
-  "Expedia",
-  "FitXR",
-  "Snap",
   "EA",
   "Nscale",
   "Oxford Quantum Circuits",
-  "Healthpro Heritage"
+  "Healthpro Heritage",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -660,13 +657,13 @@
   "TELUS": 4,
   "DocuSign": 4,
   "Turn/River Capital": 4,
-  "Expedia": 3,
-  "FitXR": 3,
-  "Snap": 3,
-  "EA": 2,
-  "Oxford Quantum Circuits": 2,
-  "Healthpro Heritage": 2,
-  "Nscale": 2
+  "Expedia": 4,
+  "FitXR": 4,
+  "Snap": 4,
+  "EA": 3,
+  "Oxford Quantum Circuits": 3,
+  "Healthpro Heritage": 3,
+  "Nscale": 3
  },
  "dead": [
   "Slate Auto",
@@ -824,7 +821,10 @@
   "Icertis",
   "TELUS",
   "Turn/River Capital",
-  "DocuSign"
+  "DocuSign",
+  "Expedia",
+  "FitXR",
+  "Snap"
  ],
  "workable": [
   "montera",
@@ -1099,8 +1099,7 @@
   "ashby:writer": 0,
   "smartrecruiters:gong": 0,
   "greenhouse:muonspace": 0,
-  "ashby:whoop": 0,
-  "lever:knownwell": 2
+  "ashby:whoop": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1248,19 +1247,17 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 17,
-  "greenhouse:notion": 17,
-  "greenhouse:marqeta": 17,
-  "greenhouse:alphahawaii": 17,
-  "lever:knownwell": 17,
-  "workday:walmart:WalmartExternal": 17,
-  "workday:comcast:Comcast_Careers": 17,
-  "workday:dell:External": 17,
-  "workday:qualcomm:External": 17,
-  "bigtech:microsoft": 17,
-  "bigtech:meta": 17,
-  "greenhouse:clickhouse": 2,
-  "greenhouse:asana": 1,
-  "bigtech:netflix": 1
+  "greenhouse:admarketplaceinc": 18,
+  "greenhouse:notion": 18,
+  "greenhouse:marqeta": 18,
+  "greenhouse:alphahawaii": 18,
+  "lever:knownwell": 18,
+  "workday:walmart:WalmartExternal": 18,
+  "workday:comcast:Comcast_Careers": 18,
+  "workday:dell:External": 18,
+  "workday:qualcomm:External": 18,
+  "bigtech:microsoft": 18,
+  "bigtech:meta": 18,
+  "greenhouse:clickhouse": 3
  }
 }
