@@ -124,7 +124,11 @@
   "shapercapital",
   "cognite",
   "clickhouse",
-  "muonspace"
+  "muonspace",
+  "unitedmedia",
+  "projectaservicesgmbhcokg",
+  "vmlenterprisesolutions",
+  "momentic"
  ],
  "lever": [
   "zoox",
@@ -148,7 +152,9 @@
   "nitra",
   "rise",
   "bumbleinc",
-  "matchgroup"
+  "matchgroup",
+  "knownwell",
+  "jobgether"
  ],
  "ashby": [
   "pylon-labs",
@@ -495,7 +501,9 @@
   "Nscale",
   "Oxford Quantum Circuits",
   "Healthpro Heritage",
-  "knownwell"
+  "knownwell",
+  "Randstad",
+  "Files.com"
  ],
  "tried": {
   "UniUni": 1,
