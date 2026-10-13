@@ -1300,7 +1300,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-13",
-   "closedStreak": 33
+   "closedStreak": 34
   },
   {
    "id": "a23feff7b7",
@@ -3476,7 +3476,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "af49eac227",
@@ -3493,7 +3493,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "f198b0a5c2",
@@ -3510,7 +3510,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "622852d067",
