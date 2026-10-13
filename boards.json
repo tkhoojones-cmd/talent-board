@@ -128,7 +128,8 @@
   "unitedmedia",
   "projectaservicesgmbhcokg",
   "vmlenterprisesolutions",
-  "momentic"
+  "momentic",
+  "lunarenergy"
  ],
  "lever": [
   "zoox",
@@ -153,7 +154,6 @@
   "rise",
   "bumbleinc",
   "matchgroup",
-  "knownwell",
   "jobgether"
  ],
  "ashby": [
@@ -234,7 +234,9 @@
   "hims-and-hers",
   "inspiren",
   "writer",
-  "whoop"
+  "whoop",
+  "coder",
+  "lumilens"
  ],
  "workday": [
   {
@@ -497,7 +499,13 @@
   }
  ],
  "candidates": [
-  "Randstad"
+  "Randstad",
+  "Skild AI",
+  "NEURA Robotics",
+  "WeRoad",
+  "Twinsie",
+  "V2X",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -666,7 +674,12 @@
   "Oxford Quantum Circuits": 4,
   "Healthpro Heritage": 4,
   "Nscale": 4,
-  "Randstad": 2
+  "Randstad": 3,
+  "WeRoad": 1,
+  "NEURA Robotics": 1,
+  "Twinsie": 1,
+  "Skild AI": 1,
+  "V2X": 1
  },
  "dead": [
   "Slate Auto",
@@ -1111,9 +1124,11 @@
   "greenhouse:projectaservicesgmbhcokg": 0,
   "greenhouse:momentic": 0,
   "greenhouse:vmlenterprisesolutions": 0,
-  "lever:knownwell": 2,
   "lever:jobgether": 0,
-  "icims:careers-accoy": 0
+  "icims:careers-accoy": 0,
+  "greenhouse:lunarenergy": 0,
+  "ashby:coder": 0,
+  "ashby:lumilens": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1232,7 +1247,10 @@
   "ashby:writer": "Writer",
   "ashby:whoop": "WHOOP",
   "greenhouse:muonspace": "Muon Space",
-  "greenhouse:filescom": "Files.com"
+  "greenhouse:filescom": "Files.com",
+  "greenhouse:lunarenergy": "Lunar Energy",
+  "ashby:coder": "Coder",
+  "ashby:lumilens": "Lumilens"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1263,18 +1281,17 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 20,
-  "greenhouse:notion": 20,
-  "greenhouse:marqeta": 20,
-  "greenhouse:alphahawaii": 20,
-  "lever:knownwell": 20,
-  "workday:walmart:WalmartExternal": 20,
-  "workday:comcast:Comcast_Careers": 20,
-  "workday:dell:External": 20,
-  "workday:qualcomm:External": 20,
-  "bigtech:microsoft": 20,
-  "bigtech:meta": 20,
-  "greenhouse:clickhouse": 5,
-  "bigtech:netflix": 2
+  "greenhouse:admarketplaceinc": 21,
+  "greenhouse:notion": 21,
+  "greenhouse:marqeta": 21,
+  "greenhouse:alphahawaii": 21,
+  "lever:knownwell": 21,
+  "workday:walmart:WalmartExternal": 21,
+  "workday:comcast:Comcast_Careers": 21,
+  "workday:dell:External": 21,
+  "workday:qualcomm:External": 21,
+  "bigtech:microsoft": 21,
+  "bigtech:meta": 21,
+  "greenhouse:clickhouse": 6
  }
 }

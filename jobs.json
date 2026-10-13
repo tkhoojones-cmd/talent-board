@@ -1300,7 +1300,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-13",
-   "closedStreak": 32
+   "closedStreak": 33
   },
   {
    "id": "a23feff7b7",
@@ -3016,15 +3016,15 @@
    "url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/GD-PT-SOLS-CALHOUN-BLDG/Talent-Strategist-Lead_R-0403895",
    "comp": "",
    "added": "2026-10-09",
-   "status": "live",
-   "lastChecked": "2026-10-12",
-   "reason": "kept: last check failed (title mismatch: we have 'Talent Strategist Lead', page says 'Recruitment Marketing Strategist'); last confirmed 2026-10-12",
+   "status": "unverifiable",
+   "lastChecked": "2026-10-13",
+   "reason": "title mismatch: we have 'Talent Strategist Lead', page says 'Recruitment Marketing Strategist'",
    "source": "feed",
    "feed": "workday:adventhealth:AH_External_Career_Site",
    "inFeed": "2026-10-13",
    "pageTitle": "Talent Strategist Lead",
    "closedStreak": 0,
-   "failStreak": 3,
+   "failStreak": 4,
    "lastLive": "2026-10-12",
    "pageLocation": "ADVENTHEALTH HEADQUARTERS, United States of America"
   },
@@ -3476,7 +3476,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 3
+   "closedStreak": 4
   },
   {
    "id": "af49eac227",
@@ -3493,7 +3493,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 3
+   "closedStreak": 4
   },
   {
    "id": "f198b0a5c2",
@@ -3510,7 +3510,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 3
+   "closedStreak": 4
   },
   {
    "id": "622852d067",
@@ -3663,22 +3663,11 @@
    "url": "https://job-boards.greenhouse.io/cognite/jobs/4895862101",
    "comp": "",
    "added": "2026-10-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "9d04230496",
-   "kind": "role",
-   "company": "Cresta",
-   "title": "Head of Global Talent Acquisition",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/cresta/jobs/5106247008",
-   "comp": "$220K-$300K",
-   "added": "2026-10-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-13",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:cognite",
+   "notInFeed": "2026-10-13"
   },
   {
    "id": "3dd445f5c6",
@@ -3689,9 +3678,11 @@
    "url": "https://job-boards.greenhouse.io/andurilindustries/jobs/5076503007",
    "comp": "",
    "added": "2026-10-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-13",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:andurilindustries",
+   "notInFeed": "2026-10-13"
   },
   {
    "id": "6c15d98964",
@@ -3702,35 +3693,11 @@
    "url": "https://job-boards.greenhouse.io/andurilindustries/jobs/4791861007",
    "comp": "",
    "added": "2026-10-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "9bc3889ea1",
-   "kind": "role",
-   "company": "Intuit",
-   "title": "Director, Global TA Programs",
-   "location": "Mountain View, CA",
-   "url": "https://jobs.intuit.com/job/mountain-view/director-global-ta-programs/27595/70694946320",
-   "comp": "",
-   "added": "2026-10-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "360d6d0b80",
-   "kind": "role",
-   "company": "Ford Motor",
-   "title": "Senior Director, Talent Management",
-   "location": "Dearborn, MI",
-   "url": "https://www.careers.ford.com/job/dearborn/senior-director-talent-management/48560/93154698240",
-   "comp": "",
-   "added": "2026-10-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-13",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:andurilindustries",
+   "notInFeed": "2026-10-13"
   }
  ]
 }
