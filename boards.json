@@ -497,14 +497,7 @@
   }
  ],
  "candidates": [
-  "Randstad",
-  "Prime Intellect",
-  "Sila Nanotechnologies",
-  "Modo Energy",
-  "OpenAI Foundation",
-  "GC AI",
-  "One Model",
-  "Royal Ambulance"
+  "Randstad"
  ],
  "tried": {
   "UniUni": 1,
@@ -673,7 +666,7 @@
   "Oxford Quantum Circuits": 4,
   "Healthpro Heritage": 4,
   "Nscale": 4,
-  "Randstad": 1
+  "Randstad": 2
  },
  "dead": [
   "Slate Auto",
@@ -1118,7 +1111,9 @@
   "greenhouse:projectaservicesgmbhcokg": 0,
   "greenhouse:momentic": 0,
   "greenhouse:vmlenterprisesolutions": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "lever:jobgether": 0,
+  "icims:careers-accoy": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1268,19 +1263,18 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 19,
-  "greenhouse:notion": 19,
-  "greenhouse:marqeta": 19,
-  "greenhouse:alphahawaii": 19,
-  "lever:knownwell": 19,
-  "workday:walmart:WalmartExternal": 19,
-  "workday:comcast:Comcast_Careers": 19,
-  "workday:dell:External": 19,
-  "workday:qualcomm:External": 19,
-  "bigtech:microsoft": 19,
-  "bigtech:meta": 19,
-  "greenhouse:clickhouse": 4,
-  "lever:jobgether": 1,
-  "bigtech:netflix": 1
+  "greenhouse:admarketplaceinc": 20,
+  "greenhouse:notion": 20,
+  "greenhouse:marqeta": 20,
+  "greenhouse:alphahawaii": 20,
+  "lever:knownwell": 20,
+  "workday:walmart:WalmartExternal": 20,
+  "workday:comcast:Comcast_Careers": 20,
+  "workday:dell:External": 20,
+  "workday:qualcomm:External": 20,
+  "bigtech:microsoft": 20,
+  "bigtech:meta": 20,
+  "greenhouse:clickhouse": 5,
+  "bigtech:netflix": 2
  }
 }

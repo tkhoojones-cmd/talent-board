@@ -1300,7 +1300,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-13",
-   "closedStreak": 31
+   "closedStreak": 32
   },
   {
    "id": "a23feff7b7",
@@ -3024,7 +3024,7 @@
    "inFeed": "2026-10-13",
    "pageTitle": "Talent Strategist Lead",
    "closedStreak": 0,
-   "failStreak": 2,
+   "failStreak": 3,
    "lastLive": "2026-10-12",
    "pageLocation": "ADVENTHEALTH HEADQUARTERS, United States of America"
   },
@@ -3476,7 +3476,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "af49eac227",
@@ -3493,7 +3493,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "f198b0a5c2",
@@ -3510,7 +3510,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "622852d067",
@@ -3584,9 +3584,75 @@
    "url": "https://careers-accoy.icims.com/jobs/21949/chief-people-officer/job",
    "comp": "",
    "added": "2026-10-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-13",
+   "reason": "no longer in the employer's job feed",
+   "feed": "icims:careers-accoy",
+   "notInFeed": "2026-10-13"
+  },
+  {
+   "id": "a843866db8",
+   "kind": "role",
+   "company": "Jobgether",
+   "title": "Director of Recruiting & People Strategy",
+   "location": "US",
+   "url": "https://jobs.lever.co/jobgether/cc4d8017-bb45-462b-83ff-dab7f24927eb",
+   "comp": "",
+   "added": "2026-10-13",
+   "status": "live",
+   "lastChecked": "2026-10-13",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "lever:jobgether",
+   "inFeed": "2026-10-13",
+   "pageTitle": "Director of Recruiting &amp; People Strategy",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-13",
+   "pageLocation": "US"
+  },
+  {
+   "id": "23917664b1",
+   "kind": "review",
+   "company": "Jobgether",
+   "title": "Talent Acquisition Lead",
+   "location": "US",
+   "url": "https://jobs.lever.co/jobgether/dd849439-7c95-4be2-ada1-0eecbfba2ef4",
+   "comp": "",
+   "added": "2026-10-13",
+   "status": "live",
+   "lastChecked": "2026-10-13",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "lever:jobgether",
+   "inFeed": "2026-10-13",
+   "pageTitle": "Talent Acquisition Lead",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-13",
+   "pageLocation": "US"
+  },
+  {
+   "id": "030137fa9b",
+   "kind": "ic",
+   "company": "Jobgether",
+   "title": "Technical Recruiter — IT & AI Staff Augmentation",
+   "location": "US",
+   "url": "https://jobs.lever.co/jobgether/83005884-c92b-440e-b3ca-34516ba9f1a5",
+   "comp": "$70,000–$75,000",
+   "added": "2026-10-13",
+   "status": "live",
+   "lastChecked": "2026-10-13",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "lever:jobgether",
+   "inFeed": "2026-10-13",
+   "compMax": 75000,
+   "pageTitle": "Technical Recruiter — IT &amp; AI Staff Augmentation",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-13",
+   "pageLocation": "US"
   }
  ]
 }
