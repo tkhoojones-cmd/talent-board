@@ -321,6 +321,13 @@
    "title": "VP of Talent Acquisition",
    "url": "https://www.healthpro-heritage.com/newsroom/new-vp-of-talent-acquisition",
    "added": "2026-10-12"
+  },
+  {
+   "kind": "Hired",
+   "company": "V2X",
+   "title": "VP Talent Acquisition",
+   "url": "https://www.executivebiz.com/?p=468726",
+   "added": "2026-10-13"
   }
  ],
  "funding": [
@@ -813,6 +820,55 @@
    "amount": "$250M",
    "url": "https://theconsensus.dev/company/muon-space.html",
    "added": "2026-10-12"
+  },
+  {
+   "company": "Skild AI",
+   "round": "Series C",
+   "amount": "$1.4B",
+   "url": "https://postround.substack.com/p/series-c-activity-q1-2026",
+   "added": "2026-10-13"
+  },
+  {
+   "company": "NEURA Robotics",
+   "round": "Series C",
+   "amount": "$1.4B",
+   "url": "https://postround.substack.com/p/series-c-activity-q1-2026",
+   "added": "2026-10-13"
+  },
+  {
+   "company": "Lumilens",
+   "round": "Series C",
+   "amount": "$700M",
+   "url": "https://www.hrkatha.com/people/movement/deepa-subbaiah-joins-lumilens-as-global-head-hr/",
+   "added": "2026-10-13"
+  },
+  {
+   "company": "Lunar Energy",
+   "round": "Series D",
+   "amount": "$102M",
+   "url": "https://finalscout.com/company/lunar_energy",
+   "added": "2026-10-13"
+  },
+  {
+   "company": "Coder",
+   "round": "Growth",
+   "amount": "$90M",
+   "url": "https://runtimewire.com/fundings?page=3",
+   "added": "2026-10-13"
+  },
+  {
+   "company": "WeRoad",
+   "round": "Series C",
+   "amount": "$58M",
+   "url": "https://zeni.ai/blog/series-c-funding",
+   "added": "2026-10-13"
+  },
+  {
+   "company": "Twinsie",
+   "round": "Series E",
+   "amount": "$44M",
+   "url": "https://startupim.com/company/twinsie",
+   "added": "2026-10-13"
   }
  ]
 }
