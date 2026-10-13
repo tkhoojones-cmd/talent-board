@@ -497,7 +497,14 @@
   }
  ],
  "candidates": [
-  "Randstad"
+  "Randstad",
+  "Prime Intellect",
+  "Sila Nanotechnologies",
+  "Modo Energy",
+  "OpenAI Foundation",
+  "GC AI",
+  "One Model",
+  "Royal Ambulance"
  ],
  "tried": {
   "UniUni": 1,
@@ -1237,7 +1244,8 @@
   "careers-heritagechristianservices",
   "careers-naphcare",
   "careers-uti",
-  "careers-jobyaviation"
+  "careers-jobyaviation",
+  "careers-accoy"
  ],
  "oracle": [
   {
