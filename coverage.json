@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T11:58:26.579Z",
+ "at": "2026-10-14T12:26:06.899Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -31,7 +31,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -87,7 +87,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "greenhouse:alphasense",
@@ -415,7 +415,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 11
+   "failStreak": 12
   },
   {
    "id": "ashby:clickhouse",
@@ -495,7 +495,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "ashby:commure",
@@ -526,7 +526,7 @@
    "company": "CoreWeave",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 305,
+   "jobs": 306,
    "failStreak": 0
   },
   {
@@ -602,6 +602,14 @@
    "failStreak": 0
   },
   {
+   "id": "ashby:decagon",
+   "company": "Decagon",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 140,
+   "failStreak": 0
+  },
+  {
    "id": "ashby:deel",
    "company": "Deel",
    "ats": "ashby",
@@ -610,12 +618,20 @@
    "failStreak": 0
   },
   {
+   "id": "ashby:deepgram",
+   "company": "Deepgram",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 90,
+   "failStreak": 0
+  },
+  {
    "id": "workday:dell:External",
    "company": "Dell",
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "greenhouse:dept",
@@ -706,6 +722,14 @@
    "failStreak": 0
   },
   {
+   "id": "ashby:encord",
+   "company": "Encord",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 39,
+   "failStreak": 0
+  },
+  {
    "id": "greenhouse:epicgames",
    "company": "Epic Games",
    "ats": "greenhouse",
@@ -750,7 +774,7 @@
    "company": "Excel",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 37,
+   "jobs": 36,
    "failStreak": 0
   },
   {
@@ -1151,7 +1175,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "lever:kraken",
@@ -1203,7 +1227,7 @@
   },
   {
    "id": "greenhouse:lucidmotors",
-   "company": "Lucidmotors",
+   "company": "Lucid Motors",
    "ats": "greenhouse",
    "ok": true,
    "jobs": 456,
@@ -1263,7 +1287,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1311,7 +1335,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "workday:micron:External",
@@ -1327,7 +1351,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "lever:minesense",
@@ -1479,7 +1503,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "ashby:notion",
@@ -1743,7 +1767,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "greenhouse:qualtrics",
@@ -1838,7 +1862,7 @@
    "company": "Robinhood",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 154,
+   "jobs": 153,
    "failStreak": 0
   },
   {
@@ -1910,7 +1934,7 @@
    "company": "ServiceNow",
    "ats": "smartrecruiters",
    "ok": true,
-   "jobs": 674,
+   "jobs": 673,
    "failStreak": 0
   },
   {
@@ -2119,6 +2143,14 @@
    "ats": "workday",
    "ok": true,
    "jobs": 15,
+   "failStreak": 0
+  },
+  {
+   "id": "ashby:tennr",
+   "company": "Tennr",
+   "ats": "ashby",
+   "ok": true,
+   "jobs": 26,
    "failStreak": 0
   },
   {
@@ -2335,7 +2367,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 26
+   "failStreak": 27
   },
   {
    "id": "workday:warnerbros:global",
@@ -2422,7 +2454,7 @@
    "company": "WHOOP",
    "ats": "ashby",
    "ok": true,
-   "jobs": 168,
+   "jobs": 169,
    "failStreak": 0
   },
   {
@@ -2485,7 +2517,11 @@
  "waitingForFeed": [
   "Procore Technologies",
   "Accoy",
-  "Viasat"
+  "Viasat",
+  "Atlassian",
+  "Lumen Technologies",
+  "WerQ AI",
+  "knownwell"
  ],
  "gaveUp": [
   "Slate Auto",

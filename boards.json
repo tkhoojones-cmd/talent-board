@@ -154,8 +154,7 @@
   "rise",
   "bumbleinc",
   "matchgroup",
-  "jobgether",
-  "knownwell"
+  "jobgether"
  ],
  "ashby": [
   "pylon-labs",
@@ -237,7 +236,11 @@
   "writer",
   "whoop",
   "coder",
-  "lumilens"
+  "lumilens",
+  "decagon",
+  "deepgram",
+  "tennr",
+  "encord"
  ],
  "workday": [
   {
@@ -504,17 +507,9 @@
   "Accoy",
   "Viasat",
   "Atlassian",
-  "Luma AI",
-  "Eight Sleep",
-  "Twelve Labs",
-  "Lucid Motors",
   "Lumen Technologies",
   "WerQ AI",
-  "Match Group",
-  "Decagon",
-  "Deepgram",
-  "Tennr",
-  "Encord"
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -689,9 +684,12 @@
   "Twinsie": 4,
   "Skild AI": 4,
   "V2X": 4,
-  "Viasat": 2,
-  "Accoy": 2,
-  "Procore Technologies": 2
+  "Viasat": 3,
+  "Accoy": 3,
+  "Procore Technologies": 3,
+  "Atlassian": 1,
+  "Lumen Technologies": 1,
+  "WerQ AI": 1
  },
  "dead": [
   "Slate Auto",
@@ -1147,7 +1145,10 @@
   "greenhouse:lunarenergy": 0,
   "ashby:coder": 0,
   "ashby:lumilens": 0,
-  "lever:knownwell": 2
+  "ashby:decagon": 0,
+  "ashby:deepgram": 0,
+  "ashby:tennr": 0,
+  "ashby:encord": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1269,7 +1270,12 @@
   "greenhouse:filescom": "Files.com",
   "greenhouse:lunarenergy": "Lunar Energy",
   "ashby:coder": "Coder",
-  "ashby:lumilens": "Lumilens"
+  "ashby:lumilens": "Lumilens",
+  "greenhouse:lucidmotors": "Lucid Motors",
+  "ashby:decagon": "Decagon",
+  "ashby:deepgram": "Deepgram",
+  "ashby:tennr": "Tennr",
+  "ashby:encord": "Encord"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1300,17 +1306,17 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 26,
-  "greenhouse:notion": 26,
-  "greenhouse:marqeta": 26,
-  "greenhouse:alphahawaii": 26,
-  "lever:knownwell": 26,
-  "workday:walmart:WalmartExternal": 26,
-  "workday:comcast:Comcast_Careers": 26,
-  "workday:dell:External": 26,
-  "workday:qualcomm:External": 26,
-  "bigtech:microsoft": 26,
-  "bigtech:meta": 26,
-  "greenhouse:clickhouse": 11
+  "greenhouse:admarketplaceinc": 27,
+  "greenhouse:notion": 27,
+  "greenhouse:marqeta": 27,
+  "greenhouse:alphahawaii": 27,
+  "lever:knownwell": 27,
+  "workday:walmart:WalmartExternal": 27,
+  "workday:comcast:Comcast_Careers": 27,
+  "workday:dell:External": 27,
+  "workday:qualcomm:External": 27,
+  "bigtech:microsoft": 27,
+  "bigtech:meta": 27,
+  "greenhouse:clickhouse": 12
  }
 }
