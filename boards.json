@@ -154,8 +154,7 @@
   "rise",
   "bumbleinc",
   "matchgroup",
-  "jobgether",
-  "knownwell"
+  "jobgether"
  ],
  "ashby": [
   "pylon-labs",
@@ -500,13 +499,7 @@
   }
  ],
  "candidates": [
-  "Skild AI",
-  "NEURA Robotics",
-  "WeRoad",
-  "Twinsie",
-  "V2X",
-  "One Model",
-  "Modo Energy"
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -676,11 +669,11 @@
   "Healthpro Heritage": 4,
   "Nscale": 4,
   "Randstad": 4,
-  "WeRoad": 3,
-  "NEURA Robotics": 3,
-  "Twinsie": 3,
-  "Skild AI": 3,
-  "V2X": 3
+  "WeRoad": 4,
+  "NEURA Robotics": 4,
+  "Twinsie": 4,
+  "Skild AI": 4,
+  "V2X": 4
  },
  "dead": [
   "Slate Auto",
@@ -846,7 +839,12 @@
   "Nscale",
   "Oxford Quantum Circuits",
   "Healthpro Heritage",
-  "Randstad"
+  "Randstad",
+  "Skild AI",
+  "NEURA Robotics",
+  "WeRoad",
+  "Twinsie",
+  "V2X"
  ],
  "workable": [
   "montera",
@@ -1130,8 +1128,7 @@
   "icims:careers-accoy": 0,
   "greenhouse:lunarenergy": 0,
   "ashby:coder": 0,
-  "ashby:lumilens": 0,
-  "lever:knownwell": 2
+  "ashby:lumilens": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1284,17 +1281,17 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 23,
-  "greenhouse:notion": 23,
-  "greenhouse:marqeta": 23,
-  "greenhouse:alphahawaii": 23,
-  "lever:knownwell": 23,
-  "workday:walmart:WalmartExternal": 23,
-  "workday:comcast:Comcast_Careers": 23,
-  "workday:dell:External": 23,
-  "workday:qualcomm:External": 23,
-  "bigtech:microsoft": 23,
-  "bigtech:meta": 23,
-  "greenhouse:clickhouse": 8
+  "greenhouse:admarketplaceinc": 24,
+  "greenhouse:notion": 24,
+  "greenhouse:marqeta": 24,
+  "greenhouse:alphahawaii": 24,
+  "lever:knownwell": 24,
+  "workday:walmart:WalmartExternal": 24,
+  "workday:comcast:Comcast_Careers": 24,
+  "workday:dell:External": 24,
+  "workday:qualcomm:External": 24,
+  "bigtech:microsoft": 24,
+  "bigtech:meta": 24,
+  "greenhouse:clickhouse": 9
  }
 }
