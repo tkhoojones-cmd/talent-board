@@ -1274,16 +1274,17 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-13",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-10-13",
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-13",
    "pageTitle": "VP, Employee Success Business Partner, Finance",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-13",
    "pageLocation": "Washington - Seattle, United States of America",
-   "compMax": 374400
+   "compMax": 374400,
+   "notInFeed": "2026-10-13"
   },
   {
    "id": "a4354e0d23",
@@ -1300,7 +1301,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-13",
-   "closedStreak": 34
+   "closedStreak": 35
   },
   {
    "id": "a23feff7b7",
@@ -1842,9 +1843,9 @@
    "url": "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4718854006",
    "comp": "$150,000 - $195,000",
    "added": "2026-10-08",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-10-13",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:visiersolutionsinc",
    "inFeed": "2026-10-13",
@@ -1864,9 +1865,9 @@
    "url": "https://job-boards.greenhouse.io/visiersolutionsinc/jobs/4710359006",
    "comp": "",
    "added": "2026-10-08",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-10-13",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:visiersolutionsinc",
    "inFeed": "2026-10-13",
@@ -2036,13 +2037,13 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-13",
-   "reason": "opened normally with an Apply control",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: job is no longer); last confirmed 2026-10-13",
    "source": "feed",
    "feed": "oracle:jpmc.fa.oraclecloud.com:CX_1001",
    "inFeed": "2026-10-08",
    "pageTitle": "Vice President, Transaction Coordination – NA Operating Model, Global Standardization & Talent Development",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-13",
    "pageLocation": "Jersey City, NJ, United States"
   },
@@ -2520,9 +2521,9 @@
    "url": "https://job-boards.greenhouse.io/babylist/jobs/5982397004",
    "comp": "$163,443 to $218,000",
    "added": "2026-10-09",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-10-13",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:babylist",
    "inFeed": "2026-10-13",
@@ -2531,7 +2532,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-13",
-   "pageLocation": "United States"
+   "pageLocation": "United States",
+   "notInFeed": "2026-10-13"
   },
   {
    "id": "048fbc67c8",
@@ -2542,9 +2544,9 @@
    "url": "https://job-boards.greenhouse.io/babylist/jobs/6138049004",
    "comp": "",
    "added": "2026-10-09",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-10-13",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:babylist",
    "inFeed": "2026-10-13",
@@ -2552,7 +2554,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-13",
-   "pageLocation": "Canada"
+   "pageLocation": "Canada",
+   "notInFeed": "2026-10-13"
   },
   {
    "id": "453b0c53b4",
@@ -3476,7 +3479,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 5
+   "closedStreak": 6
   },
   {
    "id": "af49eac227",
@@ -3493,7 +3496,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 5
+   "closedStreak": 6
   },
   {
    "id": "f198b0a5c2",
@@ -3510,7 +3513,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-13",
-   "closedStreak": 5
+   "closedStreak": 6
   },
   {
    "id": "622852d067",
@@ -3641,9 +3644,9 @@
    "url": "https://jobs.lever.co/jobgether/83005884-c92b-440e-b3ca-34516ba9f1a5",
    "comp": "$70,000–$75,000",
    "added": "2026-10-13",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-10-13",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-10-13",
@@ -3652,7 +3655,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-13",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-10-13"
   },
   {
    "id": "e8c9bfd0fd",
@@ -3698,6 +3702,48 @@
    "reason": "no longer in the employer's job feed",
    "feed": "greenhouse:andurilindustries",
    "notInFeed": "2026-10-13"
+  },
+  {
+   "id": "28c66ab941",
+   "kind": "role",
+   "company": "Fidelity",
+   "title": "Director Executive Talent Management",
+   "location": "Westlake, TX",
+   "url": "https://fmr.wd1.myworkdayjobs.com/FidelityCareers/job/Westlake-TX/Director-Executive-Talent-Management_2130151",
+   "comp": "",
+   "added": "2026-10-13",
+   "status": "live",
+   "lastChecked": "2026-10-13",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:fmr:FidelityCareers",
+   "inFeed": "2026-10-13",
+   "pageTitle": "Director Executive Talent Management",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-13",
+   "pageLocation": "Two Destiny Way, Westlake TX, United States of America"
+  },
+  {
+   "id": "f16d238d20",
+   "kind": "review",
+   "company": "Cigna",
+   "title": "Talent & Performance Strategy Principal - Hybrid",
+   "location": "Bloomfield, CT",
+   "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Talent---Performance-Strategy-Principal---Hybrid_26012575",
+   "comp": "",
+   "added": "2026-10-13",
+   "status": "live",
+   "lastChecked": "2026-10-13",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:cigna:cignacareers",
+   "inFeed": "2026-10-13",
+   "pageTitle": "Talent &amp; Performance Strategy Principal - Hybrid",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-13",
+   "pageLocation": "CT, Bloomfield, 900 Cottage Grove Rd Wilde Bldg, United States of America"
   }
  ]
 }

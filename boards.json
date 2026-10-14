@@ -674,11 +674,11 @@
   "Healthpro Heritage": 4,
   "Nscale": 4,
   "Randstad": 4,
-  "WeRoad": 2,
-  "NEURA Robotics": 2,
-  "Twinsie": 2,
-  "Skild AI": 2,
-  "V2X": 2
+  "WeRoad": 3,
+  "NEURA Robotics": 3,
+  "Twinsie": 3,
+  "Skild AI": 3,
+  "V2X": 3
  },
  "dead": [
   "Slate Auto",
@@ -1129,7 +1129,7 @@
   "greenhouse:lunarenergy": 0,
   "ashby:coder": 0,
   "ashby:lumilens": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1282,17 +1282,17 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 22,
-  "greenhouse:notion": 22,
-  "greenhouse:marqeta": 22,
-  "greenhouse:alphahawaii": 22,
-  "lever:knownwell": 22,
-  "workday:walmart:WalmartExternal": 22,
-  "workday:comcast:Comcast_Careers": 22,
-  "workday:dell:External": 22,
-  "workday:qualcomm:External": 22,
-  "bigtech:microsoft": 22,
-  "bigtech:meta": 22,
-  "greenhouse:clickhouse": 7
+  "greenhouse:admarketplaceinc": 23,
+  "greenhouse:notion": 23,
+  "greenhouse:marqeta": 23,
+  "greenhouse:alphahawaii": 23,
+  "lever:knownwell": 23,
+  "workday:walmart:WalmartExternal": 23,
+  "workday:comcast:Comcast_Careers": 23,
+  "workday:dell:External": 23,
+  "workday:qualcomm:External": 23,
+  "bigtech:microsoft": 23,
+  "bigtech:meta": 23,
+  "greenhouse:clickhouse": 8
  }
 }
