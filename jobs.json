@@ -1301,7 +1301,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-14",
-   "closedStreak": 36
+   "closedStreak": 37
   },
   {
    "id": "a23feff7b7",
@@ -3479,7 +3479,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-14",
-   "closedStreak": 7
+   "closedStreak": 8
   },
   {
    "id": "af49eac227",
@@ -3496,7 +3496,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-14",
-   "closedStreak": 7
+   "closedStreak": 8
   },
   {
    "id": "f198b0a5c2",
@@ -3513,7 +3513,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-14",
-   "closedStreak": 7
+   "closedStreak": 8
   },
   {
    "id": "622852d067",
@@ -3754,10 +3754,10 @@
    "url": "https://careers.walmart.com/us/jobs/WD2025368-senior-director-people",
    "comp": "",
    "added": "2026-10-14",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-10-14",
-   "reason": "looked closed once, rechecking: page says: no longer exists",
-   "closedStreak": 1
+   "reason": "page says: no longer exists",
+   "closedStreak": 2
   },
   {
    "id": "b1afb6d76a",
@@ -3782,110 +3782,6 @@
    "pageLocation": "US"
   },
   {
-   "id": "dd57d788ca",
-   "kind": "role",
-   "company": "ICONIQ",
-   "title": "Vice President, Talent Acquisition",
-   "location": "New York / San Francisco",
-   "url": "https://job-boards.greenhouse.io/iconiq/jobs/7347602",
-   "comp": "",
-   "added": "2026-10-14",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "531a97dadb",
-   "kind": "role",
-   "company": "Wellist",
-   "title": "Chief People Officer",
-   "location": "Boston (hybrid)",
-   "url": "https://job-boards.greenhouse.io/wellist/jobs/8431772002",
-   "comp": "",
-   "added": "2026-10-14",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "454f6f1eba",
-   "kind": "role",
-   "company": "Magnolia",
-   "title": "Chief People Officer",
-   "location": "Waco, TX",
-   "url": "https://job-boards.greenhouse.io/magnolia/jobs/4917041008",
-   "comp": "",
-   "added": "2026-10-14",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "ff9a27eadd",
-   "kind": "role",
-   "company": "Achievement First",
-   "title": "Chief People Officer",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/achievementfirstnetworksupportcareers/jobs/5725281004",
-   "comp": "",
-   "added": "2026-10-14",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "65a5926265",
-   "kind": "role",
-   "company": "EVOCS",
-   "title": "Chief People Officer",
-   "location": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/evolutioncloudservicesevocs/jobs/4149932009",
-   "comp": "",
-   "added": "2026-10-14",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "4151b3dcaa",
-   "kind": "role",
-   "company": "Tala",
-   "title": "Chief People Officer",
-   "location": "",
-   "url": "https://jobs.lever.co/tala/11640793-b2db-4e1e-88d2-2ae2b8a1f49c",
-   "comp": "",
-   "added": "2026-10-14",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "13f9e79e35",
-   "kind": "role",
-   "company": "Smartsheet",
-   "title": "Senior Director, Talent Experience",
-   "location": "",
-   "url": "https://www.smartsheet.com/careers/position/8191572/senior-director-talent-experience",
-   "comp": "",
-   "added": "2026-10-14",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "e05e642d7f",
-   "kind": "role",
-   "company": "Accoy",
-   "title": "Chief People Officer",
-   "location": "Wexford, PA (hybrid)",
-   "url": "https://careers-accoy.icims.com/jobs/21949/chief-people-officer/job",
-   "comp": "",
-   "added": "2026-10-14",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
    "id": "2fa4cc631d",
    "kind": "role",
    "company": "Capital One",
@@ -3894,9 +3790,31 @@
    "url": "https://www.capitalonecareers.com/job/mclean/sr-director-talent-acquisition-staff-groups/1732/87905566320",
    "comp": "",
    "added": "2026-10-14",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-10-14",
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
+  },
+  {
+   "id": "ef6e21ff35",
+   "kind": "role",
+   "company": "Citi",
+   "title": "Head of Early Career Talent for Operations and Technology",
+   "location": "New York New York United States",
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/New-York-New-York-United-States/Head-of-Early-Career-Talent-for-Operations-and-Technology_261000677",
+   "comp": "",
+   "added": "2026-10-14",
+   "status": "live",
+   "lastChecked": "2026-10-14",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:citi:2",
+   "inFeed": "2026-10-14",
+   "pageTitle": "Head of Early Career Talent for Operations and Technology",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-14",
+   "pageLocation": "388 GREENWICH STREET - TOWER, United States of America"
   }
  ]
 }

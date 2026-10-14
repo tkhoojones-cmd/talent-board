@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T11:13:44.035Z",
+ "at": "2026-10-14T11:47:11.742Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -31,7 +31,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -87,7 +87,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "greenhouse:alphasense",
@@ -134,7 +134,7 @@
    "company": "Anthropic",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 650,
+   "jobs": 649,
    "failStreak": 0
   },
   {
@@ -382,7 +382,7 @@
    "company": "Citi",
    "ats": "workday",
    "ok": true,
-   "jobs": 160,
+   "jobs": 159,
    "failStreak": 0
   },
   {
@@ -415,7 +415,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "ashby:clickhouse",
@@ -486,7 +486,7 @@
    "company": "Collibra",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 29,
+   "jobs": 28,
    "failStreak": 0
   },
   {
@@ -495,7 +495,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "ashby:commure",
@@ -615,14 +615,14 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "greenhouse:dept",
    "company": "Dept",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 200,
+   "jobs": 195,
    "failStreak": 0
   },
   {
@@ -806,7 +806,7 @@
    "company": "Fivetran",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 188,
+   "jobs": 187,
    "failStreak": 0
   },
   {
@@ -950,7 +950,7 @@
    "company": "Helsing",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 154,
+   "jobs": 153,
    "failStreak": 0
   },
   {
@@ -1102,7 +1102,7 @@
    "company": "Jobgether",
    "ats": "lever",
    "ok": true,
-   "jobs": 4067,
+   "jobs": 4114,
    "failStreak": 0
   },
   {
@@ -1151,7 +1151,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "lever:kraken",
@@ -1263,7 +1263,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1311,7 +1311,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "workday:micron:External",
@@ -1327,7 +1327,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "lever:minesense",
@@ -1479,7 +1479,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "ashby:notion",
@@ -1710,7 +1710,7 @@
    "company": "Projectaservicesgmbhcokg",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 55,
+   "jobs": 56,
    "failStreak": 0
   },
   {
@@ -1743,7 +1743,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "greenhouse:qualtrics",
@@ -1982,7 +1982,7 @@
    "company": "Snowflake",
    "ats": "ashby",
    "ok": true,
-   "jobs": 357,
+   "jobs": 356,
    "failStreak": 0
   },
   {
@@ -2006,7 +2006,7 @@
    "company": "Sonymusicentertainment",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 130,
+   "jobs": 131,
    "failStreak": 0
   },
   {
@@ -2086,7 +2086,7 @@
    "company": "Synchronyfinancial",
    "ats": "workday",
    "ok": true,
-   "jobs": 5,
+   "jobs": 6,
    "failStreak": 0
   },
   {
@@ -2326,7 +2326,7 @@
    "company": "Vmlenterprisesolutions",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 170,
+   "jobs": 169,
    "failStreak": 0
   },
   {
@@ -2335,7 +2335,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 24
+   "failStreak": 25
   },
   {
    "id": "workday:warnerbros:global",
@@ -2406,7 +2406,7 @@
    "company": "Wells Fargo",
    "ats": "workday",
    "ok": true,
-   "jobs": 42,
+   "jobs": 43,
    "failStreak": 0
   },
   {
@@ -2483,7 +2483,9 @@
   }
  ],
  "waitingForFeed": [
-  "knownwell"
+  "Procore Technologies",
+  "Accoy",
+  "Viasat"
  ],
  "gaveUp": [
   "Slate Auto",

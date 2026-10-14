@@ -1,10 +1,10 @@
 {
- "at": "2026-10-14T11:13:44.036Z",
+ "at": "2026-10-14T11:47:11.743Z",
  "ok": 298,
  "failed": [
   "greenhouse:admarketplaceinc:0",
-  "greenhouse:notion:0",
   "greenhouse:marqeta:0",
+  "greenhouse:notion:0",
   "greenhouse:alphahawaii:0",
   "greenhouse:clickhouse:0",
   "lever:knownwell:404",
@@ -15,19 +15,19 @@
   "bigtech:microsoft:404",
   "bigtech:meta:404"
  ],
- "scanned": 35917,
- "matched": 124,
+ "scanned": 35956,
+ "matched": 125,
  "added": 1,
  "alerts": [
-  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 24 runs in a row",
-  "Notion (greenhouse:notion) has failed 24 runs in a row",
-  "Marqeta (greenhouse:marqeta) has failed 24 runs in a row",
-  "Alphahawaii (greenhouse:alphahawaii) has failed 24 runs in a row",
-  "Clickhouse (greenhouse:clickhouse) has failed 9 runs in a row",
-  "Knownwell (lever:knownwell) has failed 24 runs in a row",
-  "Walmart (workday:walmart:WalmartExternal) has failed 24 runs in a row",
-  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 24 runs in a row",
-  "Dell (workday:dell:External) has failed 24 runs in a row",
-  "Qualcomm (workday:qualcomm:External) has failed 24 runs in a row"
+  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 25 runs in a row",
+  "Marqeta (greenhouse:marqeta) has failed 25 runs in a row",
+  "Notion (greenhouse:notion) has failed 25 runs in a row",
+  "Alphahawaii (greenhouse:alphahawaii) has failed 25 runs in a row",
+  "Clickhouse (greenhouse:clickhouse) has failed 10 runs in a row",
+  "Knownwell (lever:knownwell) has failed 25 runs in a row",
+  "Walmart (workday:walmart:WalmartExternal) has failed 25 runs in a row",
+  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 25 runs in a row",
+  "Dell (workday:dell:External) has failed 25 runs in a row",
+  "Qualcomm (workday:qualcomm:External) has failed 25 runs in a row"
  ]
 }
