@@ -684,9 +684,9 @@
   "Viasat": 4,
   "Accoy": 4,
   "Procore Technologies": 4,
-  "Atlassian": 2,
-  "Lumen Technologies": 2,
-  "WerQ AI": 2
+  "Atlassian": 3,
+  "Lumen Technologies": 3,
+  "WerQ AI": 3
  },
  "dead": [
   "Slate Auto",
@@ -1149,7 +1149,7 @@
   "ashby:deepgram": 0,
   "ashby:tennr": 0,
   "ashby:encord": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1307,18 +1307,18 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 28,
-  "greenhouse:notion": 28,
-  "greenhouse:marqeta": 28,
-  "greenhouse:alphahawaii": 28,
-  "lever:knownwell": 28,
-  "workday:walmart:WalmartExternal": 28,
-  "workday:comcast:Comcast_Careers": 28,
-  "workday:dell:External": 28,
-  "workday:qualcomm:External": 28,
-  "bigtech:microsoft": 28,
-  "bigtech:meta": 28,
-  "greenhouse:clickhouse": 13,
-  "greenhouse:andurilindustries": 1
+  "greenhouse:admarketplaceinc": 29,
+  "greenhouse:notion": 29,
+  "greenhouse:marqeta": 29,
+  "greenhouse:alphahawaii": 29,
+  "lever:knownwell": 29,
+  "workday:walmart:WalmartExternal": 29,
+  "workday:comcast:Comcast_Careers": 29,
+  "workday:dell:External": 29,
+  "workday:qualcomm:External": 29,
+  "bigtech:microsoft": 29,
+  "bigtech:meta": 29,
+  "greenhouse:clickhouse": 14,
+  "greenhouse:andurilindustries": 2
  }
 }
