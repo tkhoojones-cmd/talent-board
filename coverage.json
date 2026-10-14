@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T12:26:06.899Z",
+ "at": "2026-10-14T12:50:42.434Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -31,7 +31,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -87,7 +87,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "greenhouse:alphasense",
@@ -125,9 +125,9 @@
    "id": "greenhouse:andurilindustries",
    "company": "Andurilindustries",
    "ats": "greenhouse",
-   "ok": true,
-   "jobs": 2490,
-   "failStreak": 0
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
   },
   {
    "id": "greenhouse:anthropic",
@@ -415,7 +415,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 12
+   "failStreak": 13
   },
   {
    "id": "ashby:clickhouse",
@@ -495,7 +495,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "ashby:commure",
@@ -622,7 +622,7 @@
    "company": "Deepgram",
    "ats": "ashby",
    "ok": true,
-   "jobs": 90,
+   "jobs": 91,
    "failStreak": 0
   },
   {
@@ -631,7 +631,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "greenhouse:dept",
@@ -694,7 +694,7 @@
    "company": "Elastic",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 374,
+   "jobs": 373,
    "failStreak": 0
   },
   {
@@ -710,7 +710,7 @@
    "company": "ElevenLabs",
    "ats": "ashby",
    "ok": true,
-   "jobs": 145,
+   "jobs": 146,
    "failStreak": 0
   },
   {
@@ -870,7 +870,7 @@
    "company": "Gilead",
    "ats": "workday",
    "ok": true,
-   "jobs": 65,
+   "jobs": 66,
    "failStreak": 0
   },
   {
@@ -958,7 +958,7 @@
    "company": "Hasbro",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 110,
+   "jobs": 109,
    "failStreak": 0
   },
   {
@@ -1142,7 +1142,7 @@
    "company": "JPMorgan Chase",
    "ats": "oracle",
    "ok": true,
-   "jobs": 105,
+   "jobs": 104,
    "failStreak": 0
   },
   {
@@ -1175,7 +1175,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "lever:kraken",
@@ -1287,7 +1287,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1335,7 +1335,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "workday:micron:External",
@@ -1351,7 +1351,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "lever:minesense",
@@ -1503,7 +1503,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "ashby:notion",
@@ -1702,7 +1702,7 @@
    "company": "Posthog",
    "ats": "ashby",
    "ok": true,
-   "jobs": 10,
+   "jobs": 11,
    "failStreak": 0
   },
   {
@@ -1767,7 +1767,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "greenhouse:qualtrics",
@@ -2358,7 +2358,7 @@
    "company": "Vmlenterprisesolutions",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 169,
+   "jobs": 171,
    "failStreak": 0
   },
   {
@@ -2367,7 +2367,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 27
+   "failStreak": 28
   },
   {
    "id": "workday:warnerbros:global",
@@ -2438,7 +2438,7 @@
    "company": "Wells Fargo",
    "ats": "workday",
    "ok": true,
-   "jobs": 43,
+   "jobs": 44,
    "failStreak": 0
   },
   {
@@ -2515,13 +2515,9 @@
   }
  ],
  "waitingForFeed": [
-  "Procore Technologies",
-  "Accoy",
-  "Viasat",
   "Atlassian",
   "Lumen Technologies",
-  "WerQ AI",
-  "knownwell"
+  "WerQ AI"
  ],
  "gaveUp": [
   "Slate Auto",
@@ -2692,6 +2688,9 @@
   "NEURA Robotics",
   "WeRoad",
   "Twinsie",
-  "V2X"
+  "V2X",
+  "Procore Technologies",
+  "Accoy",
+  "Viasat"
  ]
 }
