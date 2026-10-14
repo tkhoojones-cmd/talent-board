@@ -3815,6 +3815,32 @@
    "failStreak": 0,
    "lastLive": "2026-10-14",
    "pageLocation": "388 GREENWICH STREET - TOWER, United States of America"
+  },
+  {
+   "id": "50c37bbe84",
+   "kind": "ic",
+   "company": "OpenAI",
+   "title": "Principal Recruiter, Strategic AI Talent",
+   "location": "San Francisco, CA",
+   "url": "https://openai.com/careers/principal-recruiter-strategic-ai-talent-san-francisco/",
+   "comp": "$216K-$240K + equity",
+   "added": "2026-10-14",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "753beab4d6",
+   "kind": "ic",
+   "company": "Lumen Technologies",
+   "title": "Principal Executive Recruiter",
+   "location": "Remote (US only ⚠️)",
+   "url": "https://internaljobs.centurylink.com/job/Remote-Principal-Executive-Recruiter/1418958200/",
+   "comp": "",
+   "added": "2026-10-14",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
   }
  ]
 }
