@@ -1,5 +1,5 @@
 {
- "at": "2026-10-14T11:47:11.742Z",
+ "at": "2026-10-14T11:58:26.579Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -31,7 +31,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -87,7 +87,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "greenhouse:alphasense",
@@ -415,7 +415,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 10
+   "failStreak": 11
   },
   {
    "id": "ashby:clickhouse",
@@ -495,7 +495,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "ashby:commure",
@@ -582,7 +582,7 @@
    "company": "Databricks",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 896,
+   "jobs": 894,
    "failStreak": 0
   },
   {
@@ -615,7 +615,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "greenhouse:dept",
@@ -774,7 +774,7 @@
    "company": "Fidelity",
    "ats": "workday",
    "ok": true,
-   "jobs": 61,
+   "jobs": 62,
    "failStreak": 0
   },
   {
@@ -1151,7 +1151,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "lever:kraken",
@@ -1263,7 +1263,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1311,7 +1311,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "workday:micron:External",
@@ -1327,7 +1327,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "lever:minesense",
@@ -1479,7 +1479,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "ashby:notion",
@@ -1534,7 +1534,7 @@
    "company": "Okta",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 374,
+   "jobs": 375,
    "failStreak": 0
   },
   {
@@ -1743,7 +1743,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "greenhouse:qualtrics",
@@ -2335,7 +2335,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 25
+   "failStreak": 26
   },
   {
    "id": "workday:warnerbros:global",
