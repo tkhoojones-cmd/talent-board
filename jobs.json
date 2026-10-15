@@ -1301,7 +1301,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-15",
-   "closedStreak": 44
+   "closedStreak": 45
   },
   {
    "id": "a23feff7b7",
@@ -3480,7 +3480,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-15",
-   "closedStreak": 15
+   "closedStreak": 16
   },
   {
    "id": "af49eac227",
@@ -3497,7 +3497,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-15",
-   "closedStreak": 15
+   "closedStreak": 16
   },
   {
    "id": "f198b0a5c2",
@@ -3514,7 +3514,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-15",
-   "closedStreak": 15
+   "closedStreak": 16
   },
   {
    "id": "622852d067",
@@ -3864,7 +3864,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-15",
-   "pageLocation": "Location: IT, Latium, Rome"
+   "pageLocation": "Location: US, New York, New York"
   },
   {
    "id": "b80238edcb",
@@ -3960,10 +3960,10 @@
    "url": "https://careers.alignmenthealth.com/jobs/3894/director-talent-acquisition",
    "comp": "",
    "added": "2026-10-15",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-10-15",
-   "reason": "looked closed once, rechecking: redirected away from the job: https://www.alignmenthealth.com/careers",
-   "closedStreak": 1
+   "reason": "redirected away from the job: https://www.alignmenthealth.com/careers",
+   "closedStreak": 2
   },
   {
    "id": "771547d8b3",
@@ -3974,10 +3974,10 @@
    "url": "https://careers.datadoghq.com/detail/7961311/",
    "comp": "",
    "added": "2026-10-15",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-10-15",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "1714e9f022",
