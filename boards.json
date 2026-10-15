@@ -504,7 +504,22 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "C3.ai",
+  "Lattice",
+  "eBay",
+  "Microsoft AI",
+  "Improbable",
+  "Fieldguide",
+  "Read AI",
+  "Ditto",
+  "Gigs",
+  "Corgi",
+  "Trulioo",
+  "Rue Gilt Groupe",
+  "Partners Capital",
+  "Arteria AI"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
