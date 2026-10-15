@@ -154,7 +154,9 @@
   "rise",
   "bumbleinc",
   "matchgroup",
-  "jobgether"
+  "jobgether",
+  "knownwell",
+  "encore-renewable-energy"
  ],
  "ashby": [
   "pylon-labs",
@@ -502,10 +504,7 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [
-  "knownwell",
-  "Encore Renewable Energy"
- ],
+ "candidates": [],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -1149,7 +1148,9 @@
   "ashby:decagon": 0,
   "ashby:deepgram": 0,
   "ashby:tennr": 0,
-  "ashby:encord": 0
+  "ashby:encord": 0,
+  "lever:encore-renewable-energy": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1276,7 +1277,8 @@
   "ashby:decagon": "Decagon",
   "ashby:deepgram": "Deepgram",
   "ashby:tennr": "Tennr",
-  "ashby:encord": "Encord"
+  "ashby:encord": "Encord",
+  "lever:encore-renewable-energy": "Encore Renewable Energy"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1307,18 +1309,18 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 30,
-  "greenhouse:notion": 30,
-  "greenhouse:marqeta": 30,
-  "greenhouse:alphahawaii": 30,
-  "lever:knownwell": 30,
-  "workday:walmart:WalmartExternal": 30,
-  "workday:comcast:Comcast_Careers": 30,
-  "workday:dell:External": 30,
-  "workday:qualcomm:External": 30,
-  "bigtech:microsoft": 30,
-  "bigtech:meta": 30,
-  "greenhouse:clickhouse": 15,
-  "greenhouse:andurilindustries": 3
+  "greenhouse:admarketplaceinc": 31,
+  "greenhouse:notion": 31,
+  "greenhouse:marqeta": 31,
+  "greenhouse:alphahawaii": 31,
+  "lever:knownwell": 31,
+  "workday:walmart:WalmartExternal": 31,
+  "workday:comcast:Comcast_Careers": 31,
+  "workday:dell:External": 31,
+  "workday:qualcomm:External": 31,
+  "bigtech:microsoft": 31,
+  "bigtech:meta": 31,
+  "greenhouse:clickhouse": 16,
+  "greenhouse:visiersolutionsinc": 1
  }
 }
