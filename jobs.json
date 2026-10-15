@@ -196,14 +196,14 @@
    "url": "https://manh.wd5.myworkdayjobs.com/External/job/Senior-Director-Talent-Management_16995",
    "comp": "",
    "added": "2026-09-28",
-   "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "status": "live",
+   "lastChecked": "2026-10-14",
+   "reason": "opened normally with an Apply control",
    "pageLocation": "Atlanta, GA, United States of America",
    "pageTitle": "Senior Director Talent Management",
    "closedStreak": 0,
    "failStreak": 0,
-   "lastLive": "2026-10-08",
+   "lastLive": "2026-10-14",
    "feed": "workday:manh:External",
    "notInFeed": "2026-10-14"
   },
@@ -422,7 +422,7 @@
    "comp": "$240K-$295K base + equity",
    "added": "2026-08-27",
    "status": "closed",
-   "lastChecked": "2026-10-08",
+   "lastChecked": "2026-10-14",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:anthropic",
    "notInFeed": "2026-10-14"
@@ -437,7 +437,7 @@
    "comp": "$230K-$295K base + equity",
    "added": "2026-09-26",
    "status": "closed",
-   "lastChecked": "2026-10-08",
+   "lastChecked": "2026-10-14",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:anthropic",
    "notInFeed": "2026-10-14"
@@ -1301,7 +1301,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-14",
-   "closedStreak": 41
+   "closedStreak": 42
   },
   {
    "id": "a23feff7b7",
@@ -1442,8 +1442,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:practicebetter",
    "notInFeed": "2026-10-14"
   },
@@ -1457,7 +1457,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
+   "lastChecked": "2026-10-14",
    "reason": "HTTP 404"
   },
   {
@@ -1470,8 +1470,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:evergreenservicesgroup",
    "notInFeed": "2026-10-14"
   },
@@ -1485,8 +1485,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:futurestandard",
    "notInFeed": "2026-10-14"
   },
@@ -1500,8 +1500,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:filescom",
    "notInFeed": "2026-10-14"
   },
@@ -1648,8 +1648,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:iconiq",
    "notInFeed": "2026-10-14"
   },
@@ -1663,8 +1663,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:magnolia",
    "notInFeed": "2026-10-14"
   },
@@ -1678,8 +1678,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:achievementfirstnetworksupportcareers",
    "notInFeed": "2026-10-14"
   },
@@ -1693,8 +1693,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:evolutioncloudservicesevocs",
    "notInFeed": "2026-10-14"
   },
@@ -1708,8 +1708,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:wellist",
    "notInFeed": "2026-10-14"
   },
@@ -1723,8 +1723,8 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "HTTP 404",
    "feed": "lever:tala",
    "notInFeed": "2026-10-14"
   },
@@ -1737,10 +1737,10 @@
    "url": "https://www.smartsheet.com/careers/position/8191572/senior-director-talent-experience",
    "comp": "",
    "added": "2026-10-09",
-   "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "HTTP 404",
-   "closedStreak": 2
+   "status": "unverifiable",
+   "lastChecked": "2026-10-14",
+   "reason": "HTTP 406",
+   "closedStreak": 0
   },
   {
    "id": "9d04230496",
@@ -1752,8 +1752,8 @@
    "comp": "$220-300k",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-14",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:cresta",
    "notInFeed": "2026-10-14"
   },
@@ -1767,9 +1767,9 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-08",
+   "lastChecked": "2026-10-14",
    "reason": "HTTP 404",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "7d2d60ebb8",
@@ -2079,9 +2079,9 @@
    "url": "https://job-boards.greenhouse.io/nerostechnologies/jobs/5209120007",
    "comp": "$205,000 - $275,000",
    "added": "2026-10-08",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-10-14",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:nerostechnologies",
    "inFeed": "2026-10-14",
@@ -2090,7 +2090,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-14",
-   "pageLocation": "Torrance, California, United States"
+   "pageLocation": "Torrance, California, United States",
+   "notInFeed": "2026-10-14"
   },
   {
    "id": "83069258bd",
@@ -3479,7 +3480,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-14",
-   "closedStreak": 12
+   "closedStreak": 13
   },
   {
    "id": "af49eac227",
@@ -3496,7 +3497,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-14",
-   "closedStreak": 12
+   "closedStreak": 13
   },
   {
    "id": "f198b0a5c2",
@@ -3513,7 +3514,7 @@
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-10-14",
-   "closedStreak": 12
+   "closedStreak": 13
   },
   {
    "id": "622852d067",
@@ -3843,6 +3844,27 @@
    "lastChecked": "2026-10-14",
    "reason": "page says: requisition is no longer",
    "closedStreak": 2
+  },
+  {
+   "id": "08c3a2b866",
+   "kind": "ic",
+   "company": "Amazon.jobs",
+   "title": "Principal Executive Recruiter",
+   "location": "Seattle, Washington, USA",
+   "url": "https://www.amazon.jobs/en/jobs/10558488/principal-executive-recruiter",
+   "comp": "",
+   "added": "2026-10-14",
+   "status": "live",
+   "lastChecked": "2026-10-14",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": null,
+   "inFeed": "2026-10-14",
+   "pageTitle": "Principal Executive Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-14",
+   "pageLocation": "Location: IT, Latium, Rome"
   }
  ]
 }

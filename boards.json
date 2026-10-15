@@ -154,8 +154,7 @@
   "rise",
   "bumbleinc",
   "matchgroup",
-  "jobgether",
-  "knownwell"
+  "jobgether"
  ],
  "ashby": [
   "pylon-labs",
@@ -504,9 +503,7 @@
   }
  ],
  "candidates": [
-  "Atlassian",
-  "Lumen Technologies",
-  "WerQ AI"
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -684,9 +681,9 @@
   "Viasat": 4,
   "Accoy": 4,
   "Procore Technologies": 4,
-  "Atlassian": 3,
-  "Lumen Technologies": 3,
-  "WerQ AI": 3
+  "Atlassian": 4,
+  "Lumen Technologies": 4,
+  "WerQ AI": 4
  },
  "dead": [
   "Slate Auto",
@@ -860,7 +857,10 @@
   "V2X",
   "Procore Technologies",
   "Accoy",
-  "Viasat"
+  "Viasat",
+  "Atlassian",
+  "Lumen Technologies",
+  "WerQ AI"
  ],
  "workable": [
   "montera",
@@ -1148,8 +1148,7 @@
   "ashby:decagon": 0,
   "ashby:deepgram": 0,
   "ashby:tennr": 0,
-  "ashby:encord": 0,
-  "lever:knownwell": 2
+  "ashby:encord": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1307,18 +1306,18 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 29,
-  "greenhouse:notion": 29,
-  "greenhouse:marqeta": 29,
-  "greenhouse:alphahawaii": 29,
-  "lever:knownwell": 29,
-  "workday:walmart:WalmartExternal": 29,
-  "workday:comcast:Comcast_Careers": 29,
-  "workday:dell:External": 29,
-  "workday:qualcomm:External": 29,
-  "bigtech:microsoft": 29,
-  "bigtech:meta": 29,
-  "greenhouse:clickhouse": 14,
-  "greenhouse:andurilindustries": 2
+  "greenhouse:admarketplaceinc": 30,
+  "greenhouse:notion": 30,
+  "greenhouse:marqeta": 30,
+  "greenhouse:alphahawaii": 30,
+  "lever:knownwell": 30,
+  "workday:walmart:WalmartExternal": 30,
+  "workday:comcast:Comcast_Careers": 30,
+  "workday:dell:External": 30,
+  "workday:qualcomm:External": 30,
+  "bigtech:microsoft": 30,
+  "bigtech:meta": 30,
+  "greenhouse:clickhouse": 15,
+  "greenhouse:andurilindustries": 3
  }
 }
