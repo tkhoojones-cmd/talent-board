@@ -131,7 +131,11 @@
   "momentic",
   "lunarenergy",
   "cultureamp",
-  "alignmenthealth"
+  "alignmenthealth",
+  "lattice",
+  "gigs",
+  "arteriaai",
+  "klaviyo"
  ],
  "lever": [
   "zoox",
@@ -244,7 +248,12 @@
   "decagon",
   "deepgram",
   "tennr",
-  "encord"
+  "encord",
+  "fieldguide",
+  "improbable",
+  "ditto",
+  "trulioo",
+  "read-ai"
  ],
  "workday": [
   {
@@ -508,32 +517,14 @@
  ],
  "candidates": [
   "C3.ai",
-  "Lattice",
   "eBay",
   "Microsoft AI",
-  "Improbable",
-  "Fieldguide",
-  "Read AI",
-  "Ditto",
-  "Gigs",
   "Corgi",
-  "Trulioo",
   "Rue Gilt Groupe",
   "Partners Capital",
-  "Arteria AI",
-  "One Model",
-  "HiBob",
-  "Advantage Solutions",
-  "Luma AI",
-  "Eight Sleep",
-  "Twelve Labs",
   "Micron",
-  "Hims & Hers",
-  "Match Group",
-  "Lucid Motors",
-  "Grow Therapy",
-  "Klaviyo",
-  "Pocket"
+  "Pocket",
+  "Bia Health"
  ],
  "tried": {
   "UniUni": 1,
@@ -713,7 +704,16 @@
   "Procore Technologies": 4,
   "Atlassian": 4,
   "Lumen Technologies": 4,
-  "WerQ AI": 4
+  "WerQ AI": 4,
+  "eBay": 1,
+  "Corgi": 1,
+  "C3.ai": 1,
+  "Partners Capital": 1,
+  "Rue Gilt Groupe": 1,
+  "Micron": 1,
+  "Microsoft AI": 1,
+  "Pocket": 1,
+  "Bia Health": 1
  },
  "dead": [
   "Slate Auto",
@@ -1180,7 +1180,17 @@
   "ashby:tennr": 0,
   "ashby:encord": 0,
   "lever:encore-renewable-energy": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "greenhouse:cultureamp": 0,
+  "greenhouse:lattice": 0,
+  "greenhouse:gigs": 0,
+  "greenhouse:arteriaai": 0,
+  "greenhouse:klaviyo": 0,
+  "ashby:improbable": 0,
+  "ashby:fieldguide": 0,
+  "ashby:ditto": 0,
+  "ashby:read-ai": 0,
+  "ashby:trulioo": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1308,7 +1318,16 @@
   "ashby:deepgram": "Deepgram",
   "ashby:tennr": "Tennr",
   "ashby:encord": "Encord",
-  "lever:encore-renewable-energy": "Encore Renewable Energy"
+  "lever:encore-renewable-energy": "Encore Renewable Energy",
+  "greenhouse:lattice": "Lattice",
+  "ashby:fieldguide": "Fieldguide",
+  "ashby:improbable": "Improbable",
+  "greenhouse:gigs": "Gigs",
+  "ashby:ditto": "Ditto",
+  "ashby:trulioo": "Trulioo",
+  "greenhouse:arteriaai": "Arteria AI",
+  "ashby:read-ai": "Read AI",
+  "greenhouse:klaviyo": "Klaviyo"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1339,18 +1358,19 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 31,
-  "greenhouse:notion": 31,
-  "greenhouse:marqeta": 31,
-  "greenhouse:alphahawaii": 31,
-  "lever:knownwell": 31,
-  "workday:walmart:WalmartExternal": 31,
-  "workday:comcast:Comcast_Careers": 31,
-  "workday:dell:External": 31,
-  "workday:qualcomm:External": 31,
-  "bigtech:microsoft": 31,
-  "bigtech:meta": 31,
-  "greenhouse:clickhouse": 16,
-  "greenhouse:visiersolutionsinc": 1
+  "greenhouse:admarketplaceinc": 32,
+  "greenhouse:notion": 32,
+  "greenhouse:marqeta": 32,
+  "greenhouse:alphahawaii": 32,
+  "lever:knownwell": 32,
+  "workday:walmart:WalmartExternal": 32,
+  "workday:comcast:Comcast_Careers": 32,
+  "workday:dell:External": 32,
+  "workday:qualcomm:External": 32,
+  "bigtech:microsoft": 32,
+  "bigtech:meta": 32,
+  "greenhouse:clickhouse": 17,
+  "greenhouse:visiersolutionsinc": 2,
+  "greenhouse:alignmenthealth": 1
  }
 }
