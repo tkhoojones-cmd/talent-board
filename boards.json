@@ -163,7 +163,8 @@
   "matchgroup",
   "jobgether",
   "encore-renewable-energy",
-  "knownwell"
+  "knownwell",
+  "neednova"
  ],
  "ashby": [
   "pylon-labs",
@@ -516,7 +517,14 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "VideaHealth",
+  "Procore",
+  "Arize AI",
+  "ZoomInfo",
+  "Nova Credit",
+  "Hawkwood"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
