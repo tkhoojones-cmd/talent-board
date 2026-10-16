@@ -161,7 +161,8 @@
   "bumbleinc",
   "matchgroup",
   "jobgether",
-  "encore-renewable-energy"
+  "encore-renewable-energy",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -523,8 +524,7 @@
   "Partners Capital",
   "Micron",
   "Pocket",
-  "Bia Health",
-  "knownwell"
+  "Bia Health"
  ],
  "tried": {
   "UniUni": 1,
@@ -705,15 +705,15 @@
   "Atlassian": 4,
   "Lumen Technologies": 4,
   "WerQ AI": 4,
-  "eBay": 2,
-  "Corgi": 2,
-  "C3.ai": 2,
-  "Partners Capital": 2,
-  "Rue Gilt Groupe": 2,
-  "Micron": 2,
-  "Microsoft AI": 2,
-  "Pocket": 2,
-  "Bia Health": 2
+  "eBay": 3,
+  "Corgi": 3,
+  "C3.ai": 3,
+  "Partners Capital": 3,
+  "Rue Gilt Groupe": 3,
+  "Micron": 3,
+  "Microsoft AI": 3,
+  "Pocket": 3,
+  "Bia Health": 3
  },
  "dead": [
   "Slate Auto",
@@ -1189,7 +1189,8 @@
   "ashby:fieldguide": 0,
   "ashby:ditto": 0,
   "ashby:read-ai": 0,
-  "ashby:trulioo": 0
+  "ashby:trulioo": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1357,20 +1358,19 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 33,
-  "greenhouse:notion": 33,
-  "greenhouse:marqeta": 33,
-  "greenhouse:alphahawaii": 33,
-  "lever:knownwell": 33,
-  "workday:walmart:WalmartExternal": 33,
-  "workday:comcast:Comcast_Careers": 33,
-  "workday:dell:External": 33,
-  "workday:qualcomm:External": 33,
-  "bigtech:microsoft": 33,
-  "bigtech:meta": 33,
-  "greenhouse:clickhouse": 18,
-  "greenhouse:visiersolutionsinc": 3,
-  "greenhouse:alignmenthealth": 2,
-  "bigtech:netflix": 1
+  "greenhouse:admarketplaceinc": 34,
+  "greenhouse:notion": 34,
+  "greenhouse:marqeta": 34,
+  "greenhouse:alphahawaii": 34,
+  "lever:knownwell": 34,
+  "workday:walmart:WalmartExternal": 34,
+  "workday:comcast:Comcast_Careers": 34,
+  "workday:dell:External": 34,
+  "workday:qualcomm:External": 34,
+  "bigtech:microsoft": 34,
+  "bigtech:meta": 34,
+  "greenhouse:clickhouse": 19,
+  "greenhouse:visiersolutionsinc": 4,
+  "greenhouse:alignmenthealth": 3
  }
 }
