@@ -135,7 +135,8 @@
   "lattice",
   "gigs",
   "arteriaai",
-  "klaviyo"
+  "klaviyo",
+  "hive"
  ],
  "lever": [
   "zoox",
@@ -515,18 +516,7 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [
-  "C3.ai",
-  "eBay",
-  "Microsoft AI",
-  "Corgi",
-  "Rue Gilt Groupe",
-  "Partners Capital",
-  "Micron",
-  "Pocket",
-  "Bia Health",
-  "Hive"
- ],
+ "candidates": [],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -706,15 +696,15 @@
   "Atlassian": 4,
   "Lumen Technologies": 4,
   "WerQ AI": 4,
-  "eBay": 3,
-  "Corgi": 3,
-  "C3.ai": 3,
-  "Partners Capital": 3,
-  "Rue Gilt Groupe": 3,
-  "Micron": 3,
-  "Microsoft AI": 3,
-  "Pocket": 3,
-  "Bia Health": 3
+  "eBay": 4,
+  "Corgi": 4,
+  "C3.ai": 4,
+  "Partners Capital": 4,
+  "Rue Gilt Groupe": 4,
+  "Micron": 4,
+  "Microsoft AI": 4,
+  "Pocket": 4,
+  "Bia Health": 4
  },
  "dead": [
   "Slate Auto",
@@ -891,7 +881,16 @@
   "Viasat",
   "Atlassian",
   "Lumen Technologies",
-  "WerQ AI"
+  "WerQ AI",
+  "C3.ai",
+  "eBay",
+  "Microsoft AI",
+  "Corgi",
+  "Rue Gilt Groupe",
+  "Partners Capital",
+  "Micron",
+  "Pocket",
+  "Bia Health"
  ],
  "workable": [
   "montera",
@@ -1191,7 +1190,8 @@
   "ashby:ditto": 0,
   "ashby:read-ai": 0,
   "ashby:trulioo": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "greenhouse:hive": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1328,7 +1328,8 @@
   "ashby:trulioo": "Trulioo",
   "greenhouse:arteriaai": "Arteria AI",
   "ashby:read-ai": "Read AI",
-  "greenhouse:klaviyo": "Klaviyo"
+  "greenhouse:klaviyo": "Klaviyo",
+  "greenhouse:hive": "Hive"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1359,19 +1360,19 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 34,
-  "greenhouse:notion": 34,
-  "greenhouse:marqeta": 34,
-  "greenhouse:alphahawaii": 34,
-  "lever:knownwell": 34,
-  "workday:walmart:WalmartExternal": 34,
-  "workday:comcast:Comcast_Careers": 34,
-  "workday:dell:External": 34,
-  "workday:qualcomm:External": 34,
-  "bigtech:microsoft": 34,
-  "bigtech:meta": 34,
-  "greenhouse:clickhouse": 19,
-  "greenhouse:visiersolutionsinc": 4,
-  "greenhouse:alignmenthealth": 3
+  "greenhouse:admarketplaceinc": 35,
+  "greenhouse:notion": 35,
+  "greenhouse:marqeta": 35,
+  "greenhouse:alphahawaii": 35,
+  "lever:knownwell": 35,
+  "workday:walmart:WalmartExternal": 35,
+  "workday:comcast:Comcast_Careers": 35,
+  "workday:dell:External": 35,
+  "workday:qualcomm:External": 35,
+  "bigtech:microsoft": 35,
+  "bigtech:meta": 35,
+  "greenhouse:clickhouse": 20,
+  "greenhouse:visiersolutionsinc": 5,
+  "greenhouse:alignmenthealth": 4
  }
 }
