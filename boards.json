@@ -1213,7 +1213,7 @@
   "ashby:versemedical": 0,
   "greenhouse:openfx": 0,
   "smartrecruiters:westerndigital": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1389,20 +1389,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 40,
-  "greenhouse:notion": 40,
-  "greenhouse:marqeta": 40,
-  "greenhouse:alphahawaii": 40,
-  "lever:knownwell": 40,
-  "workday:walmart:WalmartExternal": 40,
-  "workday:comcast:Comcast_Careers": 40,
-  "workday:dell:External": 40,
-  "workday:qualcomm:External": 40,
-  "bigtech:microsoft": 40,
-  "bigtech:meta": 40,
-  "greenhouse:clickhouse": 25,
-  "greenhouse:visiersolutionsinc": 10,
-  "greenhouse:alignmenthealth": 9,
+  "greenhouse:admarketplaceinc": 41,
+  "greenhouse:notion": 41,
+  "greenhouse:marqeta": 41,
+  "greenhouse:alphahawaii": 41,
+  "lever:knownwell": 41,
+  "workday:walmart:WalmartExternal": 41,
+  "workday:comcast:Comcast_Careers": 41,
+  "workday:dell:External": 41,
+  "workday:qualcomm:External": 41,
+  "bigtech:microsoft": 41,
+  "bigtech:meta": 41,
+  "greenhouse:clickhouse": 26,
+  "greenhouse:visiersolutionsinc": 11,
+  "greenhouse:alignmenthealth": 10,
   "lever:neednova": 3
  }
 }
