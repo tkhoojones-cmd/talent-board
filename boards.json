@@ -165,7 +165,8 @@
   "bumbleinc",
   "matchgroup",
   "jobgether",
-  "encore-renewable-energy"
+  "encore-renewable-energy",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -522,8 +523,7 @@
  "candidates": [
   "Marqeta",
   "Sony Music",
-  "Disney",
-  "knownwell"
+  "Disney"
  ],
  "tried": {
   "UniUni": 1,
@@ -722,9 +722,9 @@
   "Stord": 4,
   "Frazer Jones": 4,
   "Anthro Energy": 4,
-  "Marqeta": 2,
-  "Disney": 2,
-  "Sony Music": 2
+  "Marqeta": 3,
+  "Disney": 3,
+  "Sony Music": 3
  },
  "dead": [
   "Slate Auto",
@@ -1225,7 +1225,8 @@
   "ashby:versemedical": 0,
   "greenhouse:openfx": 0,
   "smartrecruiters:westerndigital": 0,
-  "greenhouse:vannevarlabs": 0
+  "greenhouse:vannevarlabs": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1412,20 +1413,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 45,
-  "greenhouse:notion": 45,
-  "greenhouse:marqeta": 45,
-  "greenhouse:alphahawaii": 45,
-  "lever:knownwell": 45,
-  "workday:walmart:WalmartExternal": 45,
-  "workday:comcast:Comcast_Careers": 45,
-  "workday:dell:External": 45,
-  "workday:qualcomm:External": 45,
-  "bigtech:microsoft": 45,
-  "bigtech:meta": 45,
-  "greenhouse:clickhouse": 30,
-  "greenhouse:visiersolutionsinc": 15,
-  "greenhouse:alignmenthealth": 14,
+  "greenhouse:admarketplaceinc": 46,
+  "greenhouse:notion": 46,
+  "greenhouse:marqeta": 46,
+  "greenhouse:alphahawaii": 46,
+  "lever:knownwell": 46,
+  "workday:walmart:WalmartExternal": 46,
+  "workday:comcast:Comcast_Careers": 46,
+  "workday:dell:External": 46,
+  "workday:qualcomm:External": 46,
+  "bigtech:microsoft": 46,
+  "bigtech:meta": 46,
+  "greenhouse:clickhouse": 31,
+  "greenhouse:visiersolutionsinc": 16,
+  "greenhouse:alignmenthealth": 15,
   "lever:neednova": 6
  }
 }
