@@ -163,8 +163,7 @@
   "bumbleinc",
   "matchgroup",
   "jobgether",
-  "encore-renewable-energy",
-  "knownwell"
+  "encore-renewable-energy"
  ],
  "ashby": [
   "pylon-labs",
@@ -519,13 +518,7 @@
   }
  ],
  "candidates": [
-  "VideaHealth",
-  "Procore",
-  "Hawkwood",
-  "Stord",
-  "Alignment Healthcare",
-  "Lumen",
-  "CBRE"
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -715,13 +708,13 @@
   "Microsoft AI": 4,
   "Pocket": 4,
   "Bia Health": 4,
-  "Hawkwood": 3,
-  "VideaHealth": 3,
-  "Procore": 3,
-  "Lumen": 3,
-  "CBRE": 3,
-  "Alignment Healthcare": 3,
-  "Stord": 3
+  "Hawkwood": 4,
+  "VideaHealth": 4,
+  "Procore": 4,
+  "Lumen": 4,
+  "CBRE": 4,
+  "Alignment Healthcare": 4,
+  "Stord": 4
  },
  "dead": [
   "Slate Auto",
@@ -907,7 +900,14 @@
   "Partners Capital",
   "Micron",
   "Pocket",
-  "Bia Health"
+  "Bia Health",
+  "VideaHealth",
+  "Procore",
+  "Hawkwood",
+  "Stord",
+  "Alignment Healthcare",
+  "Lumen",
+  "CBRE"
  ],
  "workable": [
   "montera",
@@ -1209,8 +1209,7 @@
   "ashby:trulioo": 0,
   "greenhouse:hive": 0,
   "greenhouse:novacredit": 0,
-  "ashby:versemedical": 0,
-  "lever:knownwell": 2
+  "ashby:versemedical": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1383,22 +1382,21 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 38,
-  "greenhouse:notion": 38,
-  "greenhouse:marqeta": 38,
-  "greenhouse:alphahawaii": 38,
-  "lever:knownwell": 38,
-  "workday:walmart:WalmartExternal": 38,
-  "workday:comcast:Comcast_Careers": 38,
-  "workday:dell:External": 38,
-  "workday:qualcomm:External": 38,
-  "bigtech:microsoft": 38,
-  "bigtech:meta": 38,
-  "greenhouse:clickhouse": 23,
-  "greenhouse:visiersolutionsinc": 8,
-  "greenhouse:alignmenthealth": 7,
+  "greenhouse:admarketplaceinc": 39,
+  "greenhouse:notion": 39,
+  "greenhouse:marqeta": 39,
+  "greenhouse:alphahawaii": 39,
+  "lever:knownwell": 39,
+  "workday:walmart:WalmartExternal": 39,
+  "workday:comcast:Comcast_Careers": 39,
+  "workday:dell:External": 39,
+  "workday:qualcomm:External": 39,
+  "bigtech:microsoft": 39,
+  "bigtech:meta": 39,
+  "greenhouse:clickhouse": 24,
+  "greenhouse:visiersolutionsinc": 9,
+  "greenhouse:alignmenthealth": 8,
   "lever:neednova": 3,
-  "greenhouse:spacex": 1,
-  "bigtech:netflix": 1
+  "greenhouse:webflow": 1
  }
 }
