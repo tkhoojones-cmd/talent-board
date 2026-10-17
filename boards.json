@@ -165,8 +165,7 @@
   "bumbleinc",
   "matchgroup",
   "jobgether",
-  "encore-renewable-energy",
-  "knownwell"
+  "encore-renewable-energy"
  ],
  "ashby": [
   "pylon-labs",
@@ -521,11 +520,10 @@
   }
  ],
  "candidates": [
-  "Anthro Energy",
-  "Frazer Jones",
   "Marqeta",
   "Sony Music",
-  "Disney"
+  "Disney",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -722,11 +720,11 @@
   "CBRE": 4,
   "Alignment Healthcare": 4,
   "Stord": 4,
-  "Frazer Jones": 3,
-  "Anthro Energy": 3,
-  "Marqeta": 1,
-  "Disney": 1,
-  "Sony Music": 1
+  "Frazer Jones": 4,
+  "Anthro Energy": 4,
+  "Marqeta": 2,
+  "Disney": 2,
+  "Sony Music": 2
  },
  "dead": [
   "Slate Auto",
@@ -919,7 +917,9 @@
   "Stord",
   "Alignment Healthcare",
   "Lumen",
-  "CBRE"
+  "CBRE",
+  "Anthro Energy",
+  "Frazer Jones"
  ],
  "workable": [
   "montera",
@@ -1225,7 +1225,6 @@
   "ashby:versemedical": 0,
   "greenhouse:openfx": 0,
   "smartrecruiters:westerndigital": 0,
-  "lever:knownwell": 2,
   "greenhouse:vannevarlabs": 0
  },
  "names": {
@@ -1413,20 +1412,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 44,
-  "greenhouse:notion": 44,
-  "greenhouse:marqeta": 44,
-  "greenhouse:alphahawaii": 44,
-  "lever:knownwell": 44,
-  "workday:walmart:WalmartExternal": 44,
-  "workday:comcast:Comcast_Careers": 44,
-  "workday:dell:External": 44,
-  "workday:qualcomm:External": 44,
-  "bigtech:microsoft": 44,
-  "bigtech:meta": 44,
-  "greenhouse:clickhouse": 29,
-  "greenhouse:visiersolutionsinc": 14,
-  "greenhouse:alignmenthealth": 13,
+  "greenhouse:admarketplaceinc": 45,
+  "greenhouse:notion": 45,
+  "greenhouse:marqeta": 45,
+  "greenhouse:alphahawaii": 45,
+  "lever:knownwell": 45,
+  "workday:walmart:WalmartExternal": 45,
+  "workday:comcast:Comcast_Careers": 45,
+  "workday:dell:External": 45,
+  "workday:qualcomm:External": 45,
+  "bigtech:microsoft": 45,
+  "bigtech:meta": 45,
+  "greenhouse:clickhouse": 30,
+  "greenhouse:visiersolutionsinc": 15,
+  "greenhouse:alignmenthealth": 14,
   "lever:neednova": 6
  }
 }
