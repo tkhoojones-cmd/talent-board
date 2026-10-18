@@ -1303,7 +1303,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-18",
-   "closedStreak": 61
+   "closedStreak": 62
   },
   {
    "id": "a23feff7b7",
@@ -3388,9 +3388,9 @@
    "url": "https://jobs.ea.com/en_US/careers/JobDetail/Director-People-Partnerships/207535",
    "comp": "",
    "added": "2026-10-12",
-   "status": "new",
+   "status": "unverifiable",
    "lastChecked": "2026-10-18",
-   "reason": null,
+   "reason": "no Apply control found",
    "closedStreak": 0
   },
   {
@@ -3402,9 +3402,9 @@
    "url": "https://careers.cbre.com/en_US/careers/JobDetail/Principal-Recruiter/272818",
    "comp": "",
    "added": "2026-10-12",
-   "status": "new",
+   "status": "unverifiable",
    "lastChecked": "2026-10-18",
-   "reason": null,
+   "reason": "HTTP 403",
    "closedStreak": 0
   },
   {
@@ -3885,7 +3885,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-18",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: IT, Latium, Rome"
   },
   {
    "id": "b80238edcb",

@@ -726,7 +726,7 @@
   "Marqeta": 4,
   "Disney": 4,
   "Sony Music": 4,
-  "MagicSchool AI": 1
+  "MagicSchool AI": 2
  },
  "dead": [
   "Slate Auto",
@@ -1234,7 +1234,7 @@
   "greenhouse:greenhouse": 0,
   "greenhouse:mosaicservicepartners": 0,
   "greenhouse:tripadvisor": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1424,20 +1424,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 49,
-  "greenhouse:notion": 49,
-  "greenhouse:marqeta": 49,
-  "greenhouse:alphahawaii": 49,
-  "lever:knownwell": 49,
-  "workday:walmart:WalmartExternal": 49,
-  "workday:comcast:Comcast_Careers": 49,
-  "workday:dell:External": 49,
-  "workday:qualcomm:External": 49,
-  "bigtech:microsoft": 49,
-  "bigtech:meta": 49,
-  "greenhouse:clickhouse": 34,
-  "greenhouse:visiersolutionsinc": 19,
-  "greenhouse:alignmenthealth": 18,
+  "greenhouse:admarketplaceinc": 50,
+  "greenhouse:notion": 50,
+  "greenhouse:marqeta": 50,
+  "greenhouse:alphahawaii": 50,
+  "lever:knownwell": 50,
+  "workday:walmart:WalmartExternal": 50,
+  "workday:comcast:Comcast_Careers": 50,
+  "workday:dell:External": 50,
+  "workday:qualcomm:External": 50,
+  "bigtech:microsoft": 50,
+  "bigtech:meta": 50,
+  "greenhouse:clickhouse": 35,
+  "greenhouse:visiersolutionsinc": 20,
+  "greenhouse:alignmenthealth": 19,
   "lever:neednova": 6
  }
 }

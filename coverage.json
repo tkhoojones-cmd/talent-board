@@ -1,5 +1,5 @@
 {
- "at": "2026-10-18T11:44:52.680Z",
+ "at": "2026-10-18T12:49:49.277Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -31,7 +31,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -87,7 +87,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 18
+   "failStreak": 19
   },
   {
    "id": "greenhouse:alphahawaii",
@@ -95,7 +95,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "greenhouse:alphasense",
@@ -431,7 +431,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 34
+   "failStreak": 35
   },
   {
    "id": "ashby:clickhouse",
@@ -511,7 +511,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "ashby:commure",
@@ -655,7 +655,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "greenhouse:dept",
@@ -1263,7 +1263,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "lever:kraken",
@@ -1383,7 +1383,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1431,7 +1431,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "workday:micron:External",
@@ -1447,7 +1447,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "lever:minesense",
@@ -1607,7 +1607,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "ashby:notion",
@@ -1887,7 +1887,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "greenhouse:qualtrics",
@@ -2430,7 +2430,7 @@
    "company": "Vanguard",
    "ats": "workday",
    "ok": true,
-   "jobs": 13,
+   "jobs": 14,
    "failStreak": 0
   },
   {
@@ -2511,7 +2511,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 19
+   "failStreak": 20
   },
   {
    "id": "greenhouse:vmlenterprisesolutions",
@@ -2527,7 +2527,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 49
+   "failStreak": 50
   },
   {
    "id": "workday:warnerbros:global",
