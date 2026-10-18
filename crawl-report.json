@@ -1,6 +1,6 @@
 {
- "at": "2026-10-18T11:13:16.377Z",
- "ok": 319,
+ "at": "2026-10-18T11:44:52.682Z",
+ "ok": 321,
  "failed": [
   "greenhouse:admarketplaceinc:0",
   "greenhouse:notion:0",
@@ -17,21 +17,21 @@
   "bigtech:microsoft:404",
   "bigtech:meta:404"
  ],
- "scanned": 36931,
+ "scanned": 37030,
  "matched": 135,
  "added": 0,
  "alerts": [
-  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 48 runs in a row",
-  "Notion (greenhouse:notion) has failed 48 runs in a row",
-  "Marqeta (greenhouse:marqeta) has failed 48 runs in a row",
-  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 18 runs in a row",
-  "Alphahawaii (greenhouse:alphahawaii) has failed 48 runs in a row",
-  "Clickhouse (greenhouse:clickhouse) has failed 33 runs in a row",
-  "Alignmenthealth (greenhouse:alignmenthealth) has failed 17 runs in a row",
-  "Knownwell (lever:knownwell) has failed 48 runs in a row",
-  "Walmart (workday:walmart:WalmartExternal) has failed 48 runs in a row",
-  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 48 runs in a row",
-  "Dell (workday:dell:External) has failed 48 runs in a row",
-  "Qualcomm (workday:qualcomm:External) has failed 48 runs in a row"
+  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 49 runs in a row",
+  "Notion (greenhouse:notion) has failed 49 runs in a row",
+  "Marqeta (greenhouse:marqeta) has failed 49 runs in a row",
+  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 19 runs in a row",
+  "Alphahawaii (greenhouse:alphahawaii) has failed 49 runs in a row",
+  "Clickhouse (greenhouse:clickhouse) has failed 34 runs in a row",
+  "Alignmenthealth (greenhouse:alignmenthealth) has failed 18 runs in a row",
+  "Knownwell (lever:knownwell) has failed 49 runs in a row",
+  "Walmart (workday:walmart:WalmartExternal) has failed 49 runs in a row",
+  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 49 runs in a row",
+  "Dell (workday:dell:External) has failed 49 runs in a row",
+  "Qualcomm (workday:qualcomm:External) has failed 49 runs in a row"
  ]
 }
