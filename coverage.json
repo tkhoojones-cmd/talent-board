@@ -1,5 +1,5 @@
 {
- "at": "2026-10-18T12:49:49.277Z",
+ "at": "2026-10-18T13:57:03.623Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -31,7 +31,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -87,7 +87,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 19
+   "failStreak": 20
   },
   {
    "id": "greenhouse:alphahawaii",
@@ -95,7 +95,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "greenhouse:alphasense",
@@ -431,7 +431,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 35
+   "failStreak": 36
   },
   {
    "id": "ashby:clickhouse",
@@ -511,7 +511,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "ashby:commure",
@@ -655,7 +655,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "greenhouse:dept",
@@ -1263,7 +1263,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "lever:kraken",
@@ -1326,7 +1326,7 @@
    "company": "Lucid Motors",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 459,
+   "jobs": 457,
    "failStreak": 0
   },
   {
@@ -1383,7 +1383,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1431,7 +1431,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "workday:micron:External",
@@ -1447,7 +1447,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "lever:minesense",
@@ -1607,7 +1607,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "ashby:notion",
@@ -1887,7 +1887,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "greenhouse:qualtrics",
@@ -2511,7 +2511,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 20
+   "failStreak": 21
   },
   {
    "id": "greenhouse:vmlenterprisesolutions",
@@ -2527,7 +2527,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 50
+   "failStreak": 51
   },
   {
    "id": "workday:warnerbros:global",
@@ -2683,7 +2683,8 @@
   }
  ],
  "waitingForFeed": [
-  "MagicSchool AI"
+  "MagicSchool AI",
+  "knownwell"
  ],
  "gaveUp": [
   "Slate Auto",
