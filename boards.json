@@ -139,7 +139,8 @@
   "hive",
   "novacredit",
   "openfx",
-  "vannevarlabs"
+  "vannevarlabs",
+  "greenhouse"
  ],
  "lever": [
   "zoox",
@@ -165,8 +166,7 @@
   "bumbleinc",
   "matchgroup",
   "jobgether",
-  "encore-renewable-energy",
-  "knownwell"
+  "encore-renewable-energy"
  ],
  "ashby": [
   "pylon-labs",
@@ -521,8 +521,7 @@
   }
  ],
  "candidates": [
-  "Stripe",
-  "Greenhouse"
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -1228,7 +1227,7 @@
   "greenhouse:openfx": 0,
   "smartrecruiters:westerndigital": 0,
   "greenhouse:vannevarlabs": 0,
-  "lever:knownwell": 2
+  "greenhouse:greenhouse": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1384,7 +1383,9 @@
   "greenhouse:flexport": "Flexport",
   "lever:zoox": "Zoox",
   "ashby:wealthsimple": "Wealthsimple",
-  "ashby:ramp": "Ramp"
+  "ashby:ramp": "Ramp",
+  "greenhouse:greenhouse": "Greenhouse",
+  "greenhouse:stripe": "Stripe"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1415,20 +1416,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 47,
-  "greenhouse:notion": 47,
-  "greenhouse:marqeta": 47,
-  "greenhouse:alphahawaii": 47,
-  "lever:knownwell": 47,
-  "workday:walmart:WalmartExternal": 47,
-  "workday:comcast:Comcast_Careers": 47,
-  "workday:dell:External": 47,
-  "workday:qualcomm:External": 47,
-  "bigtech:microsoft": 47,
-  "bigtech:meta": 47,
-  "greenhouse:clickhouse": 32,
-  "greenhouse:visiersolutionsinc": 17,
-  "greenhouse:alignmenthealth": 16,
+  "greenhouse:admarketplaceinc": 48,
+  "greenhouse:notion": 48,
+  "greenhouse:marqeta": 48,
+  "greenhouse:alphahawaii": 48,
+  "lever:knownwell": 48,
+  "workday:walmart:WalmartExternal": 48,
+  "workday:comcast:Comcast_Careers": 48,
+  "workday:dell:External": 48,
+  "workday:qualcomm:External": 48,
+  "bigtech:microsoft": 48,
+  "bigtech:meta": 48,
+  "greenhouse:clickhouse": 33,
+  "greenhouse:visiersolutionsinc": 18,
+  "greenhouse:alignmenthealth": 17,
   "lever:neednova": 6
  }
 }

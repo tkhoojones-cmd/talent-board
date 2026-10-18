@@ -1,6 +1,6 @@
 {
- "at": "2026-10-18T01:59:21.969Z",
- "ok": 318,
+ "at": "2026-10-18T11:13:16.377Z",
+ "ok": 319,
  "failed": [
   "greenhouse:admarketplaceinc:0",
   "greenhouse:notion:0",
@@ -17,21 +17,21 @@
   "bigtech:microsoft:404",
   "bigtech:meta:404"
  ],
- "scanned": 36903,
+ "scanned": 36931,
  "matched": 135,
- "added": 1,
+ "added": 0,
  "alerts": [
-  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 47 runs in a row",
-  "Notion (greenhouse:notion) has failed 47 runs in a row",
-  "Marqeta (greenhouse:marqeta) has failed 47 runs in a row",
-  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 17 runs in a row",
-  "Alphahawaii (greenhouse:alphahawaii) has failed 47 runs in a row",
-  "Clickhouse (greenhouse:clickhouse) has failed 32 runs in a row",
-  "Alignmenthealth (greenhouse:alignmenthealth) has failed 16 runs in a row",
-  "Knownwell (lever:knownwell) has failed 47 runs in a row",
-  "Walmart (workday:walmart:WalmartExternal) has failed 47 runs in a row",
-  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 47 runs in a row",
-  "Dell (workday:dell:External) has failed 47 runs in a row",
-  "Qualcomm (workday:qualcomm:External) has failed 47 runs in a row"
+  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 48 runs in a row",
+  "Notion (greenhouse:notion) has failed 48 runs in a row",
+  "Marqeta (greenhouse:marqeta) has failed 48 runs in a row",
+  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 18 runs in a row",
+  "Alphahawaii (greenhouse:alphahawaii) has failed 48 runs in a row",
+  "Clickhouse (greenhouse:clickhouse) has failed 33 runs in a row",
+  "Alignmenthealth (greenhouse:alignmenthealth) has failed 17 runs in a row",
+  "Knownwell (lever:knownwell) has failed 48 runs in a row",
+  "Walmart (workday:walmart:WalmartExternal) has failed 48 runs in a row",
+  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 48 runs in a row",
+  "Dell (workday:dell:External) has failed 48 runs in a row",
+  "Qualcomm (workday:qualcomm:External) has failed 48 runs in a row"
  ]
 }
