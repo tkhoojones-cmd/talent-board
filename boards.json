@@ -520,7 +520,10 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "Stripe",
+  "Greenhouse"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
