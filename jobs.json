@@ -135,7 +135,7 @@
    "comp": "$225,000 - $275,000",
    "added": "2026-08-21",
    "status": "closed",
-   "lastChecked": "2026-10-11",
+   "lastChecked": "2026-10-17",
    "reason": "redirected to board with error=true",
    "pageLocation": "New York, NY",
    "pageTitle": "VP of People (HR)",
@@ -906,13 +906,13 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-17",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (page did not load: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://jobs.a); last confirmed 2026-10-17",
    "source": "feed",
    "feed": "ashby:harvey",
    "inFeed": "2026-10-17",
    "pageTitle": "Head of Global Recruiting Operations",
    "closedStreak": 0,
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-10-17",
    "pageLocation": "San Francisco, California, USA",
    "compMax": 294200
@@ -1303,7 +1303,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-17",
-   "closedStreak": 58
+   "closedStreak": 59
   },
   {
    "id": "a23feff7b7",
@@ -2786,13 +2786,13 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-10-17",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-10-17",
    "source": "feed",
    "feed": "greenhouse:sofi",
    "inFeed": "2026-10-17",
    "pageTitle": "Looking for Fintech Jobs? | Work at SoFi",
    "closedStreak": 0,
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-10-17",
    "pageLocation": "WA - Seattle CA - San Francisco NY - New York City"
   },
@@ -3547,13 +3547,13 @@
    "added": "2026-10-12",
    "status": "live",
    "lastChecked": "2026-10-17",
-   "reason": "opened normally with an Apply control",
+   "reason": "kept: last check failed (HTTP 503); last confirmed 2026-10-17",
    "source": "feed",
    "feed": "oracle:jpmc.fa.oraclecloud.com:CX_1001",
    "inFeed": "2026-10-12",
    "pageTitle": "Executive Director, Talent & Performance Management",
    "closedStreak": 0,
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-10-17",
    "pageLocation": "Locations"
   },
@@ -3885,7 +3885,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-17",
-   "pageLocation": "Location: IT, Latium, Rome"
+   "pageLocation": "Location: USA, WA, Seattle"
   },
   {
    "id": "b80238edcb",
@@ -4115,13 +4115,13 @@
    "added": "2026-10-16",
    "status": "live",
    "lastChecked": "2026-10-17",
-   "reason": "opened normally with an Apply control",
+   "reason": "kept: last check failed (HTTP 503); last confirmed 2026-10-17",
    "source": "feed",
    "feed": "oracle:jpmc.fa.oraclecloud.com:CX_1001",
    "inFeed": "2026-10-16",
    "pageTitle": "Influencer & Creator Marketing Lead, Talent Partnerships & Culture, Vice President",
    "closedStreak": 0,
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-10-17",
    "pageLocation": "Locations"
   },
@@ -4301,6 +4301,26 @@
    "reason": "no longer in the employer's job feed",
    "feed": "lever:jobgether",
    "notInFeed": "2026-10-17"
+  },
+  {
+   "id": "96e270c97a",
+   "kind": "role",
+   "company": "ServiceNow",
+   "title": "Director, Strategy & Operations—Employee Experience Group",
+   "location": "Mountain View, California, us",
+   "url": "https://jobs.smartrecruiters.com/servicenow/744000156131909",
+   "comp": "",
+   "added": "2026-10-17",
+   "status": "live",
+   "lastChecked": "2026-10-17",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "smartrecruiters:servicenow",
+   "inFeed": "2026-10-17",
+   "pageTitle": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-17"
   }
  ]
 }
