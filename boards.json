@@ -142,7 +142,8 @@
   "vannevarlabs",
   "greenhouse",
   "mosaicservicepartners",
-  "tripadvisor"
+  "tripadvisor",
+  "appsflyer"
  ],
  "lever": [
   "zoox",
@@ -170,7 +171,8 @@
   "jobgether",
   "encore-renewable-energy",
   "knownwell",
-  "neednova"
+  "neednova",
+  "whoop"
  ],
  "ashby": [
   "pylon-labs",
@@ -526,7 +528,10 @@
  ],
  "candidates": [
   "Talent to Team",
-  "Bubble"
+  "Bubble",
+  "Luma AI",
+  "Eight Sleep",
+  "Twelve Labs"
  ],
  "tried": {
   "UniUni": 1,
@@ -951,7 +956,8 @@
   "servicenow",
   "gong",
   "westerndigital",
-  "securitas"
+  "securitas",
+  "SeekOut"
  ],
  "recruitee": [
   "riderlevettbucknall",
