@@ -169,7 +169,8 @@
   "matchgroup",
   "jobgether",
   "encore-renewable-energy",
-  "knownwell"
+  "knownwell",
+  "neednova"
  ],
  "ashby": [
   "pylon-labs",
@@ -524,7 +525,8 @@
   }
  ],
  "candidates": [
-  "Talent to Team"
+  "Talent to Team",
+  "Bubble"
  ],
  "tried": {
   "UniUni": 1,
