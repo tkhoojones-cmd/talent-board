@@ -1303,7 +1303,8 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-18",
-   "closedStreak": 63
+   "closedStreak": 64,
+   "notInFeed": "2026-10-18"
   },
   {
    "id": "a23feff7b7",
@@ -1325,7 +1326,8 @@
    "failStreak": 0,
    "lastLive": "2026-10-18",
    "pageLocation": "Texas - Dallas, United States of America",
-   "compMax": 261500
+   "compMax": 261500,
+   "notInFeed": "2026-10-18"
   },
   {
    "id": "19d343af88",
@@ -1346,7 +1348,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-18",
-   "pageLocation": "Canada - Toronto, Canada"
+   "pageLocation": "Canada - Toronto, Canada",
+   "notInFeed": "2026-10-18"
   },
   {
    "id": "a1a909b213",
@@ -2657,7 +2660,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-12",
+   "lastChecked": "2026-10-18",
    "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:gusto",
@@ -3315,9 +3318,9 @@
    "comp": "",
    "added": "2026-10-12",
    "status": "closed",
-   "lastChecked": "2026-10-12",
+   "lastChecked": "2026-10-18",
    "reason": "page says: posting is no longer",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "6a6a8bc8f2",
@@ -3885,7 +3888,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-18",
-   "pageLocation": "Location: US, Pennsylvania, Carlisle"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "b80238edcb",
