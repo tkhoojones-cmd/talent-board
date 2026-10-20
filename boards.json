@@ -266,7 +266,8 @@
   "read-ai",
   "versemedical",
   "bubble",
-  "halter"
+  "halter",
+  "legora"
  ],
  "workday": [
   {
@@ -529,26 +530,6 @@
   }
  ],
  "candidates": [
-  "HiBob",
-  "OpenRouter",
-  "Exa",
-  "Commure",
-  "Luma AI",
-  "Vapi",
-  "Eight Sleep",
-  "Twelve Labs",
-  "Suno",
-  "Zoox",
-  "Pinecone",
-  "Samsara",
-  "Collibra",
-  "Legora",
-  "Etched",
-  "Decagon",
-  "Synthesia",
-  "Deepgram",
-  "Coder",
-  "Reaction Dynamics",
   "Molagri",
   "Rozvelt"
  ],
@@ -754,7 +735,9 @@
   "Sony Music": 4,
   "MagicSchool AI": 4,
   "Talent to Team": 4,
-  "Hadrian": 4
+  "Hadrian": 4,
+  "Molagri": 1,
+  "Rozvelt": 1
  },
  "dead": [
   "Slate Auto",
@@ -979,7 +962,8 @@
   "gong",
   "westerndigital",
   "securitas",
-  "SeekOut"
+  "SeekOut",
+  "reactiondynamics"
  ],
  "recruitee": [
   "riderlevettbucknall",
@@ -1273,8 +1257,10 @@
   "ashby:bubble": 0,
   "smartrecruiters:SeekOut": 0,
   "ashby:halter": 0,
-  "lever:neednova": 1,
-  "lever:knownwell": 1
+  "lever:neednova": 2,
+  "lever:knownwell": 2,
+  "ashby:legora": 0,
+  "smartrecruiters:reactiondynamics": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1437,7 +1423,9 @@
   "smartrecruiters:securitas": "Securitas",
   "ashby:bubble": "Bubble",
   "greenhouse:babylist": "Babylist",
-  "ashby:halter": "Halter"
+  "ashby:halter": "Halter",
+  "ashby:legora": "Legora",
+  "smartrecruiters:reactiondynamics": "Reaction Dynamics"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1468,20 +1456,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 58,
-  "greenhouse:notion": 58,
-  "greenhouse:marqeta": 58,
-  "greenhouse:alphahawaii": 58,
-  "lever:knownwell": 58,
-  "workday:walmart:WalmartExternal": 58,
-  "workday:comcast:Comcast_Careers": 58,
-  "workday:dell:External": 58,
-  "workday:qualcomm:External": 58,
-  "bigtech:microsoft": 58,
-  "bigtech:meta": 58,
-  "greenhouse:clickhouse": 43,
-  "greenhouse:visiersolutionsinc": 28,
-  "greenhouse:alignmenthealth": 27,
-  "lever:neednova": 10
+  "greenhouse:admarketplaceinc": 59,
+  "greenhouse:notion": 59,
+  "greenhouse:marqeta": 59,
+  "greenhouse:alphahawaii": 59,
+  "lever:knownwell": 59,
+  "workday:walmart:WalmartExternal": 59,
+  "workday:comcast:Comcast_Careers": 59,
+  "workday:dell:External": 59,
+  "workday:qualcomm:External": 59,
+  "bigtech:microsoft": 59,
+  "bigtech:meta": 59,
+  "greenhouse:clickhouse": 44,
+  "greenhouse:visiersolutionsinc": 29,
+  "greenhouse:alignmenthealth": 28,
+  "lever:neednova": 11
  }
 }
