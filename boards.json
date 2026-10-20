@@ -171,7 +171,8 @@
   "jobgether",
   "encore-renewable-energy",
   "whoop",
-  "neednova"
+  "neednova",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -527,9 +528,7 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [
-  "knownwell"
- ],
+ "candidates": [],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -1250,7 +1249,9 @@
   "lever:whoop": 0,
   "ashby:bubble": 0,
   "smartrecruiters:SeekOut": 0,
-  "ashby:halter": 0
+  "ashby:halter": 0,
+  "lever:neednova": 1,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1444,20 +1445,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 57,
-  "greenhouse:notion": 57,
-  "greenhouse:marqeta": 57,
-  "greenhouse:alphahawaii": 57,
-  "lever:knownwell": 57,
-  "workday:walmart:WalmartExternal": 57,
-  "workday:comcast:Comcast_Careers": 57,
-  "workday:dell:External": 57,
-  "workday:qualcomm:External": 57,
-  "bigtech:microsoft": 57,
-  "bigtech:meta": 57,
-  "greenhouse:clickhouse": 42,
-  "greenhouse:visiersolutionsinc": 27,
-  "greenhouse:alignmenthealth": 26,
-  "lever:neednova": 9
+  "greenhouse:admarketplaceinc": 58,
+  "greenhouse:notion": 58,
+  "greenhouse:marqeta": 58,
+  "greenhouse:alphahawaii": 58,
+  "lever:knownwell": 58,
+  "workday:walmart:WalmartExternal": 58,
+  "workday:comcast:Comcast_Careers": 58,
+  "workday:dell:External": 58,
+  "workday:qualcomm:External": 58,
+  "bigtech:microsoft": 58,
+  "bigtech:meta": 58,
+  "greenhouse:clickhouse": 43,
+  "greenhouse:visiersolutionsinc": 28,
+  "greenhouse:alignmenthealth": 27,
+  "lever:neednova": 10
  }
 }
