@@ -528,7 +528,30 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "HiBob",
+  "OpenRouter",
+  "Exa",
+  "Commure",
+  "Luma AI",
+  "Vapi",
+  "Eight Sleep",
+  "Twelve Labs",
+  "Suno",
+  "Zoox",
+  "Pinecone",
+  "Samsara",
+  "Collibra",
+  "Legora",
+  "Etched",
+  "Decagon",
+  "Synthesia",
+  "Deepgram",
+  "Coder",
+  "Reaction Dynamics",
+  "Molagri",
+  "Rozvelt"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
