@@ -1303,7 +1303,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-20",
-   "closedStreak": 71
+   "closedStreak": 72
   },
   {
    "id": "a23feff7b7",
@@ -4846,6 +4846,27 @@
    "failStreak": 0,
    "lastLive": "2026-10-20",
    "pageLocation": "New York City, New York, United States"
+  },
+  {
+   "id": "5d904651b9",
+   "kind": "review",
+   "company": "Dataiku",
+   "title": "Global Total Rewards Lead",
+   "location": "United States, Remote",
+   "url": "https://job-boards.greenhouse.io/dataiku/jobs/6228420004",
+   "comp": "",
+   "added": "2026-10-20",
+   "status": "live",
+   "lastChecked": "2026-10-20",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:dataiku",
+   "inFeed": "2026-10-20",
+   "pageTitle": "Global Total Rewards Lead",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-20",
+   "pageLocation": "United States, Remote"
   }
  ]
 }

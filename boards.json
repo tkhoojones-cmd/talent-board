@@ -170,9 +170,7 @@
   "matchgroup",
   "jobgether",
   "encore-renewable-energy",
-  "whoop",
-  "neednova",
-  "knownwell"
+  "whoop"
  ],
  "ashby": [
   "pylon-labs",
@@ -531,7 +529,8 @@
  ],
  "candidates": [
   "Molagri",
-  "Rozvelt"
+  "Rozvelt",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -736,8 +735,8 @@
   "MagicSchool AI": 4,
   "Talent to Team": 4,
   "Hadrian": 4,
-  "Molagri": 1,
-  "Rozvelt": 1
+  "Molagri": 2,
+  "Rozvelt": 2
  },
  "dead": [
   "Slate Auto",
@@ -1257,8 +1256,6 @@
   "ashby:bubble": 0,
   "smartrecruiters:SeekOut": 0,
   "ashby:halter": 0,
-  "lever:neednova": 2,
-  "lever:knownwell": 2,
   "ashby:legora": 0,
   "smartrecruiters:reactiondynamics": 0
  },
@@ -1456,20 +1453,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 59,
-  "greenhouse:notion": 59,
-  "greenhouse:marqeta": 59,
-  "greenhouse:alphahawaii": 59,
-  "lever:knownwell": 59,
-  "workday:walmart:WalmartExternal": 59,
-  "workday:comcast:Comcast_Careers": 59,
-  "workday:dell:External": 59,
-  "workday:qualcomm:External": 59,
-  "bigtech:microsoft": 59,
-  "bigtech:meta": 59,
-  "greenhouse:clickhouse": 44,
-  "greenhouse:visiersolutionsinc": 29,
-  "greenhouse:alignmenthealth": 28,
-  "lever:neednova": 11
+  "greenhouse:admarketplaceinc": 60,
+  "greenhouse:notion": 60,
+  "greenhouse:marqeta": 60,
+  "greenhouse:alphahawaii": 60,
+  "lever:knownwell": 60,
+  "workday:walmart:WalmartExternal": 60,
+  "workday:comcast:Comcast_Careers": 60,
+  "workday:dell:External": 60,
+  "workday:qualcomm:External": 60,
+  "bigtech:microsoft": 60,
+  "bigtech:meta": 60,
+  "greenhouse:clickhouse": 45,
+  "greenhouse:visiersolutionsinc": 30,
+  "greenhouse:alignmenthealth": 29,
+  "lever:neednova": 12
  }
 }
