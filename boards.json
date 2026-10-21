@@ -170,9 +170,7 @@
   "matchgroup",
   "jobgether",
   "encore-renewable-energy",
-  "whoop",
-  "cohere",
-  "knownwell"
+  "whoop"
  ],
  "ashby": [
   "pylon-labs",
@@ -532,13 +530,10 @@
   }
  ],
  "candidates": [
-  "Netflix",
-  "Cherry Ventures",
-  "Art Gallery of Ontario",
-  "Capital One",
-  "Belong",
   "Ford Motor Company",
-  "Modal Labs"
+  "Modal Labs",
+  "cohere",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -745,13 +740,13 @@
   "Hadrian": 4,
   "Molagri": 4,
   "Rozvelt": 4,
-  "Netflix": 3,
-  "Belong": 3,
-  "Art Gallery of Ontario": 3,
-  "Cherry Ventures": 3,
-  "Capital One": 3,
-  "Ford Motor Company": 2,
-  "Modal Labs": 2
+  "Netflix": 4,
+  "Belong": 4,
+  "Art Gallery of Ontario": 4,
+  "Cherry Ventures": 4,
+  "Capital One": 4,
+  "Ford Motor Company": 3,
+  "Modal Labs": 3
  },
  "dead": [
   "Slate Auto",
@@ -954,7 +949,12 @@
   "Talent to Team",
   "Hadrian",
   "Molagri",
-  "Rozvelt"
+  "Rozvelt",
+  "Netflix",
+  "Cherry Ventures",
+  "Art Gallery of Ontario",
+  "Capital One",
+  "Belong"
  ],
  "workable": [
   "montera",
@@ -1276,9 +1276,7 @@
   "ashby:legora": 0,
   "smartrecruiters:reactiondynamics": 0,
   "ashby:hex": 0,
-  "ashby:uipath": 0,
-  "lever:cohere": 2,
-  "lever:knownwell": 2
+  "ashby:uipath": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1477,23 +1475,24 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 65,
-  "greenhouse:notion": 65,
-  "greenhouse:marqeta": 65,
-  "greenhouse:alphahawaii": 65,
-  "lever:knownwell": 65,
-  "workday:walmart:WalmartExternal": 65,
-  "workday:comcast:Comcast_Careers": 65,
-  "workday:dell:External": 65,
-  "workday:qualcomm:External": 65,
-  "bigtech:microsoft": 65,
-  "bigtech:meta": 65,
-  "greenhouse:clickhouse": 50,
-  "greenhouse:visiersolutionsinc": 35,
-  "greenhouse:alignmenthealth": 34,
+  "greenhouse:admarketplaceinc": 66,
+  "greenhouse:notion": 66,
+  "greenhouse:marqeta": 66,
+  "greenhouse:alphahawaii": 66,
+  "lever:knownwell": 66,
+  "workday:walmart:WalmartExternal": 66,
+  "workday:comcast:Comcast_Careers": 66,
+  "workday:dell:External": 66,
+  "workday:qualcomm:External": 66,
+  "bigtech:microsoft": 66,
+  "bigtech:meta": 66,
+  "greenhouse:clickhouse": 51,
+  "greenhouse:visiersolutionsinc": 36,
+  "greenhouse:alignmenthealth": 35,
   "lever:neednova": 15,
   "lever:wandb": 3,
-  "lever:cohere": 2,
-  "greenhouse:andurilindustries": 1
+  "lever:cohere": 3,
+  "greenhouse:spacex": 1,
+  "bigtech:netflix": 1
  }
 }
