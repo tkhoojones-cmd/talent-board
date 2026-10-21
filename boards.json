@@ -528,14 +528,7 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [
-  "Molagri",
-  "Rozvelt",
-  "Modo Energy",
-  "One Model",
-  "Encore Renewable Energy",
-  "Western Digital"
- ],
+ "candidates": [],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -739,8 +732,8 @@
   "MagicSchool AI": 4,
   "Talent to Team": 4,
   "Hadrian": 4,
-  "Molagri": 3,
-  "Rozvelt": 3
+  "Molagri": 4,
+  "Rozvelt": 4
  },
  "dead": [
   "Slate Auto",
@@ -941,7 +934,9 @@
   "Disney",
   "MagicSchool AI",
   "Talent to Team",
-  "Hadrian"
+  "Hadrian",
+  "Molagri",
+  "Rozvelt"
  ],
  "workable": [
   "montera",
@@ -1262,7 +1257,7 @@
   "ashby:halter": 0,
   "ashby:legora": 0,
   "smartrecruiters:reactiondynamics": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1458,20 +1453,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 61,
-  "greenhouse:notion": 61,
-  "greenhouse:marqeta": 61,
-  "greenhouse:alphahawaii": 61,
-  "lever:knownwell": 61,
-  "workday:walmart:WalmartExternal": 61,
-  "workday:comcast:Comcast_Careers": 61,
-  "workday:dell:External": 61,
-  "workday:qualcomm:External": 61,
-  "bigtech:microsoft": 61,
-  "bigtech:meta": 61,
-  "greenhouse:clickhouse": 46,
-  "greenhouse:visiersolutionsinc": 31,
-  "greenhouse:alignmenthealth": 30,
+  "greenhouse:admarketplaceinc": 62,
+  "greenhouse:notion": 62,
+  "greenhouse:marqeta": 62,
+  "greenhouse:alphahawaii": 62,
+  "lever:knownwell": 62,
+  "workday:walmart:WalmartExternal": 62,
+  "workday:comcast:Comcast_Careers": 62,
+  "workday:dell:External": 62,
+  "workday:qualcomm:External": 62,
+  "bigtech:microsoft": 62,
+  "bigtech:meta": 62,
+  "greenhouse:clickhouse": 47,
+  "greenhouse:visiersolutionsinc": 32,
+  "greenhouse:alignmenthealth": 31,
   "lever:neednova": 12
  }
 }
