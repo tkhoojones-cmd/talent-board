@@ -172,7 +172,8 @@
   "jobgether",
   "encore-renewable-energy",
   "whoop",
-  "knownwell"
+  "knownwell",
+  "neednova"
  ],
  "ashby": [
   "pylon-labs",
@@ -532,7 +533,19 @@
   }
  ],
  "candidates": [
-  "Brown Health"
+  "Brown Health",
+  "Cohere",
+  "Thinkific",
+  "Lyft",
+  "Sila Nanotechnologies",
+  "Mintlify",
+  "Moxie",
+  "GC AI",
+  "Exa",
+  "Hex",
+  "Vapi",
+  "Bretton AI",
+  "Uber"
  ],
  "tried": {
   "UniUni": 1,
