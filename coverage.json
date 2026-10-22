@@ -1,5 +1,5 @@
 {
- "at": "2026-10-22T11:29:39.429Z",
+ "at": "2026-10-22T11:50:11.776Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -31,7 +31,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -87,7 +87,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 37
+   "failStreak": 38
   },
   {
    "id": "greenhouse:alphahawaii",
@@ -95,7 +95,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "greenhouse:alphasense",
@@ -447,7 +447,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 53
+   "failStreak": 54
   },
   {
    "id": "ashby:clickhouse",
@@ -499,7 +499,7 @@
   },
   {
    "id": "ashby:cohere",
-   "company": "cohere",
+   "company": "Cohere",
    "ats": "ashby",
    "ok": true,
    "jobs": 113,
@@ -527,7 +527,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "ashby:commure",
@@ -671,14 +671,14 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "greenhouse:dept",
    "company": "Dept",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 183,
+   "jobs": 184,
    "failStreak": 0
   },
   {
@@ -1237,9 +1237,9 @@
    "id": "lever:jobgether",
    "company": "Jobgether",
    "ats": "lever",
-   "ok": true,
-   "jobs": 4670,
-   "failStreak": 0
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
   },
   {
    "id": "icims:careers-jobyaviation",
@@ -1295,7 +1295,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "lever:kraken",
@@ -1423,7 +1423,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1471,7 +1471,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "workday:micron:External",
@@ -1487,7 +1487,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "lever:minesense",
@@ -1602,6 +1602,14 @@
    "failStreak": 0
   },
   {
+   "id": "lever:neednova",
+   "company": "Neednova",
+   "ats": "lever",
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 16
+  },
+  {
    "id": "greenhouse:nerostechnologies",
    "company": "Neros Technologies",
    "ats": "greenhouse",
@@ -1647,7 +1655,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "ashby:notion",
@@ -1846,7 +1854,7 @@
    "company": "Pinterest",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 164,
+   "jobs": 163,
    "failStreak": 0
   },
   {
@@ -1927,7 +1935,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "greenhouse:qualtrics",
@@ -2037,9 +2045,9 @@
    "id": "lever:rise",
    "company": "Rise",
    "ats": "lever",
-   "ok": true,
-   "jobs": 26,
-   "failStreak": 0
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
   },
   {
    "id": "greenhouse:robinhood",
@@ -2206,7 +2214,7 @@
    "company": "Snowflake",
    "ats": "ashby",
    "ok": true,
-   "jobs": 358,
+   "jobs": 359,
    "failStreak": 0
   },
   {
@@ -2591,7 +2599,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 38
+   "failStreak": 39
   },
   {
    "id": "greenhouse:vmlenterprisesolutions",
@@ -2607,7 +2615,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 68
+   "failStreak": 69
   },
   {
    "id": "workday:warnerbros:global",
@@ -2678,7 +2686,7 @@
    "company": "Wells Fargo",
    "ats": "workday",
    "ok": true,
-   "jobs": 51,
+   "jobs": 52,
    "failStreak": 0
   },
   {
@@ -2701,9 +2709,9 @@
    "id": "lever:whoop",
    "company": "Whoop",
    "ats": "lever",
-   "ok": true,
+   "ok": false,
    "jobs": 0,
-   "failStreak": 0
+   "failStreak": 1
   },
   {
    "id": "ashby:whoop",
@@ -2771,7 +2779,8 @@
   }
  ],
  "waitingForFeed": [
-  "Brown Health"
+  "Brown Health",
+  "knownwell"
  ],
  "gaveUp": [
   "Slate Auto",
