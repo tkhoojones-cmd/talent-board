@@ -370,6 +370,20 @@
       "title": "Senior Vice President of Talent",
       "url": "https://www.valorep.com/team/joe-schuster",
       "added": "2026-10-17"
+    },
+    {
+      "kind": "Left",
+      "company": "GovCIO",
+      "title": "Head of Recruiting",
+      "url": "https://www.midfloridanewspapers.com/ap/business/teksynap-appoints-brent-newman-as-vice-president-of-talent-acquisition/article_6ac48a20-62ca-5d2e-842e-c917cdba12ca.html",
+      "added": "2026-07-31"
+    },
+    {
+      "kind": "Hired",
+      "company": "Valor",
+      "title": "VP Talent",
+      "url": "https://www.valorep.com/team/joe-schuster",
+      "added": "2026-10-22"
     }
   ],
   "funding": [
@@ -939,13 +953,6 @@
       "amount": "$3.1M",
       "url": "https://betakit.com/rozvelt-built-a-high-tech-mask-for-hunters-defence-buyers-see-something-bigger",
       "added": "2026-10-20"
-    },
-    {
-      "company": "Modal Labs",
-      "round": "Series C",
-      "amount": "$355M",
-      "url": "https://runtimewire.com/fundings?page=18",
-      "added": "2026-05-22"
     }
   ]
 }
