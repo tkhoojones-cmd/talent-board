@@ -1306,7 +1306,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-22",
-   "closedStreak": 83
+   "closedStreak": 84
   },
   {
    "id": "a23feff7b7",
@@ -1894,16 +1894,17 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-22",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: HTTP 404); last confirmed 2026-10-22",
    "source": "feed",
    "feed": "greenhouse:collibra",
    "inFeed": "2026-10-22",
    "pageTitle": "Director, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-22",
    "pageLocation": "New York, New York",
-   "compMax": 210000
+   "compMax": 210000,
+   "notInFeed": "2026-10-22"
   },
   {
    "id": "84971ef673",
@@ -3895,7 +3896,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-22",
-   "pageLocation": "Location: US, New York, New York"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "b80238edcb",
@@ -4083,15 +4084,16 @@
    "added": "2026-10-15",
    "status": "live",
    "lastChecked": "2026-10-22",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-10-22",
    "source": "feed",
    "feed": "workday:synchronyfinancial:careers",
    "inFeed": "2026-10-22",
    "pageTitle": "VP, HR - Operations Governance and Controls",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-22",
-   "pageLocation": "Stamford Hub, United States of America"
+   "pageLocation": "Stamford Hub, United States of America",
+   "notInFeed": "2026-10-22"
   },
   {
    "id": "c30a9db367",
@@ -5196,6 +5198,27 @@
    "lastChecked": "2026-10-22",
    "reason": "redirected to a different page: https://www.disneycareers.com/en/search-jobs?acm=ALL&alrpm=2921044&ascf=[%7B%22key%22:%22ALL%22,%22v",
    "closedStreak": 0
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-10-22",
+   "status": "live",
+   "lastChecked": "2026-10-22",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-10-22",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-22",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
