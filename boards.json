@@ -143,7 +143,8 @@
   "greenhouse",
   "mosaicservicepartners",
   "tripadvisor",
-  "appsflyer"
+  "appsflyer",
+  "ramp"
  ],
  "lever": [
   "zoox",
@@ -531,8 +532,7 @@
   }
  ],
  "candidates": [
-  "Brown Health",
-  "Okta"
+  "Brown Health"
  ],
  "tried": {
   "UniUni": 1,
@@ -745,7 +745,8 @@
   "Cherry Ventures": 4,
   "Capital One": 4,
   "Ford Motor Company": 4,
-  "Modal Labs": 4
+  "Modal Labs": 4,
+  "Brown Health": 1
  },
  "dead": [
   "Slate Auto",
@@ -1278,7 +1279,8 @@
   "smartrecruiters:reactiondynamics": 0,
   "ashby:hex": 0,
   "ashby:uipath": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "greenhouse:ramp": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1446,7 +1448,9 @@
   "smartrecruiters:reactiondynamics": "Reaction Dynamics",
   "ashby:hex": "Hex",
   "ashby:uipath": "UiPath",
-  "greenhouse:duolingo": "Duolingo"
+  "greenhouse:duolingo": "Duolingo",
+  "greenhouse:okta": "Okta",
+  "greenhouse:ramp": "Ramp"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1477,20 +1481,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 67,
-  "greenhouse:notion": 67,
-  "greenhouse:marqeta": 67,
-  "greenhouse:alphahawaii": 67,
-  "lever:knownwell": 67,
-  "workday:walmart:WalmartExternal": 67,
-  "workday:comcast:Comcast_Careers": 67,
-  "workday:dell:External": 67,
-  "workday:qualcomm:External": 67,
-  "bigtech:microsoft": 67,
-  "bigtech:meta": 67,
-  "greenhouse:clickhouse": 52,
-  "greenhouse:visiersolutionsinc": 37,
-  "greenhouse:alignmenthealth": 36,
+  "greenhouse:admarketplaceinc": 68,
+  "greenhouse:notion": 68,
+  "greenhouse:marqeta": 68,
+  "greenhouse:alphahawaii": 68,
+  "lever:knownwell": 68,
+  "workday:walmart:WalmartExternal": 68,
+  "workday:comcast:Comcast_Careers": 68,
+  "workday:dell:External": 68,
+  "workday:qualcomm:External": 68,
+  "bigtech:microsoft": 68,
+  "bigtech:meta": 68,
+  "greenhouse:clickhouse": 53,
+  "greenhouse:visiersolutionsinc": 38,
+  "greenhouse:alignmenthealth": 37,
   "lever:neednova": 15,
   "lever:wandb": 3,
   "lever:cohere": 3

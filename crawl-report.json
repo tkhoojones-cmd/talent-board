@@ -1,6 +1,6 @@
 {
- "at": "2026-10-22T02:05:02.095Z",
- "ok": 331,
+ "at": "2026-10-22T11:29:39.431Z",
+ "ok": 332,
  "failed": [
   "greenhouse:admarketplaceinc:0",
   "greenhouse:notion:0",
@@ -12,26 +12,26 @@
   "lever:knownwell:404",
   "workday:walmart:WalmartExternal:404",
   "workday:comcast:Comcast_Careers:404",
-  "workday:qualcomm:External:404",
   "workday:dell:External:404",
+  "workday:qualcomm:External:404",
   "bigtech:microsoft:404",
   "bigtech:meta:404"
  ],
- "scanned": 39303,
- "matched": 157,
- "added": 3,
+ "scanned": 39953,
+ "matched": 159,
+ "added": 2,
  "alerts": [
-  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 67 runs in a row",
-  "Notion (greenhouse:notion) has failed 67 runs in a row",
-  "Marqeta (greenhouse:marqeta) has failed 67 runs in a row",
-  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 37 runs in a row",
-  "Alphahawaii (greenhouse:alphahawaii) has failed 67 runs in a row",
-  "Clickhouse (greenhouse:clickhouse) has failed 52 runs in a row",
-  "Alignmenthealth (greenhouse:alignmenthealth) has failed 36 runs in a row",
-  "Knownwell (lever:knownwell) has failed 67 runs in a row",
-  "Walmart (workday:walmart:WalmartExternal) has failed 67 runs in a row",
-  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 67 runs in a row",
-  "Qualcomm (workday:qualcomm:External) has failed 67 runs in a row",
-  "Dell (workday:dell:External) has failed 67 runs in a row"
+  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 68 runs in a row",
+  "Notion (greenhouse:notion) has failed 68 runs in a row",
+  "Marqeta (greenhouse:marqeta) has failed 68 runs in a row",
+  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 38 runs in a row",
+  "Alphahawaii (greenhouse:alphahawaii) has failed 68 runs in a row",
+  "Clickhouse (greenhouse:clickhouse) has failed 53 runs in a row",
+  "Alignmenthealth (greenhouse:alignmenthealth) has failed 37 runs in a row",
+  "Knownwell (lever:knownwell) has failed 68 runs in a row",
+  "Walmart (workday:walmart:WalmartExternal) has failed 68 runs in a row",
+  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 68 runs in a row",
+  "Dell (workday:dell:External) has failed 68 runs in a row",
+  "Qualcomm (workday:qualcomm:External) has failed 68 runs in a row"
  ]
 }
