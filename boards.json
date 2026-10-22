@@ -172,7 +172,8 @@
   "jobgether",
   "encore-renewable-energy",
   "whoop",
-  "neednova"
+  "neednova",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -532,8 +533,7 @@
   }
  ],
  "candidates": [
-  "Brown Health",
-  "knownwell"
+  "Brown Health"
  ],
  "tried": {
   "UniUni": 1,
@@ -747,7 +747,7 @@
   "Capital One": 4,
   "Ford Motor Company": 4,
   "Modal Labs": 4,
-  "Brown Health": 2
+  "Brown Health": 3
  },
  "dead": [
   "Slate Auto",
@@ -1281,7 +1281,8 @@
   "ashby:hex": 0,
   "ashby:uipath": 0,
   "greenhouse:ramp": 0,
-  "lever:neednova": 1
+  "lever:neednova": 2,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1482,25 +1483,22 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 69,
-  "greenhouse:notion": 69,
-  "greenhouse:marqeta": 69,
-  "greenhouse:alphahawaii": 69,
-  "lever:knownwell": 69,
-  "workday:walmart:WalmartExternal": 69,
-  "workday:comcast:Comcast_Careers": 69,
-  "workday:dell:External": 69,
-  "workday:qualcomm:External": 69,
-  "bigtech:microsoft": 69,
-  "bigtech:meta": 69,
-  "greenhouse:clickhouse": 54,
-  "greenhouse:visiersolutionsinc": 39,
-  "greenhouse:alignmenthealth": 38,
-  "lever:neednova": 16,
+  "greenhouse:admarketplaceinc": 70,
+  "greenhouse:notion": 70,
+  "greenhouse:marqeta": 70,
+  "greenhouse:alphahawaii": 70,
+  "lever:knownwell": 70,
+  "workday:walmart:WalmartExternal": 70,
+  "workday:comcast:Comcast_Careers": 70,
+  "workday:dell:External": 70,
+  "workday:qualcomm:External": 70,
+  "bigtech:microsoft": 70,
+  "bigtech:meta": 70,
+  "greenhouse:clickhouse": 55,
+  "greenhouse:visiersolutionsinc": 40,
+  "greenhouse:alignmenthealth": 39,
+  "lever:neednova": 17,
   "lever:wandb": 3,
-  "lever:cohere": 3,
-  "lever:rise": 1,
-  "lever:jobgether": 1,
-  "lever:whoop": 1
+  "lever:cohere": 3
  }
 }
