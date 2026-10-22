@@ -178,14 +178,15 @@
    "added": "2026-08-21",
    "status": "live",
    "lastChecked": "2026-10-21",
-   "reason": "opened normally with an Apply control",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-10-21",
    "pageLocation": "Beemok Hospitality Holdings, United States of America",
    "pageTitle": "Vice President, Talent Acquisition and Employer Brand",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-21",
    "feed": "workday:beemok:BHC_Careers",
-   "inFeed": "2026-10-21"
+   "inFeed": "2026-10-21",
+   "notInFeed": "2026-10-21"
   },
   {
    "id": "5a4e8ab135",
@@ -196,14 +197,14 @@
    "url": "https://manh.wd5.myworkdayjobs.com/External/job/Senior-Director-Talent-Management_16995",
    "comp": "",
    "added": "2026-09-28",
-   "status": "closed",
-   "lastChecked": "2026-10-15",
-   "reason": "no longer in the employer's job feed",
+   "status": "live",
+   "lastChecked": "2026-10-21",
+   "reason": "opened normally with an Apply control",
    "pageLocation": "Atlanta, GA, United States of America",
    "pageTitle": "Senior Director Talent Management",
    "closedStreak": 0,
    "failStreak": 0,
-   "lastLive": "2026-10-14",
+   "lastLive": "2026-10-21",
    "feed": "workday:manh:External",
    "notInFeed": "2026-10-21"
   },
@@ -466,7 +467,7 @@
    "comp": "",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "HTTP 404"
   },
   {
@@ -647,15 +648,16 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-21",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-10-21",
    "source": "feed",
    "pageTitle": "Vice President, Talent Acquisition and Employer Brand",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-21",
    "pageLocation": "Beemok Hospitality Holdings, United States of America",
    "feed": "workday:beemok:BHC_Careers",
-   "inFeed": "2026-10-21"
+   "inFeed": "2026-10-21",
+   "notInFeed": "2026-10-21"
   },
   {
    "id": "da087f01eb",
@@ -668,15 +670,16 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-21",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-10-21",
    "source": "feed",
    "pageTitle": "Vice President, Talent and Organizational Development",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-21",
    "pageLocation": "Beemok Hospitality Holdings, United States of America",
    "feed": "workday:beemok:BHC_Careers",
-   "inFeed": "2026-10-21"
+   "inFeed": "2026-10-21",
+   "notInFeed": "2026-10-21"
   },
   {
    "id": "aa800c87a5",
@@ -1303,7 +1306,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-21",
-   "closedStreak": 78
+   "closedStreak": 79
   },
   {
    "id": "a23feff7b7",
@@ -1824,7 +1827,7 @@
    "comp": "$150,000-$200,000",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:clearstreet",
@@ -2323,7 +2326,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:dept",
    "notInFeed": "2026-10-21"
@@ -2380,7 +2383,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "HTTP 404"
   },
   {
@@ -2415,9 +2418,9 @@
    "comp": "$190K-$280K + equity",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "HTTP 404",
-   "closedStreak": 3
+   "closedStreak": 4
   },
   {
    "id": "c51f7e1966",
@@ -2429,7 +2432,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:taketwo",
    "notInFeed": "2026-10-21"
@@ -2444,9 +2447,9 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "HTTP 404",
-   "closedStreak": 3
+   "closedStreak": 4
   },
   {
    "id": "1c0e6761d2",
@@ -2474,7 +2477,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:banyansoftware",
    "notInFeed": "2026-10-21"
@@ -2489,7 +2492,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:babylist",
    "notInFeed": "2026-10-21"
@@ -3216,16 +3219,17 @@
    "added": "2026-10-10",
    "status": "live",
    "lastChecked": "2026-10-21",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: Job not found); last confirmed 2026-10-21",
    "source": "feed",
    "feed": "ashby:grow-therapy",
    "inFeed": "2026-10-21",
    "compMax": 231000,
    "pageTitle": "Director, Business Recruiting",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-21",
-   "pageLocation": "New York, New York, United States"
+   "pageLocation": "New York, New York, United States",
+   "notInFeed": "2026-10-21"
   },
   {
    "id": "fbb9878e83",
@@ -3259,8 +3263,8 @@
    "added": "2026-10-11",
    "status": "unverifiable",
    "lastChecked": "2026-10-21",
-   "reason": "HTTP 403",
-   "closedStreak": 0
+   "reason": "looked closed once, rechecking: page says: Job removed",
+   "closedStreak": 1
   },
   {
    "id": "1a875fea0b",
@@ -3330,7 +3334,7 @@
    "comp": "$225,000 - $275,000",
    "added": "2026-10-12",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:khealthcareers",
@@ -3795,9 +3799,9 @@
    "url": "https://jobs.lever.co/jobgether/18349c83-e379-43a6-a34e-ceaf41aa83ec",
    "comp": "$200,000–$250,000",
    "added": "2026-10-14",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-10-21",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-10-21",
@@ -3806,7 +3810,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-21",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-10-21"
   },
   {
    "id": "2fa4cc631d",
@@ -3890,7 +3895,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-21",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "b80238edcb",
@@ -3987,9 +3992,9 @@
    "comp": "",
    "added": "2026-10-15",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "redirected away from the job: https://www.alignmenthealth.com/careers",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "771547d8b3",
@@ -4001,9 +4006,9 @@
    "comp": "",
    "added": "2026-10-15",
    "status": "closed",
-   "lastChecked": "2026-10-15",
+   "lastChecked": "2026-10-21",
    "reason": "HTTP 404",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "1714e9f022",
@@ -4602,7 +4607,7 @@
    "title": "Senior Manager, Technical Recruiting",
    "location": "San Francisco, CA - US",
    "url": "https://jobs.ashbyhq.com/crusoe/77e0b8bb-c39c-4c3e-9f20-3d8d6c994cba",
-   "comp": "$150,000 - $200,000",
+   "comp": "$175,000 - $215,000",
    "added": "2026-10-19",
    "status": "live",
    "lastChecked": "2026-10-21",
@@ -4610,7 +4615,7 @@
    "source": "feed",
    "feed": "ashby:crusoe",
    "inFeed": "2026-10-21",
-   "compMax": 200000,
+   "compMax": 215000,
    "pageTitle": "Senior Manager, Technical Recruiting",
    "closedStreak": 0,
    "failStreak": 0,
@@ -4727,16 +4732,17 @@
    "added": "2026-10-20",
    "status": "live",
    "lastChecked": "2026-10-21",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: HTTP 404); last confirmed 2026-10-21",
    "source": "feed",
    "feed": "greenhouse:waymo",
    "inFeed": "2026-10-21",
    "compMax": 411000,
    "pageTitle": "Head of People Development & Culture",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-21",
-   "pageLocation": "Mountain View, California, US"
+   "pageLocation": "Mountain View, California, US",
+   "notInFeed": "2026-10-21"
   },
   {
    "id": "c40cd3daf4",
@@ -5040,6 +5046,69 @@
    "reason": "no longer in the employer's job feed",
    "feed": "greenhouse:cultureamp",
    "notInFeed": "2026-10-21"
+  },
+  {
+   "id": "53af6bd487",
+   "kind": "role",
+   "company": "Citi",
+   "title": "Head of Product Engineering, HR Total Rewards - C15 - Director - C15 - NEW YORK",
+   "location": "New York New York United States",
+   "url": "https://citi.wd5.myworkdayjobs.com/2/job/New-York-New-York-United-States/Head-of-Product-Engineering--HR-Total-Rewards---C15---Director---C15---NEW-YORK_261001217",
+   "comp": "",
+   "added": "2026-10-21",
+   "status": "live",
+   "lastChecked": "2026-10-21",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:citi:2",
+   "inFeed": "2026-10-21",
+   "pageTitle": "Head of Product Engineering, HR Total Rewards - C15 - Director - C15 - NEW YORK",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-21",
+   "pageLocation": "388 GREENWICH STREET - TOWER, United States of America"
+  },
+  {
+   "id": "639269755f",
+   "kind": "role",
+   "company": "JPMorgan Chase",
+   "title": "Executive Director, HR Business Advisor - Consumer & Community Banking",
+   "location": "Plano, TX, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210796083",
+   "comp": "",
+   "added": "2026-10-21",
+   "status": "live",
+   "lastChecked": "2026-10-21",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "oracle:jpmc.fa.oraclecloud.com:CX_1001",
+   "inFeed": "2026-10-21",
+   "pageTitle": "Executive Director, HR Business Advisor - Consumer & Community Banking",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-21",
+   "pageLocation": "Locations"
+  },
+  {
+   "id": "10665c6c80",
+   "kind": "role",
+   "company": "JPMorgan Chase",
+   "title": "Product & Design Recruiting, Vice President",
+   "location": "Plano, TX, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210794415",
+   "comp": "",
+   "added": "2026-10-21",
+   "status": "live",
+   "lastChecked": "2026-10-21",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "oracle:jpmc.fa.oraclecloud.com:CX_1001",
+   "inFeed": "2026-10-21",
+   "pageTitle": "Product & Design Recruiting, Vice President",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-21",
+   "pageLocation": "and 2 more"
   }
  ]
 }
