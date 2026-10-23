@@ -1308,7 +1308,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-23",
-   "closedStreak": 86
+   "closedStreak": 87
   },
   {
    "id": "a23feff7b7",
@@ -2731,14 +2731,14 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-10-23",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (page had almost no text (blocked or not rendered)); last confirmed 2026-10-23",
    "source": "feed",
    "feed": "greenhouse:mongodb",
    "inFeed": "2026-10-23",
    "compMax": 220000,
    "pageTitle": "Senior Manager, AI and People Transformation New York City; United States",
    "closedStreak": 0,
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-10-23"
   },
   {
@@ -2759,7 +2759,7 @@
    "compMax": 220000,
    "pageTitle": "Senior Manager, Recruiting Operations Austin; Chicago; New York City; Palo Alto; San Francisco",
    "closedStreak": 0,
-   "failStreak": 1,
+   "failStreak": 2,
    "lastLive": "2026-10-22"
   },
   {
@@ -3901,7 +3901,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-23",
-   "pageLocation": "Location: US, South Carolina, West Columbia"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "b80238edcb",
@@ -4054,14 +4054,14 @@
    "added": "2026-10-15",
    "status": "live",
    "lastChecked": "2026-10-23",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-10-23",
    "source": "feed",
    "feed": "greenhouse:coinbase",
    "inFeed": "2026-10-23",
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-10-23"
   },
   {
@@ -5367,92 +5367,6 @@
    "failStreak": 0,
    "lastLive": "2026-10-23",
    "pageLocation": "Anywhere"
-  },
-  {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-10-23",
-   "status": "live",
-   "lastChecked": "2026-10-23",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-10-23",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-10-23",
-   "pageLocation": "MYS - Penang, Malaysia"
-  },
-  {
-   "id": "dd57d788ca",
-   "kind": "role",
-   "company": "ICONIQ",
-   "title": "Vice President, Talent Acquisition",
-   "location": "New York / San Francisco",
-   "url": "https://job-boards.greenhouse.io/iconiq/jobs/7347602",
-   "comp": "",
-   "added": "2026-10-23",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "454f6f1eba",
-   "kind": "role",
-   "company": "Magnolia",
-   "title": "Chief People Officer",
-   "location": "Waco, TX",
-   "url": "https://job-boards.greenhouse.io/magnolia/jobs/4917041008",
-   "comp": "",
-   "added": "2026-10-23",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "531a97dadb",
-   "kind": "role",
-   "company": "Wellist",
-   "title": "Chief People Officer",
-   "location": "Boston, MA (hybrid)",
-   "url": "https://job-boards.greenhouse.io/wellist/jobs/8431772002",
-   "comp": "",
-   "added": "2026-10-23",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "65a5926265",
-   "kind": "role",
-   "company": "Evolution Cloud Services (EVOCS)",
-   "title": "Chief People Officer",
-   "location": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/evolutioncloudservicesevocs/jobs/4149932009",
-   "comp": "",
-   "added": "2026-10-23",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "4151b3dcaa",
-   "kind": "role",
-   "company": "Tala",
-   "title": "Chief People Officer",
-   "location": "",
-   "url": "https://jobs.lever.co/tala/11640793-b2db-4e1e-88d2-2ae2b8a1f49c",
-   "comp": "",
-   "added": "2026-10-23",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
   }
  ]
 }

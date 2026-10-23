@@ -173,7 +173,6 @@
   "jobgether",
   "encore-renewable-energy",
   "whoop",
-  "knownwell",
   "vrchat",
   "neednova"
  ],
@@ -535,12 +534,7 @@
   }
  ],
  "candidates": [
-  "One Model",
-  "Prime Intellect",
-  "GC AI",
-  "Bretton AI",
-  "Sila Nanotechnologies",
-  "Nova Credit"
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -1292,8 +1286,8 @@
   "greenhouse:ramp": 0,
   "greenhouse:ripple": 0,
   "icims:careers-americas": 0,
-  "lever:knownwell": 2,
-  "lever:vrchat": 0
+  "lever:vrchat": 0,
+  "lever:neednova": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1496,23 +1490,23 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 74,
-  "greenhouse:notion": 74,
-  "greenhouse:marqeta": 74,
-  "greenhouse:alphahawaii": 74,
-  "lever:knownwell": 74,
-  "workday:walmart:WalmartExternal": 74,
-  "workday:comcast:Comcast_Careers": 74,
-  "workday:dell:External": 74,
-  "workday:qualcomm:External": 74,
-  "bigtech:microsoft": 74,
-  "bigtech:meta": 74,
-  "greenhouse:clickhouse": 59,
-  "greenhouse:visiersolutionsinc": 44,
-  "greenhouse:alignmenthealth": 43,
-  "lever:neednova": 18,
+  "greenhouse:admarketplaceinc": 75,
+  "greenhouse:notion": 75,
+  "greenhouse:marqeta": 75,
+  "greenhouse:alphahawaii": 75,
+  "lever:knownwell": 75,
+  "workday:walmart:WalmartExternal": 75,
+  "workday:comcast:Comcast_Careers": 75,
+  "workday:dell:External": 75,
+  "workday:qualcomm:External": 75,
+  "bigtech:microsoft": 75,
+  "bigtech:meta": 75,
+  "greenhouse:clickhouse": 60,
+  "greenhouse:visiersolutionsinc": 45,
+  "greenhouse:alignmenthealth": 44,
+  "lever:neednova": 19,
   "lever:wandb": 3,
   "lever:cohere": 6,
-  "lever:palantir": 1
+  "bigtech:netflix": 1
  }
 }
