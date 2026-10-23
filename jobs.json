@@ -1308,7 +1308,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-23",
-   "closedStreak": 88
+   "closedStreak": 89
   },
   {
    "id": "a23feff7b7",
@@ -3143,9 +3143,9 @@
    "url": "https://jobs.smartrecruiters.com/ProcoreTechnologies/744000033755208",
    "comp": "",
    "added": "2026-10-10",
-   "status": "new",
+   "status": "unverifiable",
    "lastChecked": "2026-10-23",
-   "reason": null,
+   "reason": "HTTP 400",
    "closedStreak": 0
   },
   {
@@ -3157,9 +3157,9 @@
    "url": "https://jobs.smartrecruiters.com/ProcoreTechnologies/744000037930993",
    "comp": "",
    "added": "2026-10-10",
-   "status": "new",
+   "status": "unverifiable",
    "lastChecked": "2026-10-23",
-   "reason": null,
+   "reason": "HTTP 400",
    "closedStreak": 0
   },
   {
@@ -4061,7 +4061,7 @@
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 2,
+   "failStreak": 3,
    "lastLive": "2026-10-23"
   },
   {
@@ -5207,9 +5207,9 @@
    "url": "https://jobs.disneycareers.com/job/burbank/director-learning-and-talent-solutions/391/69216536192",
    "comp": "",
    "added": "2026-10-22",
-   "status": "new",
+   "status": "unverifiable",
    "lastChecked": "2026-10-23",
-   "reason": null,
+   "reason": "redirected to a different page: https://join.disneycareers.com/global/en",
    "closedStreak": 0
   },
   {
@@ -5367,27 +5367,6 @@
    "failStreak": 0,
    "lastLive": "2026-10-23",
    "pageLocation": "Anywhere"
-  },
-  {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-10-23",
-   "status": "live",
-   "lastChecked": "2026-10-23",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-10-23",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-10-23",
-   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
