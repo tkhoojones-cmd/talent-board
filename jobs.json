@@ -3135,31 +3135,31 @@
    "closedStreak": 4
   },
   {
-   "id": "ed6e4b967d",
+   "id": "0899078f16",
    "kind": "role",
    "company": "Procore Technologies",
    "title": "Director, HR Portfolio",
    "location": "",
-   "url": "https://smartrecruiters.com/ProcoreTechnologies/744000033755208",
+   "url": "https://jobs.smartrecruiters.com/ProcoreTechnologies/744000033755208",
    "comp": "",
    "added": "2026-10-10",
-   "status": "unverifiable",
+   "status": "new",
    "lastChecked": "2026-10-23",
-   "reason": "HTTP 400",
+   "reason": null,
    "closedStreak": 0
   },
   {
-   "id": "689353a4cd",
+   "id": "56b55718f7",
    "kind": "role",
    "company": "Procore Technologies",
    "title": "Director, People Analytics",
    "location": "",
-   "url": "https://smartrecruiters.com/ProcoreTechnologies/744000037930993",
+   "url": "https://jobs.smartrecruiters.com/ProcoreTechnologies/744000037930993",
    "comp": "",
    "added": "2026-10-10",
-   "status": "unverifiable",
+   "status": "new",
    "lastChecked": "2026-10-23",
-   "reason": "HTTP 400",
+   "reason": null,
    "closedStreak": 0
   },
   {
@@ -5199,17 +5199,17 @@
    "reason": "HTTP 410"
   },
   {
-   "id": "efe0ef968e",
+   "id": "29adb8ebff",
    "kind": "role",
    "company": "Walt Disney",
    "title": "Director, Learning & Talent Solutions",
    "location": "Burbank, CA",
-   "url": "https://karriere.disneycareers.com/stellenbeschreibung/burbank/director-learning-and-talent-solutions/391/69216536192",
+   "url": "https://jobs.disneycareers.com/job/burbank/director-learning-and-talent-solutions/391/69216536192",
    "comp": "",
    "added": "2026-10-22",
-   "status": "unverifiable",
+   "status": "new",
    "lastChecked": "2026-10-23",
-   "reason": "redirected to a different page: https://www.disneycareers.com/en/search-jobs?acm=ALL&alrpm=2921044&ascf=[%7B%22key%22:%22ALL%22,%22v",
+   "reason": null,
    "closedStreak": 0
   },
   {
