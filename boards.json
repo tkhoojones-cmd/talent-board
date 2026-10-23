@@ -175,7 +175,8 @@
   "whoop",
   "vrchat",
   "neednova",
-  "cohere"
+  "cohere",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -535,25 +536,7 @@
   }
  ],
  "candidates": [
-  "knownwell",
-  "Commure",
-  "Luma AI",
-  "Vapi",
-  "OpenRouter",
-  "Eight Sleep",
-  "AlphaSense",
-  "HiBob",
-  "Pinecone",
-  "Nuro",
-  "Twelve Labs",
-  "Grow Therapy",
-  "Moxie",
-  "Duolingo",
-  "Samsara",
   "Kraken",
-  "Collibra",
-  "Hootsuite",
-  "Zoox",
   "Oxide Computer"
  ],
  "tried": {
@@ -769,7 +752,9 @@
   "Ford Motor Company": 4,
   "Modal Labs": 4,
   "Brown Health": 4,
-  "Match Group": 1
+  "Match Group": 1,
+  "Kraken": 1,
+  "Oxide Computer": 1
  },
  "dead": [
   "Slate Auto",
@@ -1307,7 +1292,9 @@
   "greenhouse:ripple": 0,
   "icims:careers-americas": 0,
   "lever:vrchat": 0,
-  "lever:neednova": 1
+  "lever:neednova": 2,
+  "lever:cohere": 1,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1320,7 +1307,7 @@
   "ashby:miro": "miro",
   "ashby:knownwell": "knownwell",
   "ashby:benchling": "benchling",
-  "greenhouse:hootsuite": "hootsuite",
+  "greenhouse:hootsuite": "Hootsuite",
   "ashby:lightspeedhq": "lightspeedhq",
   "greenhouse:faire": "faire",
   "greenhouse:attentive": "attentive",
@@ -1478,7 +1465,8 @@
   "greenhouse:duolingo": "Duolingo",
   "greenhouse:okta": "Okta",
   "greenhouse:ramp": "Ramp",
-  "greenhouse:ripple": "Ripple"
+  "greenhouse:ripple": "Ripple",
+  "greenhouse:alphasense": "AlphaSense"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1510,23 +1498,22 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 75,
-  "greenhouse:notion": 75,
-  "greenhouse:marqeta": 75,
-  "greenhouse:alphahawaii": 75,
-  "lever:knownwell": 75,
-  "workday:walmart:WalmartExternal": 75,
-  "workday:comcast:Comcast_Careers": 75,
-  "workday:dell:External": 75,
-  "workday:qualcomm:External": 75,
-  "bigtech:microsoft": 75,
-  "bigtech:meta": 75,
-  "greenhouse:clickhouse": 60,
-  "greenhouse:visiersolutionsinc": 45,
-  "greenhouse:alignmenthealth": 44,
-  "lever:neednova": 19,
+  "greenhouse:admarketplaceinc": 76,
+  "greenhouse:notion": 76,
+  "greenhouse:marqeta": 76,
+  "greenhouse:alphahawaii": 76,
+  "lever:knownwell": 76,
+  "workday:walmart:WalmartExternal": 76,
+  "workday:comcast:Comcast_Careers": 76,
+  "workday:dell:External": 76,
+  "workday:qualcomm:External": 76,
+  "bigtech:microsoft": 76,
+  "bigtech:meta": 76,
+  "greenhouse:clickhouse": 61,
+  "greenhouse:visiersolutionsinc": 46,
+  "greenhouse:alignmenthealth": 45,
+  "lever:neednova": 20,
   "lever:wandb": 3,
-  "lever:cohere": 6,
-  "bigtech:netflix": 1
+  "lever:cohere": 7
  }
 }
