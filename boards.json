@@ -174,7 +174,8 @@
   "encore-renewable-energy",
   "whoop",
   "vrchat",
-  "neednova"
+  "neednova",
+  "cohere"
  ],
  "ashby": [
   "pylon-labs",
@@ -534,7 +535,26 @@
   }
  ],
  "candidates": [
-  "knownwell"
+  "knownwell",
+  "Commure",
+  "Luma AI",
+  "Vapi",
+  "OpenRouter",
+  "Eight Sleep",
+  "AlphaSense",
+  "HiBob",
+  "Pinecone",
+  "Nuro",
+  "Twelve Labs",
+  "Grow Therapy",
+  "Moxie",
+  "Duolingo",
+  "Samsara",
+  "Kraken",
+  "Collibra",
+  "Hootsuite",
+  "Zoox",
+  "Oxide Computer"
  ],
  "tried": {
   "UniUni": 1,
