@@ -174,7 +174,8 @@
   "encore-renewable-energy",
   "whoop",
   "knownwell",
-  "vrchat"
+  "vrchat",
+  "neednova"
  ],
  "ashby": [
   "pylon-labs",
@@ -533,7 +534,14 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "One Model",
+  "Prime Intellect",
+  "GC AI",
+  "Bretton AI",
+  "Sila Nanotechnologies",
+  "Nova Credit"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
