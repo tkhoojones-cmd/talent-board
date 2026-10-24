@@ -960,6 +960,55 @@
    "amount": "$445M",
    "url": "https://pulse2.com/oxide-raises-445-million-series-d-led-by-eclipse/",
    "added": "2026-10-09"
+  },
+  {
+   "company": "SkildAI",
+   "round": "Series C",
+   "amount": "$1.4B",
+   "url": "https://www.zeni.ai/blog/series-c-funding",
+   "added": "2026-10-24"
+  },
+  {
+   "company": "ElevenLabs",
+   "round": "Series D",
+   "amount": "$500M",
+   "url": "https://techcrunch.com/2026/02/17/here-are-the-17-us-based-ai-companies-that-have-raised-100m-or-more-in-2026/",
+   "added": "2026-10-24"
+  },
+  {
+   "company": "NinjaOne",
+   "round": "Series C extension",
+   "amount": "$400M+",
+   "url": "https://www.zeni.ai/blog/series-c-funding",
+   "added": "2026-10-24"
+  },
+  {
+   "company": "Modal Labs",
+   "round": "Series C",
+   "amount": "$355M",
+   "url": "https://runtimewire.com/fundings?page=14",
+   "added": "2026-10-24"
+  },
+  {
+   "company": "Baseten",
+   "round": "Series E",
+   "amount": "$300M",
+   "url": "https://www.zeni.ai/blog/series-c-funding",
+   "added": "2026-10-24"
+  },
+  {
+   "company": "Beacon Software",
+   "round": "Series C",
+   "amount": "$225M USD",
+   "url": "https://betakit.com/ai-rollup-company-beacon-closes-225-million-series-c-round/",
+   "added": "2026-10-24"
+  },
+  {
+   "company": "Gumloop",
+   "round": "Series B",
+   "amount": "$50M USD",
+   "url": "https://betakit.com/vancouver-founded-gumloop-sticks-50-million-usd-series-b-round-to-let-employees-build-their-own-ai-agents/",
+   "added": "2026-10-24"
   }
  ]
 }
