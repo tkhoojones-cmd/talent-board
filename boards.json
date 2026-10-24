@@ -534,7 +534,11 @@
   }
  ],
  "candidates": [
-  "Magic Leap"
+  "Magic Leap",
+  "Modal",
+  "Brex",
+  "Oyster",
+  "Tala"
  ],
  "tried": {
   "UniUni": 1,
@@ -969,7 +973,8 @@
  ],
  "workable": [
   "montera",
-  "weekday-1"
+  "weekday-1",
+  "anthro"
  ],
  "rippling": [
   "smartsuite",
