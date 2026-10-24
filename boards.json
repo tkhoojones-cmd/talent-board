@@ -173,8 +173,7 @@
   "jobgether",
   "encore-renewable-energy",
   "whoop",
-  "vrchat",
-  "knownwell"
+  "vrchat"
  ],
  "ashby": [
   "pylon-labs",
@@ -271,7 +270,8 @@
   "halter",
   "legora",
   "hex",
-  "uipath"
+  "uipath",
+  "oyster"
  ],
  "workday": [
   {
@@ -535,10 +535,7 @@
  ],
  "candidates": [
   "Magic Leap",
-  "Modal",
-  "Brex",
-  "Oyster",
-  "Tala"
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -756,7 +753,7 @@
   "Match Group": 1,
   "Kraken": 4,
   "Oxide Computer": 4,
-  "Magic Leap": 1
+  "Magic Leap": 2
  },
  "dead": [
   "Slate Auto",
@@ -1297,7 +1294,8 @@
   "greenhouse:ripple": 0,
   "icims:careers-americas": 0,
   "lever:vrchat": 0,
-  "lever:knownwell": 2
+  "ashby:oyster": 0,
+  "workable:anthro": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1469,7 +1467,11 @@
   "greenhouse:okta": "Okta",
   "greenhouse:ramp": "Ramp",
   "greenhouse:ripple": "Ripple",
-  "greenhouse:alphasense": "AlphaSense"
+  "greenhouse:alphasense": "AlphaSense",
+  "greenhouse:brex": "Brex",
+  "lever:tala": "Tala",
+  "ashby:modal": "Modal",
+  "ashby:oyster": "Oyster"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1501,20 +1503,20 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 80,
-  "greenhouse:notion": 80,
-  "greenhouse:marqeta": 80,
-  "greenhouse:alphahawaii": 80,
-  "lever:knownwell": 80,
-  "workday:walmart:WalmartExternal": 80,
-  "workday:comcast:Comcast_Careers": 80,
-  "workday:dell:External": 80,
-  "workday:qualcomm:External": 80,
-  "bigtech:microsoft": 80,
-  "bigtech:meta": 80,
-  "greenhouse:clickhouse": 65,
-  "greenhouse:visiersolutionsinc": 50,
-  "greenhouse:alignmenthealth": 49,
+  "greenhouse:admarketplaceinc": 81,
+  "greenhouse:notion": 81,
+  "greenhouse:marqeta": 81,
+  "greenhouse:alphahawaii": 81,
+  "lever:knownwell": 81,
+  "workday:walmart:WalmartExternal": 81,
+  "workday:comcast:Comcast_Careers": 81,
+  "workday:dell:External": 81,
+  "workday:qualcomm:External": 81,
+  "bigtech:microsoft": 81,
+  "bigtech:meta": 81,
+  "greenhouse:clickhouse": 66,
+  "greenhouse:visiersolutionsinc": 51,
+  "greenhouse:alignmenthealth": 50,
   "lever:neednova": 21,
   "lever:wandb": 3,
   "lever:cohere": 9

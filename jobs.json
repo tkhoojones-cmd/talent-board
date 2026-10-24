@@ -1308,7 +1308,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-24",
-   "closedStreak": 92
+   "closedStreak": 93
   },
   {
    "id": "a23feff7b7",
@@ -3902,7 +3902,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-24",
-   "pageLocation": "Location: US, New Jersey, Robbinsville"
+   "pageLocation": "Location: IT, Latium, Rome"
   },
   {
    "id": "b80238edcb",
@@ -4062,7 +4062,7 @@
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 2,
+   "failStreak": 3,
    "lastLive": "2026-10-23"
   },
   {
@@ -5476,27 +5476,6 @@
    "pageLocation": "USA-SAN JOSE, United States of America"
   },
   {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-10-24",
-   "status": "live",
-   "lastChecked": "2026-10-24",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-10-24",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-10-24",
-   "pageLocation": "MYS - Penang, Malaysia"
-  },
-  {
    "id": "6f188bf006",
    "kind": "role",
    "company": "Expedia Group",
@@ -5505,9 +5484,9 @@
    "url": "https://careers.expediagroup.com/job/talent-strategy-partner-senior-director/seattle-wa/R-105725/",
    "comp": "",
    "added": "2026-10-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-24",
+   "reason": "HTTP 410"
   },
   {
    "id": "221b480205",
@@ -5518,9 +5497,33 @@
    "url": "https://apply.workable.com/anthro/jobs/view/0BD26E09AC",
    "comp": "",
    "added": "2026-10-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-10-24",
+   "reason": "no longer in the employer's job feed",
+   "feed": "workable:anthro",
+   "notInFeed": "2026-10-24"
+  },
+  {
+   "id": "22d98b5269",
+   "kind": "role",
+   "company": "Anthro",
+   "title": "Head of People",
+   "location": "Alameda, California, United States",
+   "url": "https://apply.workable.com/anthro/j/0BD26E09AC/",
+   "comp": "$170k-200k",
+   "added": "2026-10-24",
+   "status": "live",
+   "lastChecked": "2026-10-24",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workable:anthro",
+   "inFeed": "2026-10-24",
+   "compMax": 200000,
+   "pageTitle": "Head of People",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-24",
+   "pageLocation": "Alameda, California, United States"
   }
  ]
 }
