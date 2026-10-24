@@ -533,7 +533,11 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "One Model",
+  "Magic Leap",
+  "Encore Renewable Energy"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
