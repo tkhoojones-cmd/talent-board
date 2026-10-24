@@ -173,7 +173,8 @@
   "jobgether",
   "encore-renewable-energy",
   "whoop",
-  "vrchat"
+  "vrchat",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -532,12 +533,7 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [
-  "Kraken",
-  "Oxide Computer",
-  "knownwell",
-  "cohere"
- ],
+ "candidates": [],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -752,8 +748,8 @@
   "Modal Labs": 4,
   "Brown Health": 4,
   "Match Group": 1,
-  "Kraken": 3,
-  "Oxide Computer": 3
+  "Kraken": 4,
+  "Oxide Computer": 4
  },
  "dead": [
   "Slate Auto",
@@ -964,7 +960,9 @@
   "Belong",
   "Ford Motor Company",
   "Modal Labs",
-  "Brown Health"
+  "Brown Health",
+  "Kraken",
+  "Oxide Computer"
  ],
  "workable": [
   "montera",
@@ -1290,7 +1288,8 @@
   "greenhouse:ramp": 0,
   "greenhouse:ripple": 0,
   "icims:careers-americas": 0,
-  "lever:vrchat": 0
+  "lever:vrchat": 0,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1494,23 +1493,23 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 78,
-  "greenhouse:notion": 78,
-  "greenhouse:marqeta": 78,
-  "greenhouse:alphahawaii": 78,
-  "lever:knownwell": 78,
-  "workday:walmart:WalmartExternal": 78,
-  "workday:comcast:Comcast_Careers": 78,
-  "workday:dell:External": 78,
-  "workday:qualcomm:External": 78,
-  "bigtech:microsoft": 78,
-  "bigtech:meta": 78,
-  "greenhouse:clickhouse": 63,
-  "greenhouse:visiersolutionsinc": 48,
-  "greenhouse:alignmenthealth": 47,
+  "greenhouse:admarketplaceinc": 79,
+  "greenhouse:notion": 79,
+  "greenhouse:marqeta": 79,
+  "greenhouse:alphahawaii": 79,
+  "lever:knownwell": 79,
+  "workday:walmart:WalmartExternal": 79,
+  "workday:comcast:Comcast_Careers": 79,
+  "workday:dell:External": 79,
+  "workday:qualcomm:External": 79,
+  "bigtech:microsoft": 79,
+  "bigtech:meta": 79,
+  "greenhouse:clickhouse": 64,
+  "greenhouse:visiersolutionsinc": 49,
+  "greenhouse:alignmenthealth": 48,
   "lever:neednova": 21,
   "lever:wandb": 3,
   "lever:cohere": 9,
-  "greenhouse:andurilindustries": 1
+  "lever:jobgether": 1
  }
 }
