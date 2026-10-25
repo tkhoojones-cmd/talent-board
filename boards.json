@@ -173,7 +173,10 @@
   "jobgether",
   "encore-renewable-energy",
   "whoop",
-  "vrchat"
+  "vrchat",
+  "knownwell",
+  "cohere",
+  "odaseva"
  ],
  "ashby": [
   "pylon-labs",
@@ -535,15 +538,7 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [
-  "SkildAI",
-  "knownwell",
-  "cohere",
-  "Turn/River",
-  "Western Digital",
-  "Odaseva",
-  "One Model"
- ],
+ "candidates": [],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -761,7 +756,7 @@
   "Kraken": 4,
   "Oxide Computer": 4,
   "Magic Leap": 4,
-  "SkildAI": 3
+  "SkildAI": 4
  },
  "dead": [
   "Slate Auto",
@@ -975,7 +970,8 @@
   "Brown Health",
   "Kraken",
   "Oxide Computer",
-  "Magic Leap"
+  "Magic Leap",
+  "SkildAI"
  ],
  "workable": [
   "montera",
@@ -1306,7 +1302,10 @@
   "ashby:oyster": 0,
   "workable:anthro": 0,
   "ashby:gumloop": 0,
-  "ashby:beaconsoftware": 0
+  "ashby:beaconsoftware": 0,
+  "lever:odaseva": 0,
+  "lever:knownwell": 1,
+  "lever:cohere": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1484,7 +1483,8 @@
   "ashby:modal": "Modal",
   "ashby:oyster": "Oyster",
   "ashby:beaconsoftware": "Beacon Software",
-  "ashby:gumloop": "Gumloop"
+  "ashby:gumloop": "Gumloop",
+  "lever:odaseva": "Odaseva"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1516,22 +1516,22 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 84,
-  "greenhouse:notion": 84,
-  "greenhouse:marqeta": 84,
-  "greenhouse:alphahawaii": 84,
-  "lever:knownwell": 84,
-  "workday:walmart:WalmartExternal": 84,
-  "workday:comcast:Comcast_Careers": 84,
-  "workday:dell:External": 84,
-  "workday:qualcomm:External": 84,
-  "bigtech:microsoft": 84,
-  "bigtech:meta": 84,
-  "greenhouse:clickhouse": 69,
-  "greenhouse:visiersolutionsinc": 54,
-  "greenhouse:alignmenthealth": 53,
+  "greenhouse:admarketplaceinc": 85,
+  "greenhouse:notion": 85,
+  "greenhouse:marqeta": 85,
+  "greenhouse:alphahawaii": 85,
+  "lever:knownwell": 85,
+  "workday:walmart:WalmartExternal": 85,
+  "workday:comcast:Comcast_Careers": 85,
+  "workday:dell:External": 85,
+  "workday:qualcomm:External": 85,
+  "bigtech:microsoft": 85,
+  "bigtech:meta": 85,
+  "greenhouse:clickhouse": 70,
+  "greenhouse:visiersolutionsinc": 55,
+  "greenhouse:alignmenthealth": 54,
   "lever:neednova": 21,
   "lever:wandb": 3,
-  "lever:cohere": 12
+  "lever:cohere": 13
  }
 }
