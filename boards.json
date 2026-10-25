@@ -538,7 +538,11 @@
  "candidates": [
   "SkildAI",
   "knownwell",
-  "cohere"
+  "cohere",
+  "Turn/River",
+  "Western Digital",
+  "Odaseva",
+  "One Model"
  ],
  "tried": {
   "UniUni": 1,
