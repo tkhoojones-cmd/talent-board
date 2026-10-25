@@ -539,9 +539,7 @@
   }
  ],
  "candidates": [
-  "TikTok",
-  "Hugging Face",
-  "Creandum"
+  "TikTok"
  ],
  "tried": {
   "UniUni": 1,
@@ -760,7 +758,8 @@
   "Kraken": 4,
   "Oxide Computer": 4,
   "Magic Leap": 4,
-  "SkildAI": 4
+  "SkildAI": 4,
+  "TikTok": 1
  },
  "dead": [
   "Slate Auto",
@@ -980,7 +979,8 @@
  "workable": [
   "montera",
   "weekday-1",
-  "anthro"
+  "anthro",
+  "huggingface"
  ],
  "rippling": [
   "smartsuite",
@@ -1006,7 +1006,8 @@
  "recruitee": [
   "riderlevettbucknall",
   "google",
-  "personio"
+  "personio",
+  "creandum"
  ],
  "misses": {
   "greenhouse:figma": 0,
@@ -1308,8 +1309,10 @@
   "ashby:gumloop": 0,
   "ashby:beaconsoftware": 0,
   "lever:odaseva": 0,
-  "lever:knownwell": 1,
-  "lever:cohere": 1
+  "lever:knownwell": 2,
+  "lever:cohere": 2,
+  "workable:huggingface": 0,
+  "recruitee:creandum": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1488,7 +1491,9 @@
   "ashby:oyster": "Oyster",
   "ashby:beaconsoftware": "Beacon Software",
   "ashby:gumloop": "Gumloop",
-  "lever:odaseva": "Odaseva"
+  "lever:odaseva": "Odaseva",
+  "workable:huggingface": "Hugging Face",
+  "recruitee:creandum": "Creandum"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1520,22 +1525,22 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 85,
-  "greenhouse:notion": 85,
-  "greenhouse:marqeta": 85,
-  "greenhouse:alphahawaii": 85,
-  "lever:knownwell": 85,
-  "workday:walmart:WalmartExternal": 85,
-  "workday:comcast:Comcast_Careers": 85,
-  "workday:dell:External": 85,
-  "workday:qualcomm:External": 85,
-  "bigtech:microsoft": 85,
-  "bigtech:meta": 85,
-  "greenhouse:clickhouse": 70,
-  "greenhouse:visiersolutionsinc": 55,
-  "greenhouse:alignmenthealth": 54,
+  "greenhouse:admarketplaceinc": 86,
+  "greenhouse:notion": 86,
+  "greenhouse:marqeta": 86,
+  "greenhouse:alphahawaii": 86,
+  "lever:knownwell": 86,
+  "workday:walmart:WalmartExternal": 86,
+  "workday:comcast:Comcast_Careers": 86,
+  "workday:dell:External": 86,
+  "workday:qualcomm:External": 86,
+  "bigtech:microsoft": 86,
+  "bigtech:meta": 86,
+  "greenhouse:clickhouse": 71,
+  "greenhouse:visiersolutionsinc": 56,
+  "greenhouse:alignmenthealth": 55,
   "lever:neednova": 21,
   "lever:wandb": 3,
-  "lever:cohere": 13
+  "lever:cohere": 14
  }
 }

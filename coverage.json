@@ -1,5 +1,5 @@
 {
- "at": "2026-10-25T11:12:43.166Z",
+ "at": "2026-10-25T11:47:06.552Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -31,7 +31,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -87,7 +87,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 54
+   "failStreak": 55
   },
   {
    "id": "greenhouse:alphahawaii",
@@ -95,7 +95,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "greenhouse:alphasense",
@@ -471,7 +471,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 70
+   "failStreak": 71
   },
   {
    "id": "ashby:clickhouse",
@@ -535,7 +535,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 13
+   "failStreak": 14
   },
   {
    "id": "greenhouse:coinbase",
@@ -559,7 +559,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "ashby:commure",
@@ -591,6 +591,14 @@
    "ats": "greenhouse",
    "ok": true,
    "jobs": 316,
+   "failStreak": 0
+  },
+  {
+   "id": "recruitee:creandum",
+   "company": "Creandum",
+   "ats": "recruitee",
+   "ok": true,
+   "jobs": 1,
    "failStreak": 0
   },
   {
@@ -703,7 +711,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "greenhouse:dept",
@@ -1178,6 +1186,14 @@
    "failStreak": 0
   },
   {
+   "id": "workable:huggingface",
+   "company": "Hugging Face",
+   "ats": "workable",
+   "ok": true,
+   "jobs": 6,
+   "failStreak": 0
+  },
+  {
    "id": "workday:humana:Humana_External_Career_Site",
    "company": "Humana",
    "ats": "workday",
@@ -1335,7 +1351,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "lever:kraken",
@@ -1463,7 +1479,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -1511,7 +1527,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "workday:micron:External",
@@ -1527,7 +1543,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "lever:minesense",
@@ -1687,7 +1703,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "ashby:notion",
@@ -1983,7 +1999,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "greenhouse:qualtrics",
@@ -2655,7 +2671,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 55
+   "failStreak": 56
   },
   {
    "id": "greenhouse:vmlenterprisesolutions",
@@ -2679,7 +2695,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 85
+   "failStreak": 86
   },
   {
    "id": "workday:warnerbros:global",
@@ -2842,7 +2858,9 @@
    "failStreak": 0
   }
  ],
- "waitingForFeed": [],
+ "waitingForFeed": [
+  "TikTok"
+ ],
  "gaveUp": [
   "Slate Auto",
   "Orbits",
