@@ -1308,7 +1308,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-24",
-   "closedStreak": 95
+   "closedStreak": 96
   },
   {
    "id": "a23feff7b7",
@@ -2667,7 +2667,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-24",
    "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:gusto",
@@ -2797,13 +2797,13 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-10-24",
-   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-10-24",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "greenhouse:sofi",
    "inFeed": "2026-10-24",
    "pageTitle": "Looking for Fintech Jobs? | Work at SoFi",
    "closedStreak": 0,
-   "failStreak": 1,
+   "failStreak": 0,
    "lastLive": "2026-10-24",
    "pageLocation": "WA - Seattle CA - San Francisco NY - New York City"
   },
@@ -3327,9 +3327,9 @@
    "comp": "",
    "added": "2026-10-12",
    "status": "closed",
-   "lastChecked": "2026-10-18",
+   "lastChecked": "2026-10-24",
    "reason": "page says: posting is no longer",
-   "closedStreak": 3
+   "closedStreak": 4
   },
   {
    "id": "6a6a8bc8f2",
@@ -3902,7 +3902,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-24",
-   "pageLocation": "Location: USA, VA, Arlington"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "b80238edcb",
@@ -4361,8 +4361,8 @@
    "comp": "",
    "added": "2026-10-18",
    "status": "closed",
-   "lastChecked": "2026-10-18",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-24",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:mosaicservicepartners",
    "notInFeed": "2026-10-24"
   },
@@ -5572,6 +5572,27 @@
    "failStreak": 0,
    "lastLive": "2026-10-24",
    "pageLocation": "San Francisco, CA, United States / Canada / United States / Toronto, Ontario, Canada"
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-10-24",
+   "status": "live",
+   "lastChecked": "2026-10-24",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-10-24",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-24",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }

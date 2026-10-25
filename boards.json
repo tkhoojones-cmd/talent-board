@@ -173,9 +173,7 @@
   "jobgether",
   "encore-renewable-energy",
   "whoop",
-  "vrchat",
-  "knownwell",
-  "cohere"
+  "vrchat"
  ],
  "ashby": [
   "pylon-labs",
@@ -538,7 +536,9 @@
   }
  ],
  "candidates": [
-  "SkildAI"
+  "SkildAI",
+  "knownwell",
+  "cohere"
  ],
  "tried": {
   "UniUni": 1,
@@ -757,7 +757,7 @@
   "Kraken": 4,
   "Oxide Computer": 4,
   "Magic Leap": 4,
-  "SkildAI": 2
+  "SkildAI": 3
  },
  "dead": [
   "Slate Auto",
@@ -1302,9 +1302,7 @@
   "ashby:oyster": 0,
   "workable:anthro": 0,
   "ashby:gumloop": 0,
-  "ashby:beaconsoftware": 0,
-  "lever:knownwell": 2,
-  "lever:cohere": 2
+  "ashby:beaconsoftware": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1514,22 +1512,22 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 83,
-  "greenhouse:notion": 83,
-  "greenhouse:marqeta": 83,
-  "greenhouse:alphahawaii": 83,
-  "lever:knownwell": 83,
-  "workday:walmart:WalmartExternal": 83,
-  "workday:comcast:Comcast_Careers": 83,
-  "workday:dell:External": 83,
-  "workday:qualcomm:External": 83,
-  "bigtech:microsoft": 83,
-  "bigtech:meta": 83,
-  "greenhouse:clickhouse": 68,
-  "greenhouse:visiersolutionsinc": 53,
-  "greenhouse:alignmenthealth": 52,
+  "greenhouse:admarketplaceinc": 84,
+  "greenhouse:notion": 84,
+  "greenhouse:marqeta": 84,
+  "greenhouse:alphahawaii": 84,
+  "lever:knownwell": 84,
+  "workday:walmart:WalmartExternal": 84,
+  "workday:comcast:Comcast_Careers": 84,
+  "workday:dell:External": 84,
+  "workday:qualcomm:External": 84,
+  "bigtech:microsoft": 84,
+  "bigtech:meta": 84,
+  "greenhouse:clickhouse": 69,
+  "greenhouse:visiersolutionsinc": 54,
+  "greenhouse:alignmenthealth": 53,
   "lever:neednova": 21,
   "lever:wandb": 3,
-  "lever:cohere": 11
+  "lever:cohere": 12
  }
 }

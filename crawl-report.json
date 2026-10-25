@@ -1,5 +1,5 @@
 {
- "at": "2026-10-24T13:58:51.934Z",
+ "at": "2026-10-25T02:00:35.837Z",
  "ok": 339,
  "failed": [
   "greenhouse:admarketplaceinc:0",
@@ -18,22 +18,22 @@
   "bigtech:microsoft:404",
   "bigtech:meta:404"
  ],
- "scanned": 39727,
+ "scanned": 39536,
  "matched": 156,
- "added": 0,
+ "added": 1,
  "alerts": [
-  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 83 runs in a row",
-  "Notion (greenhouse:notion) has failed 83 runs in a row",
-  "Marqeta (greenhouse:marqeta) has failed 83 runs in a row",
-  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 53 runs in a row",
-  "Alphahawaii (greenhouse:alphahawaii) has failed 83 runs in a row",
-  "Clickhouse (greenhouse:clickhouse) has failed 68 runs in a row",
-  "Alignmenthealth (greenhouse:alignmenthealth) has failed 52 runs in a row",
-  "Knownwell (lever:knownwell) has failed 83 runs in a row",
-  "Cohere (lever:cohere) has failed 11 runs in a row",
-  "Walmart (workday:walmart:WalmartExternal) has failed 83 runs in a row",
-  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 83 runs in a row",
-  "Dell (workday:dell:External) has failed 83 runs in a row",
-  "Qualcomm (workday:qualcomm:External) has failed 83 runs in a row"
+  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 84 runs in a row",
+  "Notion (greenhouse:notion) has failed 84 runs in a row",
+  "Marqeta (greenhouse:marqeta) has failed 84 runs in a row",
+  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 54 runs in a row",
+  "Alphahawaii (greenhouse:alphahawaii) has failed 84 runs in a row",
+  "Clickhouse (greenhouse:clickhouse) has failed 69 runs in a row",
+  "Alignmenthealth (greenhouse:alignmenthealth) has failed 53 runs in a row",
+  "Knownwell (lever:knownwell) has failed 84 runs in a row",
+  "Cohere (lever:cohere) has failed 12 runs in a row",
+  "Walmart (workday:walmart:WalmartExternal) has failed 84 runs in a row",
+  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 84 runs in a row",
+  "Dell (workday:dell:External) has failed 84 runs in a row",
+  "Qualcomm (workday:qualcomm:External) has failed 84 runs in a row"
  ]
 }
