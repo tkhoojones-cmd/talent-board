@@ -538,7 +538,11 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "TikTok",
+  "Hugging Face",
+  "Creandum"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
