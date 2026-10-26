@@ -174,9 +174,7 @@
   "encore-renewable-energy",
   "whoop",
   "vrchat",
-  "odaseva",
-  "knownwell",
-  "cohere"
+  "odaseva"
  ],
  "ashby": [
   "pylon-labs",
@@ -540,23 +538,8 @@
   }
  ],
  "candidates": [
-  "Benevis",
-  "Hive",
-  "Curri",
-  "Mintlify",
-  "Netomi",
-  "CodePath",
-  "Halter",
-  "One Model",
-  "CLEAR",
-  "Hasbro",
-  "Modo Energy",
-  "Encore Renewable Energy",
-  "VideoAmp",
-  "OpenFX",
-  "Nitra",
-  "Liberate",
-  "Turn/River"
+  "knownwell",
+  "cohere"
  ],
  "tried": {
   "UniUni": 1,
@@ -777,7 +760,7 @@
   "Magic Leap": 4,
   "SkildAI": 4,
   "TikTok": 4,
-  "Benevis": 3
+  "Benevis": 4
  },
  "dead": [
   "Slate Auto",
@@ -993,7 +976,8 @@
   "Oxide Computer",
   "Magic Leap",
   "SkildAI",
-  "TikTok"
+  "TikTok",
+  "Benevis"
  ],
  "workable": [
   "montera",
@@ -1330,9 +1314,7 @@
   "lever:odaseva": 0,
   "workable:huggingface": 0,
   "recruitee:creandum": 0,
-  "ashby:neko-health": 0,
-  "lever:knownwell": 2,
-  "lever:cohere": 2
+  "ashby:neko-health": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1547,23 +1529,22 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 89,
-  "greenhouse:notion": 89,
-  "greenhouse:marqeta": 89,
-  "greenhouse:alphahawaii": 89,
-  "lever:knownwell": 89,
-  "workday:walmart:WalmartExternal": 89,
-  "workday:comcast:Comcast_Careers": 89,
-  "workday:dell:External": 89,
-  "workday:qualcomm:External": 89,
-  "bigtech:microsoft": 89,
-  "bigtech:meta": 89,
-  "greenhouse:clickhouse": 74,
-  "greenhouse:visiersolutionsinc": 59,
-  "greenhouse:alignmenthealth": 58,
+  "greenhouse:admarketplaceinc": 90,
+  "greenhouse:notion": 90,
+  "greenhouse:marqeta": 90,
+  "greenhouse:alphahawaii": 90,
+  "lever:knownwell": 90,
+  "workday:walmart:WalmartExternal": 90,
+  "workday:comcast:Comcast_Careers": 90,
+  "workday:dell:External": 90,
+  "workday:qualcomm:External": 90,
+  "bigtech:microsoft": 90,
+  "bigtech:meta": 90,
+  "greenhouse:clickhouse": 75,
+  "greenhouse:visiersolutionsinc": 60,
+  "greenhouse:alignmenthealth": 59,
   "lever:neednova": 21,
   "lever:wandb": 3,
-  "lever:cohere": 17,
-  "lever:spotify": 1
+  "lever:cohere": 18
  }
 }
