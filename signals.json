@@ -405,6 +405,27 @@
       "title": "Global Talent Acquisition leader",
       "url": "https://www.cxodigitalpulse.com/?p=61882",
       "added": "2026-10-25"
+    },
+    {
+      "kind": "Hired",
+      "company": "Wipro",
+      "title": "Global Head and VP Talent Acquisition",
+      "url": "https://www.peoplematters.in/amp-appointments-wipro-appoints-madhu-menon-as-global-head-and-vp-talent-acquisition-44198",
+      "added": "2026-10-26"
+    },
+    {
+      "kind": "Left",
+      "company": "Deloitte",
+      "title": "Talent Acquisition leader",
+      "url": "https://www.peoplematters.in/amp-appointments-wipro-appoints-madhu-menon-as-global-head-and-vp-talent-acquisition-44198",
+      "added": "2026-10-26"
+    },
+    {
+      "kind": "Left",
+      "company": "CuraTeQ Biologics",
+      "title": "Head of Talent Acquisition",
+      "url": "https://www.hrkatha.com/people/movement/naresh-kumar-g-appointed-head-of-talent-acquisition-matrix-pharmacorp/",
+      "added": "2026-10-26"
     }
   ],
   "funding": [
@@ -1044,6 +1065,20 @@
       "amount": "$400M",
       "url": "https://www.plushcap.com/metadata/notes",
       "added": "2026-10-25"
+    },
+    {
+      "company": "DropGenie",
+      "round": "Seed",
+      "amount": "$5M USD",
+      "url": "https://betakit.com/dropgenie-raises-5-million-usd-backed-by-bdc-to-speed-up-biological-discovery/",
+      "added": "2026-10-26"
+    },
+    {
+      "company": "Aerium",
+      "round": "Seed",
+      "amount": "$2.5M USD",
+      "url": "https://betakit.com/mckinsey-alumni-raise-2-5-million-usd-to-build-ai-for-industrial-manufacturers/",
+      "added": "2026-10-26"
     }
   ]
 }
