@@ -563,13 +563,13 @@
    "url": "https://www.okta.com/company/careers/opportunity/8196226?gh_jid=8196226",
    "comp": "$264,000—$363,000",
    "added": "2026-10-08",
-   "status": "live",
-   "lastChecked": "2026-10-25",
-   "reason": "kept: last check failed (embedded job page lost its job id: https://www.okta.com/company/careers/senior-director-gtm-recruiting/); last confirmed 2026-10-25",
+   "status": "unverifiable",
+   "lastChecked": "2026-10-26",
+   "reason": "embedded job page lost its job id: https://www.okta.com/company/careers/senior-director-gtm-recruiting/",
    "source": "feed",
    "closedStreak": 0,
    "pageTitle": "Senior Director, GTM Recruiting",
-   "failStreak": 3,
+   "failStreak": 4,
    "lastLive": "2026-10-25",
    "compMax": 363000
   },
@@ -1309,7 +1309,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-26",
-   "closedStreak": 104
+   "closedStreak": 105
   },
   {
    "id": "a23feff7b7",
@@ -2733,14 +2733,14 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-10-26",
-   "reason": "kept: last check failed (HTTP 503); last confirmed 2026-10-26",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "greenhouse:mongodb",
    "inFeed": "2026-10-26",
    "compMax": 220000,
    "pageTitle": "Senior Manager, AI and People Transformation New York City; United States",
    "closedStreak": 0,
-   "failStreak": 1,
+   "failStreak": 0,
    "lastLive": "2026-10-26"
   },
   {
@@ -3903,7 +3903,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-26",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: ES, Community of Madrid, Madrid"
   },
   {
    "id": "b80238edcb",
@@ -4056,14 +4056,14 @@
    "added": "2026-10-15",
    "status": "live",
    "lastChecked": "2026-10-26",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-10-26",
    "source": "feed",
    "feed": "greenhouse:coinbase",
    "inFeed": "2026-10-26",
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-10-26"
   },
   {
@@ -4879,7 +4879,7 @@
    "title": "Global Total Rewards Lead",
    "location": "United States, Remote",
    "url": "https://job-boards.greenhouse.io/dataiku/jobs/6228420004",
-   "comp": "",
+   "comp": "$230,000 - $260,000",
    "added": "2026-10-20",
    "status": "live",
    "lastChecked": "2026-10-26",
@@ -4891,7 +4891,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-26",
-   "pageLocation": "United States, Remote"
+   "pageLocation": "United States, Remote",
+   "compMax": 260000
   },
   {
    "id": "96d7bd761c",
@@ -5780,27 +5781,6 @@
    "status": "closed",
    "lastChecked": "2026-10-26",
    "reason": "HTTP 404"
-  },
-  {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-10-26",
-   "status": "live",
-   "lastChecked": "2026-10-26",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-10-26",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-10-26",
-   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
