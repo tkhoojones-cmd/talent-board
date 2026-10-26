@@ -569,7 +569,7 @@
    "source": "feed",
    "closedStreak": 0,
    "pageTitle": "Senior Director, GTM Recruiting",
-   "failStreak": 1,
+   "failStreak": 2,
    "lastLive": "2026-10-25",
    "compMax": 363000
   },
@@ -1309,7 +1309,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-26",
-   "closedStreak": 102
+   "closedStreak": 103
   },
   {
    "id": "a23feff7b7",
@@ -3903,7 +3903,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-26",
-   "pageLocation": "Location: IT, Latium, Rome"
+   "pageLocation": "Location: IT, Lombardy, Milan"
   },
   {
    "id": "b80238edcb",
@@ -5767,105 +5767,6 @@
    "failStreak": 0,
    "lastLive": "2026-10-26",
    "pageLocation": "US"
-  },
-  {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-10-26",
-   "status": "live",
-   "lastChecked": "2026-10-26",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-10-26",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-10-26",
-   "pageLocation": "MYS - Penang, Malaysia"
-  },
-  {
-   "id": "454f6f1eba",
-   "kind": "role",
-   "company": "Magnolia",
-   "title": "Chief People Officer",
-   "location": "Waco, TX",
-   "url": "https://job-boards.greenhouse.io/magnolia/jobs/4917041008",
-   "comp": "",
-   "added": "2026-10-26",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "ff9a27eadd",
-   "kind": "role",
-   "company": "Achievement First",
-   "title": "Chief People Officer",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/achievementfirstnetworksupportcareers/jobs/5725281004",
-   "comp": "",
-   "added": "2026-10-26",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "65a5926265",
-   "kind": "role",
-   "company": "Evolution Cloud Services (EVOCS)",
-   "title": "Chief People Officer",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/evolutioncloudservicesevocs/jobs/4149932009",
-   "comp": "",
-   "added": "2026-10-26",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "531a97dadb",
-   "kind": "role",
-   "company": "Wellist",
-   "title": "Chief People Officer",
-   "location": "Boston, MA (hybrid)",
-   "url": "https://job-boards.greenhouse.io/wellist/jobs/8431772002",
-   "comp": "",
-   "added": "2026-10-26",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "4151b3dcaa",
-   "kind": "role",
-   "company": "Tala",
-   "title": "Chief People Officer",
-   "location": "",
-   "url": "https://jobs.lever.co/tala/11640793-b2db-4e1e-88d2-2ae2b8a1f49c",
-   "comp": "",
-   "added": "2026-10-26",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "13f9e79e35",
-   "kind": "role",
-   "company": "Smartsheet",
-   "title": "Senior Director, Talent Experience",
-   "location": "US",
-   "url": "https://www.smartsheet.com/careers/position/8191572/senior-director-talent-experience",
-   "comp": "$225-265k",
-   "added": "2026-10-26",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
   }
  ]
 }
