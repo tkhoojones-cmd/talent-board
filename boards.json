@@ -175,7 +175,8 @@
   "whoop",
   "vrchat",
   "odaseva",
-  "knownwell"
+  "knownwell",
+  "cohere"
  ],
  "ashby": [
   "pylon-labs",
@@ -538,13 +539,7 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [
-  "Sierra Space",
-  "DropGenie",
-  "Aerium",
-  "Wipro",
-  "cohere"
- ],
+ "candidates": [],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -765,10 +760,10 @@
   "SkildAI": 4,
   "TikTok": 4,
   "Benevis": 4,
-  "Sierra Space": 3,
-  "DropGenie": 3,
-  "Aerium": 3,
-  "Wipro": 3
+  "Sierra Space": 4,
+  "DropGenie": 4,
+  "Aerium": 4,
+  "Wipro": 4
  },
  "dead": [
   "Slate Auto",
@@ -985,7 +980,11 @@
   "Magic Leap",
   "SkildAI",
   "TikTok",
-  "Benevis"
+  "Benevis",
+  "Sierra Space",
+  "DropGenie",
+  "Aerium",
+  "Wipro"
  ],
  "workable": [
   "montera",
@@ -1323,7 +1322,8 @@
   "workable:huggingface": 0,
   "recruitee:creandum": 0,
   "ashby:neko-health": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "lever:cohere": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1538,23 +1538,23 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 94,
-  "greenhouse:notion": 94,
-  "greenhouse:marqeta": 94,
-  "greenhouse:alphahawaii": 94,
-  "lever:knownwell": 94,
-  "workday:walmart:WalmartExternal": 94,
-  "workday:comcast:Comcast_Careers": 94,
-  "workday:dell:External": 94,
-  "workday:qualcomm:External": 94,
-  "bigtech:microsoft": 94,
-  "bigtech:meta": 94,
-  "greenhouse:clickhouse": 79,
-  "greenhouse:visiersolutionsinc": 64,
-  "greenhouse:alignmenthealth": 63,
+  "greenhouse:admarketplaceinc": 95,
+  "greenhouse:notion": 95,
+  "greenhouse:marqeta": 95,
+  "greenhouse:alphahawaii": 95,
+  "lever:knownwell": 95,
+  "workday:walmart:WalmartExternal": 95,
+  "workday:comcast:Comcast_Careers": 95,
+  "workday:dell:External": 95,
+  "workday:qualcomm:External": 95,
+  "bigtech:microsoft": 95,
+  "bigtech:meta": 95,
+  "greenhouse:clickhouse": 80,
+  "greenhouse:visiersolutionsinc": 65,
+  "greenhouse:alignmenthealth": 64,
   "lever:neednova": 21,
   "lever:wandb": 3,
-  "lever:cohere": 22,
-  "lever:jobgether": 1
+  "lever:cohere": 23,
+  "lever:jobgether": 2
  }
 }
