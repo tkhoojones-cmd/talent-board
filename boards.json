@@ -539,7 +539,12 @@
   }
  ],
  "candidates": [
-  "cohere"
+  "cohere",
+  "Sono Bello",
+  "Scribe",
+  "Royal Ambulance",
+  "OpenAI Foundation",
+  "Sila Nanotechnologies"
  ],
  "tried": {
   "UniUni": 1,
