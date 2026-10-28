@@ -426,6 +426,13 @@
       "title": "Head of Talent Acquisition",
       "url": "https://www.hrkatha.com/people/movement/naresh-kumar-g-appointed-head-of-talent-acquisition-matrix-pharmacorp/",
       "added": "2026-10-26"
+    },
+    {
+      "kind": "Left",
+      "company": "Amazon",
+      "title": "Talent Acquisition leader (Jay Shankar; title not stated)",
+      "url": "https://www.hrkatha.com/people/movement/uber-appoints-jay-shankar-as-vp-global-ta/",
+      "added": "2026-10-28"
     }
   ],
   "funding": [
@@ -1079,6 +1086,27 @@
       "amount": "$2.5M USD",
       "url": "https://betakit.com/mckinsey-alumni-raise-2-5-million-usd-to-build-ai-for-industrial-manufacturers/",
       "added": "2026-10-26"
+    },
+    {
+      "company": "Temporal Technologies",
+      "round": "Series E",
+      "amount": "$550M",
+      "url": "https://intellizence.com/insights/startup-funding/5-major-startup-funding-rounds-to-watch-temporal-d-robotics-impulse-space-ridgeline-and-cornelis/",
+      "added": "2026-10-28"
+    },
+    {
+      "company": "Hex Technologies",
+      "round": "Series C",
+      "amount": "$70M",
+      "url": "https://app.dealroom.co/news/feed/hex-technologies-raises-70m-for-ai-platform",
+      "added": "2026-10-28"
+    },
+    {
+      "company": "Automata Technologies",
+      "round": "Series C",
+      "amount": "$45M",
+      "url": "https://www.bioworld.com/articles/728283-automata-secures-45m-in-series-c-raise",
+      "added": "2026-10-28"
     }
   ]
 }
