@@ -469,7 +469,7 @@
    "comp": "",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "HTTP 404"
   },
   {
@@ -566,7 +566,7 @@
    "added": "2026-10-08",
    "status": "unverifiable",
    "lastChecked": "2026-10-27",
-   "reason": "page did not load: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.ok",
+   "reason": "embedded job page lost its job id: https://www.okta.com/company/careers/senior-director-gtm-recruiting/",
    "source": "feed",
    "closedStreak": 0,
    "pageTitle": "Senior Director, GTM Recruiting",
@@ -1311,7 +1311,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-27",
-   "closedStreak": 110
+   "closedStreak": 111
   },
   {
    "id": "a23feff7b7",
@@ -1834,7 +1834,7 @@
    "comp": "$150,000-$200,000",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:clearstreet",
@@ -2335,7 +2335,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:dept",
    "notInFeed": "2026-10-27"
@@ -2392,7 +2392,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "HTTP 404"
   },
   {
@@ -2427,9 +2427,9 @@
    "comp": "$190K-$280K + equity",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "HTTP 404",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "c51f7e1966",
@@ -2441,7 +2441,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:taketwo",
    "notInFeed": "2026-10-27"
@@ -2456,9 +2456,9 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "HTTP 404",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "1c0e6761d2",
@@ -2486,7 +2486,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:banyansoftware",
    "notInFeed": "2026-10-27"
@@ -2501,7 +2501,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:babylist",
    "notInFeed": "2026-10-27"
@@ -3345,7 +3345,7 @@
    "comp": "$225,000 - $275,000",
    "added": "2026-10-12",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:khealthcareers",
@@ -3812,7 +3812,7 @@
    "comp": "$200,000–$250,000",
    "added": "2026-10-14",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -3907,7 +3907,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-27",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: IT, Latium, Rome"
   },
   {
    "id": "b80238edcb",
@@ -4008,9 +4008,9 @@
    "comp": "",
    "added": "2026-10-15",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "redirected away from the job: https://www.alignmenthealth.com/careers",
-   "closedStreak": 3
+   "closedStreak": 4
   },
   {
    "id": "771547d8b3",
@@ -4022,9 +4022,9 @@
    "comp": "",
    "added": "2026-10-15",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "HTTP 404",
-   "closedStreak": 3
+   "closedStreak": 4
   },
   {
    "id": "1714e9f022",
@@ -4036,14 +4036,14 @@
    "comp": "$190K – $240K",
    "added": "2026-10-15",
    "status": "closed",
-   "lastChecked": "2026-10-21",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-27",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "ashby:fieldguide",
    "inFeed": "2026-10-20",
    "compMax": 240000,
    "pageTitle": "Director, Talent Acquisition",
-   "closedStreak": 1,
+   "closedStreak": 2,
    "failStreak": 1,
    "lastLive": "2026-10-20",
    "pageLocation": "San Francisco, California, United States",
@@ -4058,16 +4058,16 @@
    "url": "https://job-boards.greenhouse.io/coinbase/jobs/8260302",
    "comp": "$166,345—$195,700",
    "added": "2026-10-15",
-   "status": "live",
+   "status": "unverifiable",
    "lastChecked": "2026-10-27",
-   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-10-27",
+   "reason": "HTTP 403",
    "source": "feed",
    "feed": "greenhouse:coinbase",
    "inFeed": "2026-10-27",
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 3,
+   "failStreak": 4,
    "lastLive": "2026-10-27"
   },
   {
@@ -4101,18 +4101,17 @@
    "url": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/Stamford-Hub/VP--HR---Operations-Governance-and-Controls_2602428",
    "comp": "",
    "added": "2026-10-15",
-   "status": "closed",
-   "lastChecked": "2026-10-22",
-   "reason": "page says: page you are looking for doesn't exist",
+   "status": "live",
+   "lastChecked": "2026-10-27",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:synchronyfinancial:careers",
-   "inFeed": "2026-10-22",
+   "inFeed": "2026-10-27",
    "pageTitle": "VP, HR - Operations Governance and Controls",
-   "closedStreak": 2,
-   "failStreak": 1,
-   "lastLive": "2026-10-22",
-   "pageLocation": "Stamford Hub, United States of America",
-   "notInFeed": "2026-10-27"
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-27",
+   "pageLocation": "Stamford Hub, United States of America"
   },
   {
    "id": "c30a9db367",
@@ -4343,7 +4342,7 @@
    "title": "Director, Strategy & Operations—Employee Experience Group",
    "location": "Mountain View, California, us",
    "url": "https://jobs.smartrecruiters.com/servicenow/744000156131909",
-   "comp": "",
+   "comp": "$192,400 to $336,700",
    "added": "2026-10-17",
    "status": "live",
    "lastChecked": "2026-10-27",
@@ -4354,7 +4353,9 @@
    "pageTitle": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
    "closedStreak": 0,
    "failStreak": 0,
-   "lastLive": "2026-10-27"
+   "lastLive": "2026-10-27",
+   "notInFeed": "2026-10-27",
+   "compMax": 336700
   },
   {
    "id": "9af74cf42c",
@@ -4623,7 +4624,7 @@
    "feed": "ashby:crusoe",
    "inFeed": "2026-10-27",
    "compMax": 295000,
-   "pageTitle": "Director, People Success (GTM)",
+   "pageTitle": "Director, People Success - GTM",
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-27",
@@ -4681,9 +4682,9 @@
    "url": "https://jobs.lever.co/jobgether/999ca001-540a-4a66-9c5b-19c45a46c10d",
    "comp": "$170,000–$185,000",
    "added": "2026-10-20",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-10-27",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-10-27",
@@ -4692,7 +4693,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-27",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-10-27"
   },
   {
    "id": "a2c6053651",
@@ -5023,7 +5025,7 @@
    "comp": "",
    "added": "2026-10-21",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "HTTP 410"
   },
   {
@@ -5036,9 +5038,9 @@
    "comp": "",
    "added": "2026-10-21",
    "status": "closed",
-   "lastChecked": "2026-10-21",
+   "lastChecked": "2026-10-27",
    "reason": "HTTP 404",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "9b02bbcb23",
@@ -5072,8 +5074,8 @@
    "comp": "",
    "added": "2026-10-21",
    "status": "closed",
-   "lastChecked": "2026-10-21",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-10-27",
+   "reason": "redirected to board with error=true",
    "feed": "greenhouse:cultureamp",
    "notInFeed": "2026-10-27"
   },
@@ -5371,9 +5373,9 @@
    "url": "https://jobs.lever.co/vrchat/05229da3-4145-402d-b4ae-2d9a1157b796",
    "comp": "",
    "added": "2026-10-23",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-10-27",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:vrchat",
    "inFeed": "2026-10-27",
@@ -5381,7 +5383,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-27",
-   "pageLocation": "Anywhere"
+   "pageLocation": "Anywhere",
+   "notInFeed": "2026-10-27"
   },
   {
    "id": "18e2c55ed0",
@@ -5390,7 +5393,7 @@
    "title": "Staff Technical Recruiter",
    "location": "Costa Mesa, California, United States",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5273373007?gh_jid=5273373007",
-   "comp": "",
+   "comp": "$220,000 - $292,000",
    "added": "2026-10-23",
    "status": "live",
    "lastChecked": "2026-10-27",
@@ -5402,7 +5405,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-27",
-   "pageLocation": "Costa Mesa, California, United States"
+   "pageLocation": "Costa Mesa, California, United States",
+   "compMax": 292000
   },
   {
    "id": "54cfcb641e",
@@ -5411,7 +5415,7 @@
    "title": "Staff Technical Recruiter",
    "location": "Seattle, Washington, United States",
    "url": "https://boards.greenhouse.io/andurilindustries/jobs/5273403007?gh_jid=5273403007",
-   "comp": "",
+   "comp": "$183,000 - $243,000",
    "added": "2026-10-23",
    "status": "live",
    "lastChecked": "2026-10-27",
@@ -5423,7 +5427,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-27",
-   "pageLocation": "Seattle, Washington, United States"
+   "pageLocation": "Seattle, Washington, United States",
+   "compMax": 243000
   },
   {
    "id": "34b5fb143d",
@@ -5478,15 +5483,16 @@
    "added": "2026-10-24",
    "status": "live",
    "lastChecked": "2026-10-27",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-10-27",
    "source": "feed",
    "feed": "workday:cisco:Cisco_Careers",
    "inFeed": "2026-10-27",
    "pageTitle": "Director, Finance - G&amp;A/HR/Government Affairs",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-27",
-   "pageLocation": "USA-SAN JOSE, United States of America"
+   "pageLocation": "USA-SAN JOSE, United States of America",
+   "notInFeed": "2026-10-27"
   },
   {
    "id": "6f188bf006",
@@ -6066,28 +6072,72 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-27",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: IT, Latium, Rome"
   },
   {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
+   "id": "26628c532b",
+   "kind": "review",
+   "company": "Andurilindustries",
+   "title": "Recruiting Lead - Maritime",
+   "location": "Boston, Massachusetts, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5276971007?gh_jid=5276971007",
+   "comp": "$183,000 - $243,000",
    "added": "2026-10-27",
    "status": "live",
    "lastChecked": "2026-10-27",
    "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
-   "feed": "workday:intel:External",
+   "feed": "greenhouse:andurilindustries",
    "inFeed": "2026-10-27",
-   "pageTitle": "Director, Business HR – APJ",
+   "compMax": 243000,
+   "pageTitle": "Recruiting Lead - Maritime",
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-27",
-   "pageLocation": "MYS - Penang, Malaysia"
+   "pageLocation": "Boston, Massachusetts, United States"
+  },
+  {
+   "id": "97f1956d9d",
+   "kind": "review",
+   "company": "OpenAI",
+   "title": "Core Operations Lead, Community & Culture",
+   "location": "San Francisco",
+   "url": "https://jobs.ashbyhq.com/openai/cf29a76e-71a4-4e29-8a45-8cefdd301aca",
+   "comp": "$266K – $295K",
+   "added": "2026-10-27",
+   "status": "live",
+   "lastChecked": "2026-10-27",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "ashby:openai",
+   "inFeed": "2026-10-27",
+   "compMax": 295000,
+   "pageTitle": "Core Operations Lead, Community & Culture",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-27",
+   "pageLocation": "San Francisco, California, United States"
+  },
+  {
+   "id": "de4d821d43",
+   "kind": "role",
+   "company": "ServiceNow",
+   "title": "Director, Strategy & Operations—Employee Experience Group",
+   "location": "Mountain View, California, us",
+   "url": "https://jobs.smartrecruiters.com/servicenow/744000158128296",
+   "comp": "$192,400 to $336,700",
+   "added": "2026-10-27",
+   "status": "live",
+   "lastChecked": "2026-10-27",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "smartrecruiters:servicenow",
+   "inFeed": "2026-10-27",
+   "compMax": 336700,
+   "pageTitle": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-27"
   }
  ]
 }
