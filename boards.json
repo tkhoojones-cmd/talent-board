@@ -145,7 +145,8 @@
   "tripadvisor",
   "appsflyer",
   "ramp",
-  "ripple"
+  "ripple",
+  "rollstack"
  ],
  "lever": [
   "zoox",
@@ -175,7 +176,8 @@
   "whoop",
   "vrchat",
   "odaseva",
-  "cohere"
+  "cohere",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -541,7 +543,11 @@
  ],
  "candidates": [
   "Beacon Software",
-  "knownwell"
+  "knownwell",
+  "Creatopy",
+  "People.ai",
+  "Render",
+  "CSC Generation"
  ],
  "tried": {
   "UniUni": 1,
@@ -1022,7 +1028,8 @@
   "westerndigital",
   "securitas",
   "SeekOut",
-  "reactiondynamics"
+  "reactiondynamics",
+  "smartrecruiters"
  ],
  "recruitee": [
   "riderlevettbucknall",
