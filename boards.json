@@ -175,7 +175,6 @@
   "whoop",
   "vrchat",
   "odaseva",
-  "knownwell",
   "cohere"
  ],
  "ashby": [
@@ -541,9 +540,8 @@
   }
  ],
  "candidates": [
-  "Hex Technologies",
-  "Automata Technologies",
-  "Amazon"
+  "Beacon Software",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -769,9 +767,10 @@
   "DropGenie": 4,
   "Aerium": 4,
   "Wipro": 4,
-  "Automata Technologies": 3,
-  "Hex Technologies": 3,
-  "Amazon": 3
+  "Automata Technologies": 4,
+  "Hex Technologies": 4,
+  "Amazon": 4,
+  "Beacon Software": 1
  },
  "dead": [
   "Slate Auto",
@@ -992,7 +991,10 @@
   "Sierra Space",
   "DropGenie",
   "Aerium",
-  "Wipro"
+  "Wipro",
+  "Hex Technologies",
+  "Automata Technologies",
+  "Amazon"
  ],
  "workable": [
   "montera",
@@ -1326,15 +1328,14 @@
   "ashby:oyster": 0,
   "workable:anthro": 0,
   "ashby:gumloop": 0,
-  "ashby:beaconsoftware": 0,
+  "ashby:beaconsoftware": 1,
   "lever:odaseva": 0,
   "workable:huggingface": 0,
   "recruitee:creandum": 0,
   "ashby:neko-health": 0,
   "rippling:finalis": 0,
   "ashby:scribe": 0,
-  "lever:knownwell": 2,
-  "lever:cohere": 1
+  "lever:cohere": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1551,23 +1552,24 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 104,
-  "greenhouse:notion": 104,
-  "greenhouse:marqeta": 104,
-  "greenhouse:alphahawaii": 104,
-  "lever:knownwell": 104,
-  "workday:walmart:WalmartExternal": 104,
-  "workday:comcast:Comcast_Careers": 104,
-  "workday:dell:External": 104,
-  "workday:qualcomm:External": 104,
-  "bigtech:microsoft": 104,
-  "bigtech:meta": 104,
-  "greenhouse:clickhouse": 89,
-  "greenhouse:visiersolutionsinc": 74,
-  "greenhouse:alignmenthealth": 73,
+  "greenhouse:admarketplaceinc": 105,
+  "greenhouse:notion": 105,
+  "greenhouse:marqeta": 105,
+  "greenhouse:alphahawaii": 105,
+  "lever:knownwell": 105,
+  "workday:walmart:WalmartExternal": 105,
+  "workday:comcast:Comcast_Careers": 105,
+  "workday:dell:External": 105,
+  "workday:qualcomm:External": 105,
+  "bigtech:microsoft": 105,
+  "bigtech:meta": 105,
+  "greenhouse:clickhouse": 90,
+  "greenhouse:visiersolutionsinc": 75,
+  "greenhouse:alignmenthealth": 74,
   "lever:neednova": 21,
   "lever:wandb": 3,
-  "lever:cohere": 32,
-  "lever:shieldai": 1
+  "lever:cohere": 33,
+  "ashby:beaconsoftware": 1,
+  "lever:caseware": 1
  }
 }
