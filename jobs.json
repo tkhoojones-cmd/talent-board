@@ -1313,7 +1313,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-29",
-   "closedStreak": 121
+   "closedStreak": 122
   },
   {
    "id": "a23feff7b7",
@@ -3910,7 +3910,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-29",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, South Carolina, West Columbia"
   },
   {
    "id": "b80238edcb",
@@ -6080,7 +6080,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-29",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, South Carolina, West Columbia"
   },
   {
    "id": "26628c532b",
@@ -6222,15 +6222,16 @@
    "added": "2026-10-28",
    "status": "live",
    "lastChecked": "2026-10-29",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-10-29",
    "source": "feed",
    "feed": "workday:adventhealth:AH_External_Career_Site",
    "inFeed": "2026-10-29",
    "pageTitle": "Director, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-10-29",
-   "pageLocation": "TP HIDDEN RIVER CORP CENTER, United States of America"
+   "pageLocation": "TP HIDDEN RIVER CORP CENTER, United States of America",
+   "notInFeed": "2026-10-29"
   },
   {
    "id": "90d4152585",
@@ -6467,6 +6468,27 @@
    "lastChecked": "2026-10-29",
    "reason": "HTTP 404",
    "closedStreak": 1
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-10-29",
+   "status": "live",
+   "lastChecked": "2026-10-29",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-10-29",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-29",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
