@@ -147,7 +147,9 @@
   "ramp",
   "ripple",
   "rollstack",
-  "iconiqcapital"
+  "iconiqcapital",
+  "crunchyroll",
+  "achievementfirst"
  ],
  "lever": [
   "zoox",
@@ -179,7 +181,8 @@
   "odaseva",
   "knownwell",
   "people-ai",
-  "neednova"
+  "neednova",
+  "cohere"
  ],
  "ashby": [
   "pylon-labs",
@@ -278,7 +281,6 @@
   "hex",
   "uipath",
   "oyster",
-  "beaconsoftware",
   "gumloop",
   "neko-health",
   "scribe",
@@ -548,12 +550,9 @@
   "Beacon Software",
   "Creatopy",
   "CSC Generation",
-  "cohere",
   "Baidu USA",
   "Project A Ventures",
-  "Natilus",
-  "Crunchyroll",
-  "Achievement First"
+  "beaconsoftware"
  ],
  "tried": {
   "UniUni": 1,
@@ -782,9 +781,11 @@
   "Automata Technologies": 4,
   "Hex Technologies": 4,
   "Amazon": 4,
-  "Beacon Software": 2,
-  "Creatopy": 1,
-  "CSC Generation": 1
+  "Beacon Software": 3,
+  "Creatopy": 2,
+  "CSC Generation": 2,
+  "Project A Ventures": 1,
+  "Baidu USA": 1
  },
  "dead": [
   "Slate Auto",
@@ -1014,7 +1015,8 @@
   "montera",
   "weekday-1",
   "anthro",
-  "huggingface"
+  "huggingface",
+  "natilus"
  ],
  "rippling": [
   "smartsuite",
@@ -1343,7 +1345,6 @@
   "ashby:oyster": 0,
   "workable:anthro": 0,
   "ashby:gumloop": 0,
-  "ashby:beaconsoftware": 2,
   "lever:odaseva": 0,
   "workable:huggingface": 0,
   "recruitee:creandum": 0,
@@ -1353,7 +1354,12 @@
   "ashby:render": 0,
   "lever:people-ai": 0,
   "smartrecruiters:smartrecruiters": 0,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "greenhouse:achievementfirst": 0,
+  "greenhouse:crunchyroll": 0,
+  "workable:natilus": 0,
+  "lever:neednova": 1,
+  "lever:cohere": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1540,7 +1546,10 @@
   "rippling:finalis": "Finalis",
   "ashby:scribe": "Scribe",
   "ashby:render": "Render",
-  "lever:people-ai": "People.ai"
+  "lever:people-ai": "People.ai",
+  "workable:natilus": "Natilus",
+  "greenhouse:crunchyroll": "Crunchyroll",
+  "greenhouse:achievementfirst": "Achievement First"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1572,24 +1581,25 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 106,
-  "greenhouse:notion": 106,
-  "greenhouse:marqeta": 106,
-  "greenhouse:alphahawaii": 106,
-  "lever:knownwell": 106,
-  "workday:walmart:WalmartExternal": 106,
-  "workday:comcast:Comcast_Careers": 106,
-  "workday:dell:External": 106,
-  "workday:qualcomm:External": 106,
-  "bigtech:microsoft": 106,
-  "bigtech:meta": 106,
-  "greenhouse:clickhouse": 91,
-  "greenhouse:visiersolutionsinc": 76,
-  "greenhouse:alignmenthealth": 75,
-  "lever:neednova": 21,
+  "greenhouse:admarketplaceinc": 107,
+  "greenhouse:notion": 107,
+  "greenhouse:marqeta": 107,
+  "greenhouse:alphahawaii": 107,
+  "lever:knownwell": 107,
+  "workday:walmart:WalmartExternal": 107,
+  "workday:comcast:Comcast_Careers": 107,
+  "workday:dell:External": 107,
+  "workday:qualcomm:External": 107,
+  "bigtech:microsoft": 107,
+  "bigtech:meta": 107,
+  "greenhouse:clickhouse": 92,
+  "greenhouse:visiersolutionsinc": 77,
+  "greenhouse:alignmenthealth": 76,
+  "lever:neednova": 22,
   "lever:wandb": 3,
-  "lever:cohere": 34,
-  "ashby:beaconsoftware": 2,
-  "greenhouse:rollstack": 1
+  "lever:cohere": 35,
+  "ashby:beaconsoftware": 3,
+  "greenhouse:rollstack": 2,
+  "greenhouse:iconiqcapital": 1
  }
 }
