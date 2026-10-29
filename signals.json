@@ -1107,6 +1107,20 @@
       "amount": "$45M",
       "url": "https://www.bioworld.com/articles/728283-automata-secures-45m-in-series-c-raise",
       "added": "2026-10-28"
+    },
+    {
+      "company": "Deepgram",
+      "round": "Series C",
+      "amount": "$130M",
+      "url": "https://builtin.com/articles/deepgram-raises-130m-series-c-1b-valuation-20260115",
+      "added": "2026-10-29"
+    },
+    {
+      "company": "nEye.ai",
+      "round": "Series C",
+      "amount": "$80M",
+      "url": "https://builtin.com/articles/neyeai-secures-80m-series-c-20260417",
+      "added": "2026-10-29"
     }
   ]
 }
