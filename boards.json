@@ -149,7 +149,9 @@
   "rollstack",
   "iconiqcapital",
   "crunchyroll",
-  "achievementfirst"
+  "achievementfirst",
+  "cabify",
+  "umaeducationinc"
  ],
  "lever": [
   "zoox",
@@ -181,7 +183,8 @@
   "odaseva",
   "people-ai",
   "cohere",
-  "neednova"
+  "neednova",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -548,7 +551,21 @@
   }
  ],
  "candidates": [
-  "knownwell"
+  "knownwell",
+  "Seamless.AI",
+  "Spare",
+  "Heart & Stroke",
+  "Zipdev",
+  "Together Light",
+  "Nanit",
+  "Pursuit",
+  "Greatminds",
+  "Hoistup",
+  "Heetch",
+  "Backstory",
+  "VulcanForms",
+  "Arc'teryx",
+  "Clay"
  ],
  "tried": {
   "UniUni": 1,
