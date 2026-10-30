@@ -566,11 +566,11 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-10-30",
-   "reason": "kept: last check failed (page did not load: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.ok); last confirmed 2026-10-30",
+   "reason": "opened normally with an Apply control",
    "source": "feed",
    "closedStreak": 0,
    "pageTitle": "Senior Director, GTM Recruiting",
-   "failStreak": 1,
+   "failStreak": 0,
    "lastLive": "2026-10-30",
    "compMax": 363000
   },
@@ -1313,7 +1313,7 @@
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-30",
-   "closedStreak": 125
+   "closedStreak": 126
   },
   {
    "id": "a23feff7b7",
@@ -2607,16 +2607,16 @@
    "url": "https://www.brex.com/careers/8833729002?gh_jid=8833729002",
    "comp": "$103,000 - $128,000",
    "added": "2026-10-09",
-   "status": "live",
-   "lastChecked": "2026-10-29",
-   "reason": "kept: last check failed (HTTP 429); last confirmed 2026-10-29",
+   "status": "unverifiable",
+   "lastChecked": "2026-10-30",
+   "reason": "HTTP 429",
    "source": "feed",
    "feed": "greenhouse:brex",
    "inFeed": "2026-10-30",
    "compMax": 128000,
    "pageTitle": "People Programs Lead",
    "closedStreak": 0,
-   "failStreak": 3,
+   "failStreak": 4,
    "lastLive": "2026-10-29",
    "pageLocation": "Remote"
   },
@@ -2629,16 +2629,16 @@
    "url": "https://www.brex.com/careers/8834133002?gh_jid=8834133002",
    "comp": "$103,000 - $128,000",
    "added": "2026-10-09",
-   "status": "live",
-   "lastChecked": "2026-10-29",
-   "reason": "kept: last check failed (HTTP 429); last confirmed 2026-10-29",
+   "status": "unverifiable",
+   "lastChecked": "2026-10-30",
+   "reason": "HTTP 429",
    "source": "feed",
    "feed": "greenhouse:brex",
    "inFeed": "2026-10-30",
    "compMax": 128000,
    "pageTitle": "People Programs Lead",
    "closedStreak": 0,
-   "failStreak": 3,
+   "failStreak": 4,
    "lastLive": "2026-10-29",
    "pageLocation": "Remote"
   },
@@ -2759,14 +2759,14 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-10-30",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (no Apply control found); last confirmed 2026-10-30",
    "source": "feed",
    "feed": "greenhouse:mongodb",
    "inFeed": "2026-10-30",
    "compMax": 220000,
    "pageTitle": "Senior Manager, Recruiting Operations Austin; Chicago; New York City; Palo Alto; San Francisco",
    "closedStreak": 0,
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-10-30"
   },
   {
@@ -3911,7 +3911,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-30",
-   "pageLocation": "Location: US, Pennsylvania, Hamburg"
+   "pageLocation": "Location: US, Washington, Seattle"
   },
   {
    "id": "b80238edcb",
@@ -6084,7 +6084,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-30",
-   "pageLocation": "Location: US, Pennsylvania, Hamburg"
+   "pageLocation": "Location: US, Missouri, Kansas City"
   },
   {
    "id": "26628c532b",
@@ -6777,6 +6777,27 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-10-30"
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-10-30",
+   "status": "live",
+   "lastChecked": "2026-10-30",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-10-30",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-10-30",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
