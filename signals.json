@@ -447,6 +447,13 @@
    "title": "VP Global Talent Acquisition (Akeem Joseph departed to LiveRamp)",
    "url": "https://huntscanlon.com/akeem-joseph-joins-liveramp-as-vp-global-talent-acquisition/",
    "added": "2026-10-31"
+  },
+  {
+   "kind": "Left",
+   "company": "Amazon",
+   "title": "Senior talent acquisition leader (Jay Shankar departed to Uber)",
+   "url": "https://www.hrkatha.com/?p=58810",
+   "added": "2026-11-01"
   }
  ],
  "funding": [
@@ -1156,6 +1163,34 @@
    "amount": "$124M",
    "url": "https://startupintros.com/news/2026-02-04-machina-labs-series-c",
    "added": "2026-10-30"
+  },
+  {
+   "company": "Cognition AI",
+   "round": "Series D",
+   "amount": "$1B",
+   "url": "https://siliconangle.com/2026/05/27/vibe-coding-startup-cognition-doubles-valuation-new-1b-round/",
+   "added": "2026-11-01"
+  },
+  {
+   "company": "Temporal",
+   "round": "Series E",
+   "amount": "$550M",
+   "url": "https://intellizence.com/insights/startup-funding/5-major-startup-funding-rounds-to-watch-temporal-d-robotics-impulse-space-ridgeline-and-cornelis/",
+   "added": "2026-11-01"
+  },
+  {
+   "company": "Impulse Space",
+   "round": "Series D extension",
+   "amount": "$308M",
+   "url": "https://intellizence.com/insights/startup-funding/5-major-startup-funding-rounds-to-watch-temporal-d-robotics-impulse-space-ridgeline-and-cornelis/",
+   "added": "2026-11-01"
+  },
+  {
+   "company": "Standard Bots",
+   "round": "Series C",
+   "amount": "$200M",
+   "url": "https://runtimewire.com/fundings?page=18",
+   "added": "2026-11-01"
   }
  ]
 }
