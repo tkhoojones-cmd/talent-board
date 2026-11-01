@@ -193,8 +193,7 @@
   "people-ai",
   "heetch",
   "airslate",
-  "cohere",
-  "neednova"
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -582,7 +581,7 @@
   "First Advantage",
   "CrowdStrike",
   "Impulse Space",
-  "knownwell"
+  "cohere"
  ],
  "tried": {
   "UniUni": 1,
@@ -842,16 +841,16 @@
   "Solar Provider Group": 4,
   "Sabre": 4,
   "Model ML": 4,
-  "Codecademy": 2,
-  "PayPal": 2,
-  "Shine Talent Group": 2,
-  "Mental": 1,
-  "Phifer Company": 1,
-  "BCG Digital Ventures": 1,
-  "Athelas": 1,
-  "CrowdStrike": 1,
-  "First Advantage": 1,
-  "Impulse Space": 1
+  "Codecademy": 3,
+  "PayPal": 3,
+  "Shine Talent Group": 3,
+  "Mental": 2,
+  "Phifer Company": 2,
+  "BCG Digital Ventures": 2,
+  "Athelas": 2,
+  "CrowdStrike": 2,
+  "First Advantage": 2,
+  "Impulse Space": 2
  },
  "dead": [
   "Slate Auto",
@@ -1481,15 +1480,14 @@
   "greenhouse:peregrinetechnologies": 0,
   "ashby:infinite": 0,
   "ashby:gen-digital": 0,
-  "lever:cohere": 2,
-  "lever:neednova": 2,
   "greenhouse:salesloft": 0,
   "greenhouse:justworks": 0,
   "ashby:kiddom": 0,
   "ashby:standardbots": 0,
   "ashby:temporal": 0,
   "ashby:base-power": 0,
-  "ashby:beaconsoftware": 1
+  "ashby:beaconsoftware": 2,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1744,28 +1742,28 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 123,
-  "greenhouse:notion": 123,
-  "greenhouse:marqeta": 123,
-  "greenhouse:alphahawaii": 123,
-  "lever:knownwell": 123,
-  "workday:walmart:WalmartExternal": 123,
-  "workday:comcast:Comcast_Careers": 123,
-  "workday:dell:External": 123,
-  "workday:qualcomm:External": 123,
-  "bigtech:microsoft": 123,
-  "bigtech:meta": 123,
-  "greenhouse:clickhouse": 108,
-  "greenhouse:visiersolutionsinc": 93,
-  "greenhouse:alignmenthealth": 92,
-  "lever:neednova": 38,
+  "greenhouse:admarketplaceinc": 124,
+  "greenhouse:notion": 124,
+  "greenhouse:marqeta": 124,
+  "greenhouse:alphahawaii": 124,
+  "lever:knownwell": 124,
+  "workday:walmart:WalmartExternal": 124,
+  "workday:comcast:Comcast_Careers": 124,
+  "workday:dell:External": 124,
+  "workday:qualcomm:External": 124,
+  "bigtech:microsoft": 124,
+  "bigtech:meta": 124,
+  "greenhouse:clickhouse": 109,
+  "greenhouse:visiersolutionsinc": 94,
+  "greenhouse:alignmenthealth": 93,
+  "lever:neednova": 39,
   "lever:wandb": 3,
-  "lever:cohere": 51,
-  "ashby:beaconsoftware": 19,
-  "greenhouse:rollstack": 18,
-  "greenhouse:iconiqcapital": 17,
+  "lever:cohere": 52,
+  "ashby:beaconsoftware": 20,
+  "greenhouse:rollstack": 19,
+  "greenhouse:iconiqcapital": 18,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 7,
-  "greenhouse:amplitude": 6
+  "greenhouse:generalcatalyst": 8,
+  "greenhouse:amplitude": 7
  }
 }
