@@ -3916,7 +3916,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "b80238edcb",
@@ -4069,14 +4069,14 @@
    "added": "2026-10-15",
    "status": "live",
    "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-11-02",
    "source": "feed",
    "feed": "greenhouse:coinbase",
    "inFeed": "2026-11-02",
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-11-02"
   },
   {
@@ -6097,7 +6097,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "26628c532b",
@@ -6888,7 +6888,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-02",
-   "closedStreak": 12
+   "closedStreak": 13
   },
   {
    "id": "f0a3b1a3a2",
@@ -7040,25 +7040,21 @@
    "notInFeed": "2026-11-02"
   },
   {
-   "id": "424f0a7992",
+   "id": "25ddb301d6",
    "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "company": "Accoy",
+   "title": "Director Of People &amp; Culture",
+   "location": "",
+   "url": "https://careers-accoy.icims.com/jobs/22250/director-of-people-%26-culture/job",
    "comp": "",
    "added": "2026-11-02",
-   "status": "live",
+   "status": "unverifiable",
    "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "title mismatch: we have 'Director Of People &amp; Culture', page says 'READY TO MAKE YOUR NEXT CAREER MOVE?'",
    "source": "feed",
-   "feed": "workday:intel:External",
+   "feed": "icims:careers-accoy",
    "inFeed": "2026-11-02",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-02",
-   "pageLocation": "MYS - Penang, Malaysia"
+   "closedStreak": 0
   }
  ]
 }
