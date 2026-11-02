@@ -193,7 +193,9 @@
   "people-ai",
   "heetch",
   "airslate",
-  "knownwell"
+  "knownwell",
+  "cohere",
+  "neednova"
  ],
  "ashby": [
   "pylon-labs",
@@ -304,7 +306,6 @@
   "greptile",
   "gen-digital",
   "infinite",
-  "beaconsoftware",
   "kiddom",
   "temporal",
   "standardbots",
@@ -571,17 +572,13 @@
   }
  ],
  "candidates": [
-  "PayPal",
-  "Codecademy",
-  "Shine Talent Group",
   "Mental",
   "BCG Digital Ventures",
   "Phifer Company",
   "Athelas",
   "First Advantage",
   "CrowdStrike",
-  "Impulse Space",
-  "cohere"
+  "Impulse Space"
  ],
  "tried": {
   "UniUni": 1,
@@ -841,16 +838,16 @@
   "Solar Provider Group": 4,
   "Sabre": 4,
   "Model ML": 4,
-  "Codecademy": 3,
-  "PayPal": 3,
-  "Shine Talent Group": 3,
-  "Mental": 2,
-  "Phifer Company": 2,
-  "BCG Digital Ventures": 2,
-  "Athelas": 2,
-  "CrowdStrike": 2,
-  "First Advantage": 2,
-  "Impulse Space": 2
+  "Codecademy": 4,
+  "PayPal": 4,
+  "Shine Talent Group": 4,
+  "Mental": 3,
+  "Phifer Company": 3,
+  "BCG Digital Ventures": 3,
+  "Athelas": 3,
+  "CrowdStrike": 3,
+  "First Advantage": 3,
+  "Impulse Space": 3
  },
  "dead": [
   "Slate Auto",
@@ -1105,7 +1102,10 @@
   "Reflex Media",
   "Solar Provider Group",
   "Sabre",
-  "Model ML"
+  "Model ML",
+  "PayPal",
+  "Codecademy",
+  "Shine Talent Group"
  ],
  "workable": [
   "montera",
@@ -1486,8 +1486,9 @@
   "ashby:standardbots": 0,
   "ashby:temporal": 0,
   "ashby:base-power": 0,
-  "ashby:beaconsoftware": 2,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "lever:cohere": 1,
+  "lever:neednova": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1590,7 +1591,7 @@
   "ashby:synthesia": "Synthesia",
   "ashby:grow-therapy": "Grow Therapy",
   "smartrecruiters:servicenow": "ServiceNow",
-  "ashby:cohere": "Cohere",
+  "ashby:cohere": "cohere",
   "greenhouse:lyft": "Lyft",
   "greenhouse:turing": "Turing",
   "greenhouse:toast": "Toast",
@@ -1742,28 +1743,28 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 124,
-  "greenhouse:notion": 124,
-  "greenhouse:marqeta": 124,
-  "greenhouse:alphahawaii": 124,
-  "lever:knownwell": 124,
-  "workday:walmart:WalmartExternal": 124,
-  "workday:comcast:Comcast_Careers": 124,
-  "workday:dell:External": 124,
-  "workday:qualcomm:External": 124,
-  "bigtech:microsoft": 124,
-  "bigtech:meta": 124,
-  "greenhouse:clickhouse": 109,
-  "greenhouse:visiersolutionsinc": 94,
-  "greenhouse:alignmenthealth": 93,
-  "lever:neednova": 39,
+  "greenhouse:admarketplaceinc": 125,
+  "greenhouse:notion": 125,
+  "greenhouse:marqeta": 125,
+  "greenhouse:alphahawaii": 125,
+  "lever:knownwell": 125,
+  "workday:walmart:WalmartExternal": 125,
+  "workday:comcast:Comcast_Careers": 125,
+  "workday:dell:External": 125,
+  "workday:qualcomm:External": 125,
+  "bigtech:microsoft": 125,
+  "bigtech:meta": 125,
+  "greenhouse:clickhouse": 110,
+  "greenhouse:visiersolutionsinc": 95,
+  "greenhouse:alignmenthealth": 94,
+  "lever:neednova": 40,
   "lever:wandb": 3,
-  "lever:cohere": 52,
-  "ashby:beaconsoftware": 20,
-  "greenhouse:rollstack": 19,
-  "greenhouse:iconiqcapital": 18,
+  "lever:cohere": 53,
+  "ashby:beaconsoftware": 21,
+  "greenhouse:rollstack": 20,
+  "greenhouse:iconiqcapital": 19,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 8,
-  "greenhouse:amplitude": 7
+  "greenhouse:generalcatalyst": 9,
+  "greenhouse:amplitude": 8
  }
 }

@@ -280,12 +280,12 @@
    "url": "https://synchronyfinancial.wd5.myworkdayjobs.com/careers/job/charlotte-engagement-hub-nc/vp--hr---operations_2601972",
    "comp": "$110K-$185K + bonus",
    "added": "2026-09-01",
-   "status": "closed",
-   "lastChecked": "2026-10-26",
-   "reason": "no longer in the employer's job feed",
+   "status": "unverifiable",
+   "lastChecked": "2026-11-01",
+   "reason": "looked closed once, rechecking: page says: page you are looking for doesn't exist",
    "pageLocation": "Charlotte Engagement Hub NC, United States of America",
    "pageTitle": "VP, HR - Operations",
-   "closedStreak": 0,
+   "closedStreak": 1,
    "failStreak": 0,
    "lastLive": "2026-10-25",
    "feed": "workday:synchronyfinancial:careers",
@@ -425,7 +425,7 @@
    "comp": "$240K-$295K base + equity",
    "added": "2026-08-27",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:anthropic",
    "notInFeed": "2026-11-01"
@@ -440,7 +440,7 @@
    "comp": "$230K-$295K base + equity",
    "added": "2026-09-26",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:anthropic",
    "notInFeed": "2026-11-01"
@@ -1285,13 +1285,13 @@
    "comp": "$212,700 - $374,400",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "page says: page you are looking for doesn't exist",
    "source": "feed",
    "feed": "workday:salesforce:External_Career_Site",
    "inFeed": "2026-10-13",
    "pageTitle": "VP, Employee Success Business Partner, Finance",
-   "closedStreak": 3,
+   "closedStreak": 4,
    "failStreak": 1,
    "lastLive": "2026-10-13",
    "pageLocation": "Washington - Seattle, United States of America",
@@ -1461,7 +1461,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:practicebetter",
    "notInFeed": "2026-11-01"
@@ -1476,7 +1476,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404"
   },
   {
@@ -1489,7 +1489,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:evergreenservicesgroup",
    "notInFeed": "2026-11-01"
@@ -1504,7 +1504,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:futurestandard",
    "notInFeed": "2026-11-01"
@@ -1519,7 +1519,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:filescom",
    "notInFeed": "2026-11-01"
@@ -1667,7 +1667,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:iconiq",
    "notInFeed": "2026-11-01"
@@ -1682,7 +1682,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:magnolia",
    "notInFeed": "2026-11-01"
@@ -1697,7 +1697,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:achievementfirstnetworksupportcareers",
    "notInFeed": "2026-11-01"
@@ -1712,7 +1712,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:evolutioncloudservicesevocs",
    "notInFeed": "2026-11-01"
@@ -1727,7 +1727,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:wellist",
    "notInFeed": "2026-11-01"
@@ -1742,7 +1742,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
    "feed": "lever:tala",
    "notInFeed": "2026-11-01"
@@ -1771,7 +1771,7 @@
    "comp": "$220-300k",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:cresta",
    "notInFeed": "2026-11-01"
@@ -1786,9 +1786,9 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
-   "closedStreak": 5
+   "closedStreak": 6
   },
   {
    "id": "7d2d60ebb8",
@@ -2057,13 +2057,13 @@
    "comp": "",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "page says: job is no longer",
    "source": "feed",
    "feed": "oracle:jpmc.fa.oraclecloud.com:CX_1001",
    "inFeed": "2026-10-08",
    "pageTitle": "Vice President, Transaction Coordination – NA Operating Model, Global Standardization & Talent Development",
-   "closedStreak": 4,
+   "closedStreak": 5,
    "failStreak": 1,
    "lastLive": "2026-10-13",
    "pageLocation": "Jersey City, NJ, United States"
@@ -2101,7 +2101,7 @@
    "comp": "$205,000 - $275,000",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:nerostechnologies",
@@ -3732,11 +3732,11 @@
    "comp": "",
    "added": "2026-10-13",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected away from the job: https://www.anduril.com/open-roles",
    "feed": "greenhouse:andurilindustries",
    "notInFeed": "2026-11-01",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "6c15d98964",
@@ -3748,11 +3748,11 @@
    "comp": "",
    "added": "2026-10-13",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "redirected away from the job: https://www.anduril.com/open-roles",
    "feed": "greenhouse:andurilindustries",
    "notInFeed": "2026-11-01",
-   "closedStreak": 2
+   "closedStreak": 3
   },
   {
    "id": "28c66ab941",
@@ -3807,9 +3807,9 @@
    "comp": "",
    "added": "2026-10-14",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "page says: no longer exists",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "b1afb6d76a",
@@ -3844,9 +3844,9 @@
    "comp": "",
    "added": "2026-10-14",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "ef6e21ff35",
@@ -3893,9 +3893,9 @@
    "comp": "",
    "added": "2026-10-14",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "page says: requisition is no longer",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "08c3a2b866",
@@ -3916,7 +3916,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-01",
-   "pageLocation": "Location: US, Pennsylvania, Carlisle"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "b80238edcb",
@@ -4069,14 +4069,14 @@
    "added": "2026-10-15",
    "status": "live",
    "lastChecked": "2026-11-01",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-11-01",
    "source": "feed",
    "feed": "greenhouse:coinbase",
    "inFeed": "2026-11-01",
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-11-01"
   },
   {
@@ -4394,7 +4394,7 @@
    "comp": "$100,000–$125,000",
    "added": "2026-10-19",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -4417,7 +4417,7 @@
    "comp": "$101,167–$204,439",
    "added": "2026-10-19",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -4440,7 +4440,7 @@
    "comp": "$136,000–$170,000",
    "added": "2026-10-19",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -4498,7 +4498,7 @@
    "comp": "",
    "added": "2026-10-19",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -4520,7 +4520,7 @@
    "comp": "",
    "added": "2026-10-19",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -4542,7 +4542,7 @@
    "comp": "",
    "added": "2026-10-19",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -4564,7 +4564,7 @@
    "comp": "",
    "added": "2026-10-19",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -4719,11 +4719,11 @@
    "added": "2026-10-20",
    "status": "live",
    "lastChecked": "2026-11-01",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "opened normally with an Apply control",
    "source": "feed",
    "feed": "ashby:halter",
    "inFeed": "2026-11-01",
-   "pageTitle": "Talent Lead, LATAM",
+   "pageTitle": "Talent Lead, Latin America",
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-01",
@@ -5816,7 +5816,7 @@
    "comp": "",
    "added": "2026-10-26",
    "status": "closed",
-   "lastChecked": "2026-10-26",
+   "lastChecked": "2026-11-01",
    "reason": "HTTP 404"
   },
   {
@@ -5936,9 +5936,9 @@
    "url": "https://jobs.lever.co/jobgether/23509c45-5155-45d3-9dfe-1b1308aa9ea2",
    "comp": "",
    "added": "2026-10-27",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-01",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-01",
@@ -5946,7 +5946,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-01",
-   "pageLocation": "Estonia"
+   "pageLocation": "Estonia",
+   "notInFeed": "2026-11-01"
   },
   {
    "id": "2931a5060a",
@@ -5978,9 +5979,9 @@
    "url": "https://jobs.lever.co/jobgether/45d5389b-43e4-4755-8e88-59a431dd9622",
    "comp": "",
    "added": "2026-10-27",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-01",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-01",
@@ -5988,7 +5989,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-01",
-   "pageLocation": "Canada"
+   "pageLocation": "Canada",
+   "notInFeed": "2026-11-01"
   },
   {
    "id": "9b35164c24",
@@ -6041,9 +6043,9 @@
    "url": "https://jobs.lever.co/jobgether/b1356671-ba72-4e26-aa0f-7b5f47dca192",
    "comp": "",
    "added": "2026-10-27",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-01",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-01",
@@ -6051,7 +6053,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-01",
-   "pageLocation": "Czechia"
+   "pageLocation": "Czechia",
+   "notInFeed": "2026-11-01"
   },
   {
    "id": "4d6e2ca331",
@@ -6062,9 +6065,9 @@
    "url": "https://jobs.lever.co/jobgether/f99f0763-d17f-457e-85bb-009df642667d",
    "comp": "",
    "added": "2026-10-27",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-01",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-01",
@@ -6072,7 +6075,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-01",
-   "pageLocation": "Croatia"
+   "pageLocation": "Croatia",
+   "notInFeed": "2026-11-01"
   },
   {
    "id": "bb485d4967",
@@ -6093,7 +6097,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-01",
-   "pageLocation": "Location: US, Pennsylvania, Carlisle"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "26628c532b",
@@ -6884,7 +6888,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-01",
-   "closedStreak": 8
+   "closedStreak": 9
   },
   {
    "id": "f0a3b1a3a2",
@@ -6919,27 +6923,6 @@
    "feed": "greenhouse:salesloft",
    "inFeed": "2026-11-01",
    "closedStreak": 0
-  },
-  {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-11-01",
-   "status": "live",
-   "lastChecked": "2026-11-01",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-11-01",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-01",
-   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
