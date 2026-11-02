@@ -3916,7 +3916,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "Location: US, Kansas, Kansas City"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "b80238edcb",
@@ -4076,7 +4076,7 @@
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 2,
+   "failStreak": 3,
    "lastLive": "2026-11-01"
   },
   {
@@ -6097,7 +6097,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "Location: US, Kansas, Kansas City"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "26628c532b",
@@ -6888,7 +6888,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-02",
-   "closedStreak": 10
+   "closedStreak": 11
   },
   {
    "id": "f0a3b1a3a2",
@@ -6969,27 +6969,6 @@
    "pageLocation": "US"
   },
   {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-11-02",
-   "status": "live",
-   "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-11-02",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-02",
-   "pageLocation": "MYS - Penang, Malaysia"
-  },
-  {
    "id": "0843ed5588",
    "kind": "role",
    "company": "GitLab",
@@ -6998,9 +6977,11 @@
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8074689002",
    "comp": "$203-381K",
    "added": "2026-11-02",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-11-02",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:gitlab",
+   "notInFeed": "2026-11-02"
   },
   {
    "id": "bb980b0485",
@@ -7011,9 +6992,10 @@
    "url": "https://www.careers.ford.com/job/long-beach/director-talent-acquisition/48560/98591325824",
    "comp": "",
    "added": "2026-11-02",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-02",
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   }
  ]
 }
