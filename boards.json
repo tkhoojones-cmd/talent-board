@@ -168,7 +168,9 @@
   "togetherai",
   "doordashusa",
   "alumniventures",
-  "leagueapps"
+  "leagueapps",
+  "6sense",
+  "turnkeycareers"
  ],
  "lever": [
   "zoox",
@@ -581,7 +583,13 @@
  ],
  "candidates": [
   "Monolith AI",
-  "cohere"
+  "cohere",
+  "Luma AI",
+  "Eight Sleep",
+  "Take-Two",
+  "Twelve Labs",
+  "People.ai",
+  "Ridgeline"
  ],
  "tried": {
   "UniUni": 1,

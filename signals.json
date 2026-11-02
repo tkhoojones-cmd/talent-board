@@ -1191,6 +1191,48 @@
    "amount": "$200M",
    "url": "https://runtimewire.com/fundings?page=18",
    "added": "2026-11-01"
+  },
+  {
+   "company": "VAST Data",
+   "round": "Series D/E",
+   "amount": "$500M",
+   "url": "https://runtimewire.com/fundings",
+   "added": "2026-11-02"
+  },
+  {
+   "company": "Impulse Space",
+   "round": "Series D",
+   "amount": "$308M",
+   "url": "https://runtimewire.com/fundings",
+   "added": "2026-11-02"
+  },
+  {
+   "company": "Ridgeline",
+   "round": "Series E",
+   "amount": "$250M",
+   "url": "https://runtimewire.com/fundings",
+   "added": "2026-11-02"
+  },
+  {
+   "company": "Cornelis Network",
+   "round": "Series C",
+   "amount": "$205M",
+   "url": "https://runtimewire.com/fundings",
+   "added": "2026-11-02"
+  },
+  {
+   "company": "Advanced Navigation",
+   "round": "Series C",
+   "amount": "$158M",
+   "url": "https://runtimewire.com/fundings",
+   "added": "2026-11-02"
+  },
+  {
+   "company": "Liquid Instruments",
+   "round": "Series C",
+   "amount": "$70M",
+   "url": "https://runtimewire.com/fundings",
+   "added": "2026-11-02"
   }
  ]
 }
