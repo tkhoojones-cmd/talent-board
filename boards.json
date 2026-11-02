@@ -162,7 +162,12 @@
   "salesloft",
   "justworks",
   "techholding",
-  "octopusdeploy"
+  "octopusdeploy",
+  "generalatlantic",
+  "inflectionai",
+  "togetherai",
+  "doordashusa",
+  "alumniventures"
  ],
  "lever": [
   "zoox",
@@ -574,7 +579,10 @@
   }
  ],
  "candidates": [
-  "knownwell"
+  "knownwell",
+  "Searchable",
+  "Monolith AI",
+  "LeagueApps"
  ],
  "tried": {
   "UniUni": 1,
