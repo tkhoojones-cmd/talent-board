@@ -173,7 +173,8 @@
   "turnkeycareers",
   "ridgeline",
   "grammarly",
-  "fireworksai"
+  "fireworksai",
+  "skyryse"
  ],
  "lever": [
   "zoox",
@@ -207,7 +208,8 @@
   "heetch",
   "airslate",
   "knownwell",
-  "cohere"
+  "cohere",
+  "neednova"
  ],
  "ashby": [
   "pylon-labs",
@@ -322,8 +324,7 @@
   "temporal",
   "standardbots",
   "base-power",
-  "searchable",
-  "beaconsoftware"
+  "searchable"
  ],
  "workday": [
   {
@@ -585,28 +586,7 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [
-  "VAST Data",
-  "Cornelis Network",
-  "Liquid Instruments",
-  "cohere",
-  "Snowflake",
-  "Caseware",
-  "Netomi",
-  "People.ai",
-  "Serval",
-  "Smartsheet",
-  "CoreWeave",
-  "Curri",
-  "OpenAI Foundation",
-  "Sila Nanotechnologies",
-  "VRChat",
-  "Toast",
-  "Klaviyo",
-  "Waymo",
-  "Lyft",
-  "Skyryse"
- ],
+ "candidates": [],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
@@ -876,9 +856,9 @@
   "First Advantage": 4,
   "Impulse Space": 4,
   "Monolith AI": 4,
-  "Liquid Instruments": 3,
-  "Cornelis Network": 3,
-  "VAST Data": 3
+  "Liquid Instruments": 4,
+  "Cornelis Network": 4,
+  "VAST Data": 4
  },
  "dead": [
   "Slate Auto",
@@ -1144,7 +1124,10 @@
   "First Advantage",
   "CrowdStrike",
   "Impulse Space",
-  "Monolith AI"
+  "Monolith AI",
+  "VAST Data",
+  "Cornelis Network",
+  "Liquid Instruments"
  ],
  "workable": [
   "montera",
@@ -1539,8 +1522,10 @@
   "greenhouse:turnkeycareers": 0,
   "greenhouse:ridgeline": 0,
   "rippling:advanced-navigation": 0,
-  "ashby:beaconsoftware": 2,
-  "lever:knownwell": 1
+  "lever:knownwell": 2,
+  "greenhouse:skyryse": 0,
+  "lever:cohere": 1,
+  "lever:neednova": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1768,7 +1753,11 @@
   "greenhouse:leagueapps": "LeagueApps",
   "ashby:searchable": "Searchable",
   "greenhouse:ridgeline": "Ridgeline",
-  "rippling:advanced-navigation": "Advanced Navigation"
+  "rippling:advanced-navigation": "Advanced Navigation",
+  "lever:caseware": "Caseware",
+  "ashby:snowflake": "Snowflake",
+  "lever:vrchat": "VRChat",
+  "greenhouse:skyryse": "Skyryse"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1800,29 +1789,30 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 130,
-  "greenhouse:notion": 130,
-  "greenhouse:marqeta": 130,
-  "greenhouse:alphahawaii": 130,
-  "lever:knownwell": 130,
-  "workday:walmart:WalmartExternal": 130,
-  "workday:comcast:Comcast_Careers": 130,
-  "workday:dell:External": 130,
-  "workday:qualcomm:External": 130,
-  "bigtech:microsoft": 130,
-  "bigtech:meta": 130,
-  "greenhouse:clickhouse": 115,
-  "greenhouse:visiersolutionsinc": 100,
-  "greenhouse:alignmenthealth": 99,
-  "lever:neednova": 45,
+  "greenhouse:admarketplaceinc": 131,
+  "greenhouse:notion": 131,
+  "greenhouse:marqeta": 131,
+  "greenhouse:alphahawaii": 131,
+  "lever:knownwell": 131,
+  "workday:walmart:WalmartExternal": 131,
+  "workday:comcast:Comcast_Careers": 131,
+  "workday:dell:External": 131,
+  "workday:qualcomm:External": 131,
+  "bigtech:microsoft": 131,
+  "bigtech:meta": 131,
+  "greenhouse:clickhouse": 116,
+  "greenhouse:visiersolutionsinc": 101,
+  "greenhouse:alignmenthealth": 100,
+  "lever:neednova": 46,
   "lever:wandb": 3,
-  "lever:cohere": 58,
-  "ashby:beaconsoftware": 26,
-  "greenhouse:rollstack": 25,
-  "greenhouse:iconiqcapital": 24,
+  "lever:cohere": 59,
+  "ashby:beaconsoftware": 27,
+  "greenhouse:rollstack": 26,
+  "greenhouse:iconiqcapital": 25,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 14,
-  "greenhouse:amplitude": 13,
-  "greenhouse:spacex": 1
+  "greenhouse:generalcatalyst": 15,
+  "greenhouse:amplitude": 14,
+  "greenhouse:grammarly": 1,
+  "greenhouse:fireworksai": 1
  }
 }
