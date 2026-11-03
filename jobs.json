@@ -94,11 +94,11 @@
    "comp": "$260,000 to $290,000",
    "added": "2026-09-07",
    "status": "closed",
-   "lastChecked": "2026-10-27",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-11-02",
+   "reason": "page says: page you are looking for doesn't exist",
    "pageLocation": "Corporate Office – Newton, MA, United States of America",
    "pageTitle": "Chief People Officer",
-   "closedStreak": 1,
+   "closedStreak": 2,
    "failStreak": 1,
    "lastLive": "2026-10-26",
    "feed": "workday:reitmr:Sonesta",
@@ -469,7 +469,7 @@
    "comp": "",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 404"
   },
   {
@@ -628,11 +628,11 @@
    "comp": "$260,000 to $290,000",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-27",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-11-02",
+   "reason": "page says: page you are looking for doesn't exist",
    "source": "feed",
    "pageTitle": "Chief People Officer",
-   "closedStreak": 1,
+   "closedStreak": 2,
    "failStreak": 1,
    "lastLive": "2026-10-26",
    "pageLocation": "Corporate Office – Newton, MA, United States of America",
@@ -1449,7 +1449,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "Plaza, 751 Broad St., Newark, NJ, United States of America"
+   "pageLocation": "1270 Avenue of the Americas, New York, NY, United States of America"
   },
   {
    "id": "3a8f938c9a",
@@ -1841,7 +1841,7 @@
    "comp": "$150,000-$200,000",
    "added": "2026-10-08",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:clearstreet",
@@ -2342,7 +2342,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:dept",
    "notInFeed": "2026-11-02"
@@ -2399,7 +2399,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 404"
   },
   {
@@ -2433,10 +2433,10 @@
    "url": "https://www.pinecone.io/careers/c654236b-a053-47d3-a7c8-9cdef5a299c4",
    "comp": "$190K-$280K + equity",
    "added": "2026-10-09",
-   "status": "closed",
-   "lastChecked": "2026-10-27",
-   "reason": "HTTP 404",
-   "closedStreak": 5
+   "status": "unverifiable",
+   "lastChecked": "2026-11-02",
+   "reason": "redirected to a different page: https://www.pinecone.io/careers/",
+   "closedStreak": 0
   },
   {
    "id": "c51f7e1966",
@@ -2448,7 +2448,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:taketwo",
    "notInFeed": "2026-11-02"
@@ -2463,9 +2463,9 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 404",
-   "closedStreak": 5
+   "closedStreak": 6
   },
   {
    "id": "1c0e6761d2",
@@ -2493,7 +2493,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:banyansoftware",
    "notInFeed": "2026-11-02"
@@ -2508,7 +2508,7 @@
    "comp": "",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:babylist",
    "notInFeed": "2026-11-02"
@@ -2656,9 +2656,9 @@
    "url": "http://www.squarespace.com/about/careers?gh_jid=8148428",
    "comp": "",
    "added": "2026-10-09",
-   "status": "closed",
-   "lastChecked": "2026-10-27",
-   "reason": "no longer in the employer's job feed",
+   "status": "unverifiable",
+   "lastChecked": "2026-11-02",
+   "reason": "no Apply control found",
    "source": "feed",
    "feed": "greenhouse:squarespace",
    "inFeed": "2026-10-19",
@@ -2915,14 +2915,14 @@
    "comp": "$183,000 - $243,000",
    "added": "2026-10-09",
    "status": "closed",
-   "lastChecked": "2026-10-27",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-11-02",
+   "reason": "redirected away from the job: https://www.anduril.com/open-roles",
    "source": "feed",
    "feed": "greenhouse:andurilindustries",
    "inFeed": "2026-10-26",
    "compMax": 243000,
    "pageTitle": "Senior Manager, Talent Acquisition, Mission Readiness",
-   "closedStreak": 1,
+   "closedStreak": 2,
    "failStreak": 1,
    "lastLive": "2026-10-26",
    "pageLocation": "Costa Mesa, California, United States",
@@ -3092,16 +3092,17 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-11-02",
    "source": "feed",
    "feed": "workday:visa:Visa",
    "inFeed": "2026-11-02",
    "compMax": 216800,
    "pageTitle": "Director, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-11-02",
-   "pageLocation": "Austin, TX, United States of America"
+   "pageLocation": "Austin, TX, United States of America",
+   "notInFeed": "2026-11-02"
   },
   {
    "id": "17c9428719",
@@ -3354,7 +3355,7 @@
    "comp": "$225,000 - $275,000",
    "added": "2026-10-12",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:khealthcareers",
@@ -3764,13 +3765,13 @@
    "comp": "",
    "added": "2026-10-13",
    "status": "closed",
-   "lastChecked": "2026-10-27",
-   "reason": "no longer in the employer's job feed",
+   "lastChecked": "2026-11-02",
+   "reason": "page says: page you are looking for doesn't exist",
    "source": "feed",
    "feed": "workday:fmr:FidelityCareers",
    "inFeed": "2026-10-26",
    "pageTitle": "Director Executive Talent Management",
-   "closedStreak": 1,
+   "closedStreak": 2,
    "failStreak": 1,
    "lastLive": "2026-10-26",
    "pageLocation": "Two Destiny Way, Westlake TX, United States of America",
@@ -3821,7 +3822,7 @@
    "comp": "$200,000–$250,000",
    "added": "2026-10-14",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -4017,9 +4018,9 @@
    "comp": "",
    "added": "2026-10-15",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "redirected away from the job: https://www.alignmenthealth.com/careers",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "771547d8b3",
@@ -4031,9 +4032,9 @@
    "comp": "",
    "added": "2026-10-15",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 404",
-   "closedStreak": 4
+   "closedStreak": 5
   },
   {
    "id": "1714e9f022",
@@ -4045,14 +4046,14 @@
    "comp": "$190K – $240K",
    "added": "2026-10-15",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "ashby:fieldguide",
    "inFeed": "2026-10-20",
    "compMax": 240000,
    "pageTitle": "Director, Talent Acquisition",
-   "closedStreak": 2,
+   "closedStreak": 3,
    "failStreak": 1,
    "lastLive": "2026-10-20",
    "pageLocation": "San Francisco, California, United States",
@@ -4076,7 +4077,7 @@
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 1,
+   "failStreak": 2,
    "lastLive": "2026-11-02"
   },
   {
@@ -4695,7 +4696,7 @@
    "comp": "$170,000–$185,000",
    "added": "2026-10-20",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
@@ -5039,7 +5040,7 @@
    "comp": "",
    "added": "2026-10-21",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 410"
   },
   {
@@ -5052,9 +5053,9 @@
    "comp": "",
    "added": "2026-10-21",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 404",
-   "closedStreak": 3
+   "closedStreak": 4
   },
   {
    "id": "9b02bbcb23",
@@ -5088,7 +5089,7 @@
    "comp": "",
    "added": "2026-10-21",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "redirected to board with error=true",
    "feed": "greenhouse:cultureamp",
    "notInFeed": "2026-11-02"
@@ -5392,7 +5393,7 @@
    "comp": "",
    "added": "2026-10-23",
    "status": "closed",
-   "lastChecked": "2026-10-27",
+   "lastChecked": "2026-11-02",
    "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:vrchat",
@@ -5706,9 +5707,9 @@
    "url": "https://jobs.lever.co/jobgether/dc7cdad5-5a23-4647-aed4-1e3bc4fe0eee",
    "comp": "",
    "added": "2026-10-26",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-02",
@@ -5716,7 +5717,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-11-02"
   },
   {
    "id": "0f93305e7b",
@@ -5727,9 +5729,9 @@
    "url": "https://jobs.lever.co/jobgether/b30ed87c-f62d-41f3-9401-706bef1c0806",
    "comp": "$120,000 to $150,000",
    "added": "2026-10-26",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-02",
@@ -5738,7 +5740,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-11-02"
   },
   {
    "id": "5f6a67de41",
@@ -5749,9 +5752,9 @@
    "url": "https://jobs.lever.co/jobgether/3973c6ea-23ca-415a-a62b-7e29f295d10a",
    "comp": "$150,000 to $175,000",
    "added": "2026-10-26",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-02",
@@ -5760,7 +5763,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-11-02"
   },
   {
    "id": "a4c0bd0ee9",
@@ -5771,9 +5775,9 @@
    "url": "https://jobs.lever.co/jobgether/b2605ec4-6e15-4435-9af3-ef7195fc5354",
    "comp": "$175,000–$200,000",
    "added": "2026-10-26",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-02",
@@ -5782,7 +5786,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-11-02"
   },
   {
    "id": "9b8c64937d",
@@ -5793,9 +5798,9 @@
    "url": "https://jobs.lever.co/jobgether/06a76a37-6ce2-45e6-b4ad-09fc212a34cf",
    "comp": "$240,000–$285,000",
    "added": "2026-10-26",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-02",
@@ -5804,7 +5809,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-02",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-11-02"
   },
   {
    "id": "4bd2874510",
@@ -6132,16 +6138,17 @@
    "added": "2026-10-27",
    "status": "live",
    "lastChecked": "2026-11-02",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: HTTP 404); last confirmed 2026-11-02",
    "source": "feed",
    "feed": "ashby:openai",
    "inFeed": "2026-11-02",
    "compMax": 295000,
    "pageTitle": "Core Operations Lead, Community & Culture",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-11-02",
-   "pageLocation": "San Francisco, California, United States"
+   "pageLocation": "San Francisco, California, United States",
+   "notInFeed": "2026-11-02"
   },
   {
    "id": "de4d821d43",
@@ -6237,18 +6244,17 @@
    "url": "https://adventhealth.wd12.myworkdayjobs.com/AH_External_Career_Site/job/TP-HIDDEN-RIVER-CORP-CENTER/Director--Talent-Acquisition_R-0411282",
    "comp": "",
    "added": "2026-10-28",
-   "status": "closed",
-   "lastChecked": "2026-10-31",
-   "reason": "no longer in the employer's job feed",
+   "status": "live",
+   "lastChecked": "2026-11-02",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:adventhealth:AH_External_Career_Site",
-   "inFeed": "2026-10-30",
-   "pageTitle": "Director, Talent Acquisition-West Florida Division",
-   "closedStreak": 1,
-   "failStreak": 1,
-   "lastLive": "2026-10-30",
-   "pageLocation": "TP HIDDEN RIVER CORP CENTER, United States of America",
-   "notInFeed": "2026-11-02"
+   "inFeed": "2026-11-02",
+   "pageTitle": "Director Talent Acquisition West Florida Division",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-02",
+   "pageLocation": "TP HIDDEN RIVER CORP CENTER, United States of America"
   },
   {
    "id": "90d4152585",
@@ -6888,7 +6894,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-02",
-   "closedStreak": 13
+   "closedStreak": 14
   },
   {
    "id": "f0a3b1a3a2",
@@ -7055,6 +7061,49 @@
    "feed": "icims:careers-accoy",
    "inFeed": "2026-11-02",
    "closedStreak": 0
+  },
+  {
+   "id": "93f23cd607",
+   "kind": "review",
+   "company": "Andurilindustries",
+   "title": "Sr Manager, People Experience Programs",
+   "location": "Costa Mesa, California, United States",
+   "url": "https://boards.greenhouse.io/andurilindustries/jobs/5281986007?gh_jid=5281986007",
+   "comp": "$183,000 - $243,000",
+   "added": "2026-11-02",
+   "status": "live",
+   "lastChecked": "2026-11-02",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:andurilindustries",
+   "inFeed": "2026-11-02",
+   "compMax": 243000,
+   "pageTitle": "Sr Manager, People Experience Programs",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-02",
+   "pageLocation": "Costa Mesa, California, United States"
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-11-02",
+   "status": "live",
+   "lastChecked": "2026-11-02",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-11-02",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-02",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
