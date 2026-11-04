@@ -174,7 +174,9 @@
   "ridgeline",
   "grammarly",
   "fireworksai",
-  "skyryse"
+  "skyryse",
+  "guidepoint",
+  "clearviewhealthcarepartners"
  ],
  "lever": [
   "zoox",
@@ -586,7 +588,14 @@
   }
  ],
  "candidates": [
-  "cohere"
+  "cohere",
+  "One Model",
+  "Sono Bello",
+  "People.ai",
+  "Encore Renewable Energy",
+  "Thrive",
+  "Files.com",
+  "Practice Better"
  ],
  "tried": {
   "UniUni": 1,
