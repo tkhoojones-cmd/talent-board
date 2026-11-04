@@ -3918,7 +3918,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-04",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "b80238edcb",
@@ -4078,7 +4078,7 @@
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 1,
+   "failStreak": 2,
    "lastLive": "2026-11-04"
   },
   {
@@ -6108,7 +6108,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-04",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "26628c532b",
@@ -6899,7 +6899,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-04",
-   "closedStreak": 19
+   "closedStreak": 20
   },
   {
    "id": "f0a3b1a3a2",
@@ -7315,6 +7315,27 @@
    "failStreak": 0,
    "lastLive": "2026-11-04",
    "pageLocation": "US"
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-11-04",
+   "status": "live",
+   "lastChecked": "2026-11-04",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-11-04",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-04",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
