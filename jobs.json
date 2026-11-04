@@ -261,14 +261,14 @@
    "added": "2026-09-07",
    "status": "live",
    "lastChecked": "2026-11-04",
-   "reason": "opened normally with an Apply control",
+   "reason": "in the employer's job feed today and the page shows the role",
    "pageLocation": "Remote - United States",
    "pageTitle": "Chief People Officer",
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-04",
    "feed": "lever:thetrevorproject",
-   "inFeed": "2026-11-03",
+   "inFeed": "2026-11-04",
    "compMax": 280000
   },
   {
@@ -3662,7 +3662,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-19",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "23917664b1",
@@ -3684,7 +3684,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-16",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "030137fa9b",
@@ -3707,7 +3707,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-13",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "e8c9bfd0fd",
@@ -3834,7 +3834,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-21",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "2fa4cc631d",
@@ -3940,7 +3940,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-22",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "821c212d51",
@@ -3962,7 +3962,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-22",
    "pageLocation": "Canada",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "16417e8ea4",
@@ -3984,7 +3984,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-22",
    "pageLocation": "United Arab Emirates",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "80d7b31106",
@@ -4007,7 +4007,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-22",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "780a3e80f9",
@@ -4071,14 +4071,14 @@
    "added": "2026-10-15",
    "status": "live",
    "lastChecked": "2026-11-04",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-11-04",
    "source": "feed",
    "feed": "greenhouse:coinbase",
    "inFeed": "2026-11-04",
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-11-04"
   },
   {
@@ -4145,7 +4145,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-23",
    "pageLocation": "Canada",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "1ced805f29",
@@ -4347,7 +4347,7 @@
    "lastChecked": "2026-10-29",
    "reason": "HTTP 404",
    "feed": "lever:jobgether",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "96e270c97a",
@@ -4407,7 +4407,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-26",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "5f91b411bd",
@@ -4430,7 +4430,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-26",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "ebf0b62fa1",
@@ -4453,7 +4453,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-26",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "0c3fbb493a",
@@ -4510,7 +4510,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-26",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "0960f4cefc",
@@ -4532,7 +4532,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-26",
    "pageLocation": "Canada",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "717d52d643",
@@ -4554,7 +4554,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-26",
    "pageLocation": "Canada",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "f525843dc5",
@@ -4576,7 +4576,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-26",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "a84526c5ee",
@@ -4708,7 +4708,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-27",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "a2c6053651",
@@ -4984,7 +4984,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-28",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "a1874ddca1",
@@ -5007,7 +5007,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-28",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "950daa4b6c",
@@ -5029,7 +5029,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-28",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "1e2d0732a4",
@@ -5289,7 +5289,7 @@
    "failStreak": 0,
    "lastLive": "2026-10-30",
    "pageLocation": "Canada",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "3777c3b480",
@@ -5719,7 +5719,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-02",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "0f93305e7b",
@@ -5742,7 +5742,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-02",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "5f6a67de41",
@@ -5765,7 +5765,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-02",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "a4c0bd0ee9",
@@ -5788,7 +5788,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-02",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "9b8c64937d",
@@ -5811,7 +5811,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-02",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "4bd2874510",
@@ -5933,7 +5933,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-03",
    "pageLocation": "United Arab Emirates",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "e34e369de9",
@@ -5955,7 +5955,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-01",
    "pageLocation": "Estonia",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "2931a5060a",
@@ -5977,7 +5977,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-03",
    "pageLocation": "Luxembourg",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "3220cccd69",
@@ -5999,7 +5999,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-01",
    "pageLocation": "Canada",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "9b35164c24",
@@ -6021,7 +6021,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-03",
    "pageLocation": "US",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "a941e8e75b",
@@ -6043,7 +6043,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-03",
    "pageLocation": "Bulgaria",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "cbc2a5ee62",
@@ -6065,7 +6065,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-01",
    "pageLocation": "Czechia",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "4d6e2ca331",
@@ -6087,7 +6087,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-01",
    "pageLocation": "Croatia",
-   "notInFeed": "2026-11-03"
+   "notInFeed": "2026-11-04"
   },
   {
    "id": "bb485d4967",
@@ -6407,10 +6407,10 @@
    "added": "2026-10-29",
    "status": "live",
    "lastChecked": "2026-11-04",
-   "reason": "opened normally with an Apply control",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "lever:jobgether",
-   "inFeed": "2026-11-03",
+   "inFeed": "2026-11-04",
    "compMax": 75000,
    "pageTitle": "Associate Director, HR Operations",
    "closedStreak": 0,
@@ -6429,10 +6429,10 @@
    "added": "2026-10-29",
    "status": "live",
    "lastChecked": "2026-11-04",
-   "reason": "opened normally with an Apply control",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "lever:jobgether",
-   "inFeed": "2026-11-03",
+   "inFeed": "2026-11-04",
    "pageTitle": "Director of Recruiting",
    "closedStreak": 0,
    "failStreak": 0,
@@ -6450,10 +6450,10 @@
    "added": "2026-10-29",
    "status": "live",
    "lastChecked": "2026-11-04",
-   "reason": "opened normally with an Apply control",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "lever:jobgether",
-   "inFeed": "2026-11-03",
+   "inFeed": "2026-11-04",
    "compMax": 271000,
    "pageTitle": "Lead Solutions Architect - SAP SuccessFactors HR",
    "closedStreak": 0,
@@ -6751,10 +6751,10 @@
    "added": "2026-10-30",
    "status": "live",
    "lastChecked": "2026-11-04",
-   "reason": "opened normally with an Apply control",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "lever:jobgether",
-   "inFeed": "2026-11-03",
+   "inFeed": "2026-11-04",
    "compMax": 75000,
    "pageTitle": "Director, Recruitment &amp; Admissions",
    "closedStreak": 0,
@@ -6899,7 +6899,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-04",
-   "closedStreak": 18
+   "closedStreak": 19
   },
   {
    "id": "f0a3b1a3a2",
@@ -6947,10 +6947,10 @@
    "added": "2026-11-02",
    "status": "live",
    "lastChecked": "2026-11-04",
-   "reason": "opened normally with an Apply control",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "lever:jobgether",
-   "inFeed": "2026-11-03",
+   "inFeed": "2026-11-04",
    "compMax": 190000,
    "pageTitle": "Director, Human Resources",
    "closedStreak": 0,
@@ -6969,10 +6969,10 @@
    "added": "2026-11-02",
    "status": "live",
    "lastChecked": "2026-11-04",
-   "reason": "opened normally with an Apply control",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "lever:jobgether",
-   "inFeed": "2026-11-03",
+   "inFeed": "2026-11-04",
    "compMax": 167000,
    "pageTitle": "Staff Recruiter - Commercial",
    "closedStreak": 0,
@@ -7101,10 +7101,10 @@
    "added": "2026-11-03",
    "status": "live",
    "lastChecked": "2026-11-04",
-   "reason": "opened normally with an Apply control",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "lever:jobgether",
-   "inFeed": "2026-11-03",
+   "inFeed": "2026-11-04",
    "compMax": 220000,
    "pageTitle": "Director, Total Rewards",
    "closedStreak": 0,
@@ -7278,25 +7278,43 @@
    "notInFeed": "2026-11-04"
   },
   {
-   "id": "424f0a7992",
+   "id": "0a4c5724ad",
    "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "company": "Chronograph",
+   "title": "Head of Talent",
+   "location": "Brooklyn, New York, United States",
+   "url": "https://www.chronograph.pe/jobs/?gh_jid=5280121007",
    "comp": "",
+   "added": "2026-11-04",
+   "status": "unverifiable",
+   "lastChecked": "2026-11-04",
+   "reason": "title mismatch: we have 'Head of Talent', page says 'Jobs at Chronograph'",
+   "source": "feed",
+   "feed": "greenhouse:chronograph",
+   "inFeed": "2026-11-04",
+   "closedStreak": 0
+  },
+  {
+   "id": "f0d61e8c30",
+   "kind": "review",
+   "company": "Jobgether",
+   "title": "Global Recruiting Sector Lead (Maritime Recruiter)",
+   "location": "US",
+   "url": "https://jobs.lever.co/jobgether/b03f2478-3457-4555-a107-96354846db06",
+   "comp": "$65,000–$70,000",
    "added": "2026-11-04",
    "status": "live",
    "lastChecked": "2026-11-04",
    "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
-   "feed": "workday:intel:External",
+   "feed": "lever:jobgether",
    "inFeed": "2026-11-04",
-   "pageTitle": "Director, Business HR – APJ",
+   "compMax": 70000,
+   "pageTitle": "Global Recruiting Sector Lead (Maritime Recruiter)",
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-04",
-   "pageLocation": "MYS - Penang, Malaysia"
+   "pageLocation": "US"
   }
  ]
 }
