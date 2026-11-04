@@ -454,6 +454,20 @@
    "title": "Senior talent acquisition leader (Jay Shankar departed to Uber)",
    "url": "https://www.hrkatha.com/?p=58810",
    "added": "2026-11-01"
+  },
+  {
+   "kind": "Hired",
+   "company": "Regeneron",
+   "title": "VP Global Talent Acquisition (Suzan Vulaj, ~Sep 2026)",
+   "url": "https://hrtoday.in/regeneron-appoints-suzan-vulaj-as-vice-president-global-talent-acquisition/",
+   "added": "2026-11-04"
+  },
+  {
+   "kind": "Left",
+   "company": "NBCUniversal",
+   "title": "Senior talent acquisition leader (Suzan Vulaj departed to Regeneron)",
+   "url": "https://hrtoday.in/regeneron-appoints-suzan-vulaj-as-vice-president-global-talent-acquisition/",
+   "added": "2026-11-04"
   }
  ],
  "funding": [
@@ -1240,6 +1254,13 @@
    "amount": "$300M",
    "url": "https://siliconvalleyinvestclub.com/funding-rounds/?year=2026",
    "added": "2026-11-03"
+  },
+  {
+   "company": "Cornelis Networks",
+   "round": "Series C",
+   "amount": "$205M",
+   "url": "https://intellizence.com/insights/startup-funding/5-major-startup-funding-rounds-to-watch-temporal-d-robotics-impulse-space-ridgeline-and-cornelis/",
+   "added": "2026-11-04"
   }
  ]
 }
