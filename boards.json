@@ -207,8 +207,7 @@
   "people-ai",
   "heetch",
   "airslate",
-  "cohere",
-  "neednova"
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -587,7 +586,7 @@
   }
  ],
  "candidates": [
-  "knownwell"
+  "cohere"
  ],
  "tried": {
   "UniUni": 1,
@@ -1525,9 +1524,8 @@
   "greenhouse:ridgeline": 0,
   "rippling:advanced-navigation": 0,
   "greenhouse:skyryse": 0,
-  "lever:cohere": 2,
-  "lever:neednova": 2,
-  "ashby:beaconsoftware": 1
+  "ashby:beaconsoftware": 2,
+  "lever:knownwell": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1791,30 +1789,31 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 132,
-  "greenhouse:notion": 132,
-  "greenhouse:marqeta": 132,
-  "greenhouse:alphahawaii": 132,
-  "lever:knownwell": 132,
-  "workday:walmart:WalmartExternal": 132,
-  "workday:comcast:Comcast_Careers": 132,
-  "workday:dell:External": 132,
-  "workday:qualcomm:External": 132,
-  "bigtech:microsoft": 132,
-  "bigtech:meta": 132,
-  "greenhouse:clickhouse": 117,
-  "greenhouse:visiersolutionsinc": 102,
-  "greenhouse:alignmenthealth": 101,
-  "lever:neednova": 47,
+  "greenhouse:admarketplaceinc": 133,
+  "greenhouse:notion": 133,
+  "greenhouse:marqeta": 133,
+  "greenhouse:alphahawaii": 133,
+  "lever:knownwell": 133,
+  "workday:walmart:WalmartExternal": 133,
+  "workday:comcast:Comcast_Careers": 133,
+  "workday:dell:External": 133,
+  "workday:qualcomm:External": 133,
+  "bigtech:microsoft": 133,
+  "bigtech:meta": 133,
+  "greenhouse:clickhouse": 118,
+  "greenhouse:visiersolutionsinc": 103,
+  "greenhouse:alignmenthealth": 102,
+  "lever:neednova": 48,
   "lever:wandb": 3,
-  "lever:cohere": 60,
-  "ashby:beaconsoftware": 28,
-  "greenhouse:rollstack": 27,
-  "greenhouse:iconiqcapital": 26,
+  "lever:cohere": 61,
+  "ashby:beaconsoftware": 29,
+  "greenhouse:rollstack": 28,
+  "greenhouse:iconiqcapital": 27,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 16,
-  "greenhouse:amplitude": 15,
-  "greenhouse:grammarly": 2,
-  "greenhouse:fireworksai": 2
+  "greenhouse:generalcatalyst": 17,
+  "greenhouse:amplitude": 16,
+  "greenhouse:grammarly": 3,
+  "greenhouse:fireworksai": 3,
+  "greenhouse:andurilindustries": 1
  }
 }
