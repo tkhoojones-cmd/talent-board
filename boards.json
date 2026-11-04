@@ -589,7 +589,11 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "Goodway Group",
+  "Aurora",
+  "Arize"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
