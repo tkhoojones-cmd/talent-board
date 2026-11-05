@@ -179,7 +179,8 @@
   "clearviewhealthcarepartners",
   "thrive",
   "goodwaygroup",
-  "chronograph"
+  "chronograph",
+  "splice"
  ],
  "lever": [
   "zoox",
@@ -593,7 +594,17 @@
   "Headspace",
   "Seedcamp",
   "mistral",
-  "cohere"
+  "cohere",
+  "SAP",
+  "Hims & Hers",
+  "Adyen",
+  "Sprinklr",
+  "Turo",
+  "Bumble",
+  "Luma AI",
+  "Eight Sleep",
+  "Twelve Labs",
+  "Lucid Motors"
  ],
  "tried": {
   "UniUni": 1,
