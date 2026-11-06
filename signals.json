@@ -468,6 +468,62 @@
    "title": "Senior talent acquisition leader (Suzan Vulaj departed to Regeneron)",
    "url": "https://hrtoday.in/regeneron-appoints-suzan-vulaj-as-vice-president-global-talent-acquisition/",
    "added": "2026-11-04"
+  },
+  {
+   "kind": "Hired",
+   "company": "Island",
+   "title": "VP Talent Acquisition (Leif Wennerstrom)",
+   "url": "https://hrtoday.in/tag/dialpad/",
+   "added": "2026-11-06"
+  },
+  {
+   "kind": "Hired",
+   "company": "Valor",
+   "title": "Vice President of Talent (Joe Schuster)",
+   "url": "https://www.valorep.com/team/joe-schuster",
+   "added": "2026-11-06"
+  },
+  {
+   "kind": "Hired",
+   "company": "LiveRamp",
+   "title": "VP Global Talent Acquisition (Akeem Joseph)",
+   "url": "https://huntscanlon.com/akeem-joseph-joins-liveramp-as-vp-global-talent-acquisition/",
+   "added": "2026-11-06"
+  },
+  {
+   "kind": "Hired",
+   "company": "Matrix Pharmacorp",
+   "title": "Head of Talent Acquisition (Naresh Kumar G)",
+   "url": "https://www.hrkatha.com/people/movement/naresh-kumar-g-appointed-head-of-talent-acquisition-matrix-pharmacorp/",
+   "added": "2026-11-06"
+  },
+  {
+   "kind": "Left",
+   "company": "CuraTeQ Biologics",
+   "title": "AGM Talent Acquisition (Naresh Kumar G left for Matrix Pharmacorp)",
+   "url": "https://www.hrkatha.com/people/movement/naresh-kumar-g-appointed-head-of-talent-acquisition-matrix-pharmacorp/",
+   "added": "2026-11-06"
+  },
+  {
+   "kind": "Left",
+   "company": "OpenAI",
+   "title": "Chief People Officer (Julia Villagra stepped down; date unconfirmed)",
+   "url": "https://recruitingheadlines.com/openai-cpo-julia-villagra-steps-down",
+   "added": "2026-11-06"
+  },
+  {
+   "kind": "Hired",
+   "company": "Ford",
+   "title": "Chief Talent Officer (Bill Huffaker)",
+   "url": "https://www.autobound.ai/companies/ford/executive-changes",
+   "added": "2026-11-06"
+  },
+  {
+   "kind": "Hired",
+   "company": "Visier",
+   "title": "Chief People Officer (Pramukh Jeyathilak)",
+   "url": "https://www.hrkatha.com/people/movement/visier-names-pramukh-jeyathilak-as-chief-people-officer/",
+   "added": "2026-11-06"
   }
  ],
  "funding": [
@@ -1261,6 +1317,20 @@
    "amount": "$205M",
    "url": "https://intellizence.com/insights/startup-funding/5-major-startup-funding-rounds-to-watch-temporal-d-robotics-impulse-space-ridgeline-and-cornelis/",
    "added": "2026-11-04"
+  },
+  {
+   "company": "Bedrock Robotics",
+   "round": "Series C",
+   "amount": "$600M",
+   "url": "https://blog.mean.ceo/startup-funding-announcements-news-november-2026/",
+   "added": "2026-11-06"
+  },
+  {
+   "company": "Upwind",
+   "round": "Series C",
+   "amount": "$400M",
+   "url": "https://blog.mean.ceo/startup-funding-announcements-news-november-2026/",
+   "added": "2026-11-06"
   }
  ]
 }

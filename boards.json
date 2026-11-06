@@ -595,7 +595,12 @@
   }
  ],
  "candidates": [
-  "knownwell"
+  "knownwell",
+  "Eight Sleep",
+  "Luma AI",
+  "Lionsgate",
+  "Twelve Labs",
+  "Upwind"
  ],
  "tried": {
   "UniUni": 1,
