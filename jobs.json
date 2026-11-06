@@ -4082,7 +4082,7 @@
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 1,
+   "failStreak": 2,
    "lastLive": "2026-11-06"
   },
   {
@@ -6915,7 +6915,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-06",
-   "closedStreak": 28
+   "closedStreak": 29
   },
   {
    "id": "f0a3b1a3a2",
@@ -7657,27 +7657,6 @@
    "pageLocation": "US"
   },
   {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-11-06",
-   "status": "live",
-   "lastChecked": "2026-11-06",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-11-06",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-06",
-   "pageLocation": "MYS - Penang, Malaysia"
-  },
-  {
    "id": "7aeb7b4707",
    "kind": "role",
    "company": "Marqeta",
@@ -7686,9 +7665,10 @@
    "url": "https://www.marqeta.com/careers/7719047",
    "comp": "$219,400-$309,300",
    "added": "2026-11-06",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-06",
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   }
  ]
 }
