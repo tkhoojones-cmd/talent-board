@@ -593,7 +593,9 @@
    "company": "Sun Life"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "Baidu"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
