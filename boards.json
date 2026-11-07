@@ -215,7 +215,8 @@
   "heetch",
   "airslate",
   "cohere",
-  "neednova"
+  "neednova",
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -598,7 +599,15 @@
  "candidates": [
   "Lionsgate",
   "Upwind",
-  "knownwell"
+  "knownwell",
+  "One Model",
+  "ZipDev",
+  "Zincwork",
+  "Western Digital",
+  "Sono Bello",
+  "Rippling",
+  "Strategisense Consulting",
+  "Finalis"
  ],
  "tried": {
   "UniUni": 1,
