@@ -214,7 +214,6 @@
   "people-ai",
   "heetch",
   "airslate",
-  "knownwell",
   "cohere",
   "neednova"
  ],
@@ -333,7 +332,8 @@
   "base-power",
   "searchable",
   "gravie",
-  "bedrock-robotics"
+  "bedrock-robotics",
+  "beaconsoftware"
  ],
  "workday": [
   {
@@ -597,7 +597,8 @@
  ],
  "candidates": [
   "Lionsgate",
-  "Upwind"
+  "Upwind",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -883,8 +884,8 @@
   "Sprinklr": 4,
   "Turo": 4,
   "Bumble": 4,
-  "Upwind": 2,
-  "Lionsgate": 2
+  "Upwind": 3,
+  "Lionsgate": 3
  },
  "dead": [
   "Slate Auto",
@@ -1570,9 +1571,9 @@
   "ashby:gravie": 0,
   "greenhouse:baidu": 0,
   "ashby:bedrock-robotics": 0,
-  "lever:knownwell": 2,
-  "lever:cohere": 1,
-  "lever:neednova": 1
+  "lever:cohere": 2,
+  "lever:neednova": 2,
+  "ashby:beaconsoftware": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1843,34 +1844,31 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 146,
-  "greenhouse:notion": 146,
-  "greenhouse:marqeta": 146,
-  "greenhouse:alphahawaii": 146,
-  "lever:knownwell": 146,
-  "workday:walmart:WalmartExternal": 146,
-  "workday:comcast:Comcast_Careers": 146,
-  "workday:dell:External": 146,
-  "workday:qualcomm:External": 146,
-  "bigtech:microsoft": 146,
-  "bigtech:meta": 146,
-  "greenhouse:clickhouse": 131,
-  "greenhouse:visiersolutionsinc": 116,
-  "greenhouse:alignmenthealth": 115,
-  "lever:neednova": 61,
+  "greenhouse:admarketplaceinc": 147,
+  "greenhouse:notion": 147,
+  "greenhouse:marqeta": 147,
+  "greenhouse:alphahawaii": 147,
+  "lever:knownwell": 147,
+  "workday:walmart:WalmartExternal": 147,
+  "workday:comcast:Comcast_Careers": 147,
+  "workday:dell:External": 147,
+  "workday:qualcomm:External": 147,
+  "bigtech:microsoft": 147,
+  "bigtech:meta": 147,
+  "greenhouse:clickhouse": 132,
+  "greenhouse:visiersolutionsinc": 117,
+  "greenhouse:alignmenthealth": 116,
+  "lever:neednova": 62,
   "lever:wandb": 3,
-  "lever:cohere": 74,
-  "ashby:beaconsoftware": 42,
-  "greenhouse:rollstack": 41,
-  "greenhouse:iconiqcapital": 40,
+  "lever:cohere": 75,
+  "ashby:beaconsoftware": 43,
+  "greenhouse:rollstack": 42,
+  "greenhouse:iconiqcapital": 41,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 30,
-  "greenhouse:amplitude": 29,
-  "greenhouse:grammarly": 16,
-  "greenhouse:fireworksai": 16,
-  "lever:mistral": 3,
-  "lever:caseware": 1,
-  "lever:royalambulance": 1,
-  "lever:jobgether": 1
+  "greenhouse:generalcatalyst": 31,
+  "greenhouse:amplitude": 30,
+  "greenhouse:grammarly": 17,
+  "greenhouse:fireworksai": 17,
+  "lever:mistral": 3
  }
 }
