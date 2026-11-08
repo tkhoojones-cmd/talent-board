@@ -3516,14 +3516,14 @@
    "added": "2026-10-12",
    "status": "live",
    "lastChecked": "2026-11-08",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (page did not load: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.ok); last confirmed 2026-11-08",
    "source": "feed",
    "feed": "greenhouse:okta",
    "inFeed": "2026-11-08",
    "closedStreak": 0,
    "compMax": 301000,
    "pageTitle": "Director, M&amp;A People Strategy &amp; Integration",
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-11-08"
   },
   {
@@ -3922,7 +3922,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-08",
-   "pageLocation": "Location: US, New Jersey, Robbinsville"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "b80238edcb",
@@ -6115,7 +6115,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-08",
-   "pageLocation": "Location: US, New Jersey, Robbinsville"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "26628c532b",
@@ -6917,7 +6917,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-08",
-   "closedStreak": 39
+   "closedStreak": 40
   },
   {
    "id": "f0a3b1a3a2",
@@ -7866,6 +7866,27 @@
    "failStreak": 0,
    "lastLive": "2026-11-08",
    "pageLocation": "San Francisco"
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-11-08",
+   "status": "live",
+   "lastChecked": "2026-11-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-11-08",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-08",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
