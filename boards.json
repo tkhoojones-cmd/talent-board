@@ -215,7 +215,8 @@
   "heetch",
   "airslate",
   "cohere",
-  "neednova"
+  "neednova",
+  "wandb"
  ],
  "ashby": [
   "pylon-labs",
@@ -598,7 +599,14 @@
   }
  ],
  "candidates": [
-  "knownwell"
+  "knownwell",
+  "Grubhub",
+  "Moveworks",
+  "Sila Nanotechnologies",
+  "Emergence AI",
+  "People.ai",
+  "insightsoftware",
+  "OpenAI Foundation"
  ],
  "tried": {
   "UniUni": 1,
