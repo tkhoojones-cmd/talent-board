@@ -216,7 +216,8 @@
   "heetch",
   "airslate",
   "wandb",
-  "knownwell"
+  "knownwell",
+  "cohere"
  ],
  "ashby": [
   "pylon-labs",
@@ -602,7 +603,15 @@
   "Grubhub",
   "Moveworks",
   "insightsoftware",
-  "cohere"
+  "cohere",
+  "Twelve Labs",
+  "Luma AI",
+  "Vannevar Labs",
+  "Eight Sleep",
+  "Atoms Co",
+  "Nametag",
+  "Lucid Motors",
+  "Epic Games"
  ],
  "tried": {
   "UniUni": 1,
