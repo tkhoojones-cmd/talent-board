@@ -183,7 +183,10 @@
   "splice",
   "adyen",
   "baidu",
-  "emergenceai"
+  "emergenceai",
+  "atoms",
+  "nametag",
+  "conga"
  ],
  "lever": [
   "zoox",
@@ -217,7 +220,8 @@
   "airslate",
   "wandb",
   "knownwell",
-  "cohere"
+  "cohere",
+  "neednova"
  ],
  "ashby": [
   "pylon-labs",
@@ -336,8 +340,7 @@
   "gravie",
   "bedrock-robotics",
   "cloudscaler",
-  "alta-ares",
-  "beaconsoftware"
+  "alta-ares"
  ],
  "workday": [
   {
@@ -603,15 +606,7 @@
   "Grubhub",
   "Moveworks",
   "insightsoftware",
-  "cohere",
-  "Twelve Labs",
-  "Luma AI",
-  "Vannevar Labs",
-  "Eight Sleep",
-  "Atoms Co",
-  "Nametag",
-  "Lucid Motors",
-  "Epic Games"
+  "Coca-Cola"
  ],
  "tried": {
   "UniUni": 1,
@@ -904,9 +899,10 @@
   "Booking.com": 4,
   "Basecamp": 4,
   "Stellantis": 4,
-  "Moveworks": 1,
-  "Grubhub": 1,
-  "insightsoftware": 1
+  "Moveworks": 2,
+  "Grubhub": 2,
+  "insightsoftware": 2,
+  "Coca-Cola": 1
  },
  "dead": [
   "Slate Auto",
@@ -1605,10 +1601,14 @@
   "workable:deeporigin": 0,
   "recruitee:meta": 0,
   "ashby:alta-ares": 0,
-  "ashby:beaconsoftware": 2,
   "greenhouse:emergenceai": 0,
-  "lever:wandb": 1,
-  "lever:knownwell": 1
+  "lever:wandb": 2,
+  "lever:knownwell": 2,
+  "greenhouse:nametag": 0,
+  "greenhouse:conga": 0,
+  "greenhouse:atoms": 0,
+  "lever:cohere": 1,
+  "lever:neednova": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -1817,7 +1817,7 @@
   "lever:airslate": "airSlate",
   "ashby:greptile": "Greptile",
   "ashby:gen-digital": "Gen Digital",
-  "ashby:infinite": "INFINITE",
+  "ashby:infinite": "Infinite",
   "greenhouse:evergreenservicesgroup": "Evergreen Services Group",
   "greenhouse:kensingtontours": "Kensington Tours",
   "greenhouse:salesloft": "Salesloft",
@@ -1853,7 +1853,10 @@
   "recruitee:meta": "Meta",
   "ashby:cloudscaler": "Cloudscaler",
   "ashby:alta-ares": "Alta Ares",
-  "greenhouse:emergenceai": "Emergence AI"
+  "greenhouse:emergenceai": "Emergence AI",
+  "greenhouse:atoms": "Atoms Co",
+  "greenhouse:nametag": "Nametag",
+  "greenhouse:conga": "Conga"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -1885,31 +1888,31 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 154,
-  "greenhouse:notion": 154,
-  "greenhouse:marqeta": 154,
-  "greenhouse:alphahawaii": 154,
-  "lever:knownwell": 154,
-  "workday:walmart:WalmartExternal": 154,
-  "workday:comcast:Comcast_Careers": 154,
-  "workday:dell:External": 154,
-  "workday:qualcomm:External": 154,
-  "bigtech:microsoft": 154,
-  "bigtech:meta": 154,
-  "greenhouse:clickhouse": 139,
-  "greenhouse:visiersolutionsinc": 124,
-  "greenhouse:alignmenthealth": 123,
-  "lever:neednova": 69,
-  "lever:wandb": 4,
-  "lever:cohere": 82,
-  "ashby:beaconsoftware": 50,
-  "greenhouse:rollstack": 49,
-  "greenhouse:iconiqcapital": 48,
+  "greenhouse:admarketplaceinc": 155,
+  "greenhouse:notion": 155,
+  "greenhouse:marqeta": 155,
+  "greenhouse:alphahawaii": 155,
+  "lever:knownwell": 155,
+  "workday:walmart:WalmartExternal": 155,
+  "workday:comcast:Comcast_Careers": 155,
+  "workday:dell:External": 155,
+  "workday:qualcomm:External": 155,
+  "bigtech:microsoft": 155,
+  "bigtech:meta": 155,
+  "greenhouse:clickhouse": 140,
+  "greenhouse:visiersolutionsinc": 125,
+  "greenhouse:alignmenthealth": 124,
+  "lever:neednova": 70,
+  "lever:wandb": 5,
+  "lever:cohere": 83,
+  "ashby:beaconsoftware": 51,
+  "greenhouse:rollstack": 50,
+  "greenhouse:iconiqcapital": 49,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 38,
-  "greenhouse:amplitude": 37,
-  "greenhouse:grammarly": 24,
-  "greenhouse:fireworksai": 24,
+  "greenhouse:generalcatalyst": 39,
+  "greenhouse:amplitude": 38,
+  "greenhouse:grammarly": 25,
+  "greenhouse:fireworksai": 25,
   "lever:mistral": 3
  }
 }

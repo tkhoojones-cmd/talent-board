@@ -3922,7 +3922,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-08",
-   "pageLocation": "Location: ES, Community of Madrid, Madrid"
+   "pageLocation": "Location: US, New Jersey, Robbinsville"
   },
   {
    "id": "b80238edcb",
@@ -6115,7 +6115,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-08",
-   "pageLocation": "Location: ES, Community of Madrid, Madrid"
+   "pageLocation": "Location: US, New Jersey, Robbinsville"
   },
   {
    "id": "26628c532b",
@@ -6917,7 +6917,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-08",
-   "closedStreak": 38
+   "closedStreak": 39
   },
   {
    "id": "f0a3b1a3a2",
@@ -7802,25 +7802,70 @@
    "pageLocation": "San Francisco, CA, US"
   },
   {
-   "id": "424f0a7992",
+   "id": "6fa61a7e58",
    "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
+   "company": "Atoms Co",
+   "title": "Head of Employee Experience",
+   "location": "San Francisco, CA",
+   "url": "https://job-boards.greenhouse.io/atoms/jobs/8892081002",
+   "comp": "$182,000 - $225,000",
    "added": "2026-11-08",
    "status": "live",
    "lastChecked": "2026-11-08",
    "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
-   "feed": "workday:intel:External",
+   "feed": "greenhouse:atoms",
    "inFeed": "2026-11-08",
-   "pageTitle": "Director, Business HR – APJ",
+   "compMax": 225000,
+   "pageTitle": "Head of Employee Experience",
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-08",
-   "pageLocation": "MYS - Penang, Malaysia"
+   "pageLocation": "San Francisco, CA"
+  },
+  {
+   "id": "ab23ab0dc9",
+   "kind": "role",
+   "company": "Atoms Co",
+   "title": "Head of People Technology",
+   "location": "Seattle, Washington",
+   "url": "https://job-boards.greenhouse.io/atoms/jobs/8891489002",
+   "comp": "$200,000 - $240,000",
+   "added": "2026-11-08",
+   "status": "live",
+   "lastChecked": "2026-11-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:atoms",
+   "inFeed": "2026-11-08",
+   "compMax": 240000,
+   "pageTitle": "Head of People Technology",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-08",
+   "pageLocation": "Seattle, Washington"
+  },
+  {
+   "id": "d81ad70f45",
+   "kind": "role",
+   "company": "Atoms Co",
+   "title": "Head of People Technology",
+   "location": "San Francisco",
+   "url": "https://job-boards.greenhouse.io/atoms/jobs/8891480002",
+   "comp": "$200,000 - $250,000",
+   "added": "2026-11-08",
+   "status": "live",
+   "lastChecked": "2026-11-08",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:atoms",
+   "inFeed": "2026-11-08",
+   "compMax": 250000,
+   "pageTitle": "Head of People Technology",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-08",
+   "pageLocation": "San Francisco"
   }
  ]
 }
