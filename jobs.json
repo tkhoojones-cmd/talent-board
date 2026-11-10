@@ -565,13 +565,13 @@
    "url": "https://www.okta.com/company/careers/opportunity/8196226?gh_jid=8196226",
    "comp": "$264,000—$363,000",
    "added": "2026-10-08",
-   "status": "live",
-   "lastChecked": "2026-11-09",
-   "reason": "kept: last check failed (embedded job page lost its job id: https://www.okta.com/company/careers/senior-director-gtm-recruiting/); last confirmed 2026-11-09",
+   "status": "unverifiable",
+   "lastChecked": "2026-11-10",
+   "reason": "embedded job page lost its job id: https://www.okta.com/company/careers/senior-director-gtm-recruiting/",
    "source": "feed",
    "closedStreak": 0,
    "pageTitle": "Senior Director, GTM Recruiting",
-   "failStreak": 3,
+   "failStreak": 4,
    "lastLive": "2026-11-09",
    "compMax": 363000
   },
@@ -2660,9 +2660,9 @@
    "url": "http://www.squarespace.com/about/careers?gh_jid=8148428",
    "comp": "",
    "added": "2026-10-09",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-10",
-   "reason": "no Apply control found",
+   "reason": "no longer in the employer's job feed",
    "source": "feed",
    "feed": "greenhouse:squarespace",
    "inFeed": "2026-10-19",
@@ -3922,7 +3922,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-10",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "b80238edcb",
@@ -6115,7 +6115,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-10",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "26628c532b",
@@ -6917,7 +6917,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-10",
-   "closedStreak": 45
+   "closedStreak": 46
   },
   {
    "id": "f0a3b1a3a2",
@@ -7970,134 +7970,25 @@
    "pageLocation": "Canada"
   },
   {
-   "id": "5a2e60ae7c",
+   "id": "424f0a7992",
    "kind": "role",
-   "company": "Checkr",
-   "title": "VP Total Rewards & People Operations",
-   "location": "San Francisco, CA",
-   "url": "https://job-boards.greenhouse.io/checkr/jobs/6881261",
-   "comp": "$364K-$403K",
-   "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "8aab2ce27f",
-   "kind": "role",
-   "company": "Culture Amp",
-   "title": "VP of Total Rewards & People Operations",
-   "location": "Melbourne",
-   "url": "https://job-boards.greenhouse.io/cultureamp/jobs/6886244",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
    "comp": "",
    "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "c51f7e1966",
-   "kind": "role",
-   "company": "Take-Two Interactive",
-   "title": "VP, Talent Development",
-   "location": "New York, NY",
-   "url": "https://job-boards.greenhouse.io/taketwo/jobs/6933495",
-   "comp": "$240K-$290K",
-   "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "9d04230496",
-   "kind": "role",
-   "company": "Cresta",
-   "title": "Head of Global Talent Acquisition",
-   "location": "Remote",
-   "url": "https://job-boards.greenhouse.io/cresta/jobs/5106247008",
-   "comp": "$220K-$300K",
-   "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "c8c7862622",
-   "kind": "role",
-   "company": "Scale AI",
-   "title": "Head of Recruiting Operations and Strategy",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4499337005",
-   "comp": "$152K-$182.4K",
-   "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "9bc3889ea1",
-   "kind": "role",
-   "company": "Intuit",
-   "title": "Director, Global TA Programs",
-   "location": "Mountain View, CA or Atlanta, GA",
-   "url": "https://jobs.intuit.com/job/mountain-view/director-global-ta-programs/27595/70694946320",
-   "comp": "",
-   "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "771547d8b3",
-   "kind": "role",
-   "company": "Datadog",
-   "title": "Head of Executive Search, Business Recruiting",
-   "location": "SF / NYC / Boston / Denver",
-   "url": "https://careers.datadoghq.com/detail/7961311/",
-   "comp": "",
-   "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "360d6d0b80",
-   "kind": "role",
-   "company": "Ford Motor",
-   "title": "Senior Director Talent Management",
-   "location": "Dearborn, MI",
-   "url": "https://www.careers.ford.com/job/dearborn/senior-director-talent-management/48560/93154698240",
-   "comp": "",
-   "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "2ecf21afc2",
-   "kind": "ic",
-   "company": "Banyan Software",
-   "title": "Executive/Principal Recruiter",
-   "location": "Toronto, ON",
-   "url": "https://job-boards.greenhouse.io/banyansoftware/jobs/4978837007",
-   "comp": "",
-   "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "2fa4e08cf0",
-   "kind": "ic",
-   "company": "Babylist",
-   "title": "Principal Executive Recruiter",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/babylist/jobs/5813133004",
-   "comp": "",
-   "added": "2026-11-10",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "live",
+   "lastChecked": "2026-11-10",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-11-10",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-10",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
