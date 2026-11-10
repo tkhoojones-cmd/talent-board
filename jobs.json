@@ -3884,10 +3884,12 @@
    "url": "https://jobs.ashbyhq.com/openai/c1d39596-2006-49dd-a8c9-ec42b3e441d2",
    "comp": "$216K-$240K + equity",
    "added": "2026-10-14",
-   "status": "new",
+   "status": "closed",
    "lastChecked": "2026-11-10",
-   "reason": null,
-   "closedStreak": 0
+   "reason": "no longer in the employer's job feed",
+   "closedStreak": 0,
+   "feed": "ashby:openai",
+   "notInFeed": "2026-11-10"
   },
   {
    "id": "753beab4d6",
@@ -3922,7 +3924,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-10",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: ES, Aragon, Zaragoza"
   },
   {
    "id": "b80238edcb",
@@ -4073,17 +4075,17 @@
    "url": "https://job-boards.greenhouse.io/coinbase/jobs/8260302",
    "comp": "$166,345—$195,700",
    "added": "2026-10-15",
-   "status": "unverifiable",
+   "status": "live",
    "lastChecked": "2026-11-10",
-   "reason": "HTTP 403",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "greenhouse:coinbase",
    "inFeed": "2026-11-10",
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 4,
-   "lastLive": "2026-11-06"
+   "failStreak": 0,
+   "lastLive": "2026-11-10"
   },
   {
    "id": "c05d2a45e0",
@@ -6115,7 +6117,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-10",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: US, Tennessee, Murfreesboro"
   },
   {
    "id": "26628c532b",
@@ -6917,7 +6919,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-10",
-   "closedStreak": 46
+   "closedStreak": 47
   },
   {
    "id": "f0a3b1a3a2",
@@ -7968,27 +7970,6 @@
    "failStreak": 0,
    "lastLive": "2026-11-10",
    "pageLocation": "Canada"
-  },
-  {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-11-10",
-   "status": "live",
-   "lastChecked": "2026-11-10",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-11-10",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-10",
-   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
