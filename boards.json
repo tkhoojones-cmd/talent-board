@@ -602,7 +602,12 @@
    "company": "Sun Life"
   }
  ],
- "candidates": ["Read AI", "Sono Bello", "Galaxy Digital", "Schneider Electric"],
+ "candidates": [
+  "Read AI",
+  "Sono Bello",
+  "Galaxy Digital",
+  "Schneider Electric"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,

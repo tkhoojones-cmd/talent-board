@@ -573,6 +573,27 @@
    "title": "VP Talent (Irene DeNigris promoted to CPO)",
    "url": "https://peoplemattersglobal.com/?p=23824",
    "added": "2026-11-09"
+  },
+  {
+   "kind": "Left",
+   "company": "ServiceNow",
+   "title": "Technical Recruiting Lead (Akeem Joseph, now LiveRamp VP Global TA)",
+   "url": "https://huntscanlon.com/akeem-joseph-joins-liveramp-as-vp-global-talent-acquisition/",
+   "added": "2026-11-10"
+  },
+  {
+   "kind": "Hired",
+   "company": "Coforge",
+   "title": "Head of Talent Acquisition, BPS",
+   "url": "https://www.hrkatha.com/?p=58810",
+   "added": "2026-11-10"
+  },
+  {
+   "kind": "Left",
+   "company": "Coca-Cola",
+   "title": "Global Chief People Officer (Patrick Gabunada, stepping down; date unconfirmed)",
+   "url": "https://ph.linkedin.com/in/pgabunada",
+   "added": "2026-11-10"
   }
  ],
  "funding": [
@@ -1394,6 +1415,13 @@
    "amount": "$100M",
    "url": "https://blog.mean.ceo/startup-funding-announcements-news-november-2026/",
    "added": "2026-11-09"
+  },
+  {
+   "company": "Impulse Space",
+   "round": "Series D (extension)",
+   "amount": "$308M extension",
+   "url": "https://intellizence.com/insights/startup-funding/5-major-startup-funding-rounds-to-watch-temporal-d-robotics-impulse-space-ridgeline-and-cornelis/",
+   "added": "2026-11-10"
   }
  ]
 }
