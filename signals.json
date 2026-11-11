@@ -594,6 +594,34 @@
    "title": "Global Chief People Officer (Patrick Gabunada, stepping down; date unconfirmed)",
    "url": "https://ph.linkedin.com/in/pgabunada",
    "added": "2026-11-10"
+  },
+  {
+   "kind": "Hired",
+   "company": "First Abu Dhabi Bank",
+   "title": "VP & Head of Executive Talent Acquisition (Robert Armour, ex-KATIM; approx. Nov 2026)",
+   "url": "https://www.hrkatha.com/people/movement/robert-armour-takes-on-executive-talent-acquisition-leadership-at-first-abu-dhabi-bank/",
+   "added": "2026-11-11"
+  },
+  {
+   "kind": "Left",
+   "company": "KATIM",
+   "title": "Talent Acquisition leader (Robert Armour, left for First Abu Dhabi Bank; approx. Nov 2026)",
+   "url": "https://www.hrkatha.com/people/movement/robert-armour-takes-on-executive-talent-acquisition-leadership-at-first-abu-dhabi-bank/",
+   "added": "2026-11-11"
+  },
+  {
+   "kind": "Hired",
+   "company": "gategroup",
+   "title": "Head of Talent Acquisition (Hannah Sills; date unconfirmed)",
+   "url": "https://hrtoday.in/hannah-sills-appointed-as-head-of-talent-acquisition-at-gategroup/",
+   "added": "2026-11-11"
+  },
+  {
+   "kind": "Hired",
+   "company": "Copenhagen Airports A/S",
+   "title": "Head of Talent Acquisition (Jacob Faartoft Merklin; date unconfirmed)",
+   "url": "https://hrtoday.in/jacob-faartoft-merklin-appointed-as-head-of-talent-acquisition-at-copenhagen-airports-a-s/",
+   "added": "2026-11-11"
   }
  ],
  "funding": [
@@ -904,13 +932,6 @@
    "amount": "$10M USD (~$14M CAD)",
    "url": "https://betakit.com/cura-raises-10-million-usd-to-scale-low-carbon-cement-technology/",
    "added": "2026-09-17"
-  },
-  {
-   "company": "PixVerse",
-   "round": "Series C ext.",
-   "amount": "$439M",
-   "url": "https://www.geekwire.com/2026/singapores-pixverse-picks-seattle-area-for-its-first-u-s-office-amid-300m-funding-round/",
-   "added": "2026-07-13"
   },
   {
    "company": "Sierra",
@@ -1422,6 +1443,62 @@
    "amount": "$308M extension",
    "url": "https://intellizence.com/insights/startup-funding/5-major-startup-funding-rounds-to-watch-temporal-d-robotics-impulse-space-ridgeline-and-cornelis/",
    "added": "2026-11-10"
+  },
+  {
+   "company": "Blue J",
+   "round": "Series E",
+   "amount": "$176M USD",
+   "url": "https://betakit.com/ai-tax-research-platform-blue-j-raises-176-million-usd-series-e/",
+   "added": "2026-11-11"
+  },
+  {
+   "company": "Beacon Software",
+   "round": "Series C (CPPIB $50M stake)",
+   "amount": "$50M USD (Series C total $425M)",
+   "url": "https://betakit.com/cppib-takes-50-million-usd-stake-in-ai-holding-firm-beacon-software/",
+   "added": "2026-11-11"
+  },
+  {
+   "company": "Blackletter",
+   "round": "Seed",
+   "amount": "$6M USD",
+   "url": "https://artificiallawyer.com/2026/11/09/blackletter-bags-6m-for-transactional-new-mod",
+   "added": "2026-11-11"
+  },
+  {
+   "company": "Modal",
+   "round": "Series D",
+   "amount": "$750M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-12",
+   "added": "2026-11-11"
+  },
+  {
+   "company": "TXSE Group",
+   "round": "Series C",
+   "amount": "$430M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-05",
+   "added": "2026-11-11"
+  },
+  {
+   "company": "ASI",
+   "round": "Series C",
+   "amount": "$325M",
+   "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/",
+   "added": "2026-11-11"
+  },
+  {
+   "company": "OMass",
+   "round": "Series C",
+   "amount": "$310M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-12",
+   "added": "2026-11-11"
+  },
+  {
+   "company": "Xona Space Systems",
+   "round": "Series D",
+   "amount": "$250M",
+   "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/",
+   "added": "2026-11-11"
   }
  ]
 }

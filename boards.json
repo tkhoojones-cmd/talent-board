@@ -193,7 +193,12 @@
   "conductor",
   "unframe",
   "evolutioniq",
-  "remote"
+  "remote",
+  "beaconsoftware",
+  "interfaceai",
+  "trmlabs",
+  "launchdarkly",
+  "turingportal"
  ],
  "lever": [
   "zoox",
@@ -231,7 +236,8 @@
   "vergesense",
   "gametime",
   "cohere",
-  "neednova"
+  "neednova",
+  "zilliz"
  ],
  "ashby": [
   "pylon-labs",
@@ -663,7 +669,36 @@
   "Nory AI",
   "Apple",
   "C3 AI",
-  "Clari"
+  "Clari",
+  "Blue J",
+  "Bedrock Robotics",
+  "Xona Space Systems",
+  "TXSE Group",
+  "First Abu Dhabi Bank",
+  "KATIM",
+  "Profound",
+  "Quantum Metric",
+  "CreatorIQ",
+  "Believe",
+  "Lucid Motors",
+  "Paramount",
+  "Sony Pictures",
+  "Twelve Labs",
+  "Eight Sleep",
+  "Elliptic",
+  "Wispr Flow",
+  "BRINC",
+  "Luma AI",
+  "Honeycomb",
+  "Dispatch Data",
+  "One Model",
+  "Whop",
+  "Kalshi",
+  "McCain",
+  "KEV Group",
+  "Practice Better",
+  "ADP",
+  "GC AI"
  ],
  "tried": {
   "UniUni": 1,
@@ -1303,7 +1338,8 @@
   "versa-networks",
   "freelance-latin-america",
   "hadley-designs",
-  "plateful"
+  "plateful",
+  "move-talent"
  ],
  "rippling": [
   "smartsuite",
