@@ -187,7 +187,8 @@
   "atoms",
   "nametag",
   "conga",
-  "bamboohr17"
+  "bamboohr17",
+  "velir"
  ],
  "lever": [
   "zoox",
@@ -220,7 +221,9 @@
   "heetch",
   "airslate",
   "cohere",
-  "neednova"
+  "neednova",
+  "metr",
+  "mcgovern"
  ],
  "ashby": [
   "pylon-labs",
@@ -603,7 +606,31 @@
   }
  ],
  "candidates": [
-  "knownwell"
+  "knownwell",
+  "Sifted",
+  "Hadley Designs",
+  "LuminAI",
+  "Dispatch",
+  "Zip",
+  "Sur La Table",
+  "Klue",
+  "Optable",
+  "Binary Stream",
+  "Trafilea",
+  "Inizio Partners",
+  "Plateful",
+  "Gradle",
+  "Boundless Immigration",
+  "Navion Senior Solutions",
+  "Vergesense",
+  "HockeyStack",
+  "Cielo",
+  "Talkdesk",
+  "UKG",
+  "MeloTech",
+  "Apt",
+  "Awesomic",
+  "Apollo.io"
  ],
  "tried": {
   "UniUni": 1,
@@ -1204,7 +1231,10 @@
   "huggingface",
   "natilus",
   "zipdev",
-  "deeporigin"
+  "deeporigin",
+  "raydar",
+  "versa-networks",
+  "freelance-latin-america"
  ],
  "rippling": [
   "smartsuite",
@@ -1239,7 +1269,8 @@
   "creandum",
   "greatminds",
   "clay",
-  "meta"
+  "meta",
+  "amilia"
  ],
  "misses": {
   "greenhouse:figma": 0,
@@ -1870,7 +1901,8 @@
   "careers-uti",
   "careers-jobyaviation",
   "careers-accoy",
-  "careers-americas"
+  "careers-americas",
+  "hubcareers-docusign"
  ],
  "oracle": [
   {
