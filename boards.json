@@ -668,7 +668,18 @@
   "gategroup",
   "Copenhagen Airports A/S",
   "gametime",
-  "Heart and Stroke Foundation"
+  "Heart and Stroke Foundation",
+  "Aurora Public Schools",
+  "LivingHR",
+  "Respiris",
+  "Owner.com",
+  "Textio",
+  "Teamworks",
+  "Nooks",
+  "NetBox Labs",
+  "Pindrop",
+  "People Inc.",
+  "Orakl"
  ],
  "tried": {
   "UniUni": 1,
@@ -1358,7 +1369,8 @@
   "hadley-designs",
   "plateful",
   "move-talent",
-  "boldr-1"
+  "boldr-1",
+  "domain-tools"
  ],
  "rippling": [
   "smartsuite",
