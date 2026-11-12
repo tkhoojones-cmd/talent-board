@@ -203,7 +203,10 @@
   "honeycomb",
   "kalshi",
   "kevgroup",
-  "asi"
+  "asi",
+  "yugabyte",
+  "vannahealth",
+  "topsort"
  ],
  "lever": [
   "zoox",
@@ -679,7 +682,13 @@
   "gategroup",
   "Copenhagen Airports A/S",
   "cohere",
-  "gametime"
+  "gametime",
+  "Built In",
+  "Omnea",
+  "Heart and Stroke Foundation",
+  "Backblaze",
+  "Anterior",
+  "Amplify"
  ],
  "tried": {
   "UniUni": 1,
@@ -1346,7 +1355,8 @@
   "freelance-latin-america",
   "hadley-designs",
   "plateful",
-  "move-talent"
+  "move-talent",
+  "boldr-1"
  ],
  "rippling": [
   "smartsuite",
@@ -1357,7 +1367,8 @@
   "finalis",
   "vulcanforms",
   "advanced-navigation",
-  "paramount"
+  "paramount",
+  "elevationcapital"
  ],
  "smartrecruiters": [
   "glean",
