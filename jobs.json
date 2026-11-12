@@ -199,9 +199,9 @@
    "url": "https://manh.wd5.myworkdayjobs.com/External/job/Senior-Director-Talent-Management_16995",
    "comp": "",
    "added": "2026-09-28",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-12",
-   "reason": "opened normally with an Apply control",
+   "reason": "no longer in the employer's job feed",
    "pageLocation": "Atlanta, GA, United States of America",
    "pageTitle": "Senior Director Talent Management",
    "closedStreak": 0,
@@ -6926,7 +6926,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-12",
-   "closedStreak": 53
+   "closedStreak": 54
   },
   {
    "id": "f0a3b1a3a2",
@@ -8368,10 +8368,10 @@
    "url": "https://www.tryapt.ai/careers/vp-of-talent-acquisition",
    "comp": "",
    "added": "2026-11-11",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-12",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "bc76a31332",
@@ -9132,84 +9132,6 @@
    "closedStreak": 0
   },
   {
-   "id": "0313fdc598",
-   "kind": "role",
-   "company": "Greenhouse",
-   "title": "VP, Talent",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/greenhouse/jobs/7875615",
-   "comp": "$242,700–$281,670",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "e7c621c590",
-   "kind": "role",
-   "company": "Evergreen Services Group",
-   "title": "VP Talent Acquisition",
-   "location": "San Francisco, CA",
-   "url": "https://job-boards.greenhouse.io/evergreenservicesgroup/jobs/4535243005",
-   "comp": "",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "011bc8881c",
-   "kind": "role",
-   "company": "Liberate",
-   "title": "Head of Talent",
-   "location": "SF Bay Area or Boston",
-   "url": "https://job-boards.greenhouse.io/liberate/jobs/5136107008",
-   "comp": "$180K–$220K",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "e0e00cd167",
-   "kind": "role",
-   "company": "Velir",
-   "title": "VP, People Experience",
-   "location": "Remote",
-   "url": "https://job-boards.greenhouse.io/velir/jobs/5117671008",
-   "comp": "",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b0f3bcdaf0",
-   "kind": "role",
-   "company": "Files.com",
-   "title": "VP of Recruiting",
-   "location": "Austin, TX",
-   "url": "https://job-boards.greenhouse.io/filescom/jobs/4607831005",
-   "comp": "",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b09f63a10a",
-   "kind": "role",
-   "company": "Backstory",
-   "title": "VP of People",
-   "location": "Remote",
-   "url": "https://jobs.lever.co/people-ai/145cfacf-3f14-4d32-8a63-8b04c7e83908",
-   "comp": "",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
    "id": "e25d26c69d",
    "kind": "role",
    "company": "McGovern",
@@ -9218,9 +9140,11 @@
    "url": "https://jobs.lever.co/mcgovern/60225ec8-6f0d-4d34-83bf-24c5bfb89f73",
    "comp": "",
    "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-11-12",
+   "reason": "no longer in the employer's job feed",
+   "feed": "lever:mcgovern",
+   "notInFeed": "2026-11-12"
   },
   {
    "id": "c113b7a31a",
@@ -9231,22 +9155,10 @@
    "url": "https://apply.workable.com/raydar/jobs/view/7B2584AC2A",
    "comp": "",
    "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "15e17d94ad",
-   "kind": "role",
-   "company": "Versa Networks",
-   "title": "VP of People & HR",
-   "location": "Santa Clara, CA",
-   "url": "https://apply.workable.com/versa-networks/jobs/view/86DCA3DCD1",
-   "comp": "",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-12",
+   "reason": "no Apply control found",
+   "closedStreak": 0
   },
   {
    "id": "e5eb8ab4f7",
@@ -9257,74 +9169,31 @@
    "url": "https://apply.workable.com/freelance-latin-america/jobs/view/65CEB42D8F",
    "comp": "",
    "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-12",
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
-   "id": "88b182061e",
+   "id": "424f0a7992",
    "kind": "role",
-   "company": "Amilia",
-   "title": "Vice-president Talent & Culture",
-   "location": "Hybrid (Montreal ⚠️)",
-   "url": "https://amilia.recruitee.com/o/vp-talent-and-culture",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
    "comp": "",
    "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "795b77b48c",
-   "kind": "role",
-   "company": "Adobe",
-   "title": "Head of Executive Development and Organizational Effectiveness",
-   "location": "",
-   "url": "https://careers.adobe.com/us/en/job/R150009/Head-of-Executive-Development-and-Organizational-Effectiveness",
-   "comp": "",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "05639e203a",
-   "kind": "role",
-   "company": "Okta",
-   "title": "Director, People Operations",
-   "location": "San Francisco, CA",
-   "url": "https://www.okta.com/company/careers/ga/director-people-operations-8027504/",
-   "comp": "$210K–$289K + equity",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "911a955b2d",
-   "kind": "role",
-   "company": "Okta",
-   "title": "Senior Director, Global GTM Recruiting",
-   "location": "",
-   "url": "https://www.okta.com/company/careers/ga/senior-director-global-gtm-recruiting-8196226/",
-   "comp": "",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "771547d8b3",
-   "kind": "role",
-   "company": "Datadog",
-   "title": "Head of Leadership Search, Business Recruiting",
-   "location": "",
-   "url": "https://careers.datadoghq.com/detail/7961311/",
-   "comp": "",
-   "added": "2026-11-12",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "live",
+   "lastChecked": "2026-11-12",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-11-12",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-12",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
