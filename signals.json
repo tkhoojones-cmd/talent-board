@@ -636,6 +636,27 @@
    "title": "Global Talent Acquisition & Talent Mobility leader (Yulia Gomenuyk; date unconfirmed)",
    "url": "https://ua.linkedin.com/in/yuliagomenuyk",
    "added": "2026-11-12"
+  },
+  {
+   "kind": "Left",
+   "company": "Prodege",
+   "title": "Chief People & Administrative Officer (Alexander Karpan; date unconfirmed)",
+   "url": "https://ua.linkedin.com/in/alexkarpan",
+   "added": "2026-11-13"
+  },
+  {
+   "kind": "Left",
+   "company": "TDCX",
+   "title": "Head of EMEA Talent Acquisition (Hanna Scholes; date unconfirmed)",
+   "url": "https://es.linkedin.com/in/hannascholes",
+   "added": "2026-11-13"
+  },
+  {
+   "kind": "Hired",
+   "company": "Rev",
+   "title": "Head of Talent Acquisition & People Partner (Vinny Pisano; date unconfirmed)",
+   "url": "https://hrtoday.in/vinny-pisano-appointed-as-head-of-talent-acquisition-people-partner-at-rev/",
+   "added": "2026-11-13"
   }
  ],
  "funding": [
@@ -1513,6 +1534,55 @@
    "amount": "$250M",
    "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-defense-fintech-robotics/",
    "added": "2026-11-11"
+  },
+  {
+   "company": "Mistral AI",
+   "round": "Series D",
+   "amount": "$3.5B",
+   "url": "https://pipelineroad.com/news/tag/Series D",
+   "added": "2026-11-13"
+  },
+  {
+   "company": "Voltus",
+   "round": "Series D",
+   "amount": "$225M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-05",
+   "added": "2026-11-13"
+  },
+  {
+   "company": "Capitolis",
+   "round": "Series E",
+   "amount": "$220M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-05",
+   "added": "2026-11-13"
+  },
+  {
+   "company": "Clay",
+   "round": "Series D",
+   "amount": "$115M",
+   "url": "https://www.saasrise.com/deals/clay-raises-115m-in-series-d-funding-round-at-71b-valuation-cd63efc8-adac-4a3d-80ed-7968094095d8",
+   "added": "2026-11-13"
+  },
+  {
+   "company": "Hyperlayer",
+   "round": "Series C",
+   "amount": "$25.8M",
+   "url": "https://nordic9.com/news/hyperlayer-raised-a-258-million-round-series/",
+   "added": "2026-11-13"
+  },
+  {
+   "company": "BluWave-ai",
+   "round": "Equity + non-dilutive + debt",
+   "amount": "C$8.1M",
+   "url": "https://betakit.com/bluwave-ai-secures-8-1-million-for-energy-grid-software-as-data-centres-strain-load/",
+   "added": "2026-11-13"
+  },
+  {
+   "company": "Qvyon Technologies",
+   "round": "Seed",
+   "amount": "US$8M",
+   "url": "https://betakit.com/qvyon-technologies-emerges-from-stealth-with-8-million-usd-to-prepare-physical-ai-for-dangerous-edge-cases/",
+   "added": "2026-11-13"
   }
  ]
 }
