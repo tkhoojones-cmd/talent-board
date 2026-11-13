@@ -3932,7 +3932,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-13",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, Kansas, Kansas City"
   },
   {
    "id": "b80238edcb",
@@ -4092,7 +4092,7 @@
    "closedStreak": 0,
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
-   "failStreak": 2,
+   "failStreak": 3,
    "lastLive": "2026-11-13"
   },
   {
@@ -6127,7 +6127,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-13",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, Kansas, Kansas City"
   },
   {
    "id": "26628c532b",
@@ -6932,7 +6932,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-13",
-   "closedStreak": 61
+   "closedStreak": 62
   },
   {
    "id": "681b5a5acb",
@@ -10001,10 +10001,10 @@
    "url": "https://amazon.jobs/jobs/2739067",
    "comp": "",
    "added": "2026-11-13",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-13",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "34045be845",
@@ -10015,10 +10015,10 @@
    "url": "https://techpoint.org/job/chief-people-officer",
    "comp": "",
    "added": "2026-11-13",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-13",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "98eb5c38e5",
@@ -10077,58 +10077,6 @@
    "pageLocation": "San Francisco, CA"
   },
   {
-   "id": "0313fdc598",
-   "kind": "role",
-   "company": "Greenhouse",
-   "title": "VP, Talent",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/greenhouse/jobs/7875615",
-   "comp": "",
-   "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b09f63a10a",
-   "kind": "role",
-   "company": "Backstory (formerly People.ai)",
-   "title": "VP of People",
-   "location": "Remote (US)",
-   "url": "https://jobs.lever.co/people-ai/145cfacf-3f14-4d32-8a63-8b04c7e83908",
-   "comp": "",
-   "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "bd95488012",
-   "kind": "role",
-   "company": "Cohere",
-   "title": "Director - People Operations",
-   "location": "",
-   "url": "https://jobs.lever.co/cohere/ea657534-8260-4797-bb1f-fa0e914381b8",
-   "comp": "",
-   "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "6c15d98964",
-   "kind": "role",
-   "company": "Anduril",
-   "title": "Director, People Business Partners, Manufacturing",
-   "location": "Costa Mesa, CA",
-   "url": "https://job-boards.greenhouse.io/andurilindustries/jobs/4791861007",
-   "comp": "",
-   "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
    "id": "50c37bbe84",
    "kind": "ic",
    "company": "OpenAI",
@@ -10137,74 +10085,31 @@
    "url": "https://openai.com/careers/principal-recruiter-strategic-ai-talent-san-francisco/",
    "comp": "$216K–$240K + equity",
    "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-13",
+   "reason": "HTTP 403",
+   "closedStreak": 0
   },
   {
-   "id": "2fa4e08cf0",
-   "kind": "ic",
-   "company": "Babylist",
-   "title": "Principal Executive Recruiter",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/babylist/jobs/5813133004",
-   "comp": "$181,770–$262,750 + equity",
-   "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b616e529ae",
-   "kind": "ic",
-   "company": "Interface.ai",
-   "title": "Executive Recruiter",
-   "location": "Palo Alto, CA",
-   "url": "https://job-boards.greenhouse.io/interfaceai/jobs/4647345006",
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
    "comp": "",
    "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "bd4946bff5",
-   "kind": "ic",
-   "company": "Interface.ai",
-   "title": "Executive Recruiter (Contract)",
-   "location": "Bay Area, CA",
-   "url": "https://job-boards.greenhouse.io/interfaceai/jobs/4585460006",
-   "comp": "",
-   "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "e446099362",
-   "kind": "ic",
-   "company": "Turing",
-   "title": "Executive Recruiter",
-   "location": "San Francisco, CA (onsite 3-4 days)",
-   "url": "https://job-boards.greenhouse.io/turingportal/jobs/5692817004",
-   "comp": "",
-   "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "e6aa3972be",
-   "kind": "ic",
-   "company": "LaunchDarkly",
-   "title": "Principal GTM Recruiter",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7628651003",
-   "comp": "",
-   "added": "2026-11-13",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "live",
+   "lastChecked": "2026-11-13",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-11-13",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-13",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
