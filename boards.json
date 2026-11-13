@@ -211,7 +211,8 @@
   "backblaze",
   "textio",
   "nooks",
-  "hubspotjobs"
+  "hubspotjobs",
+  "changedotorgsourcing"
  ],
  "lever": [
   "zoox",
@@ -664,7 +665,17 @@
  ],
  "candidates": [
   "Worldover",
-  "Aiven"
+  "Aiven",
+  "Block",
+  "Komodo Health",
+  "Allocate",
+  "Maybern",
+  "Goodfire",
+  "Toyota Tsusho",
+  "Techpoint",
+  "Blackwall",
+  "Power to Change",
+  "KnowBe4"
  ],
  "tried": {
   "UniUni": 1,
