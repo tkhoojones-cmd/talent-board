@@ -660,7 +660,11 @@
  ],
  "candidates": [
   "elevationcapital",
-  "cohere"
+  "cohere",
+  "vivenu",
+  "Worldover",
+  "Aiven",
+  "Rewind"
  ],
  "tried": {
   "UniUni": 1,
@@ -1389,7 +1393,8 @@
   "move-talent",
   "boldr-1",
   "domain-tools",
-  "respiris"
+  "respiris",
+  "sidetrade"
  ],
  "rippling": [
   "smartsuite",
