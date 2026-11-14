@@ -671,7 +671,11 @@
   }
  ],
  "candidates": [
-  "cohere"
+  "cohere",
+  "Help Scout",
+  "werq.ai",
+  "McCain Foods",
+  "Homepage"
  ],
  "tried": {
   "UniUni": 1,
