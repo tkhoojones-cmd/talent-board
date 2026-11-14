@@ -657,6 +657,34 @@
    "title": "Head of Talent Acquisition & People Partner (Vinny Pisano; date unconfirmed)",
    "url": "https://hrtoday.in/vinny-pisano-appointed-as-head-of-talent-acquisition-people-partner-at-rev/",
    "added": "2026-11-13"
+  },
+  {
+   "kind": "Hired",
+   "company": "Qlik",
+   "title": "Chief People Officer (Anna Sharkey; announced 2026-11-10, starts 2026-11-23)",
+   "url": "https://techintelpro.com/news/qlik-appoints-anna-sharkey-as-chief-people-officer",
+   "added": "2026-11-14"
+  },
+  {
+   "kind": "Hired",
+   "company": "First Abu Dhabi Bank",
+   "title": "VP & Head of Executive Talent Acquisition (Robert Armour; ~Nov 2026, approx)",
+   "url": "https://www.hrkatha.com/people/movement/robert-armour-takes-on-executive-talent-acquisition-leadership-at-first-abu-dhabi-bank/",
+   "added": "2026-11-14"
+  },
+  {
+   "kind": "Left",
+   "company": "KATIM",
+   "title": "Robert Armour, talent acquisition (title unconfirmed; left for First Abu Dhabi Bank ~Nov 2026)",
+   "url": "https://www.hrkatha.com/people/movement/robert-armour-takes-on-executive-talent-acquisition-leadership-at-first-abu-dhabi-bank/",
+   "added": "2026-11-14"
+  },
+  {
+   "kind": "Left",
+   "company": "UNLV",
+   "title": "VP Human Resources & Chief People Officer (Ericka Smith; announced 2026-10-06, last day 2026-11-20)",
+   "url": "https://www.unlv.edu/announcement/office-president/ericka-smith-vp-human-resources-and-chief-people-officer-depart-unlv",
+   "added": "2026-11-14"
   }
  ],
  "funding": [
@@ -1583,6 +1611,34 @@
    "amount": "US$8M",
    "url": "https://betakit.com/qvyon-technologies-emerges-from-stealth-with-8-million-usd-to-prepare-physical-ai-for-dangerous-edge-cases/",
    "added": "2026-11-13"
+  },
+  {
+   "company": "Skan AI",
+   "round": "Series C",
+   "amount": "$63M",
+   "url": "https://www.unite.ai/skan-ais-series-c-bets-enterprise-ai-needs-a-map-of-real-work/",
+   "added": "2026-11-14"
+  },
+  {
+   "company": "Solink",
+   "round": "Growth",
+   "amount": "US$100M+",
+   "url": "https://ipvm.com/reports/solink-100m-raise",
+   "added": "2026-11-14"
+  },
+  {
+   "company": "BluWave-ai",
+   "round": "Equity + debt",
+   "amount": "$8.1M",
+   "url": "https://betakit.com/bluwave-ai-secures-8-1-million-for-energy-grid-software-as-data-centres-strain-load/",
+   "added": "2026-11-14"
+  },
+  {
+   "company": "DropGenie",
+   "round": "Undisclosed",
+   "amount": "US$5M",
+   "url": "https://betakit.com/dropgenie-raises-5-million-usd-backed-by-bdc-to-speed-up-biological-discovery/",
+   "added": "2026-11-14"
   }
  ]
 }
