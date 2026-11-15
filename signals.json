@@ -324,13 +324,6 @@
   },
   {
    "kind": "Hired",
-   "company": "Uber",
-   "title": "VP Global Talent Acquisition",
-   "url": "https://www.hrkatha.com/?p=58810",
-   "added": "2026-07-17"
-  },
-  {
-   "kind": "Hired",
    "company": "Deloitte India",
    "title": "VP Talent Acquisition",
    "url": "https://www.hrkatha.com/people/movement/arun-kumar-appointed-as-vp-talent-acquisition-deloitte",
@@ -685,6 +678,13 @@
    "title": "VP Human Resources & Chief People Officer (Ericka Smith; announced 2026-10-06, last day 2026-11-20)",
    "url": "https://www.unlv.edu/announcement/office-president/ericka-smith-vp-human-resources-and-chief-people-officer-depart-unlv",
    "added": "2026-11-14"
+  },
+  {
+   "kind": "Hired",
+   "company": "Ford",
+   "title": "Chief Talent Officer (William Huffaker; ~Oct 2026, approximate)",
+   "url": "https://sea.peoplemattersglobal.com/article/leadership/22-leadership-appointments-across-southeast-asia-that-made-headlines-in-october-2026-53070",
+   "added": "2026-11-15"
   }
  ],
  "funding": [
@@ -967,13 +967,6 @@
    "amount": "$251M",
    "url": "https://intellizence.com/insights/startup-funding/largest-startup-venture-capital-vc-funding-deals/",
    "added": "2026-10-06"
-  },
-  {
-   "company": "SiftMed",
-   "round": "Funding round",
-   "amount": "$5M",
-   "url": "https://betakit.com/siftmed-lands-5-million-to-find-the-facts-humans-can-miss-in-mountains-of-medical-records/",
-   "added": "2026-07-17"
   },
   {
    "company": "Snorkel AI",
