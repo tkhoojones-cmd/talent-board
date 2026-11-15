@@ -684,7 +684,11 @@
   }
  ],
  "candidates": [
-  "cohere"
+  "cohere",
+  "Heart & Stroke Foundation",
+  "WCG International",
+  "Harbour West",
+  "tryapt.ai"
  ],
  "tried": {
   "UniUni": 1,
@@ -1480,7 +1484,8 @@
   "vulcanforms",
   "advanced-navigation",
   "paramount",
-  "hyperlayer"
+  "hyperlayer",
+  "elevationcapital"
  ],
  "smartrecruiters": [
   "glean",
