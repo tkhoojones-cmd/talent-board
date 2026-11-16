@@ -685,6 +685,20 @@
    "title": "Chief Talent Officer (William Huffaker; ~Oct 2026, approximate)",
    "url": "https://sea.peoplemattersglobal.com/article/leadership/22-leadership-appointments-across-southeast-asia-that-made-headlines-in-october-2026-53070",
    "added": "2026-11-15"
+  },
+  {
+   "kind": "Left",
+   "company": "Newell Brands",
+   "title": "Talent leader (Bill Huffaker; left to become Ford Chief Talent Officer, ~Sep 26 2026, approximate; exact Newell title unconfirmed)",
+   "url": "https://huntscanlon.com/ford-appoints-chief-talent-officer-from-search-by-hanold-associates/",
+   "added": "2026-11-16"
+  },
+  {
+   "kind": "Left",
+   "company": "Verizon",
+   "title": "SVP & Chief Talent & Diversity Officer (Christina Schelling; promoted to EVP & CPO, ~Oct 2026, approximate)",
+   "url": "https://www.hrdive.com/news/verizon-franklin-electric-announce-new-hr-leaders-in-october/873086/",
+   "added": "2026-11-16"
   }
  ],
  "funding": [
@@ -1632,6 +1646,76 @@
    "amount": "US$5M",
    "url": "https://betakit.com/dropgenie-raises-5-million-usd-backed-by-bdc-to-speed-up-biological-discovery/",
    "added": "2026-11-14"
+  },
+  {
+   "company": "Mercor",
+   "round": "Series D",
+   "amount": "$750M",
+   "url": "https://techstartups.com/?p=140366",
+   "added": "2026-11-16"
+  },
+  {
+   "company": "Path Robotics",
+   "round": "Series E",
+   "amount": "$300M",
+   "url": "https://techstartups.com/?p=140366",
+   "added": "2026-11-16"
+  },
+  {
+   "company": "Harbinger Motors",
+   "round": "Series D",
+   "amount": "$240M",
+   "url": "https://app.fundz.net/funding-rounds/2026-11-02",
+   "added": "2026-11-16"
+  },
+  {
+   "company": "Pathos AI",
+   "round": "Series E",
+   "amount": "$237M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-26",
+   "added": "2026-11-16"
+  },
+  {
+   "company": "Ocient",
+   "round": "Series C",
+   "amount": "$100M",
+   "url": "https://app.fundz.net/funding-rounds/2026-11-02",
+   "added": "2026-11-16"
+  },
+  {
+   "company": "Hexagon Bio",
+   "round": "Series C",
+   "amount": "$62M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-26",
+   "added": "2026-11-16"
+  },
+  {
+   "company": "Alluxio",
+   "round": "Series C",
+   "amount": "$50M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-26",
+   "added": "2026-11-16"
+  },
+  {
+   "company": "Opentrons Labworks",
+   "round": "Series E",
+   "amount": "$40M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-26",
+   "added": "2026-11-16"
+  },
+  {
+   "company": "Signpost",
+   "round": "Series C",
+   "amount": "$20.5M",
+   "url": "https://app.fundz.net/funding-rounds/2026-11-02",
+   "added": "2026-11-16"
+  },
+  {
+   "company": "Verlo",
+   "round": "Seed",
+   "amount": "CA$4.5M",
+   "url": "https://betakit.com/verafin-alum-led-verlo-nabs-4-5-million-to-build-ai-operating-system-for-wealth-managers",
+   "added": "2026-11-16"
   }
  ]
 }

@@ -225,7 +225,8 @@
   "whisperaero",
   "shipmonk",
   "kandu",
-  "chaosindustries"
+  "chaosindustries",
+  "bedrockrobotics"
  ],
  "lever": [
   "zoox",
@@ -703,7 +704,21 @@
   "Hively",
   "Edmonton International Airport",
   "PPL Dynamics",
-  "knownwell"
+  "knownwell",
+  "Walt Disney Company",
+  "Parachute Home",
+  "Vercel",
+  "Culture Amp",
+  "Harvey",
+  "Topaz Labs",
+  "Path Robotics",
+  "Harbinger Motors",
+  "Pathos AI",
+  "Hexagon Bio",
+  "Alluxio",
+  "Opentrons",
+  "Signpost",
+  "Verlo"
  ],
  "tried": {
   "UniUni": 1,
@@ -1522,7 +1537,8 @@
   "vulcanforms",
   "advanced-navigation",
   "paramount",
-  "hyperlayer"
+  "hyperlayer",
+  "pathos"
  ],
  "smartrecruiters": [
   "glean",
