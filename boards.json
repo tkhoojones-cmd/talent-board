@@ -692,7 +692,19 @@
    "company": "Clio"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "Wirehire",
+  "Acumatica",
+  "Flosum",
+  "Sapio Sciences",
+  "Br-dge",
+  "Kandu",
+  "Zak Human Solutions",
+  "Hively",
+  "Edmonton International Airport",
+  "PPL Dynamics",
+  "Chaos Industries"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
