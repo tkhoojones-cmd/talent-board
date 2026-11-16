@@ -223,7 +223,9 @@
   "pediatricsplus",
   "buildkite",
   "whisperaero",
-  "shipmonk"
+  "shipmonk",
+  "kandu",
+  "chaosindustries"
  ],
  "lever": [
   "zoox",
@@ -263,10 +265,10 @@
   "voltus",
   "seven-starling",
   "hermeus",
-  "knownwell",
   "cohere",
   "neednova",
-  "gametime"
+  "gametime",
+  "sapiosciences"
  ],
  "ashby": [
   "pylon-labs",
@@ -424,7 +426,8 @@
   "solink",
   "turnkey",
   "freshpaint",
-  "pylon"
+  "pylon",
+  "beaconsoftware"
  ],
  "workday": [
   {
@@ -694,16 +697,13 @@
  ],
  "candidates": [
   "Wirehire",
-  "Acumatica",
   "Flosum",
-  "Sapio Sciences",
   "Br-dge",
-  "Kandu",
   "Zak Human Solutions",
   "Hively",
   "Edmonton International Airport",
   "PPL Dynamics",
-  "Chaos Industries"
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -1097,7 +1097,14 @@
   "9amHealth": 4,
   "Aurora Innovation": 4,
   "Lyte AI": 4,
-  "Quantum Space": 4
+  "Quantum Space": 4,
+  "Wirehire": 1,
+  "Hively": 1,
+  "Zak Human Solutions": 1,
+  "Br-dge": 1,
+  "Edmonton International Airport": 1,
+  "Flosum": 1,
+  "PPL Dynamics": 1
  },
  "dead": [
   "Slate Auto",
@@ -1538,7 +1545,8 @@
   "ServiceNow",
   "hackajob",
   "teladochealth",
-  "canva"
+  "canva",
+  "acumatica"
  ],
  "recruitee": [
   "riderlevettbucknall",
@@ -2019,10 +2027,14 @@
   "greenhouse:shipmonk": 0,
   "greenhouse:whisperaero": 0,
   "lever:hermeus": 0,
-  "lever:knownwell": 2,
-  "lever:neednova": 1,
-  "lever:gametime": 1,
-  "lever:cohere": 1
+  "lever:neednova": 2,
+  "lever:gametime": 2,
+  "lever:cohere": 2,
+  "greenhouse:kandu": 0,
+  "greenhouse:chaosindustries": 0,
+  "lever:sapiosciences": 0,
+  "smartrecruiters:acumatica": 0,
+  "ashby:beaconsoftware": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -2352,7 +2364,11 @@
   "ashby:pylon": "Pylon",
   "lever:hermeus": "Hermeus",
   "greenhouse:whisperaero": "Whisper Aero",
-  "greenhouse:shipmonk": "ShipMonk"
+  "greenhouse:shipmonk": "ShipMonk",
+  "greenhouse:kandu": "Kandu",
+  "smartrecruiters:acumatica": "Acumatica",
+  "lever:sapiosciences": "Sapio Sciences",
+  "greenhouse:chaosindustries": "Chaos Industries"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -2385,40 +2401,57 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 194,
-  "greenhouse:notion": 194,
-  "greenhouse:marqeta": 194,
-  "greenhouse:alphahawaii": 194,
-  "lever:knownwell": 194,
-  "workday:walmart:WalmartExternal": 194,
-  "workday:comcast:Comcast_Careers": 194,
-  "workday:dell:External": 194,
-  "workday:qualcomm:External": 194,
-  "bigtech:microsoft": 194,
-  "bigtech:meta": 194,
-  "greenhouse:clickhouse": 179,
-  "greenhouse:visiersolutionsinc": 164,
-  "greenhouse:alignmenthealth": 163,
-  "lever:neednova": 109,
+  "greenhouse:admarketplaceinc": 195,
+  "greenhouse:notion": 195,
+  "greenhouse:marqeta": 195,
+  "greenhouse:alphahawaii": 195,
+  "lever:knownwell": 195,
+  "workday:walmart:WalmartExternal": 195,
+  "workday:comcast:Comcast_Careers": 195,
+  "workday:dell:External": 195,
+  "workday:qualcomm:External": 195,
+  "bigtech:microsoft": 195,
+  "bigtech:meta": 195,
+  "greenhouse:clickhouse": 180,
+  "greenhouse:visiersolutionsinc": 165,
+  "greenhouse:alignmenthealth": 164,
+  "lever:neednova": 110,
   "lever:wandb": 6,
-  "lever:cohere": 122,
-  "ashby:beaconsoftware": 90,
-  "greenhouse:rollstack": 89,
-  "greenhouse:iconiqcapital": 88,
+  "lever:cohere": 123,
+  "ashby:beaconsoftware": 91,
+  "greenhouse:rollstack": 90,
+  "greenhouse:iconiqcapital": 89,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 78,
-  "greenhouse:amplitude": 77,
-  "greenhouse:grammarly": 64,
-  "greenhouse:fireworksai": 64,
+  "greenhouse:generalcatalyst": 79,
+  "greenhouse:amplitude": 78,
+  "greenhouse:grammarly": 65,
+  "greenhouse:fireworksai": 65,
   "lever:mistral": 3,
-  "greenhouse:conductor": 28,
-  "lever:gametime": 28,
-  "greenhouse:beaconsoftware": 27,
-  "greenhouse:trmlabs": 27,
-  "greenhouse:turingportal": 27,
-  "greenhouse:interfaceai": 27,
-  "greenhouse:vannahealth": 25,
+  "greenhouse:conductor": 29,
+  "lever:gametime": 29,
+  "greenhouse:beaconsoftware": 28,
+  "greenhouse:trmlabs": 28,
+  "greenhouse:turingportal": 28,
+  "greenhouse:interfaceai": 28,
+  "greenhouse:vannahealth": 26,
   "rippling:elevationcapital": 6,
-  "greenhouse:changedotorgsourcing": 18
+  "greenhouse:changedotorgsourcing": 19,
+  "workable:montera": 1,
+  "workable:weekday-1": 1,
+  "workable:anthro": 1,
+  "workable:deeporigin": 1,
+  "workable:natilus": 1,
+  "workable:raydar": 1,
+  "workable:huggingface": 1,
+  "workable:zipdev": 1,
+  "workable:versa-networks": 1,
+  "workable:freelance-latin-america": 1,
+  "workable:hadley-designs": 1,
+  "workable:move-talent": 1,
+  "workable:plateful": 1,
+  "workable:respiris": 1,
+  "workable:sidetrade": 1,
+  "workable:domain-tools": 1,
+  "workable:boldr-1": 1
  }
 }
