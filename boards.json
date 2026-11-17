@@ -231,7 +231,8 @@
   "pathrobotics",
   "harbingermotors",
   "hexagonbio",
-  "signpost"
+  "signpost",
+  "xplatform"
  ],
  "lever": [
   "zoox",
@@ -277,7 +278,9 @@
   "knownwell",
   "cohere",
   "neednova",
-  "gametime"
+  "gametime",
+  "wandb",
+  "netflix"
  ],
  "ashby": [
   "pylon-labs",
@@ -708,7 +711,12 @@
  ],
  "candidates": [
   "Voltus",
-  "Alluxio"
+  "Alluxio",
+  "Fabric",
+  "The Hiring Advisors",
+  "Patlytics",
+  "Change.org",
+  "Rad AI"
  ],
  "tried": {
   "UniUni": 1,
