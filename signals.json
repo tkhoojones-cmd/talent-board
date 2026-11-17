@@ -699,6 +699,27 @@
    "title": "SVP & Chief Talent & Diversity Officer (Christina Schelling; promoted to EVP & CPO, ~Oct 2026, approximate)",
    "url": "https://www.hrdive.com/news/verizon-franklin-electric-announce-new-hr-leaders-in-october/873086/",
    "added": "2026-11-16"
+  },
+  {
+   "kind": "Hired",
+   "company": "Qlik",
+   "title": "Chief People Officer (Anna Sharkey; effective Nov 23 2026)",
+   "url": "https://sea.peoplemattersglobal.com/news/appointments/qlik-appoints-anna-sharkey-as-chief-people-officer-53266",
+   "added": "2026-11-17"
+  },
+  {
+   "kind": "Left",
+   "company": "Qlik",
+   "title": "Chief People Officer (outgoing CPO staying through end of 2026; successor Anna Sharkey named Nov 2026)",
+   "url": "https://sea.peoplemattersglobal.com/news/appointments/qlik-appoints-anna-sharkey-as-chief-people-officer-53266",
+   "added": "2026-11-17"
+  },
+  {
+   "kind": "Left",
+   "company": "Microsoft",
+   "title": "CVP Talent & Learning / CDO (Lindsay-Rae McIntyre; left for a CPO role; date not confirmed)",
+   "url": "https://www.windowscentral.com/microsoft/microsofts-leadership-exodus-deepens-as-diversity-chief-departs",
+   "added": "2026-11-17"
   }
  ],
  "funding": [
@@ -1716,6 +1737,48 @@
    "amount": "CA$4.5M",
    "url": "https://betakit.com/verafin-alum-led-verlo-nabs-4-5-million-to-build-ai-operating-system-for-wealth-managers",
    "added": "2026-11-16"
+  },
+  {
+   "company": "OMass Therapeutics",
+   "round": "Series C",
+   "amount": "$310M",
+   "url": "https://www.rttnews.com/3699310/syncona-invests-10-1-mln-in-omass-310-mln-series-c-financing.aspx",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "PaleBlueDot AI",
+   "round": "Series C",
+   "amount": "$200M",
+   "url": "https://dealroom.co/news/158436-palebluedot-ai-raises-200m-series-c-to-expand-gpu-compute/",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Databento",
+   "round": "Series C",
+   "amount": "$100M",
+   "url": "https://hpcwire.com/bigdatawire/this-just-in/databento-raises-100m-series-c-at-1-1b-valuation",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "BluWave-ai",
+   "round": "Series A2",
+   "amount": "$8.1M",
+   "url": "https://betakit.com/bluwave-ai-secures-8-1-million-for-energy-grid-software-as-data-centres-strain-load/",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Heylist",
+   "round": "Seed",
+   "amount": "CA$3.1M",
+   "url": "https://betakit.com/heylist-closes-3-1-million-to-fuel-the-niche-creator-economy/",
+   "added": "2026-11-17"
+  },
+  {
+   "company": "Standard Rail",
+   "round": "Seed",
+   "amount": "CA$1.85M",
+   "url": "https://betakit.com/bdc-leads-investment-in-saskatoon-company-modernizing-railway-logistics/",
+   "added": "2026-11-17"
   }
  ]
 }

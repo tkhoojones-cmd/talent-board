@@ -232,7 +232,9 @@
   "harbingermotors",
   "hexagonbio",
   "signpost",
-  "xplatform"
+  "xplatform",
+  "databento",
+  "zeffy"
  ],
  "lever": [
   "zoox",
@@ -280,7 +282,8 @@
   "neednova",
   "gametime",
   "wandb",
-  "netflix"
+  "netflix",
+  "CesiumAstro"
  ],
  "ashby": [
   "pylon-labs",
@@ -717,7 +720,13 @@
   "Alluxio",
   "Fabric",
   "The Hiring Advisors",
-  "Change.org"
+  "Change.org",
+  "Fractile",
+  "OMass Therapeutics",
+  "PaleBlueDot AI",
+  "Kota",
+  "Stepful",
+  "Clear Street"
  ],
  "tried": {
   "UniUni": 1,
