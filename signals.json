@@ -720,6 +720,13 @@
    "title": "CVP Talent & Learning / CDO (Lindsay-Rae McIntyre; left for a CPO role; date not confirmed)",
    "url": "https://www.windowscentral.com/microsoft/microsofts-leadership-exodus-deepens-as-diversity-chief-departs",
    "added": "2026-11-17"
+  },
+  {
+   "kind": "Hired",
+   "company": "Huntington Ingalls Industries",
+   "title": "Chief Human Resources Officer (Renee Swan; starts Dec 7 2026)",
+   "url": "https://fortune.com/2026/11/13/fortune-500-power-moves-oct-31-nov-13/",
+   "added": "2026-11-18"
   }
  ],
  "funding": [
@@ -1779,6 +1786,34 @@
    "amount": "CA$1.85M",
    "url": "https://betakit.com/bdc-leads-investment-in-saskatoon-company-modernizing-railway-logistics/",
    "added": "2026-11-17"
+  },
+  {
+   "company": "CAIS",
+   "round": "Series D",
+   "amount": "$170M",
+   "url": "https://app.fundz.net/funding-rounds",
+   "added": "2026-11-18"
+  },
+  {
+   "company": "Delix Therapeutics",
+   "round": "Series C",
+   "amount": "$100M",
+   "url": "https://app.fundz.net/funding-rounds",
+   "added": "2026-11-18"
+  },
+  {
+   "company": "Finite State",
+   "round": "Series C",
+   "amount": "$27M",
+   "url": "https://app.fundz.net/funding-rounds",
+   "added": "2026-11-18"
+  },
+  {
+   "company": "Promise Robotics",
+   "round": "Series B",
+   "amount": "CA$40M",
+   "url": "https://betakit.com/physical-ai-company-promise-robotics-announces-40-million-series-b-round/",
+   "added": "2026-11-18"
   }
  ]
 }

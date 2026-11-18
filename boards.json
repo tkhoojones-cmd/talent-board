@@ -279,7 +279,9 @@
   "topazlabs",
   "alluxio",
   "CesiumAstro",
-  "knownwell"
+  "knownwell",
+  "promiserobotics",
+  "cohere"
  ],
  "ashby": [
   "pylon-labs",
@@ -719,7 +721,27 @@
   "netflix",
   "andiamogo",
   "Parallel Web Systems",
-  "cohere"
+  "cohere",
+  "Quantum Metric",
+  "Live Nation Entertainment",
+  "Lucid Motors",
+  "Sony Pictures Entertainment",
+  "United Talent Agency",
+  "Twelve Labs",
+  "Eight Sleep",
+  "People.ai",
+  "Hadley Designs",
+  "Wispr Flow",
+  "Clear Street",
+  "Luma AI",
+  "Grow Therapy",
+  "Verse Medical",
+  "GC AI",
+  "Epic Games",
+  "Bedrock Robotics",
+  "Promise Robotics",
+  "CAIS",
+  "Path Robotics"
  ],
  "tried": {
   "UniUni": 1,
