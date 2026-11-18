@@ -278,7 +278,6 @@
   "topazlabs",
   "alluxio",
   "CesiumAstro",
-  "knownwell",
   "cohere",
   "neednova",
   "gametime"
@@ -447,8 +446,7 @@
   "patlytics",
   "fractile",
   "kota",
-  "stepful",
-  "beaconsoftware"
+  "stepful"
  ],
  "workday": [
   {
@@ -718,7 +716,8 @@
  ],
  "candidates": [
   "netflix",
-  "andiamogo"
+  "andiamogo",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -1133,7 +1132,8 @@
   "PaleBlueDot AI": 4,
   "Heylist": 4,
   "Standard Rail": 4,
-  "netflix": 1
+  "netflix": 2,
+  "andiamogo": 1
  },
  "dead": [
   "Slate Auto",
@@ -2101,11 +2101,9 @@
   "ashby:fractile": 0,
   "ashby:stepful": 0,
   "workable:omass-therapeutics": 0,
-  "lever:knownwell": 2,
-  "ashby:beaconsoftware": 2,
-  "lever:cohere": 1,
-  "lever:neednova": 1,
-  "lever:gametime": 1
+  "lever:cohere": 2,
+  "lever:neednova": 2,
+  "lever:gametime": 2
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -2492,44 +2490,44 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 205,
-  "greenhouse:notion": 205,
-  "greenhouse:marqeta": 205,
-  "greenhouse:alphahawaii": 205,
-  "lever:knownwell": 205,
-  "workday:walmart:WalmartExternal": 205,
-  "workday:comcast:Comcast_Careers": 205,
-  "workday:dell:External": 205,
-  "workday:qualcomm:External": 205,
-  "bigtech:microsoft": 205,
-  "bigtech:meta": 205,
-  "greenhouse:clickhouse": 190,
-  "greenhouse:visiersolutionsinc": 175,
-  "greenhouse:alignmenthealth": 174,
-  "lever:neednova": 120,
+  "greenhouse:admarketplaceinc": 206,
+  "greenhouse:notion": 206,
+  "greenhouse:marqeta": 206,
+  "greenhouse:alphahawaii": 206,
+  "lever:knownwell": 206,
+  "workday:walmart:WalmartExternal": 206,
+  "workday:comcast:Comcast_Careers": 206,
+  "workday:dell:External": 206,
+  "workday:qualcomm:External": 206,
+  "bigtech:microsoft": 206,
+  "bigtech:meta": 206,
+  "greenhouse:clickhouse": 191,
+  "greenhouse:visiersolutionsinc": 176,
+  "greenhouse:alignmenthealth": 175,
+  "lever:neednova": 121,
   "lever:wandb": 10,
-  "lever:cohere": 133,
-  "ashby:beaconsoftware": 101,
-  "greenhouse:rollstack": 100,
-  "greenhouse:iconiqcapital": 99,
+  "lever:cohere": 134,
+  "ashby:beaconsoftware": 102,
+  "greenhouse:rollstack": 101,
+  "greenhouse:iconiqcapital": 100,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 89,
-  "greenhouse:amplitude": 88,
-  "greenhouse:grammarly": 75,
-  "greenhouse:fireworksai": 75,
+  "greenhouse:generalcatalyst": 90,
+  "greenhouse:amplitude": 89,
+  "greenhouse:grammarly": 76,
+  "greenhouse:fireworksai": 76,
   "lever:mistral": 3,
-  "greenhouse:conductor": 39,
-  "lever:gametime": 39,
-  "greenhouse:beaconsoftware": 38,
-  "greenhouse:trmlabs": 38,
-  "greenhouse:turingportal": 38,
-  "greenhouse:interfaceai": 38,
-  "greenhouse:vannahealth": 36,
+  "greenhouse:conductor": 40,
+  "lever:gametime": 40,
+  "greenhouse:beaconsoftware": 39,
+  "greenhouse:trmlabs": 39,
+  "greenhouse:turingportal": 39,
+  "greenhouse:interfaceai": 39,
+  "greenhouse:vannahealth": 37,
   "rippling:elevationcapital": 6,
-  "greenhouse:changedotorgsourcing": 29,
-  "greenhouse:bedrockrobotics": 10,
-  "greenhouse:xplatform": 5,
+  "greenhouse:changedotorgsourcing": 30,
+  "greenhouse:bedrockrobotics": 11,
+  "greenhouse:xplatform": 6,
   "lever:netflix": 4,
-  "greenhouse:gigs": 1
+  "greenhouse:gigs": 2
  }
 }
