@@ -282,9 +282,7 @@
   "alluxio",
   "CesiumAstro",
   "promiserobotics",
-  "cohere",
-  "neednova",
-  "gametime"
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -452,7 +450,8 @@
   "kota",
   "stepful",
   "salient",
-  "united-talent-agency"
+  "united-talent-agency",
+  "beaconsoftware"
  ],
  "workday": [
   {
@@ -721,11 +720,10 @@
   }
  ],
  "candidates": [
-  "Parallel Web Systems",
   "Sony Pictures Entertainment",
   "Delix Therapeutics",
   "Huntington Ingalls Industries",
-  "knownwell"
+  "cohere"
  ],
  "tried": {
   "UniUni": 1,
@@ -1142,11 +1140,11 @@
   "Standard Rail": 4,
   "netflix": 4,
   "andiamogo": 4,
-  "Parallel Web Systems": 3,
-  "Sony Pictures Entertainment": 2,
+  "Parallel Web Systems": 4,
+  "Sony Pictures Entertainment": 3,
   "OMass Therapeutics": 1,
-  "Delix Therapeutics": 2,
-  "Huntington Ingalls Industries": 2
+  "Delix Therapeutics": 3,
+  "Huntington Ingalls Industries": 3
  },
  "dead": [
   "Slate Auto",
@@ -1552,7 +1550,8 @@
   "Heylist",
   "Standard Rail",
   "netflix",
-  "andiamogo"
+  "andiamogo",
+  "Parallel Web Systems"
  ],
  "workable": [
   "montera",
@@ -2124,9 +2123,8 @@
   "lever:promiserobotics": 0,
   "ashby:united-talent-agency": 0,
   "smartrecruiters:livenationentertainment": 0,
-  "lever:gametime": 2,
-  "lever:neednova": 2,
-  "lever:cohere": 2
+  "lever:knownwell": 1,
+  "ashby:beaconsoftware": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -2520,48 +2518,46 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 209,
-  "greenhouse:notion": 209,
-  "greenhouse:marqeta": 209,
-  "greenhouse:alphahawaii": 209,
-  "lever:knownwell": 209,
-  "workday:walmart:WalmartExternal": 209,
-  "workday:comcast:Comcast_Careers": 209,
-  "workday:dell:External": 209,
-  "workday:qualcomm:External": 209,
-  "bigtech:microsoft": 209,
-  "bigtech:meta": 209,
-  "greenhouse:clickhouse": 194,
-  "greenhouse:visiersolutionsinc": 179,
-  "greenhouse:alignmenthealth": 178,
-  "lever:neednova": 124,
+  "greenhouse:admarketplaceinc": 210,
+  "greenhouse:notion": 210,
+  "greenhouse:marqeta": 210,
+  "greenhouse:alphahawaii": 210,
+  "lever:knownwell": 210,
+  "workday:walmart:WalmartExternal": 210,
+  "workday:comcast:Comcast_Careers": 210,
+  "workday:dell:External": 210,
+  "workday:qualcomm:External": 210,
+  "bigtech:microsoft": 210,
+  "bigtech:meta": 210,
+  "greenhouse:clickhouse": 195,
+  "greenhouse:visiersolutionsinc": 180,
+  "greenhouse:alignmenthealth": 179,
+  "lever:neednova": 125,
   "lever:wandb": 10,
-  "lever:cohere": 137,
-  "ashby:beaconsoftware": 105,
-  "greenhouse:rollstack": 104,
-  "greenhouse:iconiqcapital": 103,
+  "lever:cohere": 138,
+  "ashby:beaconsoftware": 106,
+  "greenhouse:rollstack": 105,
+  "greenhouse:iconiqcapital": 104,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 93,
-  "greenhouse:amplitude": 92,
-  "greenhouse:grammarly": 79,
-  "greenhouse:fireworksai": 79,
+  "greenhouse:generalcatalyst": 94,
+  "greenhouse:amplitude": 93,
+  "greenhouse:grammarly": 80,
+  "greenhouse:fireworksai": 80,
   "lever:mistral": 3,
-  "greenhouse:conductor": 43,
-  "lever:gametime": 43,
-  "greenhouse:beaconsoftware": 42,
-  "greenhouse:trmlabs": 42,
-  "greenhouse:turingportal": 42,
-  "greenhouse:interfaceai": 42,
-  "greenhouse:vannahealth": 40,
+  "greenhouse:conductor": 44,
+  "lever:gametime": 44,
+  "greenhouse:beaconsoftware": 43,
+  "greenhouse:trmlabs": 43,
+  "greenhouse:turingportal": 43,
+  "greenhouse:interfaceai": 43,
+  "greenhouse:vannahealth": 41,
   "rippling:elevationcapital": 6,
-  "greenhouse:changedotorgsourcing": 33,
-  "greenhouse:bedrockrobotics": 14,
-  "greenhouse:xplatform": 9,
+  "greenhouse:changedotorgsourcing": 34,
+  "greenhouse:bedrockrobotics": 15,
+  "greenhouse:xplatform": 10,
   "lever:netflix": 4,
-  "greenhouse:gigs": 5,
-  "lever:jobgether": 1,
-  "lever:promiserobotics": 1,
-  "lever:hermeus": 1,
-  "bigtech:netflix": 1
+  "greenhouse:gigs": 6,
+  "bigtech:netflix": 2,
+  "greenhouse:andurilindustries": 1
  }
 }

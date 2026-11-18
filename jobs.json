@@ -2321,7 +2321,8 @@
    "pageTitle": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
    "closedStreak": 0,
    "failStreak": 0,
-   "lastLive": "2026-11-18"
+   "lastLive": "2026-11-18",
+   "notInFeed": "2026-11-18"
   },
   {
    "id": "f45a72b351",
@@ -3111,16 +3112,17 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-11-18",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-11-18",
    "source": "feed",
    "feed": "workday:visa:Visa",
    "inFeed": "2026-11-18",
    "compMax": 216800,
    "pageTitle": "Director, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-11-18",
-   "pageLocation": "Austin, TX, United States of America"
+   "pageLocation": "Austin, TX, United States of America",
+   "notInFeed": "2026-11-18"
   },
   {
    "id": "17c9428719",
@@ -6941,7 +6943,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-18",
-   "closedStreak": 93
+   "closedStreak": 94
   },
   {
    "id": "681b5a5acb",
@@ -8132,9 +8134,9 @@
    "url": "https://jobs.lever.co/jobgether/d70e1253-d100-42d6-bef3-edab9cc7b512",
    "comp": "$61,575–$82,100",
    "added": "2026-11-11",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-18",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-18",
@@ -8143,7 +8145,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-18",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-11-18"
   },
   {
    "id": "8dcd35c9e9",
@@ -8446,9 +8449,9 @@
    "url": "https://jobs.lever.co/jobgether/ba49a14c-f286-4e7a-9660-cf7dfa030864",
    "comp": "$183,000–$295,100",
    "added": "2026-11-11",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-18",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-18",
@@ -8457,7 +8460,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-18",
-   "pageLocation": "United Arab Emirates"
+   "pageLocation": "United Arab Emirates",
+   "notInFeed": "2026-11-18"
   },
   {
    "id": "60075e14eb",
@@ -8468,9 +8472,9 @@
    "url": "https://jobs.lever.co/jobgether/d5e560e7-a302-4bbe-8af3-6f3ed78266ee",
    "comp": "$183,000–$295,100",
    "added": "2026-11-11",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-18",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-18",
@@ -8479,7 +8483,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-18",
-   "pageLocation": "US"
+   "pageLocation": "US",
+   "notInFeed": "2026-11-18"
   },
   {
    "id": "892ccc47cf",
@@ -8490,9 +8495,9 @@
    "url": "https://jobs.lever.co/jobgether/decfe749-cea7-47be-b3d9-cfb6013a9b53",
    "comp": "$183,000–$295,100",
    "added": "2026-11-11",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-18",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-18",
@@ -8501,7 +8506,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-18",
-   "pageLocation": "Canada"
+   "pageLocation": "Canada",
+   "notInFeed": "2026-11-18"
   },
   {
    "id": "03fff0b299",
@@ -8818,15 +8824,16 @@
    "added": "2026-11-11",
    "status": "live",
    "lastChecked": "2026-11-18",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: HTTP 404); last confirmed 2026-11-18",
    "source": "feed",
    "feed": "ashby:tar",
    "inFeed": "2026-11-18",
    "pageTitle": "VP of Talent",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-11-18",
-   "pageLocation": "San Francisco, California, United States"
+   "pageLocation": "San Francisco, California, United States",
+   "notInFeed": "2026-11-18"
   },
   {
    "id": "b616e529ae",
@@ -9846,9 +9853,9 @@
    "url": "https://jobs.lever.co/jobgether/dd49b548-7a86-42d8-80e1-0d1bcc8d0284",
    "comp": "",
    "added": "2026-11-13",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-18",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "HTTP 404",
    "source": "feed",
    "feed": "lever:jobgether",
    "inFeed": "2026-11-18",
@@ -9856,7 +9863,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-18",
-   "pageLocation": "Canada"
+   "pageLocation": "Canada",
+   "notInFeed": "2026-11-18"
   },
   {
    "id": "1b3a6bea6a",
@@ -10461,7 +10469,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-18",
-   "closedStreak": 26
+   "closedStreak": 27
   },
   {
    "id": "bad760ffba",
@@ -11203,6 +11211,91 @@
    "lastChecked": "2026-11-18",
    "reason": "redirected to a different page: https://join.disneycareers.com/global/en",
    "closedStreak": 0
+  },
+  {
+   "id": "2b5a659205",
+   "kind": "ic",
+   "company": "Verkada",
+   "title": "Staff Technical Recruiter",
+   "location": "San Mateo, CA United States",
+   "url": "https://job-boards.greenhouse.io/verkada/jobs/5253495007",
+   "comp": "$135,000 - $185,000",
+   "added": "2026-11-18",
+   "status": "live",
+   "lastChecked": "2026-11-18",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:verkada",
+   "inFeed": "2026-11-18",
+   "compMax": 185000,
+   "pageTitle": "Staff Technical Recruiter",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-18",
+   "pageLocation": "San Mateo, CA United States"
+  },
+  {
+   "id": "cc4571d4fb",
+   "kind": "role",
+   "company": "Gilead",
+   "title": "Assoc Director, Global Learning Enablement & Employee Engagement",
+   "location": "United States - California - Foster City",
+   "url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Assoc-Director--Global-Learning-Enablement---Employee-Engagement_R0056151-2",
+   "comp": "",
+   "added": "2026-11-18",
+   "status": "live",
+   "lastChecked": "2026-11-18",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:gilead:gileadcareers",
+   "inFeed": "2026-11-18",
+   "pageTitle": "Assoc Director, Global Learning Enablement &amp; Employee Engagement",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-18",
+   "pageLocation": "US - CA - Foster City, United States of America"
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-11-18",
+   "status": "live",
+   "lastChecked": "2026-11-18",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-11-18",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-18",
+   "pageLocation": "MYS - Penang, Malaysia"
+  },
+  {
+   "id": "91ec92b6dd",
+   "kind": "role",
+   "company": "JPMorgan Chase",
+   "title": "Vice President, Talent and Performance Management",
+   "location": "New York, NY, United States",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210809398",
+   "comp": "",
+   "added": "2026-11-18",
+   "status": "live",
+   "lastChecked": "2026-11-18",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "oracle:jpmc.fa.oraclecloud.com:CX_1001",
+   "inFeed": "2026-11-18",
+   "pageTitle": "Vice President, Talent and Performance Management",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-18",
+   "pageLocation": "New York, NY, United States"
   }
  ]
 }
