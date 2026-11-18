@@ -1,5 +1,5 @@
 {
- "at": "2026-11-17T21:54:08.021Z",
+ "at": "2026-11-18T08:55:58.901Z",
  "sources": [
   {
    "id": "ashby:1password",
@@ -14,7 +14,7 @@
    "company": "6sense",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 34,
+   "jobs": 35,
    "failStreak": 0
   },
   {
@@ -55,7 +55,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "workday:adobe:external_experienced",
@@ -70,7 +70,7 @@
    "company": "Advanced Navigation",
    "ats": "rippling",
    "ok": true,
-   "jobs": 30,
+   "jobs": 29,
    "failStreak": 0
   },
   {
@@ -94,7 +94,7 @@
    "company": "Adyen",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 238,
+   "jobs": 239,
    "failStreak": 0
   },
   {
@@ -102,7 +102,7 @@
    "company": "Affirm",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 220,
+   "jobs": 221,
    "failStreak": 0
   },
   {
@@ -110,7 +110,7 @@
    "company": "Airbnb",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 200,
+   "jobs": 199,
    "failStreak": 0
   },
   {
@@ -135,14 +135,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 173
+   "failStreak": 174
   },
   {
    "id": "ashby:allocate",
    "company": "Allocate",
    "ats": "ashby",
    "ok": true,
-   "jobs": 14,
+   "jobs": 12,
    "failStreak": 0
   },
   {
@@ -159,14 +159,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "greenhouse:alphasense",
    "company": "AlphaSense",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 178,
+   "jobs": 177,
    "failStreak": 0
   },
   {
@@ -174,7 +174,7 @@
    "company": "Alta Ares",
    "ats": "ashby",
    "ok": true,
-   "jobs": 38,
+   "jobs": 42,
    "failStreak": 0
   },
   {
@@ -190,7 +190,7 @@
    "company": "Amazon",
    "ats": "own site",
    "ok": true,
-   "jobs": 117,
+   "jobs": 116,
    "failStreak": 0
   },
   {
@@ -231,7 +231,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 87
+   "failStreak": 88
   },
   {
    "id": "lever:anchorage",
@@ -245,9 +245,9 @@
    "id": "greenhouse:andurilindustries",
    "company": "Andurilindustries",
    "ats": "greenhouse",
-   "ok": false,
-   "jobs": 0,
-   "failStreak": 1
+   "ok": true,
+   "jobs": 2613,
+   "failStreak": 0
   },
   {
    "id": "ashby:anterior",
@@ -270,7 +270,7 @@
    "company": "Anthropic",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 658,
+   "jobs": 655,
    "failStreak": 0
   },
   {
@@ -278,7 +278,7 @@
    "company": "Apollo.io",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 44,
+   "jobs": 45,
    "failStreak": 0
   },
   {
@@ -286,7 +286,7 @@
    "company": "Apple",
    "ats": "own site",
    "ok": true,
-   "jobs": 35,
+   "jobs": 39,
    "failStreak": 0
   },
   {
@@ -294,7 +294,7 @@
    "company": "applied",
    "ats": "ashby",
    "ok": true,
-   "jobs": 333,
+   "jobs": 335,
    "failStreak": 0
   },
   {
@@ -366,7 +366,7 @@
    "company": "Astranis",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 182,
+   "jobs": 180,
    "failStreak": 0
   },
   {
@@ -382,7 +382,7 @@
    "company": "Atoms",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 166,
+   "jobs": 168,
    "failStreak": 0
   },
   {
@@ -430,7 +430,7 @@
    "company": "Bamboohr17",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 26,
+   "jobs": 25,
    "failStreak": 0
   },
   {
@@ -454,7 +454,7 @@
    "company": "Base Power",
    "ats": "ashby",
    "ok": true,
-   "jobs": 195,
+   "jobs": 194,
    "failStreak": 0
   },
   {
@@ -471,7 +471,7 @@
    "ats": "ashby",
    "ok": false,
    "jobs": 0,
-   "failStreak": 100
+   "failStreak": 101
   },
   {
    "id": "greenhouse:beaconsoftware",
@@ -479,14 +479,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 37
+   "failStreak": 38
   },
   {
    "id": "ashby:bedrock-robotics",
    "company": "Bedrock Robotics",
    "ats": "ashby",
    "ok": true,
-   "jobs": 61,
+   "jobs": 60,
    "failStreak": 0
   },
   {
@@ -495,7 +495,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 9
+   "failStreak": 10
   },
   {
    "id": "workday:beemok:BHC_Careers",
@@ -518,7 +518,7 @@
    "company": "benchling",
    "ats": "ashby",
    "ok": true,
-   "jobs": 57,
+   "jobs": 59,
    "failStreak": 0
   },
   {
@@ -526,7 +526,7 @@
    "company": "Best Buy Canada",
    "ats": "workday",
    "ok": true,
-   "jobs": 8,
+   "jobs": 9,
    "failStreak": 0
   },
   {
@@ -542,7 +542,7 @@
    "company": "Block",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 188,
+   "jobs": 187,
    "failStreak": 0
   },
   {
@@ -550,7 +550,7 @@
    "company": "Boldr 1",
    "ats": "workable",
    "ok": true,
-   "jobs": 31,
+   "jobs": 32,
    "failStreak": 0
   },
   {
@@ -574,7 +574,7 @@
    "company": "Brex",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 264,
+   "jobs": 266,
    "failStreak": 0
   },
   {
@@ -598,7 +598,7 @@
    "company": "Buildkite",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 9,
+   "jobs": 10,
    "failStreak": 0
   },
   {
@@ -622,7 +622,7 @@
    "company": "Cabify",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 46,
+   "jobs": 45,
    "failStreak": 0
   },
   {
@@ -654,7 +654,7 @@
    "company": "Capital One",
    "ats": "workday",
    "ok": true,
-   "jobs": 66,
+   "jobs": 65,
    "failStreak": 0
   },
   {
@@ -686,7 +686,7 @@
    "company": "CesiumAstro",
    "ats": "lever",
    "ok": true,
-   "jobs": 364,
+   "jobs": 363,
    "failStreak": 0
   },
   {
@@ -703,7 +703,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 28
+   "failStreak": 29
   },
   {
    "id": "greenhouse:chaosindustries",
@@ -726,7 +726,7 @@
    "company": "Chime",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 74,
+   "jobs": 75,
    "failStreak": 0
   },
   {
@@ -750,7 +750,7 @@
    "company": "Cisco",
    "ats": "workday",
    "ok": true,
-   "jobs": 15,
+   "jobs": 13,
    "failStreak": 0
   },
   {
@@ -758,7 +758,7 @@
    "company": "Citi",
    "ats": "workday",
    "ok": true,
-   "jobs": 172,
+   "jobs": 171,
    "failStreak": 0
   },
   {
@@ -807,7 +807,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 189
+   "failStreak": 190
   },
   {
    "id": "ashby:clickhouse",
@@ -830,7 +830,7 @@
    "company": "Cloudflare",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 478,
+   "jobs": 482,
    "failStreak": 0
   },
   {
@@ -854,7 +854,7 @@
    "company": "Coder",
    "ats": "ashby",
    "ok": true,
-   "jobs": 27,
+   "jobs": 26,
    "failStreak": 0
   },
   {
@@ -862,7 +862,7 @@
    "company": "Cognite",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 62,
+   "jobs": 65,
    "failStreak": 0
   },
   {
@@ -870,7 +870,7 @@
    "company": "Cognition",
    "ats": "ashby",
    "ok": true,
-   "jobs": 112,
+   "jobs": 110,
    "failStreak": 0
   },
   {
@@ -887,14 +887,14 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 132
+   "failStreak": 133
   },
   {
    "id": "greenhouse:coinbase",
    "company": "Coinbase",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 259,
+   "jobs": 256,
    "failStreak": 0
   },
   {
@@ -902,7 +902,7 @@
    "company": "Collibra",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 25,
+   "jobs": 26,
    "failStreak": 0
   },
   {
@@ -911,7 +911,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "ashby:commure",
@@ -935,14 +935,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 38
+   "failStreak": 39
   },
   {
    "id": "greenhouse:conga",
    "company": "Conga",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 47,
+   "jobs": 45,
    "failStreak": 0
   },
   {
@@ -958,7 +958,7 @@
    "company": "CoreWeave",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 308,
+   "jobs": 309,
    "failStreak": 0
   },
   {
@@ -974,7 +974,7 @@
    "company": "CreatorIQ",
    "ats": "ashby",
    "ok": true,
-   "jobs": 36,
+   "jobs": 34,
    "failStreak": 0
   },
   {
@@ -982,7 +982,7 @@
    "company": "Cresta",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 86,
+   "jobs": 84,
    "failStreak": 0
   },
   {
@@ -990,7 +990,7 @@
    "company": "Crunchyroll",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 99,
+   "jobs": 97,
    "failStreak": 0
   },
   {
@@ -998,7 +998,7 @@
    "company": "Crusoe",
    "ats": "ashby",
    "ok": true,
-   "jobs": 322,
+   "jobs": 323,
    "failStreak": 0
   },
   {
@@ -1006,7 +1006,7 @@
    "company": "Crusoe",
    "ats": "ashby",
    "ok": true,
-   "jobs": 322,
+   "jobs": 323,
    "failStreak": 0
   },
   {
@@ -1030,7 +1030,7 @@
    "company": "Curri",
    "ats": "ashby",
    "ok": true,
-   "jobs": 34,
+   "jobs": 35,
    "failStreak": 0
   },
   {
@@ -1038,7 +1038,7 @@
    "company": "CVS Health",
    "ats": "workday",
    "ok": true,
-   "jobs": 60,
+   "jobs": 59,
    "failStreak": 0
   },
   {
@@ -1062,7 +1062,7 @@
    "company": "Databricks",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 903,
+   "jobs": 897,
    "failStreak": 0
   },
   {
@@ -1086,7 +1086,7 @@
    "company": "Decagon",
    "ats": "ashby",
    "ok": true,
-   "jobs": 113,
+   "jobs": 112,
    "failStreak": 0
   },
   {
@@ -1119,7 +1119,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "greenhouse:dept",
@@ -1150,7 +1150,7 @@
    "company": "Discord",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 25,
+   "jobs": 26,
    "failStreak": 0
   },
   {
@@ -1206,7 +1206,7 @@
    "company": "Doordashusa",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 427,
+   "jobs": 416,
    "failStreak": 0
   },
   {
@@ -1214,7 +1214,7 @@
    "company": "Dropbox",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 41,
+   "jobs": 40,
    "failStreak": 0
   },
   {
@@ -1230,7 +1230,7 @@
    "company": "Eight Sleep",
    "ats": "ashby",
    "ok": true,
-   "jobs": 36,
+   "jobs": 35,
    "failStreak": 0
   },
   {
@@ -1350,7 +1350,7 @@
    "company": "Excel",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 37,
+   "jobs": 38,
    "failStreak": 0
   },
   {
@@ -1374,7 +1374,7 @@
    "company": "Fidelity",
    "ats": "workday",
    "ok": true,
-   "jobs": 63,
+   "jobs": 64,
    "failStreak": 0
   },
   {
@@ -1382,7 +1382,7 @@
    "company": "Fieldguide",
    "ats": "ashby",
    "ok": true,
-   "jobs": 36,
+   "jobs": 37,
    "failStreak": 0
   },
   {
@@ -1390,7 +1390,7 @@
    "company": "Figma",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 139,
+   "jobs": 141,
    "failStreak": 0
   },
   {
@@ -1398,7 +1398,7 @@
    "company": "Figureai",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 106,
+   "jobs": 104,
    "failStreak": 0
   },
   {
@@ -1423,14 +1423,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 74
+   "failStreak": 75
   },
   {
    "id": "greenhouse:fivetran",
    "company": "Fivetran",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 188,
+   "jobs": 186,
    "failStreak": 0
   },
   {
@@ -1438,7 +1438,7 @@
    "company": "Flexport",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 205,
+   "jobs": 207,
    "failStreak": 0
   },
   {
@@ -1487,7 +1487,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 38
+   "failStreak": 39
   },
   {
    "id": "ashby:gc-ai",
@@ -1510,7 +1510,7 @@
    "company": "Gen Digital",
    "ats": "ashby",
    "ok": true,
-   "jobs": 93,
+   "jobs": 95,
    "failStreak": 0
   },
   {
@@ -1527,15 +1527,15 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 88
+   "failStreak": 89
   },
   {
    "id": "greenhouse:gigs",
    "company": "Gigs",
    "ats": "greenhouse",
-   "ok": true,
-   "jobs": 30,
-   "failStreak": 0
+   "ok": false,
+   "jobs": 0,
+   "failStreak": 1
   },
   {
    "id": "workday:gilead:gileadcareers",
@@ -1550,7 +1550,7 @@
    "company": "GitLab",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 255,
+   "jobs": 251,
    "failStreak": 0
   },
   {
@@ -1582,7 +1582,7 @@
    "company": "Gongio",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 87,
+   "jobs": 86,
    "failStreak": 0
   },
   {
@@ -1615,14 +1615,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 74
+   "failStreak": 75
   },
   {
    "id": "ashby:gravie",
    "company": "Gravie",
    "ats": "ashby",
    "ok": true,
-   "jobs": 25,
+   "jobs": 26,
    "failStreak": 0
   },
   {
@@ -1638,7 +1638,7 @@
    "company": "Greenhouse",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 25,
+   "jobs": 26,
    "failStreak": 0
   },
   {
@@ -1662,7 +1662,7 @@
    "company": "Guidepoint",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 108,
+   "jobs": 109,
    "failStreak": 0
   },
   {
@@ -1678,7 +1678,7 @@
    "company": "Gusto",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 79,
+   "jobs": 78,
    "failStreak": 0
   },
   {
@@ -1702,7 +1702,7 @@
    "company": "Halter",
    "ats": "ashby",
    "ok": true,
-   "jobs": 267,
+   "jobs": 269,
    "failStreak": 0
   },
   {
@@ -1710,7 +1710,7 @@
    "company": "Harbinger Motors",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 86,
+   "jobs": 84,
    "failStreak": 0
   },
   {
@@ -1718,7 +1718,7 @@
    "company": "Harvey",
    "ats": "ashby",
    "ok": true,
-   "jobs": 384,
+   "jobs": 383,
    "failStreak": 0
   },
   {
@@ -1726,7 +1726,7 @@
    "company": "Hasbro",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 96,
+   "jobs": 95,
    "failStreak": 0
   },
   {
@@ -1742,7 +1742,7 @@
    "company": "Help Scout",
    "ats": "ashby",
    "ok": true,
-   "jobs": 7,
+   "jobs": 6,
    "failStreak": 0
   },
   {
@@ -1806,7 +1806,7 @@
    "company": "Hims & Hers",
    "ats": "ashby",
    "ok": true,
-   "jobs": 145,
+   "jobs": 144,
    "failStreak": 0
   },
   {
@@ -1846,7 +1846,7 @@
    "company": "Hootsuite",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 15,
+   "jobs": 16,
    "failStreak": 0
   },
   {
@@ -1862,7 +1862,7 @@
    "company": "Hubcareers Docusign",
    "ats": "icims",
    "ok": true,
-   "jobs": 202,
+   "jobs": 199,
    "failStreak": 0
   },
   {
@@ -1919,7 +1919,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 98
+   "failStreak": 99
   },
   {
    "id": "ashby:ideogram",
@@ -1990,7 +1990,7 @@
    "company": "Instructure",
    "ats": "ashby",
    "ok": true,
-   "jobs": 52,
+   "jobs": 54,
    "failStreak": 0
   },
   {
@@ -1998,7 +1998,7 @@
    "company": "Intel",
    "ats": "workday",
    "ok": true,
-   "jobs": 14,
+   "jobs": 13,
    "failStreak": 0
   },
   {
@@ -2007,7 +2007,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 37
+   "failStreak": 38
   },
   {
    "id": "greenhouse:island",
@@ -2022,7 +2022,7 @@
    "company": "Jobgether",
    "ats": "lever",
    "ok": true,
-   "jobs": 3839,
+   "jobs": 4324,
    "failStreak": 0
   },
   {
@@ -2038,7 +2038,7 @@
    "company": "JPMorgan Chase",
    "ats": "oracle",
    "ok": true,
-   "jobs": 105,
+   "jobs": 107,
    "failStreak": 0
   },
   {
@@ -2102,7 +2102,7 @@
    "company": "Kiddom",
    "ats": "ashby",
    "ok": true,
-   "jobs": 18,
+   "jobs": 19,
    "failStreak": 0
   },
   {
@@ -2110,7 +2110,7 @@
    "company": "Klaviyo",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 141,
+   "jobs": 139,
    "failStreak": 0
   },
   {
@@ -2143,7 +2143,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "greenhouse:komodohealth",
@@ -2174,7 +2174,7 @@
    "company": "LangChain",
    "ats": "ashby",
    "ok": true,
-   "jobs": 104,
+   "jobs": 102,
    "failStreak": 0
   },
   {
@@ -2222,7 +2222,7 @@
    "company": "lightspeedhq",
    "ats": "ashby",
    "ok": true,
-   "jobs": 136,
+   "jobs": 137,
    "failStreak": 0
   },
   {
@@ -2238,7 +2238,7 @@
    "company": "Liveramp Inc",
    "ats": "ashby",
    "ok": true,
-   "jobs": 50,
+   "jobs": 52,
    "failStreak": 0
   },
   {
@@ -2270,7 +2270,7 @@
    "company": "Lucid Motors",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 480,
+   "jobs": 483,
    "failStreak": 0
   },
   {
@@ -2302,7 +2302,7 @@
    "company": "Lunar Energy",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 23,
+   "jobs": 22,
    "failStreak": 0
   },
   {
@@ -2310,7 +2310,7 @@
    "company": "Lyft",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 144,
+   "jobs": 148,
    "failStreak": 0
   },
   {
@@ -2335,7 +2335,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "greenhouse:martellgrowthsolutions",
@@ -2423,7 +2423,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "lever:metr",
@@ -2447,7 +2447,7 @@
    "ats": "own site",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "lever:minesense",
@@ -2470,7 +2470,7 @@
    "company": "miro",
    "ats": "ashby",
    "ok": true,
-   "jobs": 13,
+   "jobs": 14,
    "failStreak": 0
   },
   {
@@ -2478,7 +2478,7 @@
    "company": "Modal",
    "ats": "ashby",
    "ok": true,
-   "jobs": 51,
+   "jobs": 53,
    "failStreak": 0
   },
   {
@@ -2518,7 +2518,7 @@
    "company": "MongoDB",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 394,
+   "jobs": 391,
    "failStreak": 0
   },
   {
@@ -2558,7 +2558,7 @@
    "company": "Muon Space",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 140,
+   "jobs": 141,
    "failStreak": 0
   },
   {
@@ -2599,7 +2599,7 @@
    "ats": "lever",
    "ok": false,
    "jobs": 0,
-   "failStreak": 119
+   "failStreak": 120
   },
   {
    "id": "ashby:neko-health",
@@ -2614,7 +2614,7 @@
    "company": "Neros Technologies",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 111,
+   "jobs": 110,
    "failStreak": 0
   },
   {
@@ -2626,19 +2626,11 @@
    "failStreak": 0
   },
   {
-   "id": "lever:netflix",
-   "company": "Netflix",
-   "ats": "lever",
-   "ok": false,
-   "jobs": 0,
-   "failStreak": 4
-  },
-  {
    "id": "bigtech:netflix",
    "company": "Netflix",
    "ats": "own site",
    "ok": true,
-   "jobs": 29,
+   "jobs": 25,
    "failStreak": 0
   },
   {
@@ -2646,7 +2638,7 @@
    "company": "Netomi",
    "ats": "lever",
    "ok": true,
-   "jobs": 21,
+   "jobs": 19,
    "failStreak": 0
   },
   {
@@ -2654,7 +2646,7 @@
    "company": "Nextdoor",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 22,
+   "jobs": 23,
    "failStreak": 0
   },
   {
@@ -2679,14 +2671,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "ashby:notion",
    "company": "Notion",
    "ats": "ashby",
    "ok": true,
-   "jobs": 166,
+   "jobs": 167,
    "failStreak": 0
   },
   {
@@ -2726,7 +2718,7 @@
    "company": "NVIDIA",
    "ats": "workday",
    "ok": true,
-   "jobs": 61,
+   "jobs": 60,
    "failStreak": 0
   },
   {
@@ -2790,7 +2782,7 @@
    "company": "OpenAI",
    "ats": "ashby",
    "ok": true,
-   "jobs": 840,
+   "jobs": 837,
    "failStreak": 0
   },
   {
@@ -2806,7 +2798,7 @@
    "company": "opendoor",
    "ats": "rippling",
    "ok": true,
-   "jobs": 65,
+   "jobs": 67,
    "failStreak": 0
   },
   {
@@ -2830,7 +2822,7 @@
    "company": "Oracle",
    "ats": "oracle",
    "ok": true,
-   "jobs": 73,
+   "jobs": 74,
    "failStreak": 0
   },
   {
@@ -2846,7 +2838,7 @@
    "company": "Oscar",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 184,
+   "jobs": 185,
    "failStreak": 0
   },
   {
@@ -2862,7 +2854,7 @@
    "company": "Owner",
    "ats": "ashby",
    "ok": true,
-   "jobs": 45,
+   "jobs": 46,
    "failStreak": 0
   },
   {
@@ -2902,7 +2894,7 @@
    "company": "Path Robotics",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 62,
+   "jobs": 63,
    "failStreak": 0
   },
   {
@@ -2918,7 +2910,7 @@
    "company": "Patlytics",
    "ats": "ashby",
    "ok": true,
-   "jobs": 12,
+   "jobs": 10,
    "failStreak": 0
   },
   {
@@ -2926,7 +2918,7 @@
    "company": "PayPal",
    "ats": "workday",
    "ok": true,
-   "jobs": 43,
+   "jobs": 44,
    "failStreak": 0
   },
   {
@@ -2942,7 +2934,7 @@
    "company": "Peloton",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 36,
+   "jobs": 38,
    "failStreak": 0
   },
   {
@@ -3022,7 +3014,7 @@
    "company": "plaid",
    "ats": "ashby",
    "ok": true,
-   "jobs": 141,
+   "jobs": 142,
    "failStreak": 0
   },
   {
@@ -3086,7 +3078,7 @@
    "company": "Projectaservicesgmbhcokg",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 67,
+   "jobs": 69,
    "failStreak": 0
   },
   {
@@ -3102,7 +3094,7 @@
    "company": "PsiQuantum",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 103,
+   "jobs": 104,
    "failStreak": 0
   },
   {
@@ -3135,14 +3127,14 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
+   "failStreak": 205
   },
   {
    "id": "greenhouse:qualtrics",
    "company": "Qualtrics",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 151,
+   "jobs": 152,
    "failStreak": 0
   },
   {
@@ -3158,7 +3150,7 @@
    "company": "Quince",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 153,
+   "jobs": 152,
    "failStreak": 0
   },
   {
@@ -3230,7 +3222,7 @@
    "company": "Reddit",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 148,
+   "jobs": 147,
    "failStreak": 0
   },
   {
@@ -3262,7 +3254,7 @@
    "company": "Replit",
    "ats": "ashby",
    "ok": true,
-   "jobs": 34,
+   "jobs": 35,
    "failStreak": 0
   },
   {
@@ -3302,7 +3294,7 @@
    "company": "Ridgeline",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 29,
+   "jobs": 30,
    "failStreak": 0
   },
   {
@@ -3310,7 +3302,7 @@
    "company": "Rillet",
    "ats": "ashby",
    "ok": true,
-   "jobs": 44,
+   "jobs": 45,
    "failStreak": 0
   },
   {
@@ -3318,7 +3310,7 @@
    "company": "Ripple",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 113,
+   "jobs": 112,
    "failStreak": 0
   },
   {
@@ -3326,7 +3318,7 @@
    "company": "Rippling",
    "ats": "rippling",
    "ok": true,
-   "jobs": 699,
+   "jobs": 694,
    "failStreak": 0
   },
   {
@@ -3359,7 +3351,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 99
+   "failStreak": 100
   },
   {
    "id": "lever:royalambulance",
@@ -3382,7 +3374,7 @@
    "company": "Salesforce",
    "ats": "workday",
    "ok": true,
-   "jobs": 67,
+   "jobs": 68,
    "failStreak": 0
   },
   {
@@ -3398,7 +3390,7 @@
    "company": "Samsara",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 316,
+   "jobs": 312,
    "failStreak": 0
   },
   {
@@ -3422,7 +3414,7 @@
    "company": "Saronic",
    "ats": "ashby",
    "ok": true,
-   "jobs": 275,
+   "jobs": 276,
    "failStreak": 0
   },
   {
@@ -3494,7 +3486,7 @@
    "company": "ServiceNow",
    "ats": "smartrecruiters",
    "ok": true,
-   "jobs": 833,
+   "jobs": 836,
    "failStreak": 0
   },
   {
@@ -3502,7 +3494,7 @@
    "company": "ServiceNow",
    "ats": "smartrecruiters",
    "ok": true,
-   "jobs": 833,
+   "jobs": 836,
    "failStreak": 0
   },
   {
@@ -3582,7 +3574,7 @@
    "company": "Sila Nanotechnologies",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 34,
+   "jobs": 33,
    "failStreak": 0
   },
   {
@@ -3606,7 +3598,7 @@
    "company": "Smartsheet",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 73,
+   "jobs": 72,
    "failStreak": 0
   },
   {
@@ -3638,7 +3630,7 @@
    "company": "Snowflake",
    "ats": "ashby",
    "ok": true,
-   "jobs": 376,
+   "jobs": 375,
    "failStreak": 0
   },
   {
@@ -3678,7 +3670,7 @@
    "company": "Spacex",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 2798,
+   "jobs": 2791,
    "failStreak": 0
   },
   {
@@ -3710,7 +3702,7 @@
    "company": "Spotify",
    "ats": "lever",
    "ok": true,
-   "jobs": 87,
+   "jobs": 88,
    "failStreak": 0
   },
   {
@@ -3742,7 +3734,7 @@
    "company": "Stepful",
    "ats": "ashby",
    "ok": true,
-   "jobs": 44,
+   "jobs": 45,
    "failStreak": 0
   },
   {
@@ -3750,7 +3742,7 @@
    "company": "Stripe",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 790,
+   "jobs": 788,
    "failStreak": 0
   },
   {
@@ -3926,7 +3918,7 @@
    "company": "Toast",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 326,
+   "jobs": 331,
    "failStreak": 0
   },
   {
@@ -3934,7 +3926,7 @@
    "company": "Togetherai",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 74,
+   "jobs": 73,
    "failStreak": 0
   },
   {
@@ -3975,14 +3967,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 37
+   "failStreak": 38
   },
   {
    "id": "greenhouse:trueanomalyinc",
    "company": "Trueanomalyinc",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 215,
+   "jobs": 212,
    "failStreak": 0
   },
   {
@@ -4007,14 +3999,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 37
+   "failStreak": 38
   },
   {
    "id": "ashby:turn-river",
    "company": "Turn/River",
    "ats": "ashby",
    "ok": true,
-   "jobs": 10,
+   "jobs": 9,
    "failStreak": 0
   },
   {
@@ -4054,7 +4046,7 @@
    "company": "U.S. Bank",
    "ats": "workday",
    "ok": true,
-   "jobs": 24,
+   "jobs": 23,
    "failStreak": 0
   },
   {
@@ -4070,7 +4062,7 @@
    "company": "Uhnjcareers",
    "ats": "icims",
    "ok": true,
-   "jobs": 26,
+   "jobs": 25,
    "failStreak": 0
   },
   {
@@ -4078,7 +4070,7 @@
    "company": "UiPath",
    "ats": "ashby",
    "ok": true,
-   "jobs": 98,
+   "jobs": 103,
    "failStreak": 0
   },
   {
@@ -4086,7 +4078,7 @@
    "company": "Umaeducationinc",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 9,
+   "jobs": 10,
    "failStreak": 0
   },
   {
@@ -4143,7 +4135,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 35
+   "failStreak": 36
   },
   {
    "id": "greenhouse:vannevarlabs",
@@ -4158,7 +4150,7 @@
    "company": "Vanta",
    "ats": "ashby",
    "ok": true,
-   "jobs": 78,
+   "jobs": 77,
    "failStreak": 0
   },
   {
@@ -4206,7 +4198,7 @@
    "company": "Verkada",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 346,
+   "jobs": 345,
    "failStreak": 0
   },
   {
@@ -4246,7 +4238,7 @@
    "company": "Viralnation",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 72,
+   "jobs": 73,
    "failStreak": 0
   },
   {
@@ -4254,7 +4246,7 @@
    "company": "Visa",
    "ats": "workday",
    "ok": true,
-   "jobs": 56,
+   "jobs": 55,
    "failStreak": 0
   },
   {
@@ -4263,14 +4255,14 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 174
+   "failStreak": 175
   },
   {
    "id": "lever:vivenu",
    "company": "vivenu",
    "ats": "lever",
    "ok": true,
-   "jobs": 33,
+   "jobs": 31,
    "failStreak": 0
   },
   {
@@ -4302,7 +4294,7 @@
    "company": "VulcanForms",
    "ats": "rippling",
    "ok": true,
-   "jobs": 113,
+   "jobs": 112,
    "failStreak": 0
   },
   {
@@ -4311,15 +4303,7 @@
    "ats": "workday",
    "ok": false,
    "jobs": 0,
-   "failStreak": 204
-  },
-  {
-   "id": "lever:wandb",
-   "company": "Wandb",
-   "ats": "lever",
-   "ok": false,
-   "jobs": 0,
-   "failStreak": 10
+   "failStreak": 205
   },
   {
    "id": "workday:warnerbros:global",
@@ -4390,7 +4374,7 @@
    "company": "Wells Fargo",
    "ats": "workday",
    "ok": true,
-   "jobs": 41,
+   "jobs": 38,
    "failStreak": 0
   },
   {
@@ -4454,7 +4438,7 @@
    "company": "Workday",
    "ats": "workday",
    "ok": true,
-   "jobs": 38,
+   "jobs": 37,
    "failStreak": 0
   },
   {
@@ -4479,7 +4463,7 @@
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
-   "failStreak": 4
+   "failStreak": 5
   },
   {
    "id": "greenhouse:yugabyte",
@@ -4518,7 +4502,7 @@
    "company": "Zip",
    "ats": "ashby",
    "ok": true,
-   "jobs": 100,
+   "jobs": 103,
    "failStreak": 0
   },
   {
@@ -4534,7 +4518,7 @@
    "company": "ZoomInfo",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 88,
+   "jobs": 87,
    "failStreak": 0
   },
   {
@@ -4542,7 +4526,7 @@
    "company": "Zoox",
    "ats": "lever",
    "ok": true,
-   "jobs": 240,
+   "jobs": 242,
    "failStreak": 0
   },
   {
@@ -4550,15 +4534,11 @@
    "company": "Zscaler",
    "ats": "greenhouse",
    "ok": true,
-   "jobs": 376,
+   "jobs": 377,
    "failStreak": 0
   }
  ],
  "waitingForFeed": [
-  "PaleBlueDot AI",
-  "Heylist",
-  "Standard Rail",
-  "cohere",
   "netflix"
  ],
  "gaveUp": [
@@ -4960,6 +4940,9 @@
   "Newell Brands",
   "Fabric",
   "The Hiring Advisors",
-  "Change.org"
+  "Change.org",
+  "PaleBlueDot AI",
+  "Heylist",
+  "Standard Rail"
  ]
 }
