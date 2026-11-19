@@ -727,6 +727,13 @@
    "title": "Chief Human Resources Officer (Renee Swan; starts Dec 7 2026)",
    "url": "https://fortune.com/2026/11/13/fortune-500-power-moves-oct-31-nov-13/",
    "added": "2026-11-18"
+  },
+  {
+   "kind": "Hired",
+   "company": "Verizon",
+   "title": "EVP & Chief People Officer (Christina Schelling; effective Oct 2026, announcement date unconfirmed)",
+   "url": "https://topchro.com/article/last-12-months-most-significant-chro-moves-across-global-organizations",
+   "added": "2026-11-19"
   }
  ],
  "funding": [
@@ -1814,6 +1821,27 @@
    "amount": "CA$40M",
    "url": "https://betakit.com/physical-ai-company-promise-robotics-announces-40-million-series-b-round/",
    "added": "2026-11-18"
+  },
+  {
+   "company": "OMass Therapeutics",
+   "round": "Undisclosed stage",
+   "amount": "$310M",
+   "url": "https://techstartups.com/?p=139524",
+   "added": "2026-11-19"
+  },
+  {
+   "company": "Medical Microinstruments",
+   "round": "Series D",
+   "amount": "$125M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-05",
+   "added": "2026-11-19"
+  },
+  {
+   "company": "Odaia",
+   "round": "Series C",
+   "amount": "$15M",
+   "url": "https://betakit.com/odaia-raises-15-million-series-c-round-inks-deal-with-us-health-agency",
+   "added": "2026-11-19"
   }
  ]
 }
