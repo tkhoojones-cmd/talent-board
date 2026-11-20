@@ -238,7 +238,9 @@
   "magic",
   "cais",
   "finitestate",
-  "2k"
+  "2k",
+  "talkdesk2",
+  "growthloop"
  ],
  "lever": [
   "zoox",
@@ -727,7 +729,12 @@
   }
  ],
  "candidates": [
-  "knownwell"
+  "knownwell",
+  "WCG",
+  "Hockey Canada",
+  "Invisible Technologies",
+  "Zendesk",
+  "Hireology"
  ],
  "tried": {
   "UniUni": 1,
