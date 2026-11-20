@@ -106,23 +106,24 @@ img { display: block; max-width: 100%; }
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
+  gap: 0.65rem;
   text-decoration: none;
   color: #17133d;
 }
 .brand img {
-  height: 30px;
+  height: 42px;
   width: auto;
   display: block;
 }
 .brand-name {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: "Newsreader", Georgia, serif;
   font-weight: 500;
-  font-size: 1.625rem;
+  font-size: 2.15rem;
   letter-spacing: -0.02em;
   line-height: 1;
   font-optical-sizing: auto;
-  color: #17133d;
+  color: var(--ink);
+  white-space: nowrap;
 }
 .cta, .quiet {
   display: inline-flex;
@@ -342,6 +343,10 @@ details.row > summary::-webkit-details-marker { display: none; }
   .close { padding-bottom: 2.75rem; }
   .side { justify-content: flex-start; }
 }
+@media (max-width: 600px) {
+  .brand img { height: 34px; }
+  .brand-name { font-size: 1.75rem; }
+}
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
@@ -353,7 +358,7 @@ details.row > summary::-webkit-details-marker { display: none; }
 <div class="wrap">
 <nav class="nav" aria-label="Primary">
 <a class="brand" href="https://soundherald.com">
-<img src="assets/mark.png" alt="" aria-hidden="true">
+<img src="assets/mark.png" alt="" aria-hidden="true" width="71" height="42">
 <span class="brand-name">SoundHerald</span>
 </a>
 <div class="nav-links">
