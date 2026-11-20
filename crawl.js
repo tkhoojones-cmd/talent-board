@@ -3,7 +3,7 @@
 // and adds any matching leadership people/talent role to jobs.json as "new".
 // It also records which jobs are in the employer's feed today (evidence the role is open).
 const fs = require("fs");
-const { wanted, wantedIC, borderline, isNA } = require("./lib");
+const { wanted, wantedIC, borderline, isNA, cleanCompany, keepListing } = require("./lib");
 const kindOf = (t) => wanted(t) ? "role" : wantedIC(t) ? "ic" : borderline(t) ? "review" : null;
 let prevReport = {}; try { prevReport = JSON.parse(fs.readFileSync("crawl-report.json", "utf8")); } catch (e) {}
 const boards = JSON.parse(fs.readFileSync("boards.json", "utf8"));
@@ -29,7 +29,7 @@ const key = (u) => {
 };
 const sha = (s) => require("crypto").createHash("sha1").update(s).digest("hex").slice(0, 10);
 const nice = (t) => t.replace(/[-_]/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
-const display = (ats, tok) => boards.names[ats + ":" + tok] || nice(tok.replace(/^careers-/, ""));
+const display = (ats, tok) => cleanCompany(boards.names[ats + ":" + tok] || nice(tok.replace(/^careers-/, "")), { feed: ats + ":" + tok });
 
 async function http(url, opt) {
   try {
@@ -47,7 +47,7 @@ const FETCH = {
   async greenhouse(t) {
     for (const host of ["boards-api.greenhouse.io", "boards-api.eu.greenhouse.io"]) {
       const r = await http(`https://${host}/v1/boards/${t}/jobs`);
-      if (r.status === 200 && r.json && Array.isArray(r.json.jobs)) return { status: 200, jobs: r.json.jobs.map((j) => ({ title: j.title, location: (j.location && j.location.name) || "", url: j.absolute_url })) };
+      if (r.status === 200 && r.json && Array.isArray(r.json.jobs)) return { status: 200, company: r.json.name || "", jobs: r.json.jobs.map((j) => ({ title: j.title, location: (j.location && j.location.name) || "", url: j.absolute_url })) };
       if (r.status !== 404) return { status: r.status };
     }
     return { status: 404 };
@@ -274,13 +274,15 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     const r = await FETCH[a](t);
     const id = a + ":" + t;
     if (r.status !== 200) { report.fail.push(`${a}:${t}:${r.status}`); report.cov.push({ id, company: display(a, t), ats: a, ok: false, jobs: 0 }); return; }
-    report.cov.push({ id, company: display(a, t), ats: a, ok: true, jobs: r.jobs.length });
+    if (r.company) boards.names[id] = r.company;
+    const company = cleanCompany(r.company || display(a, t), { feed: id });
+    report.cov.push({ id, company, ats: a, ok: true, jobs: r.jobs.length });
     boards.misses[id] = 0; report.ok++; report.scanned += r.jobs.length;
     const ks = new Set();
     for (const j of r.jobs) {
       if (!j.url || !j.title) continue;
       ks.add(key(j.url));
-      if (kindOf(j.title) && isNA(j.location)) matches.push({ company: display(a, t), title: j.title, location: j.location, url: j.url, feed: id, kind: kindOf(j.title) });
+      if (kindOf(j.title) && isNA(j.location) && keepListing({ title: j.title, company, url: j.url, feed: id })) matches.push({ company, title: j.title, location: j.location, url: j.url, feed: id, kind: kindOf(j.title) });
     }
     feedKeys.set(id, ks);
   });
@@ -290,7 +292,8 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     report.cov.push({ id, company: w.company, ats: "workday", ok: true, jobs: r.jobs.length });
     report.ok++; report.scanned += r.jobs.length;
     const ks = new Set();
-    for (const j of r.jobs) { ks.add(key(j.url)); if (kindOf(j.title) && isNA(j.location)) matches.push({ company: w.company, title: j.title, location: j.location, url: j.url, feed: id, kind: kindOf(j.title) }); }
+    const company = cleanCompany(w.company, { feed: id });
+    for (const j of r.jobs) { ks.add(key(j.url)); if (kindOf(j.title) && isNA(j.location) && keepListing({ title: j.title, company, url: j.url, feed: id })) matches.push({ company, title: j.title, location: j.location, url: j.url, feed: id, kind: kindOf(j.title) }); }
     feedKeys.set(id, ks);
   });
 
@@ -301,7 +304,8 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
       if (r.status !== 200) { report.fail.push(`${id}:${r.status}`); report.cov.push({ id, company: x.company, ats: kind, ok: false, jobs: 0 }); return; }
       report.cov.push({ id, company: x.company, ats: kind, ok: true, jobs: r.jobs.length });
       report.ok++; report.scanned += r.jobs.length;
-      for (const j of r.jobs) if (kindOf(j.title) && isNA(j.location)) matches.push({ company: x.company, title: j.title, location: j.location, url: j.url, feed: id, slug: j.slug, kind: kindOf(j.title) });
+      const company = cleanCompany(x.company, { feed: id });
+      for (const j of r.jobs) if (kindOf(j.title) && isNA(j.location) && keepListing({ title: j.title, company, url: j.url, feed: id })) matches.push({ company, title: j.title, location: j.location, url: j.url, feed: id, slug: j.slug, kind: kindOf(j.title) });
     });
   }
 
@@ -313,7 +317,7 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     let r; try { r = await site.read(bctx); } catch (e) { r = { status: 0 }; }
     if (r.status !== 200) { report.fail.push(`${site.id}:${r.status}`); report.cov.push({ id: site.id, company: site.company, ats: "own site", ok: false, jobs: 0 }); continue; }
     report.ok++; report.scanned += r.jobs.length; report.cov.push({ id: site.id, company: site.company, ats: "own site", ok: true, jobs: r.jobs.length });
-    for (const j of r.jobs) if (kindOf(j.title) && isNA(j.location)) matches.push({ company: site.company, title: j.title, location: j.location, url: j.url, feed: null, kind: kindOf(j.title) });
+    for (const j of r.jobs) if (kindOf(j.title) && isNA(j.location) && keepListing({ title: j.title, company: site.company, url: j.url })) matches.push({ company: cleanCompany(site.company, { url: j.url }), title: j.title, location: j.location, url: j.url, feed: null, kind: kindOf(j.title) });
   }
   if (browser) await browser.close().catch(() => {});
 
@@ -352,7 +356,14 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
     added++; console.log("NEW", f.company, "|", f.title, "|", f.location);
   }
   // feed-added jobs that no longer pass the rules: drop only if never confirmed live
-  store.jobs = store.jobs.filter((j) => { if (j.source !== "feed") return true; const keep = (j.kind === "ic" ? wantedIC(j.title) : j.kind === "review" ? (borderline(j.title) || wanted(j.title) || wantedIC(j.title)) : wanted(j.title)) && isNA(j.location); if (!keep) console.log("REMOVED (no longer matches rules):", j.company, "|", j.title); return keep; });
+  store.jobs = store.jobs.filter((j) => {
+    if (!keepListing(j)) { console.log("REMOVED (excluded):", j.company, "|", j.title); return false; }
+    j.company = cleanCompany(j.company, j);
+    if (j.source !== "feed") return true;
+    const keep = (j.kind === "ic" ? wantedIC(j.title) : j.kind === "review" ? (borderline(j.title) || wanted(j.title) || wantedIC(j.title)) : wanted(j.title)) && isNA(j.location);
+    if (!keep) console.log("REMOVED (no longer matches rules):", j.company, "|", j.title);
+    return keep;
+  });
 
   console.log(`feeds ok: ${report.ok}, failed: ${report.fail.length}, jobs scanned: ${report.scanned}, matched: ${matches.length}, new: ${added}, probed: ${report.probed}`);
   if (report.fail.length) console.log("failed feeds:", report.fail.join(" "));

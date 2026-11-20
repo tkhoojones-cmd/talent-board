@@ -3,7 +3,7 @@
  "sources": [
   {
    "id": "ashby:1password",
-   "company": "1password",
+   "company": "1Password",
    "ats": "ashby",
    "ok": true,
    "jobs": 81,
@@ -43,7 +43,7 @@
   },
   {
    "id": "greenhouse:achievementfirstnetworksupportcareers",
-   "company": "Achievementfirstnetworksupportcareers",
+   "company": "Achievement First",
    "ats": "greenhouse",
    "ok": true,
    "jobs": 5,
@@ -91,7 +91,7 @@
   },
   {
    "id": "workday:adventhealth:AH_External_Career_Site",
-   "company": "Adventhealth",
+   "company": "AdventHealth",
    "ats": "workday",
    "ok": true,
    "jobs": 83,
@@ -251,7 +251,7 @@
   },
   {
    "id": "greenhouse:andurilindustries",
-   "company": "Andurilindustries",
+   "company": "Anduril Industries",
    "ats": "greenhouse",
    "ok": true,
    "jobs": 2619,
@@ -483,7 +483,7 @@
   },
   {
    "id": "greenhouse:beaconsoftware",
-   "company": "Beaconsoftware",
+   "company": "Beacon Software",
    "ats": "greenhouse",
    "ok": false,
    "jobs": 0,
@@ -1515,7 +1515,7 @@
   },
   {
    "id": "greenhouse:futurestandard",
-   "company": "Futurestandard",
+   "company": "Future Standard",
    "ats": "greenhouse",
    "ok": true,
    "jobs": 11,
@@ -1987,7 +1987,7 @@
   },
   {
    "id": "greenhouse:indeedbtrbt",
-   "company": "Indeedbtrbt",
+   "company": "Pediatrics Plus",
    "ats": "greenhouse",
    "ok": true,
    "jobs": 91,
@@ -2235,7 +2235,7 @@
   },
   {
    "id": "greenhouse:launchdarkly",
-   "company": "Launchdarkly",
+   "company": "LaunchDarkly",
    "ats": "greenhouse",
    "ok": true,
    "jobs": 33,
@@ -3027,7 +3027,7 @@
   },
   {
    "id": "greenhouse:peregrinetechnologies",
-   "company": "Peregrinetechnologies",
+   "company": "Peregrine Technologies",
    "ats": "greenhouse",
    "ok": true,
    "jobs": 57,
@@ -3147,7 +3147,7 @@
   },
   {
    "id": "smartrecruiters:ProcoreTechnologies",
-   "company": "ProcoreTechnologies",
+   "company": "Procore Technologies",
    "ats": "smartrecruiters",
    "ok": true,
    "jobs": 0,
