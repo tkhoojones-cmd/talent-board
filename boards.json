@@ -285,7 +285,8 @@
   "alluxio",
   "CesiumAstro",
   "promiserobotics",
-  "knownwell"
+  "knownwell",
+  "gametime"
  ],
  "ashby": [
   "pylon-labs",
@@ -732,7 +733,12 @@
   "Hockey Canada",
   "Zendesk",
   "Hireology",
-  "cohere"
+  "cohere",
+  "Red Ventures",
+  "Scientific Safety Alliance",
+  "Metro Vancouver",
+  "P2C",
+  "Renaissance"
  ],
  "tried": {
   "UniUni": 1,
