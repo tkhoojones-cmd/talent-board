@@ -293,7 +293,8 @@
   "knownwell",
   "gametime",
   "cohere",
-  "neednova"
+  "neednova",
+  "kraken123"
  ],
  "ashby": [
   "pylon-labs",
@@ -740,7 +741,20 @@
   }
  ],
  "candidates": [
-  "Phifer"
+  "Phifer",
+  "GC AI",
+  "LawVu",
+  "Twelve Labs",
+  "Coram AI",
+  "Eight Sleep",
+  "Wispr Flow",
+  "Octane Lending",
+  "Quantum Metric",
+  "One Model",
+  "Luma AI",
+  "Grow Therapy",
+  "Verse Medical",
+  "LHH"
  ],
  "tried": {
   "UniUni": 1,

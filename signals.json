@@ -776,6 +776,27 @@
    "title": "Talent Acquisition leader (Summer Curtis, title unknown; approx Aug 2026; moved to Rider Levett Bucknall)",
    "url": "https://hrtoday.in/summer-curtis-joins-rider-levett-bucknall-as-head-of-talent-acquisition/",
    "added": "2026-11-20"
+  },
+  {
+   "kind": "Hired",
+   "company": "Qlik",
+   "title": "Chief People Officer (Anna Sharkey; effective Nov 23, 2026)",
+   "url": "https://sea.peoplemattersglobal.com/news/appointments/qlik-appoints-anna-sharkey-as-chief-people-officer-53266",
+   "added": "2026-11-21"
+  },
+  {
+   "kind": "Left",
+   "company": "OpenAI",
+   "title": "Chief People Officer (Julia Villagra; stepped down, date unconfirmed, 2026)",
+   "url": "https://www.unleash.ai/artificial-intelligence/openai-cpo-julia-villagra-steps-down/",
+   "added": "2026-11-21"
+  },
+  {
+   "kind": "Left",
+   "company": "D2L",
+   "title": "Talent Acquisition leader (Ed Lam; after 14 years; undated)",
+   "url": "https://ca.linkedin.com/in/edwhlam",
+   "added": "2026-11-21"
   }
  ],
  "funding": [
@@ -1919,6 +1940,13 @@
    "amount": "US$60M",
    "url": "https://betakit.com/mecka-ai-announces-60-million-usd-to-power-physical-ai/",
    "added": "2026-11-20"
+  },
+  {
+   "company": "Rise",
+   "round": "Funding",
+   "amount": "$2.4M",
+   "url": "https://betakit.com/from-olympic-figure-skater-to-entrepreneur-sportlogiqs-craig-buntin-is-back-to-help-automate-homebuilding-with-rise/",
+   "added": "2026-11-21"
   }
  ]
 }
