@@ -63,7 +63,7 @@
    "lastLive": "2026-10-12",
    "feed": "workday:gilead:gileadcareers",
    "inFeed": "2026-10-12",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "4b22290326",
@@ -107,7 +107,7 @@
    "feed": "workday:reitmr:Sonesta",
    "inFeed": "2026-10-26",
    "compMax": 290000,
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "aba406458f",
@@ -190,7 +190,7 @@
    "lastLive": "2026-10-21",
    "feed": "workday:beemok:BHC_Careers",
    "inFeed": "2026-10-21",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "5a4e8ab135",
@@ -210,7 +210,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-19",
    "feed": "workday:manh:External",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "d8a44c471f",
@@ -243,15 +243,15 @@
    "comp": "",
    "added": "2026-10-07",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (looked closed once, rechecking: redirected away from the job: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "pageLocation": "Westminster, CO, United States of America",
    "pageTitle": "Head of Talent Acquisition",
-   "closedStreak": 1,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "feed": "workday:maxar:Vantor",
-   "inFeed": "2026-11-20"
+   "inFeed": "2026-11-21"
   },
   {
    "id": "80e0418b5e",
@@ -293,7 +293,7 @@
    "lastLive": "2026-10-25",
    "feed": "workday:synchronyfinancial:careers",
    "inFeed": "2026-10-25",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "a603a39037",
@@ -355,7 +355,7 @@
    "lastLive": "2026-10-09",
    "feed": "workday:wwecorp:wwecorp",
    "inFeed": "2026-10-08",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "ff2cd61018",
@@ -389,15 +389,15 @@
    "comp": "",
    "added": "2026-10-07",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (looked closed once, rechecking: redirected away from the job: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "opened normally with an Apply control",
    "pageLocation": "St Louis Park, MN, US, United States of America",
    "pageTitle": "Vice President, Human Resources",
-   "closedStreak": 1,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "feed": "workday:nvent:nVent",
-   "inFeed": "2026-11-20"
+   "inFeed": "2026-11-21"
   },
   {
    "id": "38b9f2c497",
@@ -645,7 +645,7 @@
    "feed": "workday:reitmr:Sonesta",
    "inFeed": "2026-10-26",
    "compMax": 290000,
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "a863d6b8a3",
@@ -667,7 +667,7 @@
    "pageLocation": "Beemok Hospitality Holdings, United States of America",
    "feed": "workday:beemok:BHC_Careers",
    "inFeed": "2026-10-21",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "da087f01eb",
@@ -689,7 +689,7 @@
    "pageLocation": "Beemok Hospitality Holdings, United States of America",
    "feed": "workday:beemok:BHC_Careers",
    "inFeed": "2026-10-21",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "aa800c87a5",
@@ -711,7 +711,7 @@
    "pageLocation": "US - CA - Foster City, United States of America",
    "feed": "workday:gilead:gileadcareers",
    "inFeed": "2026-10-12",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "36eaa7fe3a",
@@ -809,9 +809,9 @@
    "url": "https://sofi.com/careers/job/7930079003?gh_jid=7930079003",
    "comp": "",
    "added": "2026-10-08",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-21",
-   "reason": "no Apply control found",
+   "reason": "no longer in the employer's job feed",
    "source": "feed",
    "feed": "greenhouse:sofi",
    "inFeed": "2026-10-16",
@@ -1211,15 +1211,15 @@
    "comp": "",
    "added": "2026-10-08",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (redirected to a different page: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:manh:External",
-   "inFeed": "2026-11-20",
+   "inFeed": "2026-11-21",
    "pageTitle": "Senior Director Talent Management",
    "closedStreak": 0,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "pageLocation": "Atlanta, GA, United States of America"
   },
   {
@@ -1263,7 +1263,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-19",
    "pageLocation": "St Louis Park, MN, US, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "7654f99564",
@@ -1397,7 +1397,7 @@
    "failStreak": 1,
    "lastLive": "2026-10-12",
    "pageLocation": "TEX01 - Houston, Texas (TEX01), United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "f646f3ccf4",
@@ -1409,15 +1409,15 @@
    "comp": "$221,000 - $353,000",
    "added": "2026-10-08",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (looked closed once, rechecking: redirected away from the job: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:mastercard:CorporateCareers",
-   "inFeed": "2026-11-20",
+   "inFeed": "2026-11-21",
    "pageTitle": "Vice President, Total Rewards, Executive Compensation",
-   "closedStreak": 1,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "pageLocation": "Purchase, New York, United States of America",
    "compMax": 353000
   },
@@ -1441,7 +1441,7 @@
    "failStreak": 1,
    "lastLive": "2026-11-10",
    "pageLocation": "300 New Millennium Way, Durham NC, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "b9f79cd6bb",
@@ -1453,15 +1453,15 @@
    "comp": "",
    "added": "2026-10-08",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:pru:Careers",
-   "inFeed": "2026-11-20",
+   "inFeed": "2026-11-21",
    "pageTitle": "VP, Wealth Management Recruiting - Prudential Wealth Advisors (Virtual)",
    "closedStreak": 0,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "pageLocation": "1270 Avenue of the Americas, New York, NY, United States of America"
   },
   {
@@ -2069,9 +2069,9 @@
    "url": "https://boards.greenhouse.io/chime/jobs/8643775002?gh_jid=8643775002",
    "comp": "$130,000 - $180,000",
    "added": "2026-10-08",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-21",
-   "reason": "HTTP 403",
+   "reason": "no longer in the employer's job feed",
    "source": "feed",
    "feed": "greenhouse:chime",
    "inFeed": "2026-10-09",
@@ -2326,7 +2326,7 @@
    "failStreak": 1,
    "lastLive": "2026-10-23",
    "pageLocation": "TEX01 - Houston, Texas (TEX01), United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "ca124f3fff",
@@ -3080,7 +3080,7 @@
    "failStreak": 1,
    "lastLive": "2026-10-15",
    "pageLocation": "Plaza, 751 Broad St., Newark, NJ, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "10f1577d88",
@@ -3103,7 +3103,7 @@
    "failStreak": 1,
    "lastLive": "2026-11-18",
    "pageLocation": "Austin, TX, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "17c9428719",
@@ -3597,15 +3597,15 @@
    "comp": "",
    "added": "2026-10-13",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (redirected to a different page: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:sunlife:Experienced-Jobs",
-   "inFeed": "2026-11-20",
+   "inFeed": "2026-11-21",
    "pageTitle": "VP, Head of Talent Management &amp; Learning",
    "closedStreak": 0,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "pageLocation": "Sun Life Indonesia - HO, Indonesia"
   },
   {
@@ -3690,7 +3690,7 @@
    "failStreak": 1,
    "lastLive": "2026-10-26",
    "pageLocation": "Two Destiny Way, Westlake TX, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "f16d238d20",
@@ -3702,15 +3702,15 @@
    "comp": "",
    "added": "2026-10-13",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (redirected to a different page: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:cigna:cignacareers",
-   "inFeed": "2026-11-20",
+   "inFeed": "2026-11-21",
    "pageTitle": "Talent &amp; Performance Strategy Principal - Hybrid",
    "closedStreak": 0,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "pageLocation": "CT, Bloomfield, 900 Cottage Grove Rd Wilde Bldg, United States of America"
   },
   {
@@ -3751,15 +3751,15 @@
    "comp": "",
    "added": "2026-10-14",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (redirected to a different page: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:citi:2",
-   "inFeed": "2026-11-20",
+   "inFeed": "2026-11-21",
    "pageTitle": "Head of Early Career Talent for Operations and Technology",
    "closedStreak": 0,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "pageLocation": "388 GREENWICH STREET - TOWER, United States of America"
   },
   {
@@ -3811,7 +3811,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-21",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "780a3e80f9",
@@ -3928,7 +3928,7 @@
    "failStreak": 1,
    "lastLive": "2026-11-04",
    "pageLocation": "Stamford Hub, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "1ced805f29",
@@ -4638,7 +4638,7 @@
    "failStreak": 1,
    "lastLive": "2026-10-29",
    "pageLocation": "388 GREENWICH STREET - TOWER, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "639269755f",
@@ -4802,9 +4802,9 @@
    "url": "https://jobs.ashbyhq.com/notion/c413d063-add4-4c55-aebd-704d49fb54c1",
    "comp": "$270,000 - $310,000",
    "added": "2026-10-22",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-21",
-   "reason": "looked closed once, rechecking: HTTP 404",
+   "reason": "no longer in the employer's job feed",
    "source": "feed",
    "feed": "ashby:notion",
    "inFeed": "2026-11-13",
@@ -4962,9 +4962,9 @@
    "url": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Minneapolis-MN/Vice-President--People-Analytics-Data-Science_2026-0032322-1",
    "comp": "",
    "added": "2026-10-23",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-21",
-   "reason": "redirected to a different page: https://static.community.workday.com/maintenance-page.html",
+   "reason": "no longer in the employer's job feed",
    "source": "feed",
    "feed": "workday:usbank:US_Bank_Careers",
    "inFeed": "2026-11-06",
@@ -4973,7 +4973,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-06",
    "pageLocation": "Minneapolis, MN, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "b4f71f5dd5",
@@ -4985,15 +4985,15 @@
    "comp": "",
    "added": "2026-10-23",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (redirected to a different page: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:citi:2",
-   "inFeed": "2026-11-20",
+   "inFeed": "2026-11-21",
    "pageTitle": "Head of Talent Planning",
    "closedStreak": 0,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "pageLocation": "5900 HURONTARIO STREET MISSISSAUGA, Canada"
   },
   {
@@ -5016,7 +5016,7 @@
    "failStreak": 1,
    "lastLive": "2026-10-27",
    "pageLocation": "USA-SAN JOSE, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "6f188bf006",
@@ -5040,9 +5040,9 @@
    "url": "https://apply.workable.com/anthro/jobs/view/0BD26E09AC",
    "comp": "",
    "added": "2026-10-24",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-21",
-   "reason": "no Apply control found",
+   "reason": "no longer in the employer's job feed",
    "feed": "workable:anthro",
    "notInFeed": "2026-11-21",
    "closedStreak": 0
@@ -5294,15 +5294,15 @@
    "comp": "",
    "added": "2026-10-26",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (redirected to a different page: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:citi:2",
-   "inFeed": "2026-11-20",
+   "inFeed": "2026-11-21",
    "pageTitle": "Head of Early Career Talent for Banking",
    "closedStreak": 0,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "pageLocation": "388 GREENWICH STREET - TOWER, United States of America"
   },
   {
@@ -6039,7 +6039,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-21",
-   "closedStreak": 108
+   "closedStreak": 109
   },
   {
    "id": "681b5a5acb",
@@ -6858,7 +6858,7 @@
    "failStreak": 1,
    "lastLive": "2026-11-12",
    "pageLocation": "144039-NC-550 S Tryon, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "c5ec59b861",
@@ -8069,12 +8069,12 @@
    "url": "https://clio.wd3.myworkdayjobs.com/en-US/ClioCareerSite/job/VP--People-Business-Partners---Talent-Development_REQ-4593",
    "comp": "",
    "added": "2026-11-12",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-21",
-   "reason": "redirected to a different page: https://static.community.workday.com/maintenance-page.html",
+   "reason": "no longer in the employer's job feed",
    "closedStreak": 0,
    "feed": "workday:clio:ClioCareerSite",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "7f63bc7c80",
@@ -9015,7 +9015,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-21",
-   "closedStreak": 41
+   "closedStreak": 42
   },
   {
    "id": "bad760ffba",
@@ -9048,16 +9048,16 @@
    "comp": "$272,300 to $505,700",
    "added": "2026-11-14",
    "status": "live",
-   "lastChecked": "2026-11-20",
-   "reason": "kept: last check failed (redirected to a different page: https://static.community.workday.com/maintenance-page.html); last confirmed 2026-11-20",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "workday:clio:ClioCareerSite",
-   "inFeed": "2026-11-20",
+   "inFeed": "2026-11-21",
    "compMax": 505700,
    "pageTitle": "VP, People Business Partners &amp; Talent Development",
    "closedStreak": 0,
-   "failStreak": 1,
-   "lastLive": "2026-11-20",
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
    "pageLocation": "Toronto, Canada"
   },
   {
@@ -9692,7 +9692,7 @@
    "failStreak": 0,
    "lastLive": "2026-11-19",
    "pageLocation": "US - CA - Foster City, United States of America",
-   "notInFeed": "2026-11-20"
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "91ec92b6dd",
@@ -10445,318 +10445,6 @@
    "lastLive": "2026-11-21"
   },
   {
-   "id": "0313fdc598",
-   "kind": "role",
-   "company": "Greenhouse",
-   "title": "VP, Talent",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/greenhouse/jobs/7875615",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "e7c621c590",
-   "kind": "role",
-   "company": "Evergreen Services Group",
-   "title": "VP Talent Acquisition",
-   "location": "San Francisco, CA",
-   "url": "https://job-boards.greenhouse.io/evergreenservicesgroup/jobs/4535243005",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "011bc8881c",
-   "kind": "role",
-   "company": "Liberate",
-   "title": "Head of Talent",
-   "location": "SF Bay Area / Boston",
-   "url": "https://job-boards.greenhouse.io/liberate/jobs/5136107008",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b0f3bcdaf0",
-   "kind": "role",
-   "company": "Files.com",
-   "title": "VP of Recruiting",
-   "location": "Austin, TX",
-   "url": "https://job-boards.greenhouse.io/filescom/jobs/4607831005",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "e0e00cd167",
-   "kind": "role",
-   "company": "Velir",
-   "title": "VP, People Experience",
-   "location": "Remote",
-   "url": "https://job-boards.greenhouse.io/velir/jobs/5117671008",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "9a61fea471",
-   "kind": "role",
-   "company": "LaunchDarkly",
-   "title": "Sr Director, People Operations",
-   "location": "Oakland, CA / Remote US West",
-   "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7664554003",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "6149ec985e",
-   "kind": "role",
-   "company": "Cloudflare",
-   "title": "VP, Talent Acquisition & Strategy",
-   "location": "Hybrid",
-   "url": "https://job-boards.greenhouse.io/cloudflare/jobs/8001502",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "4e920cbb77",
-   "kind": "role",
-   "company": "Rollstack",
-   "title": "Head of Talent & People Ops",
-   "location": "Remote (North America/Europe)",
-   "url": "https://job-boards.greenhouse.io/rollstack/jobs/4758337008",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "a9b3ec9de8",
-   "kind": "role",
-   "company": "Kensington Tours",
-   "title": "VP, Talent Management",
-   "location": "Toronto, ON",
-   "url": "https://job-boards.greenhouse.io/kensingtontours/jobs/5048332007",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b09f63a10a",
-   "kind": "role",
-   "company": "Backstory",
-   "title": "VP of People",
-   "location": "Remote",
-   "url": "https://jobs.lever.co/people-ai/145cfacf-3f14-4d32-8a63-8b04c7e83908",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "dc59db6c81",
-   "kind": "role",
-   "company": "McGovern",
-   "title": "Head of People Operations",
-   "location": "Remote",
-   "url": "https://jobs.lever.co/mcgovern/60225ec8-6f0d-4d34-83bf-24c5bfb89f73/apply",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "fddc185de1",
-   "kind": "role",
-   "company": "Rippling",
-   "title": "Global Head of Business Recruiting",
-   "location": "US",
-   "url": "https://ats.rippling.com/rippling/jobs/953f16b6-d2f8-4f94-bdbf-6cf2fce2e839",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "88b182061e",
-   "kind": "role",
-   "company": "Amilia",
-   "title": "Vice-president Talent & Culture",
-   "location": "Montreal, QC (hybrid)",
-   "url": "https://amilia.recruitee.com/o/vp-talent-and-culture",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "795b77b48c",
-   "kind": "role",
-   "company": "Adobe",
-   "title": "Head of Executive Development and Organizational Effectiveness",
-   "location": "",
-   "url": "https://careers.adobe.com/us/en/job/R150009/Head-of-Executive-Development-and-Organizational-Effectiveness",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "2ccd38d276",
-   "kind": "role",
-   "company": "Adobe",
-   "title": "Director, Strategy & Business Operations, Business Partnering & Talent",
-   "location": "San Jose, CA",
-   "url": "https://careers.adobe.com/us/en/job/R153217/Director-Strategy-Business-Operations-Business-Partnering-Talent",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "1743e35ad3",
-   "kind": "role",
-   "company": "Okta",
-   "title": "VP of Global Talent Acquisition",
-   "location": "",
-   "url": "https://www.okta.com/company/careers/opportunity/7833024",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "86e45d0c4f",
-   "kind": "role",
-   "company": "Okta",
-   "title": "VP, Employee & Manager Experience",
-   "location": "",
-   "url": "https://www.okta.com/company/careers/opportunity/8065329",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "581b948669",
-   "kind": "role",
-   "company": "Okta",
-   "title": "VP, Employee & Manager Experience",
-   "location": "",
-   "url": "https://www.okta.com/company/careers/opportunity/8036343",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "911a955b2d",
-   "kind": "role",
-   "company": "Okta",
-   "title": "Senior Director, Global GTM Recruiting",
-   "location": "",
-   "url": "https://www.okta.com/company/careers/ga/senior-director-global-gtm-recruiting-8196226/",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "05639e203a",
-   "kind": "role",
-   "company": "Okta",
-   "title": "Director, People Operations",
-   "location": "",
-   "url": "https://www.okta.com/company/careers/ga/director-people-operations-8027504/",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "0a0699a348",
-   "kind": "role",
-   "company": "Okta",
-   "title": "Director, People Business Partner - AMER Field Sales",
-   "location": "",
-   "url": "https://www.okta.com/company/careers/opportunity/8282692",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "fe9ed606bd",
-   "kind": "role",
-   "company": "Okta",
-   "title": "Senior Director, Employee Relations & Compliance",
-   "location": "",
-   "url": "https://www.okta.com/company/careers/ga/senior-director-employee-relations-compliance-7540281",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "7366fcf699",
-   "kind": "role",
-   "company": "Docusign",
-   "title": "Organizational Development Director",
-   "location": "Remote (US)",
-   "url": "https://hubcareers-docusign.icims.com/jobs/26436/organizational-development-director/job",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "7b83ea8c76",
-   "kind": "role",
-   "company": "Docusign",
-   "title": "Belonging & Talent Product Director",
-   "location": "",
-   "url": "https://hubcareers-docusign.icims.com/jobs/29352/belonging-%26-talent-product-director/job",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
    "id": "48b67b1e33",
    "kind": "role",
    "company": "Hockey Canada",
@@ -10765,9 +10453,73 @@
    "url": "https://cdn.hockeycanada.ca/hockey-canada/Corporate/Careers/2026/hc-senior-vice-president-people-e.pdf",
    "comp": "",
    "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-21",
+   "reason": "page did not load: page.goto: net::ERR_ABORTED at https://cdn.hockeycanada.ca/hockey-canada/Corpora",
+   "closedStreak": 0
+  },
+  {
+   "id": "5f97865f9c",
+   "kind": "role",
+   "company": "ServiceNow",
+   "title": "Solution Marketing Campaign Director, Employee Experience ",
+   "location": "Santa Clara, CALIFORNIA, us",
+   "url": "https://jobs.smartrecruiters.com/servicenow/744000162954819",
+   "comp": "$184,100 - $322,200",
+   "added": "2026-11-21",
+   "status": "live",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "smartrecruiters:servicenow",
+   "inFeed": "2026-11-21",
+   "compMax": 322200,
+   "pageTitle": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-21"
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-11-21",
+   "status": "live",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-11-21",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
+   "pageLocation": "MYS - Penang, Malaysia"
+  },
+  {
+   "id": "4655fedd2b",
+   "kind": "review",
+   "company": "Micron",
+   "title": "Senior Manager, Talent Acquisition",
+   "location": "Hiroshima - Fab 15, Japan, Japan",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
+   "comp": "",
+   "added": "2026-11-21",
+   "status": "live",
+   "lastChecked": "2026-11-21",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:micron:External",
+   "inFeed": "2026-11-21",
+   "pageTitle": "Senior Manager, Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-21",
+   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
   }
  ]
 }
