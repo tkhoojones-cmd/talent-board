@@ -291,7 +291,9 @@
   "CesiumAstro",
   "promiserobotics",
   "knownwell",
-  "gametime"
+  "gametime",
+  "cohere",
+  "neednova"
  ],
  "ashby": [
   "pylon-labs",
@@ -467,7 +469,9 @@
   "collinear-ai",
   "tessera-labs",
   "xero",
-  "beaconsoftware"
+  "beaconsoftware",
+  "nory",
+  "coram-ai"
  ],
  "workday": [
   {
@@ -736,10 +740,7 @@
   }
  ],
  "candidates": [
-  "cohere",
-  "Phifer",
-  "Nory",
-  "Coram AI"
+  "Phifer"
  ],
  "tried": {
   "UniUni": 1,
@@ -1186,7 +1187,8 @@
   "Corgi Insurance": 4,
   "Poseidon Aerospace": 4,
   "Hiscox": 4,
-  "Air Space Intelligence": 4
+  "Air Space Intelligence": 4,
+  "Phifer": 1
  },
  "dead": [
   "Slate Auto",
@@ -1835,7 +1837,7 @@
   "recruitee:riderlevettbucknall": 0,
   "rippling:rippling": 0,
   "workable:montera": 0,
-  "icims:careers-uti": 1,
+  "icims:careers-uti": 2,
   "icims:careers-heritagechristianservices": 0,
   "icims:careers-uhnjcareers": 0,
   "icims:careers-naphcare": 0,
@@ -2213,8 +2215,13 @@
   "ashby:tessera-labs": 0,
   "ashby:xero": 0,
   "smartrecruiters:priviahealth": 0,
-  "lever:knownwell": 1,
-  "ashby:beaconsoftware": 1
+  "lever:knownwell": 2,
+  "ashby:beaconsoftware": 2,
+  "ashby:nory": 0,
+  "ashby:coram-ai": 0,
+  "lever:gametime": 1,
+  "lever:cohere": 1,
+  "lever:neednova": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -2589,7 +2596,9 @@
   "ashby:tessera-labs": "Tessera Labs",
   "greenhouse:apex": "Apex",
   "ashby:xero": "Xero",
-  "greenhouse:homeward": "Homeward"
+  "greenhouse:homeward": "Homeward",
+  "ashby:nory": "Nory",
+  "ashby:coram-ai": "Coram AI"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -2622,47 +2631,47 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 225,
-  "greenhouse:notion": 225,
-  "greenhouse:marqeta": 225,
-  "greenhouse:alphahawaii": 225,
-  "lever:knownwell": 225,
-  "workday:walmart:WalmartExternal": 225,
-  "workday:comcast:Comcast_Careers": 225,
-  "workday:dell:External": 225,
-  "workday:qualcomm:External": 225,
-  "bigtech:microsoft": 225,
-  "bigtech:meta": 225,
-  "greenhouse:clickhouse": 210,
-  "greenhouse:visiersolutionsinc": 195,
-  "greenhouse:alignmenthealth": 194,
-  "lever:neednova": 140,
+  "greenhouse:admarketplaceinc": 226,
+  "greenhouse:notion": 226,
+  "greenhouse:marqeta": 226,
+  "greenhouse:alphahawaii": 226,
+  "lever:knownwell": 226,
+  "workday:walmart:WalmartExternal": 226,
+  "workday:comcast:Comcast_Careers": 226,
+  "workday:dell:External": 226,
+  "workday:qualcomm:External": 226,
+  "bigtech:microsoft": 226,
+  "bigtech:meta": 226,
+  "greenhouse:clickhouse": 211,
+  "greenhouse:visiersolutionsinc": 196,
+  "greenhouse:alignmenthealth": 195,
+  "lever:neednova": 141,
   "lever:wandb": 10,
-  "lever:cohere": 153,
-  "ashby:beaconsoftware": 121,
-  "greenhouse:rollstack": 120,
-  "greenhouse:iconiqcapital": 119,
+  "lever:cohere": 154,
+  "ashby:beaconsoftware": 122,
+  "greenhouse:rollstack": 121,
+  "greenhouse:iconiqcapital": 120,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 109,
-  "greenhouse:amplitude": 108,
-  "greenhouse:grammarly": 95,
-  "greenhouse:fireworksai": 95,
+  "greenhouse:generalcatalyst": 110,
+  "greenhouse:amplitude": 109,
+  "greenhouse:grammarly": 96,
+  "greenhouse:fireworksai": 96,
   "lever:mistral": 3,
-  "greenhouse:conductor": 59,
-  "lever:gametime": 59,
-  "greenhouse:beaconsoftware": 58,
-  "greenhouse:trmlabs": 58,
-  "greenhouse:turingportal": 58,
-  "greenhouse:interfaceai": 58,
-  "greenhouse:vannahealth": 56,
+  "greenhouse:conductor": 60,
+  "lever:gametime": 60,
+  "greenhouse:beaconsoftware": 59,
+  "greenhouse:trmlabs": 59,
+  "greenhouse:turingportal": 59,
+  "greenhouse:interfaceai": 59,
+  "greenhouse:vannahealth": 57,
   "rippling:elevationcapital": 6,
-  "greenhouse:changedotorgsourcing": 49,
-  "greenhouse:bedrockrobotics": 30,
-  "greenhouse:xplatform": 25,
+  "greenhouse:changedotorgsourcing": 50,
+  "greenhouse:bedrockrobotics": 31,
+  "greenhouse:xplatform": 26,
   "lever:netflix": 4,
-  "greenhouse:gigs": 21,
-  "workday:target:targetcareers": 2,
-  "greenhouse:cherryventures": 1,
-  "icims:careers-uti": 1
+  "greenhouse:gigs": 22,
+  "greenhouse:cherryventures": 2,
+  "icims:careers-uti": 2,
+  "greenhouse:andurilindustries": 1
  }
 }

@@ -6039,7 +6039,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-21",
-   "closedStreak": 109
+   "closedStreak": 110
   },
   {
    "id": "681b5a5acb",
@@ -9015,7 +9015,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-21",
-   "closedStreak": 42
+   "closedStreak": 43
   },
   {
    "id": "bad760ffba",
@@ -10480,48 +10480,6 @@
    "lastLive": "2026-11-21"
   },
   {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "live",
-   "lastChecked": "2026-11-21",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-11-21",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-21",
-   "pageLocation": "MYS - Penang, Malaysia"
-  },
-  {
-   "id": "4655fedd2b",
-   "kind": "review",
-   "company": "Micron",
-   "title": "Senior Manager, Talent Acquisition",
-   "location": "Hiroshima - Fab 15, Japan, Japan",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
-   "comp": "",
-   "added": "2026-11-21",
-   "status": "live",
-   "lastChecked": "2026-11-21",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:micron:External",
-   "inFeed": "2026-11-21",
-   "pageTitle": "Senior Manager, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-21",
-   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
-  },
-  {
    "id": "2b4462c805",
    "kind": "role",
    "company": "airSlate",
@@ -10530,9 +10488,11 @@
    "url": "https://jobs.lever.co/airslate/1a14cfc2-6c80-442e-acf5-ccbe56aaa0b0/apply",
    "comp": "",
    "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-11-21",
+   "reason": "no longer in the employer's job feed",
+   "feed": "lever:airslate",
+   "notInFeed": "2026-11-21"
   },
   {
    "id": "436b4a8d49",
@@ -10543,9 +10503,10 @@
    "url": "https://vercel.com/careers/director-people-operations-infrastructure-and-services-5693067004",
    "comp": "",
    "added": "2026-11-21",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-21",
+   "reason": "redirected to a different page: https://vercel.com/careers",
+   "closedStreak": 0
   }
  ]
 }
