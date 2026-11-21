@@ -290,7 +290,8 @@
   "alluxio",
   "CesiumAstro",
   "promiserobotics",
-  "knownwell"
+  "knownwell",
+  "gametime"
  ],
  "ashby": [
   "pylon-labs",
@@ -735,7 +736,10 @@
   }
  ],
  "candidates": [
-  "cohere"
+  "cohere",
+  "Phifer",
+  "Nory",
+  "Coram AI"
  ],
  "tried": {
   "UniUni": 1,
