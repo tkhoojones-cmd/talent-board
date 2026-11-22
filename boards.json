@@ -297,7 +297,9 @@
   "knownwell",
   "gametime",
   "cohere",
-  "neednova"
+  "neednova",
+  "merlinlabs",
+  "tiberius"
  ],
  "ashby": [
   "pylon-labs",
@@ -748,7 +750,14 @@
   "Lever",
   "HiringCafe",
   "The Hive",
-  "LCBO"
+  "LCBO",
+  "Float",
+  "Antora Energy",
+  "Lyte",
+  "Botsync",
+  "Astro Mechanica",
+  "Interface.ai",
+  "TRM Labs"
  ],
  "tried": {
   "UniUni": 1,
@@ -1664,7 +1673,8 @@
   "respiris",
   "sidetrade",
   "flosum",
-  "omass-therapeutics"
+  "omass-therapeutics",
+  "botsync-1"
  ],
  "rippling": [
   "smartsuite",
@@ -1677,7 +1687,8 @@
   "advanced-navigation",
   "paramount",
   "hyperlayer",
-  "pathos"
+  "pathos",
+  "lyte"
  ],
  "smartrecruiters": [
   "glean",
