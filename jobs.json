@@ -576,7 +576,7 @@
    "source": "feed",
    "closedStreak": 0,
    "pageTitle": "Senior Director, GTM Recruiting",
-   "failStreak": 2,
+   "failStreak": 3,
    "lastLive": "2026-11-21",
    "compMax": 363000
   },
@@ -2742,14 +2742,14 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-11-22",
-   "reason": "kept: last check failed (HTTP 503); last confirmed 2026-11-22",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "greenhouse:mongodb",
    "inFeed": "2026-11-22",
    "compMax": 224000,
    "pageTitle": "Senior Manager, AI and People Transformation New York City; United States",
    "closedStreak": 0,
-   "failStreak": 1,
+   "failStreak": 0,
    "lastLive": "2026-11-22"
   },
   {
@@ -3811,7 +3811,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-22",
-   "pageLocation": "Location: US, Kansas, Kansas City"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "780a3e80f9",
@@ -6039,7 +6039,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-22",
-   "closedStreak": 115
+   "closedStreak": 116
   },
   {
    "id": "681b5a5acb",
@@ -8839,10 +8839,10 @@
    "url": "https://www.okta.com/company/careers/people/director-global-tech-recruiting-8212083",
    "comp": "$224K–$308K",
    "added": "2026-11-14",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-22",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "0e8f1993b8",
@@ -9015,7 +9015,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-22",
-   "closedStreak": 48
+   "closedStreak": 49
   },
   {
    "id": "bad760ffba",
@@ -10523,204 +10523,6 @@
    "closedStreak": 2
   },
   {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "live",
-   "lastChecked": "2026-11-22",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-11-22",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-22",
-   "pageLocation": "MYS - Penang, Malaysia"
-  },
-  {
-   "id": "4655fedd2b",
-   "kind": "review",
-   "company": "Micron",
-   "title": "Senior Manager, Talent Acquisition",
-   "location": "Hiroshima - Fab 15, Japan, Japan",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "live",
-   "lastChecked": "2026-11-22",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:micron:External",
-   "inFeed": "2026-11-22",
-   "pageTitle": "Senior Manager, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-22",
-   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
-  },
-  {
-   "id": "b09f63a10a",
-   "kind": "role",
-   "company": "People.ai",
-   "title": "VP of People",
-   "location": "",
-   "url": "https://jobs.lever.co/people-ai/145cfacf-3f14-4d32-8a63-8b04c7e83908",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "95e4c395a3",
-   "kind": "role",
-   "company": "Etsy",
-   "title": "Director, People Systems and Technology",
-   "location": "Hybrid (New York, NY)",
-   "url": "https://careers.etsy.com/jobs/director-people-systems-and-technology-new-york-united-states",
-   "comp": "$183k–237k",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "edc4dec4d9",
-   "kind": "role",
-   "company": "Uber",
-   "title": "Sr Director, Global Head of People Partner",
-   "location": "San Francisco, CA or New York, NY",
-   "url": "https://www.uber.com/careers/list/160421/",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "6f188bf006",
-   "kind": "role",
-   "company": "Expedia Group",
-   "title": "Talent Strategy Partner, Senior Director",
-   "location": "Seattle, WA",
-   "url": "https://careers.expediagroup.com/job/talent-strategy-partner-senior-director/seattle-wa/R-105725/",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "8cb8945dbc",
-   "kind": "role",
-   "company": "Expedia Group",
-   "title": "Director, HR Business Partner - Product & Tech",
-   "location": "Seattle, WA",
-   "url": "https://careers.expediagroup.com/job/director-hr-business-partner-product-amp-tech/seattle-WA/R-98794",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "0313fdc598",
-   "kind": "role",
-   "company": "Greenhouse",
-   "title": "VP, Talent",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/greenhouse/jobs/7875615",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "4832d87e8c",
-   "kind": "role",
-   "company": "VRChat",
-   "title": "Head of Talent",
-   "location": "",
-   "url": "https://jobs.lever.co/vrchat/05229da3-4145-402d-b4ae-2d9a1157b796",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "2aeafd75a9",
-   "kind": "role",
-   "company": "Baidu USA",
-   "title": "Head of Human Resources",
-   "location": "On-site (Mountain View, CA)",
-   "url": "https://job-boards.greenhouse.io/baidu/jobs/7344738",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "531a97dadb",
-   "kind": "role",
-   "company": "Wellist",
-   "title": "Chief People Officer",
-   "location": "Hybrid (Boston, MA)",
-   "url": "https://job-boards.greenhouse.io/wellist/jobs/8431772002",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "318ae62486",
-   "kind": "role",
-   "company": "Gametime",
-   "title": "Chief People Officer",
-   "location": "Remote",
-   "url": "https://jobs.lever.co/gametime/6710eb48-3de8-4f37-b272-7a321d76e1c9",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "07ddf5ed18",
-   "kind": "role",
-   "company": "airSlate",
-   "title": "Chief People Officer",
-   "location": "Remote / Warsaw / Bucharest / Budapest / Prague",
-   "url": "https://jobs.lever.co/airslate/1a14cfc2-6c80-442e-acf5-ccbe56aaa0b0",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "91430c9eb0",
-   "kind": "role",
-   "company": "GitLab",
-   "title": "Senior Director, People Business Partner",
-   "location": "Remote",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592710002",
-   "comp": "USD 184.8k–380.4k + equity",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
    "id": "fa71f40ac3",
    "kind": "role",
    "company": "Procore Technologies",
@@ -10729,61 +10531,10 @@
    "url": "https://smartrecruiters.com/ProcoreTechnologies/744000030247557",
    "comp": "",
    "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "5f535bbdfd",
-   "kind": "role",
-   "company": "Procore Technologies",
-   "title": "Director, Talent Operations & Analytics",
-   "location": "Austin, TX",
-   "url": "https://careers.procore.com/jobs/director-talent-operations-analytics-austin-tx-united-states",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "53d04cce36",
-   "kind": "role",
-   "company": "Asana",
-   "title": "Head of People Partners, R&D",
-   "location": "",
-   "url": "https://asana.com/jobs/apply/8072574",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "36d6241989",
-   "kind": "role",
-   "company": "Asana",
-   "title": "Head of Technical Recruiting",
-   "location": "",
-   "url": "https://asana.com/jobs/apply/8049872",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "d128ec4110",
-   "kind": "role",
-   "company": "Versa Networks",
-   "title": "VP of People & HR",
-   "location": "Santa Clara, CA",
-   "url": "https://apply.workable.com/versa-networks/jobs/view/86DCA3DCD1.md",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-22",
+   "reason": "HTTP 400",
+   "closedStreak": 0
   },
   {
    "id": "0036b81186",
@@ -10794,9 +10545,11 @@
    "url": "https://apply.workable.com/domain-tools/jobs/view/F1D6917813.md",
    "comp": "$175k–275k",
    "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-11-22",
+   "reason": "no longer in the employer's job feed",
+   "feed": "workable:domain-tools",
+   "notInFeed": "2026-11-22"
   },
   {
    "id": "5f223785b5",
@@ -10807,9 +10560,11 @@
    "url": "https://apply.workable.com/domain-tools/jobs/view/625C094638.md",
    "comp": "$175k–275k",
    "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-11-22",
+   "reason": "no longer in the employer's job feed",
+   "feed": "workable:domain-tools",
+   "notInFeed": "2026-11-22"
   },
   {
    "id": "65ae56964c",
@@ -10820,9 +10575,13 @@
    "url": "https://careers-page.com/thehivecareers/job/X9Y39V6Y",
    "comp": "",
    "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "live",
+   "lastChecked": "2026-11-22",
+   "reason": "opened normally with an Apply control",
+   "pageTitle": "Chief People Officer (CPO)",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-22"
   },
   {
    "id": "fb4a3692b2",
@@ -10833,22 +10592,10 @@
    "url": "https://www.careers-page.com/ppl-dynamics/job/L5639843",
    "comp": "",
    "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "0a0747f1d1",
-   "kind": "role",
-   "company": "Art Gallery of Ontario",
-   "title": "Chief, People",
-   "location": "Toronto, ON",
-   "url": "https://jobs.jobvite.com/ago/job/od8oAfw3",
-   "comp": "",
-   "added": "2026-11-22",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-22",
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   }
  ]
 }
