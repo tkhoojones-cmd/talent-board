@@ -224,7 +224,7 @@ const AGG = /builtin|themuse\.com|remotive\.com|jobright\.ai|linkedin\.com|thela
   const data = {
     generated: today, verifiedAt: new Date().toISOString(),
     roles: pub("role"), ic: pub("ic"), review: pub("review"), coverage: (() => { try { const c = JSON.parse(fs.readFileSync("coverage.json", "utf8")); return { at: c.at, sources: c.sources.map((x) => ({ company: x.company, ats: x.ats, ok: x.ok, jobs: x.jobs, streak: x.failStreak })), waiting: c.waitingForFeed, gaveUp: c.gaveUp }; } catch (e) { return null; } })(), moves: signals.moves, funding: signals.funding,
-    crawl, checkedNow: jobs.filter((j) => j.lastChecked === today).length, unverifiableNow,
+    crawl, registry: (() => { try { const c = JSON.parse(fs.readFileSync("crawl-report.json", "utf8")); if (c.registry) return c.registry; } catch (e) {} try { const b = JSON.parse(fs.readFileSync("boards.json", "utf8")); return { ok: false, status: 0, note: "registry was not read this run", addedThisRun: 0, already: 0, capped: 0, companies: Object.values(b.registry || {}) }; } catch (e) { return null; } })(), checkedNow: jobs.filter((j) => j.lastChecked === today).length, unverifiableNow,
     notPublished: store.jobs.filter((j) => j.status !== "live").map((j) => ({ company: j.company, title: j.title, url: j.url, state: j.status, reason: j.reason })),
   };
   // sanity gate: a big drop is only published if most of the lost roles are definitively closed

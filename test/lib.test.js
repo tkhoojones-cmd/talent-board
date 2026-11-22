@@ -1,4 +1,4 @@
-const { wanted, wantedIC, borderline, payRange, isNA, offTargetTitle, blockedCompany, cleanCompany, keepListing } = require("../lib");
+const { wanted, wantedIC, borderline, payRange, isNA, offTargetTitle, blockedCompany, cleanCompany, keepListing, parseRegistry, mergeRegistry } = require("../lib");
 let bad = 0;
 const t = (name, got, want) => { if (got !== want) { bad++; console.log("FAIL", name, "got", got, "want", want); } };
 const yes = ["Chief People Officer","VP, People","Head of People & Places","SVP Human Resources","Vice President of Talent Acquisition","Vice-President, People","V.P. People","VP, International People","VP Talent & Leadership Development","Head of Talent Acquisition, Engineering & Product","Chief People Officer & General Counsel","VP, Employee Relations & Engagement","Director of Human Resources","Director of People","Director, HR","Head of Executive Recruiting","Head of Technical Recruiting","Head of Learning & Development","Head of Employee Success","Head of the People Team","Head of North America Talent","Chief Human Resources Officer","VP Total Rewards","Head of Talent","Senior Director, Talent Acquisition","VP, HR - Operations"];
@@ -40,4 +40,32 @@ t("clean launchdarkly", cleanCompany("Launchdarkly"), "LaunchDarkly");
 t("drop jobgether", keepListing({ company: "Jobgether", title: "Head of People" }), false);
 t("keep real head of people", keepListing({ company: "Zip", title: "Head of People Operations & Total Rewards" }), true);
 t("ic stays", wantedIC("Staff Technical Recruiter"), true);
+t("registry not json", parseRegistry("nope"), null);
+t("registry object wrapper", parseRegistry({ companies: [{ name: "Acme", domain: "acme.com", ats: "greenhouse", token: "acme", discovered_via: "Forbes AI 50", first_seen: "2026-11-01" }] }).length, 1);
+const duped = parseRegistry([
+  { name: "First", domain: "one.example", ats: "lever", token: "acme", first_seen: "2026-11-01" },
+  { name: "Same token", domain: "two.example", ats: "lever", token: "acme", first_seen: "2026-11-02" },
+  { name: "Same domain", domain: "one.example", ats: "ashby", token: "other", first_seen: "2026-11-03" }
+]);
+t("registry dedupes token and domain", duped.length, 1);
+t("registry keeps oldest", duped[0].name, "First");
+const fromUrl = parseRegistry([{ name: "Northwind", careers_url: "https://job-boards.greenhouse.io/northwind/jobs/1" }]);
+t("registry reads greenhouse url", fromUrl[0] && fromUrl[0].ats + ":" + fromUrl[0].token, "greenhouse:northwind");
+t("registry skips aggregator", parseRegistry([{ name: "Jobgether", ats: "lever", token: "jobgether" }]).length, 0);
+const boards = { greenhouse: ["stripe"], lever: [], ashby: [], workable: [], rippling: [], smartrecruiters: [], recruitee: [], icims: [], oracle: [], taleo: [], successfactors: [], names: {}, registry: {} };
+const wd = new Map();
+const list = parseRegistry([
+  { name: "Stripe", domain: "stripe.com", ats: "greenhouse", token: "stripe" },
+  { name: "Piedmont", domain: "piedmont.example", ats: "ashby", token: "piedmont", discovered_via: "YC", first_seen: "2026-01-01" },
+  { name: "Harbor", domain: "harbor.example", careers_url: "https://harbor.wd5.myworkdayjobs.com/en-US/External/job/x", first_seen: "2026-01-02" },
+  { name: "Later", domain: "later.example", ats: "lever", token: "later", first_seen: "2026-02-01" }
+]);
+const merged = mergeRegistry(boards, wd, list, 2);
+t("registry cap", merged.added.length, 2);
+t("registry already curated", merged.already, 1);
+t("registry held", merged.capped, 1);
+t("registry added ashby", boards.ashby.includes("piedmont"), true);
+t("registry added workday", wd.has("harbor" + "External"), true);
+t("registry did not add capped", boards.lever.includes("later"), false);
+t("registry remembered", boards.registry["ashby:piedmont"].discoveredVia, "YC");
 console.log(bad ? bad + " failures" : "all passed"); process.exit(bad ? 1 : 0);

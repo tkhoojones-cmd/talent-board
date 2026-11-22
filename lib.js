@@ -151,4 +151,143 @@ function keepListing(job) {
   return true;
 }
 
-module.exports = { wanted, wantedIC, borderline, payRange, isNA, normTitle, TOPIC, offTargetTitle, blockedCompany, cleanCompany, keepListing };
+// Companies discovered by the shared registry (my.soundherald.com). Simple boards are a token.
+// Hosted systems need the pieces of the careers URL, because a single token is not enough to read them.
+const SIMPLE_ATS = ["greenhouse", "lever", "ashby", "workable", "rippling", "smartrecruiters", "recruitee", "icims"];
+const ATS_NAMES = {
+  greenhouse: "greenhouse", lever: "lever", ashby: "ashby", workable: "workable", rippling: "rippling",
+  smartrecruiters: "smartrecruiters", recruitee: "recruitee", icims: "icims", workday: "workday",
+  oracle: "oracle", taleo: "taleo", successfactors: "successfactors"
+};
+const REGISTRY_CAP = 40;
+
+function registryDomain(v) {
+  return String(v || "").trim().toLowerCase().replace(/^https?:\/\//, "").replace(/^www\./, "").split(/[/?#]/)[0];
+}
+function registryPick(obj, keys) {
+  for (const k of keys) if (obj && obj[k] != null && String(obj[k]).trim()) return obj[k];
+  return "";
+}
+function atsFromCareersUrl(url) {
+  const u = String(url || "");
+  let m;
+  if ((m = u.match(/greenhouse\.io\/([^/?#]+)/i)) && !/^(embed|v1|jobs)$/i.test(m[1])) return { ats: "greenhouse", token: m[1].toLowerCase() };
+  if ((m = u.match(/jobs\.lever\.co\/([^/?#]+)/i))) return { ats: "lever", token: m[1].toLowerCase() };
+  if ((m = u.match(/(?:jobs\.)?ashbyhq\.com\/([^/?#]+)/i)) && m[1].toLowerCase() !== "api") return { ats: "ashby", token: m[1] };
+  if ((m = u.match(/apply\.workable\.com\/([^/?#]+)/i))) return { ats: "workable", token: m[1].toLowerCase() };
+  if ((m = u.match(/ats\.rippling\.com\/([^/?#]+)/i)) && m[1].toLowerCase() !== "api") return { ats: "rippling", token: m[1].toLowerCase() };
+  if ((m = u.match(/jobs\.smartrecruiters\.com\/([^/?#]+)/i))) return { ats: "smartrecruiters", token: m[1] };
+  if ((m = u.match(/^https?:\/\/(careers-[a-z0-9-]+)\.icims\.com\//i))) return { ats: "icims", token: m[1].toLowerCase() };
+  if ((m = u.match(/([a-z0-9-]+)\.recruitee\.com/i)) && m[1].toLowerCase() !== "www") return { ats: "recruitee", token: m[1].toLowerCase() };
+  if ((m = u.match(/^https?:\/\/([^.]+)\.(wd\d+)\.myworkdayjobs\.com\/(?:[a-z]{2}-[A-Z]{2}\/)?([^/?#]+)/i))) return { ats: "workday", token: (m[1] + ":" + m[3]).toLowerCase(), hosted: { tenant: m[1], wd: m[2], site: m[3] } };
+  if ((m = u.match(/^https?:\/\/([a-z0-9.-]+\.oraclecloud\.com)\/hcmUI\/CandidateExperience\/[^/]+\/sites\/([^/?#]+)/i))) return { ats: "oracle", token: (m[1] + ":" + m[2]).toLowerCase(), hosted: { host: m[1], site: m[2] } };
+  if ((m = u.match(/^https?:\/\/([a-z0-9-]+)\.taleo\.net\/careersection\/([^/?#]+)/i)) && m[2].toLowerCase() !== "rest") return { ats: "taleo", token: (m[1] + ":" + m[2]).toLowerCase(), hosted: { tenant: m[1], section: m[2] } };
+  if ((m = u.match(/^https?:\/\/([^/?#]*successfactors[^/?#]*)/i))) return { ats: "successfactors", token: m[1].toLowerCase(), hosted: { host: m[1] } };
+  return null;
+}
+function hostedFromToken(ats, token) {
+  const p = String(token || "").split(/[:/]/).filter(Boolean);
+  if (ats === "workday" && p.length >= 3 && /^wd\d+$/i.test(p[1])) return { tenant: p[0], wd: p[1], site: p.slice(2).join(":") };
+  if (ats === "oracle" && p.length >= 2) return { host: p[0], site: p.slice(1).join(":") };
+  if (ats === "taleo" && p.length >= 2 && p[1].toLowerCase() !== "rest") return { tenant: p[0], section: p[1] };
+  if (ats === "successfactors" && token) return { host: token };
+  return null;
+}
+function normalizeRegistryCompany(raw) {
+  if (!raw || typeof raw !== "object" || Array.isArray(raw)) return null;
+  const name = String(registryPick(raw, ["name", "company"]) || "").replace(/\s+/g, " ").trim();
+  if (name && blockedCompany(name)) return null;
+  const domain = registryDomain(registryPick(raw, ["domain", "website"]));
+  const careersUrl = String(registryPick(raw, ["careers_url", "careersUrl", "careers"]) || "").trim();
+  const fromUrl = careersUrl ? atsFromCareersUrl(careersUrl) : null;
+  let ats = String(registryPick(raw, ["ats", "ats_type", "atsType", "type"]) || "").trim().toLowerCase().replace(/[\s_-]+/g, "");
+  ats = ATS_NAMES[ats] || (fromUrl && fromUrl.ats) || "";
+  let token = String(registryPick(raw, ["token", "board", "slug"]) || "").trim().replace(/^\/+|\/+$/g, "");
+  if (!token && fromUrl) token = fromUrl.token;
+  if (!ats || !token) return null;
+  if (SIMPLE_ATS.includes(ats)) token = token.toLowerCase();
+  const hosted = (fromUrl && fromUrl.ats === ats && fromUrl.hosted) || hostedFromToken(ats, token);
+  if (!SIMPLE_ATS.includes(ats) && !hosted) return null;
+  if (SIMPLE_ATS.includes(ats) && !/^[a-z0-9][a-z0-9._-]*$/i.test(token)) return null;
+  return {
+    name: name || token,
+    domain,
+    ats,
+    token,
+    careersUrl,
+    hosted,
+    firstSeen: String(registryPick(raw, ["first_seen", "firstSeen"]) || ""),
+    discoveredVia: String(registryPick(raw, ["discovered_via", "discoveredVia"]) || "")
+  };
+}
+
+// null when the body is not a registry. Otherwise the deduped companies, oldest first.
+function parseRegistry(payload) {
+  if (payload == null) return null;
+  const list = Array.isArray(payload) ? payload : (payload && (payload.companies || payload.employers));
+  if (!Array.isArray(list)) return null;
+  const rows = [];
+  for (const raw of list) { const c = normalizeRegistryCompany(raw); if (c) rows.push(c); }
+  rows.sort((a, b) => (a.firstSeen || "9999").localeCompare(b.firstSeen || "9999") || a.name.localeCompare(b.name));
+  const seenAts = new Set(), seenDom = new Set(), out = [];
+  for (const c of rows) {
+    const k = c.ats + ":" + c.token.toLowerCase();
+    if (seenAts.has(k)) continue;
+    if (c.domain && seenDom.has(c.domain)) continue;
+    seenAts.add(k);
+    if (c.domain) seenDom.add(c.domain);
+    out.push(c);
+  }
+  return out;
+}
+
+function knownFeedKeys(boards, wdSet) {
+  const keys = new Set();
+  for (const a of SIMPLE_ATS) for (const t of (boards[a] || [])) keys.add(a + ":" + String(t).toLowerCase());
+  const days = wdSet ? [...wdSet.values()] : (boards.workday || []);
+  for (const w of days) if (w && w.tenant && w.site) keys.add("workday:" + String(w.tenant).toLowerCase() + ":" + String(w.site).toLowerCase());
+  for (const o of (boards.oracle || [])) if (o && o.host && o.site) keys.add("oracle:" + String(o.host + ":" + o.site).toLowerCase());
+  for (const x of (boards.taleo || [])) if (x && x.tenant && x.section) keys.add("taleo:" + String(x.tenant + ":" + x.section).toLowerCase());
+  for (const s of (boards.successfactors || [])) if (s && s.host) keys.add("successfactors:" + String(s.host).toLowerCase());
+  return keys;
+}
+
+// Adds up to `cap` new registry companies onto the existing crawl list. Curated boards stay put.
+function mergeRegistry(boards, wdSet, companies, cap) {
+  const limit = cap == null ? REGISTRY_CAP : cap;
+  boards.registry = boards.registry || {};
+  const known = knownFeedKeys(boards, wdSet);
+  const knownDomains = new Set(Object.values(boards.registry).map((x) => x.domain).filter(Boolean));
+  const added = [];
+  let already = 0, capped = 0;
+  for (const c of companies || []) {
+    const id = c.ats + ":" + c.token.toLowerCase();
+    if (known.has(id) || (c.domain && knownDomains.has(c.domain))) { already++; continue; }
+    if (added.length >= limit) { capped++; continue; }
+    if (SIMPLE_ATS.includes(c.ats)) {
+      boards[c.ats] = boards[c.ats] || [];
+      if (!boards[c.ats].some((t) => String(t).toLowerCase() === c.token)) boards[c.ats].push(c.token);
+    } else if (c.ats === "workday") {
+      wdSet.set(c.hosted.tenant + c.hosted.site, { tenant: c.hosted.tenant, wd: c.hosted.wd, site: c.hosted.site, company: c.name });
+    } else if (c.ats === "oracle") {
+      boards.oracle = boards.oracle || [];
+      boards.oracle.push({ host: c.hosted.host, site: c.hosted.site, company: c.name });
+    } else if (c.ats === "taleo") {
+      boards.taleo = boards.taleo || [];
+      boards.taleo.push({ tenant: c.hosted.tenant, section: c.hosted.section, company: c.name });
+    } else if (c.ats === "successfactors") {
+      boards.successfactors = boards.successfactors || [];
+      boards.successfactors.push({ host: c.hosted.host, company: c.name });
+    } else continue;
+    boards.names = boards.names || {};
+    boards.names[id] = c.name;
+    const saved = { name: c.name, domain: c.domain, ats: c.ats, token: c.token, discoveredVia: c.discoveredVia, firstSeen: c.firstSeen };
+    boards.registry[id] = saved;
+    known.add(id);
+    if (c.domain) knownDomains.add(c.domain);
+    added.push(saved);
+  }
+  return { added, already, capped };
+}
+
+module.exports = { wanted, wantedIC, borderline, payRange, isNA, normTitle, TOPIC, offTargetTitle, blockedCompany, cleanCompany, keepListing, parseRegistry, mergeRegistry, knownFeedKeys, REGISTRY_CAP, SIMPLE_ATS };
