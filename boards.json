@@ -293,7 +293,6 @@
   "CesiumAstro",
   "promiserobotics",
   "kraken123",
-  "knownwell",
   "cohere",
   "neednova",
   "gametime"
@@ -473,8 +472,7 @@
   "tessera-labs",
   "xero",
   "nory",
-  "coram-ai",
-  "beaconsoftware"
+  "coram-ai"
  ],
  "workday": [
   {
@@ -743,9 +741,8 @@
   }
  ],
  "candidates": [
-  "LawVu",
-  "LHH",
-  "careers-uti"
+  "careers-uti",
+  "knownwell"
  ],
  "tried": {
   "UniUni": 1,
@@ -1194,9 +1191,9 @@
   "Hiscox": 4,
   "Air Space Intelligence": 4,
   "Phifer": 4,
-  "LawVu": 3,
-  "LHH": 3,
-  "careers-uti": 2
+  "LawVu": 4,
+  "LHH": 4,
+  "careers-uti": 3
  },
  "dead": [
   "Slate Auto",
@@ -1632,7 +1629,9 @@
   "Poseidon Aerospace",
   "Air Space Intelligence",
   "Hiscox",
-  "Phifer"
+  "Phifer",
+  "LawVu",
+  "LHH"
  ],
  "workable": [
   "montera",
@@ -2228,11 +2227,10 @@
   "greenhouse:octanelending": 0,
   "greenhouse:d2l": 0,
   "lever:kraken123": 0,
-  "lever:knownwell": 2,
-  "ashby:beaconsoftware": 2,
-  "lever:cohere": 1,
-  "lever:gametime": 1,
-  "lever:neednova": 1
+  "lever:cohere": 2,
+  "lever:gametime": 2,
+  "lever:neednova": 2,
+  "icims:careers-uti": 0
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -2611,7 +2609,47 @@
   "ashby:nory": "Nory",
   "ashby:coram-ai": "Coram AI",
   "greenhouse:octanelending": "Octane Lending",
-  "greenhouse:d2l": "D2L"
+  "greenhouse:d2l": "D2L",
+  "workday:adobe": "Adobe",
+  "workday:adventhealth": "Adventhealth",
+  "workday:autodesk": "Autodesk",
+  "workday:ghr": "Bank of America",
+  "workday:beemok": "Beemok",
+  "workday:bestbuycanada": "Best Buy Canada",
+  "workday:blackrock": "BlackRock",
+  "workday:capitalone": "Capital One",
+  "icims:careers-uti": "careers-uti",
+  "workday:cigna": "Cigna",
+  "workday:cisco": "Cisco",
+  "workday:citi": "Citi",
+  "workday:clio": "Clio",
+  "workday:comcast": "Comcast / NBCUniversal",
+  "workday:cvshealth": "CVS Health",
+  "workday:dell": "Dell",
+  "workday:disney": "Disney",
+  "workday:elevancehealth": "Elevance Health",
+  "workday:fmr": "Fidelity",
+  "workday:gilead": "Gilead",
+  "workday:hp": "HP",
+  "workday:humana": "Humana",
+  "workday:intel": "Intel",
+  "workday:manh": "Manh",
+  "workday:mastercard": "Mastercard",
+  "workday:maxar": "Maxar",
+  "workday:micron": "Micron",
+  "workday:nvent": "Nvent",
+  "workday:nvidia": "NVIDIA",
+  "workday:paypal": "PayPal",
+  "workday:pru": "Prudential",
+  "workday:qualcomm": "Qualcomm",
+  "workday:reitmr": "Reitmr",
+  "workday:salesforce": "Salesforce",
+  "workday:sunlife": "Sun Life",
+  "workday:synchronyfinancial": "Synchronyfinancial",
+  "workday:target": "Target",
+  "workday:usbank": "U.S. Bank",
+  "workday:vanguard": "Vanguard",
+  "workday:visa": "Visa"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -2620,7 +2658,8 @@
   "careers-jobyaviation",
   "careers-accoy",
   "careers-americas",
-  "hubcareers-docusign"
+  "hubcareers-docusign",
+  "careers-uti"
  ],
  "oracle": [
   {
@@ -2643,46 +2682,367 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 229,
-  "greenhouse:notion": 229,
-  "greenhouse:marqeta": 229,
-  "greenhouse:alphahawaii": 229,
-  "lever:knownwell": 229,
-  "workday:walmart:WalmartExternal": 229,
-  "workday:comcast:Comcast_Careers": 229,
-  "workday:dell:External": 229,
-  "workday:qualcomm:External": 229,
-  "bigtech:microsoft": 229,
-  "bigtech:meta": 229,
-  "greenhouse:clickhouse": 214,
-  "greenhouse:visiersolutionsinc": 199,
-  "greenhouse:alignmenthealth": 198,
-  "lever:neednova": 144,
+  "greenhouse:admarketplaceinc": 230,
+  "greenhouse:notion": 230,
+  "greenhouse:marqeta": 230,
+  "greenhouse:alphahawaii": 230,
+  "lever:knownwell": 230,
+  "workday:walmart:WalmartExternal": 230,
+  "workday:comcast:Comcast_Careers": 230,
+  "workday:dell:External": 230,
+  "workday:qualcomm:External": 230,
+  "bigtech:microsoft": 230,
+  "bigtech:meta": 230,
+  "greenhouse:clickhouse": 215,
+  "greenhouse:visiersolutionsinc": 200,
+  "greenhouse:alignmenthealth": 199,
+  "lever:neednova": 145,
   "lever:wandb": 10,
-  "lever:cohere": 157,
-  "ashby:beaconsoftware": 125,
-  "greenhouse:rollstack": 124,
-  "greenhouse:iconiqcapital": 123,
+  "lever:cohere": 158,
+  "ashby:beaconsoftware": 126,
+  "greenhouse:rollstack": 125,
+  "greenhouse:iconiqcapital": 124,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 113,
-  "greenhouse:amplitude": 112,
-  "greenhouse:grammarly": 99,
-  "greenhouse:fireworksai": 99,
+  "greenhouse:generalcatalyst": 114,
+  "greenhouse:amplitude": 113,
+  "greenhouse:grammarly": 100,
+  "greenhouse:fireworksai": 100,
   "lever:mistral": 3,
-  "greenhouse:conductor": 63,
-  "lever:gametime": 63,
-  "greenhouse:beaconsoftware": 62,
-  "greenhouse:trmlabs": 62,
-  "greenhouse:turingportal": 62,
-  "greenhouse:interfaceai": 62,
-  "greenhouse:vannahealth": 60,
+  "greenhouse:conductor": 64,
+  "lever:gametime": 64,
+  "greenhouse:beaconsoftware": 63,
+  "greenhouse:trmlabs": 63,
+  "greenhouse:turingportal": 63,
+  "greenhouse:interfaceai": 63,
+  "greenhouse:vannahealth": 61,
   "rippling:elevationcapital": 6,
-  "greenhouse:changedotorgsourcing": 53,
-  "greenhouse:bedrockrobotics": 34,
-  "greenhouse:xplatform": 29,
+  "greenhouse:changedotorgsourcing": 54,
+  "greenhouse:bedrockrobotics": 35,
+  "greenhouse:xplatform": 30,
   "lever:netflix": 4,
-  "greenhouse:gigs": 25,
-  "greenhouse:cherryventures": 5,
-  "icims:careers-uti": 3
+  "greenhouse:gigs": 26,
+  "greenhouse:cherryventures": 6
+ },
+ "registry": {
+  "workday:adobe": {
+   "name": "Adobe",
+   "domain": "",
+   "ats": "workday",
+   "token": "adobe",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:adventhealth": {
+   "name": "Adventhealth",
+   "domain": "",
+   "ats": "workday",
+   "token": "adventhealth",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:autodesk": {
+   "name": "Autodesk",
+   "domain": "",
+   "ats": "workday",
+   "token": "autodesk",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:ghr": {
+   "name": "Bank of America",
+   "domain": "",
+   "ats": "workday",
+   "token": "ghr",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:beemok": {
+   "name": "Beemok",
+   "domain": "",
+   "ats": "workday",
+   "token": "beemok",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:bestbuycanada": {
+   "name": "Best Buy Canada",
+   "domain": "",
+   "ats": "workday",
+   "token": "bestbuycanada",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:blackrock": {
+   "name": "BlackRock",
+   "domain": "",
+   "ats": "workday",
+   "token": "blackrock",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:capitalone": {
+   "name": "Capital One",
+   "domain": "",
+   "ats": "workday",
+   "token": "capitalone",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "icims:careers-uti": {
+   "name": "careers-uti",
+   "domain": "",
+   "ats": "icims",
+   "token": "careers-uti",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:cigna": {
+   "name": "Cigna",
+   "domain": "",
+   "ats": "workday",
+   "token": "cigna",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:cisco": {
+   "name": "Cisco",
+   "domain": "",
+   "ats": "workday",
+   "token": "cisco",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:citi": {
+   "name": "Citi",
+   "domain": "",
+   "ats": "workday",
+   "token": "citi",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:clio": {
+   "name": "Clio",
+   "domain": "",
+   "ats": "workday",
+   "token": "clio",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:comcast": {
+   "name": "Comcast / NBCUniversal",
+   "domain": "",
+   "ats": "workday",
+   "token": "comcast",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:cvshealth": {
+   "name": "CVS Health",
+   "domain": "",
+   "ats": "workday",
+   "token": "cvshealth",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:dell": {
+   "name": "Dell",
+   "domain": "",
+   "ats": "workday",
+   "token": "dell",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:disney": {
+   "name": "Disney",
+   "domain": "",
+   "ats": "workday",
+   "token": "disney",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:elevancehealth": {
+   "name": "Elevance Health",
+   "domain": "",
+   "ats": "workday",
+   "token": "elevancehealth",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:fmr": {
+   "name": "Fidelity",
+   "domain": "",
+   "ats": "workday",
+   "token": "fmr",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:gilead": {
+   "name": "Gilead",
+   "domain": "",
+   "ats": "workday",
+   "token": "gilead",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:hp": {
+   "name": "HP",
+   "domain": "",
+   "ats": "workday",
+   "token": "hp",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:humana": {
+   "name": "Humana",
+   "domain": "",
+   "ats": "workday",
+   "token": "humana",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:intel": {
+   "name": "Intel",
+   "domain": "",
+   "ats": "workday",
+   "token": "intel",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:manh": {
+   "name": "Manh",
+   "domain": "",
+   "ats": "workday",
+   "token": "manh",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:mastercard": {
+   "name": "Mastercard",
+   "domain": "",
+   "ats": "workday",
+   "token": "mastercard",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:maxar": {
+   "name": "Maxar",
+   "domain": "",
+   "ats": "workday",
+   "token": "maxar",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:micron": {
+   "name": "Micron",
+   "domain": "",
+   "ats": "workday",
+   "token": "micron",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:nvent": {
+   "name": "Nvent",
+   "domain": "",
+   "ats": "workday",
+   "token": "nvent",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:nvidia": {
+   "name": "NVIDIA",
+   "domain": "",
+   "ats": "workday",
+   "token": "nvidia",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:paypal": {
+   "name": "PayPal",
+   "domain": "",
+   "ats": "workday",
+   "token": "paypal",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:pru": {
+   "name": "Prudential",
+   "domain": "",
+   "ats": "workday",
+   "token": "pru",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:qualcomm": {
+   "name": "Qualcomm",
+   "domain": "",
+   "ats": "workday",
+   "token": "qualcomm",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:reitmr": {
+   "name": "Reitmr",
+   "domain": "",
+   "ats": "workday",
+   "token": "reitmr",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:salesforce": {
+   "name": "Salesforce",
+   "domain": "",
+   "ats": "workday",
+   "token": "salesforce",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:sunlife": {
+   "name": "Sun Life",
+   "domain": "",
+   "ats": "workday",
+   "token": "sunlife",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:synchronyfinancial": {
+   "name": "Synchronyfinancial",
+   "domain": "",
+   "ats": "workday",
+   "token": "synchronyfinancial",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:target": {
+   "name": "Target",
+   "domain": "",
+   "ats": "workday",
+   "token": "target",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:usbank": {
+   "name": "U.S. Bank",
+   "domain": "",
+   "ats": "workday",
+   "token": "usbank",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:vanguard": {
+   "name": "Vanguard",
+   "domain": "",
+   "ats": "workday",
+   "token": "vanguard",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:visa": {
+   "name": "Visa",
+   "domain": "",
+   "ats": "workday",
+   "token": "visa",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  }
  }
 }

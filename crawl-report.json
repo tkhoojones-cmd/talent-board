@@ -1,6 +1,6 @@
 {
- "at": "2026-11-21T20:14:21.821Z",
- "ok": 561,
+ "at": "2026-11-22T08:33:55.195Z",
+ "ok": 562,
  "failed": [
   "greenhouse:admarketplaceinc:0",
   "greenhouse:notion:0",
@@ -18,18 +18,18 @@
   "greenhouse:grammarly:0",
   "greenhouse:conductor:0",
   "greenhouse:beaconsoftware:0",
-  "greenhouse:interfaceai:0",
   "greenhouse:trmlabs:0",
   "greenhouse:turingportal:0",
+  "greenhouse:interfaceai:0",
   "greenhouse:vannahealth:0",
   "greenhouse:changedotorgsourcing:0",
   "greenhouse:bedrockrobotics:0",
   "greenhouse:xplatform:0",
   "greenhouse:cherryventures:0",
-  "lever:knownwell:404",
-  "lever:cohere:404",
   "lever:gametime:404",
   "lever:neednova:404",
+  "lever:cohere:404",
+  "lever:knownwell:404",
   "ashby:beaconsoftware:404",
   "workday:walmart:WalmartExternal:404",
   "workday:comcast:Comcast_Careers:404",
@@ -38,42 +38,372 @@
   "bigtech:microsoft:404",
   "bigtech:meta:404"
  ],
- "scanned": 48941,
+ "scanned": 48894,
  "matched": 234,
- "added": 2,
+ "added": 0,
  "alerts": [
-  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 229 runs in a row",
-  "Notion (greenhouse:notion) has failed 229 runs in a row",
-  "Marqeta (greenhouse:marqeta) has failed 229 runs in a row",
-  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 199 runs in a row",
-  "Alphahawaii (greenhouse:alphahawaii) has failed 229 runs in a row",
-  "Clickhouse (greenhouse:clickhouse) has failed 214 runs in a row",
-  "Alignmenthealth (greenhouse:alignmenthealth) has failed 198 runs in a row",
-  "Gigs (greenhouse:gigs) has failed 25 runs in a row",
-  "Rollstack (greenhouse:rollstack) has failed 124 runs in a row",
-  "Iconiqcapital (greenhouse:iconiqcapital) has failed 123 runs in a row",
-  "Amplitude (greenhouse:amplitude) has failed 112 runs in a row",
-  "Generalcatalyst (greenhouse:generalcatalyst) has failed 113 runs in a row",
-  "Fireworksai (greenhouse:fireworksai) has failed 99 runs in a row",
-  "Grammarly (greenhouse:grammarly) has failed 99 runs in a row",
-  "Conductor (greenhouse:conductor) has failed 63 runs in a row",
-  "Beacon Software (greenhouse:beaconsoftware) has failed 62 runs in a row",
-  "Interfaceai (greenhouse:interfaceai) has failed 62 runs in a row",
-  "Trmlabs (greenhouse:trmlabs) has failed 62 runs in a row",
-  "Turingportal (greenhouse:turingportal) has failed 62 runs in a row",
-  "Vannahealth (greenhouse:vannahealth) has failed 60 runs in a row",
-  "Changedotorgsourcing (greenhouse:changedotorgsourcing) has failed 53 runs in a row",
-  "Bedrockrobotics (greenhouse:bedrockrobotics) has failed 34 runs in a row",
-  "Xplatform (greenhouse:xplatform) has failed 29 runs in a row",
-  "Cherryventures (greenhouse:cherryventures) has failed 5 runs in a row",
-  "Knownwell (lever:knownwell) has failed 229 runs in a row",
-  "Cohere (lever:cohere) has failed 157 runs in a row",
-  "Gametime (lever:gametime) has failed 63 runs in a row",
-  "Neednova (lever:neednova) has failed 144 runs in a row",
-  "Beacon Software (ashby:beaconsoftware) has failed 125 runs in a row",
-  "Walmart (workday:walmart:WalmartExternal) has failed 229 runs in a row",
-  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 229 runs in a row",
-  "Dell (workday:dell:External) has failed 229 runs in a row",
-  "Qualcomm (workday:qualcomm:External) has failed 229 runs in a row"
- ]
+  "Admarketplaceinc (greenhouse:admarketplaceinc) has failed 230 runs in a row",
+  "Notion (greenhouse:notion) has failed 230 runs in a row",
+  "Marqeta (greenhouse:marqeta) has failed 230 runs in a row",
+  "Visiersolutionsinc (greenhouse:visiersolutionsinc) has failed 200 runs in a row",
+  "Alphahawaii (greenhouse:alphahawaii) has failed 230 runs in a row",
+  "Clickhouse (greenhouse:clickhouse) has failed 215 runs in a row",
+  "Alignmenthealth (greenhouse:alignmenthealth) has failed 199 runs in a row",
+  "Gigs (greenhouse:gigs) has failed 26 runs in a row",
+  "Rollstack (greenhouse:rollstack) has failed 125 runs in a row",
+  "Iconiqcapital (greenhouse:iconiqcapital) has failed 124 runs in a row",
+  "Amplitude (greenhouse:amplitude) has failed 113 runs in a row",
+  "Generalcatalyst (greenhouse:generalcatalyst) has failed 114 runs in a row",
+  "Fireworksai (greenhouse:fireworksai) has failed 100 runs in a row",
+  "Grammarly (greenhouse:grammarly) has failed 100 runs in a row",
+  "Conductor (greenhouse:conductor) has failed 64 runs in a row",
+  "Beacon Software (greenhouse:beaconsoftware) has failed 63 runs in a row",
+  "Trmlabs (greenhouse:trmlabs) has failed 63 runs in a row",
+  "Turingportal (greenhouse:turingportal) has failed 63 runs in a row",
+  "Interfaceai (greenhouse:interfaceai) has failed 63 runs in a row",
+  "Vannahealth (greenhouse:vannahealth) has failed 61 runs in a row",
+  "Changedotorgsourcing (greenhouse:changedotorgsourcing) has failed 54 runs in a row",
+  "Bedrockrobotics (greenhouse:bedrockrobotics) has failed 35 runs in a row",
+  "Xplatform (greenhouse:xplatform) has failed 30 runs in a row",
+  "Cherryventures (greenhouse:cherryventures) has failed 6 runs in a row",
+  "Gametime (lever:gametime) has failed 64 runs in a row",
+  "Neednova (lever:neednova) has failed 145 runs in a row",
+  "Cohere (lever:cohere) has failed 158 runs in a row",
+  "Knownwell (lever:knownwell) has failed 230 runs in a row",
+  "Beacon Software (ashby:beaconsoftware) has failed 126 runs in a row",
+  "Walmart (workday:walmart:WalmartExternal) has failed 230 runs in a row",
+  "Comcast / NBCUniversal (workday:comcast:Comcast_Careers) has failed 230 runs in a row",
+  "Dell (workday:dell:External) has failed 230 runs in a row",
+  "Qualcomm (workday:qualcomm:External) has failed 230 runs in a row"
+ ],
+ "registry": {
+  "ok": true,
+  "status": 200,
+  "note": "",
+  "addedThisRun": 40,
+  "already": 523,
+  "capped": 6,
+  "companies": [
+   {
+    "name": "Adobe",
+    "domain": "",
+    "ats": "workday",
+    "token": "adobe",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Adventhealth",
+    "domain": "",
+    "ats": "workday",
+    "token": "adventhealth",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Autodesk",
+    "domain": "",
+    "ats": "workday",
+    "token": "autodesk",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Bank of America",
+    "domain": "",
+    "ats": "workday",
+    "token": "ghr",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Beemok",
+    "domain": "",
+    "ats": "workday",
+    "token": "beemok",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Best Buy Canada",
+    "domain": "",
+    "ats": "workday",
+    "token": "bestbuycanada",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "BlackRock",
+    "domain": "",
+    "ats": "workday",
+    "token": "blackrock",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Capital One",
+    "domain": "",
+    "ats": "workday",
+    "token": "capitalone",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "careers-uti",
+    "domain": "",
+    "ats": "icims",
+    "token": "careers-uti",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Cigna",
+    "domain": "",
+    "ats": "workday",
+    "token": "cigna",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Cisco",
+    "domain": "",
+    "ats": "workday",
+    "token": "cisco",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Citi",
+    "domain": "",
+    "ats": "workday",
+    "token": "citi",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Clio",
+    "domain": "",
+    "ats": "workday",
+    "token": "clio",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Comcast / NBCUniversal",
+    "domain": "",
+    "ats": "workday",
+    "token": "comcast",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "CVS Health",
+    "domain": "",
+    "ats": "workday",
+    "token": "cvshealth",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Dell",
+    "domain": "",
+    "ats": "workday",
+    "token": "dell",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Disney",
+    "domain": "",
+    "ats": "workday",
+    "token": "disney",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Elevance Health",
+    "domain": "",
+    "ats": "workday",
+    "token": "elevancehealth",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Fidelity",
+    "domain": "",
+    "ats": "workday",
+    "token": "fmr",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Gilead",
+    "domain": "",
+    "ats": "workday",
+    "token": "gilead",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "HP",
+    "domain": "",
+    "ats": "workday",
+    "token": "hp",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Humana",
+    "domain": "",
+    "ats": "workday",
+    "token": "humana",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Intel",
+    "domain": "",
+    "ats": "workday",
+    "token": "intel",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Manh",
+    "domain": "",
+    "ats": "workday",
+    "token": "manh",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Mastercard",
+    "domain": "",
+    "ats": "workday",
+    "token": "mastercard",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Maxar",
+    "domain": "",
+    "ats": "workday",
+    "token": "maxar",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Micron",
+    "domain": "",
+    "ats": "workday",
+    "token": "micron",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Nvent",
+    "domain": "",
+    "ats": "workday",
+    "token": "nvent",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "NVIDIA",
+    "domain": "",
+    "ats": "workday",
+    "token": "nvidia",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "PayPal",
+    "domain": "",
+    "ats": "workday",
+    "token": "paypal",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Prudential",
+    "domain": "",
+    "ats": "workday",
+    "token": "pru",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Qualcomm",
+    "domain": "",
+    "ats": "workday",
+    "token": "qualcomm",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Reitmr",
+    "domain": "",
+    "ats": "workday",
+    "token": "reitmr",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Salesforce",
+    "domain": "",
+    "ats": "workday",
+    "token": "salesforce",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Sun Life",
+    "domain": "",
+    "ats": "workday",
+    "token": "sunlife",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Synchronyfinancial",
+    "domain": "",
+    "ats": "workday",
+    "token": "synchronyfinancial",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Target",
+    "domain": "",
+    "ats": "workday",
+    "token": "target",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "U.S. Bank",
+    "domain": "",
+    "ats": "workday",
+    "token": "usbank",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Vanguard",
+    "domain": "",
+    "ats": "workday",
+    "token": "vanguard",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   },
+   {
+    "name": "Visa",
+    "domain": "",
+    "ats": "workday",
+    "token": "visa",
+    "discoveredVia": "talent board",
+    "firstSeen": "2026-11-22T03:22:48.888+00:00"
+   }
+  ]
+ }
 }
