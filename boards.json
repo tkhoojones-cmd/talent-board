@@ -247,7 +247,8 @@
   "homeward",
   "cherryventures",
   "octanelending",
-  "d2l"
+  "d2l",
+  "avegantcorp"
  ],
  "lever": [
   "zoox",
@@ -293,7 +294,8 @@
   "CesiumAstro",
   "promiserobotics",
   "kraken123",
-  "knownwell"
+  "knownwell",
+  "gametime"
  ],
  "ashby": [
   "pylon-labs",
@@ -743,7 +745,20 @@
   "Photonic",
   "Lever",
   "HiringCafe",
-  "cohere"
+  "cohere",
+  "GC AI",
+  "One Model",
+  "Verse Medical",
+  "Red Ventures",
+  "Vannevar Labs",
+  "Quantum Metric",
+  "Eight Sleep",
+  "Hadley Designs",
+  "The Hive",
+  "LCBO",
+  "Versa Networks",
+  "Help Scout",
+  "NetBox Labs"
  ],
  "tried": {
   "UniUni": 1,
