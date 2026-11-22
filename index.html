@@ -417,6 +417,8 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
     funding: "A watch list, not openings. Companies that recently raised and may be building out people leadership."
   };
   var state = { tab: "roles", q: "", sort: "new", ca: false, since: "any", level: "all", kind: "all" };
+  var searchTrack;
+  function track(event, extra) { try { if (window.shTrack) window.shTrack(event, extra); } catch (e) {} }
   var $ = function (id) { return document.getElementById(id); };
 
   function el(tag, props) {
@@ -484,31 +486,35 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
 
     var key = state.tab, tools = $("tools"); tools.textContent = "";
     var search = el("input", { type: "search", id: "q", placeholder: "Search company or title", "aria-label": "Search", value: state.q });
-    search.addEventListener("input", function () { state.q = search.value; paintList(); });
+    search.addEventListener("input", function () {
+      state.q = search.value; paintList();
+      clearTimeout(searchTrack);
+      searchTrack = setTimeout(function () { track("search", { value: String(state.q || "").slice(0, 100) }); }, 1500);
+    });
     tools.appendChild(search);
     if (key === "roles") {
       var lv = el("select", { id: "level", "aria-label": "Level" },
         el("option", { value: "all", text: "All levels" }), el("option", { value: "vp", text: "VP" }), el("option", { value: "head", text: "Head of" }),
         el("option", { value: "chief", text: "Chief" }), el("option", { value: "director", text: "Director" }));
-      lv.value = state.level; lv.addEventListener("change", function () { state.level = lv.value; paintList(); });
+      lv.value = state.level; lv.addEventListener("change", function () { state.level = lv.value; paintList(); track("filter", { value: "level " + lv.value }); });
       tools.appendChild(lv);
     }
     if (key === "moves") {
       var kd = el("select", { id: "kind", "aria-label": "Type" }, el("option", { value: "all", text: "Hired and left" }), el("option", { value: "Hired", text: "Hired" }), el("option", { value: "Left", text: "Left" }));
-      kd.value = state.kind; kd.addEventListener("change", function () { state.kind = kd.value; paintList(); });
+      kd.value = state.kind; kd.addEventListener("change", function () { state.kind = kd.value; paintList(); track("filter", { value: "type " + kd.value }); });
       tools.appendChild(kd);
     }
     var since = el("select", { id: "since", "aria-label": "Date added" },
       el("option", { value: "any", text: "Any date" }), el("option", { value: "today", text: "Added today" }),
       el("option", { value: "7", text: "Last 7 days" }), el("option", { value: "30", text: "Last 30 days" }));
-    since.value = state.since; since.addEventListener("change", function () { state.since = since.value; paintList(); });
+    since.value = state.since; since.addEventListener("change", function () { state.since = since.value; paintList(); track("filter", { value: "date " + since.value }); });
     tools.appendChild(since);
     var sort = el("select", { id: "sort", "aria-label": "Sort" }, el("option", { value: "new", text: "Newest first" }), el("option", { value: "company", text: "Company A to Z" }));
-    sort.value = state.sort; sort.addEventListener("change", function () { state.sort = sort.value; paintList(); });
+    sort.value = state.sort; sort.addEventListener("change", function () { state.sort = sort.value; paintList(); track("filter", { value: "sort " + sort.value }); });
     tools.appendChild(sort);
     if (key === "roles" || key === "ic" || key === "review") {
       var cb = el("input", { type: "checkbox", id: "ca" }); cb.checked = state.ca;
-      cb.addEventListener("change", function () { state.ca = cb.checked; paintList(); });
+      cb.addEventListener("change", function () { state.ca = cb.checked; paintList(); track("filter", { value: "remote " + (cb.checked ? "yes" : "no") }); });
       tools.appendChild(el("label", { class: "chk", for: "ca", title: "Matches Remote or a Canadian location in the posting" }, cb, "Remote or Canada"));
     }
     $("note").textContent = "";
@@ -560,7 +566,7 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
       if (meta.length) main.appendChild(el("div", { class: "line", text: meta.join(" · ") }));
       var det = el("div", { class: "detail" });
       if (dl.length) { var d = el("dl"); dl.forEach(function (p) { d.appendChild(el("dt", { text: p[0] })); d.appendChild(el("dd", { text: p[1] })); }); det.appendChild(d); }
-      if (url) det.appendChild(el("div", {}, el("a", { href: url, target: "_blank", rel: "noopener noreferrer", text: (key === "roles" || key === "ic" || key === "review") ? "View the posting" : "Read the source" })));
+      if (url) det.appendChild(el("div", {}, el("a", { href: url, target: "_blank", rel: "noopener noreferrer", "data-company": r.company || "", "data-title": r.title || "", text: (key === "roles" || key === "ic" || key === "review") ? "View the posting" : "Read the source" })));
       else det.appendChild(el("div", { class: "line", text: "No link available." }));
       list.appendChild(el("li", {}, el("details", { class: "row" }, el("summary", {}, main, side), det)));
     });
@@ -576,6 +582,48 @@ fetch("https://raw.githubusercontent.com/tkhoojones-cmd/talent-board/main/data.j
   $("foot").textContent = "Updated " + fmt(DATA.generated) + ". Every listing links to the employer's own career site and is re-checked daily, but roles can close without notice, so confirm on the employer's site before you plan around one.";
   paint();
 }).catch(function () { document.getElementById("foot").textContent = "Could not load listings. Please refresh."; });
+</script>
+<script>
+(function () {
+  var endpoint = "https://my.soundherald.com/api/track";
+  var key = "sh_anon";
+  var id = "";
+  try {
+    id = localStorage.getItem(key) || "";
+    if (!id && window.crypto && crypto.randomUUID) {
+      id = crypto.randomUUID();
+      localStorage.setItem(key, id);
+    }
+  } catch (e) {}
+  var params = new URLSearchParams(location.search);
+  function send(event, extra) {
+    var body = {
+      site: "talent-board",
+      event: event,
+      path: location.pathname,
+      anon_id: id,
+      ref: document.referrer || "",
+      utm_source: params.get("utm_source") || "",
+      utm_medium: params.get("utm_medium") || "",
+      utm_campaign: params.get("utm_campaign") || "",
+      utm_content: params.get("utm_content") || "",
+      utm_term: params.get("utm_term") || ""
+    };
+    if (extra) Object.keys(extra).forEach(function (name) { body[name] = extra[name]; });
+    var payload = JSON.stringify(body);
+    try {
+      if (navigator.sendBeacon) navigator.sendBeacon(endpoint, new Blob([payload], { type: "text/plain" }));
+      else fetch(endpoint, { method: "POST", mode: "cors", headers: { "content-type": "text/plain" }, body: payload, keepalive: true }).catch(function () {});
+    } catch (e) {}
+  }
+  window.shTrack = send;
+  send("view");
+  document.addEventListener("click", function (ev) {
+    var node = ev.target && ev.target.closest ? ev.target.closest("a") : null;
+    if (!node || !node.href || node.origin === location.origin) return;
+    send("click", { job_url: node.href, company: node.getAttribute("data-company") || "", title: node.getAttribute("data-title") || "" });
+  });
+})();
 </script>
 </body>
 </html>
