@@ -3811,7 +3811,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-22",
-   "pageLocation": "Location: US, Pennsylvania, Carlisle"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "780a3e80f9",
@@ -6039,7 +6039,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-22",
-   "closedStreak": 118
+   "closedStreak": 119
   },
   {
    "id": "681b5a5acb",
@@ -8521,10 +8521,10 @@
    "url": "https://jobs.smartrecruiters.com/ServiceNow/744000135064189",
    "comp": "",
    "added": "2026-11-13",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-22",
-   "reason": "looked closed once, rechecking: page says: This job has expired",
-   "closedStreak": 1
+   "reason": "page says: This job has expired",
+   "closedStreak": 2
   },
   {
    "id": "fe9ed606bd",
@@ -8813,8 +8813,8 @@
    "added": "2026-11-14",
    "status": "unverifiable",
    "lastChecked": "2026-11-22",
-   "reason": "HTTP 403",
-   "closedStreak": 0
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
    "id": "4663dd4e79",
@@ -8827,8 +8827,8 @@
    "added": "2026-11-14",
    "status": "unverifiable",
    "lastChecked": "2026-11-22",
-   "reason": "HTTP 403",
-   "closedStreak": 0
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
    "id": "d87b29ba90",
@@ -9015,7 +9015,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-22",
-   "closedStreak": 51
+   "closedStreak": 52
   },
   {
    "id": "bad760ffba",
@@ -10682,6 +10682,48 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-22"
+  },
+  {
+   "id": "4655fedd2b",
+   "kind": "review",
+   "company": "Micron",
+   "title": "Senior Manager, Talent Acquisition",
+   "location": "Hiroshima - Fab 15, Japan, Japan",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
+   "comp": "",
+   "added": "2026-11-22",
+   "status": "live",
+   "lastChecked": "2026-11-22",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:micron:External",
+   "inFeed": "2026-11-22",
+   "pageTitle": "Senior Manager, Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-22",
+   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
+  },
+  {
+   "id": "424f0a7992",
+   "kind": "role",
+   "company": "Intel",
+   "title": "Director, Business HR – APJ",
+   "location": "MYS - Penang, Malaysia",
+   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
+   "comp": "",
+   "added": "2026-11-22",
+   "status": "live",
+   "lastChecked": "2026-11-22",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:intel:External",
+   "inFeed": "2026-11-22",
+   "pageTitle": "Director, Business HR – APJ",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-22",
+   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
