@@ -293,9 +293,7 @@
   "CesiumAstro",
   "promiserobotics",
   "kraken123",
-  "cohere",
-  "neednova",
-  "gametime"
+  "knownwell"
  ],
  "ashby": [
   "pylon-labs",
@@ -472,7 +470,8 @@
   "tessera-labs",
   "xero",
   "nory",
-  "coram-ai"
+  "coram-ai",
+  "beaconsoftware"
  ],
  "workday": [
   {
@@ -741,11 +740,10 @@
   }
  ],
  "candidates": [
-  "careers-uti",
-  "knownwell",
   "Photonic",
   "Lever",
-  "HiringCafe"
+  "HiringCafe",
+  "cohere"
  ],
  "tried": {
   "UniUni": 1,
@@ -1196,7 +1194,10 @@
   "Phifer": 4,
   "LawVu": 4,
   "LHH": 4,
-  "careers-uti": 3
+  "careers-uti": 4,
+  "Lever": 1,
+  "Photonic": 1,
+  "HiringCafe": 1
  },
  "dead": [
   "Slate Auto",
@@ -1634,7 +1635,8 @@
   "Hiscox",
   "Phifer",
   "LawVu",
-  "LHH"
+  "LHH",
+  "careers-uti"
  ],
  "workable": [
   "montera",
@@ -2230,10 +2232,9 @@
   "greenhouse:octanelending": 0,
   "greenhouse:d2l": 0,
   "lever:kraken123": 0,
-  "lever:cohere": 2,
-  "lever:gametime": 2,
-  "lever:neednova": 2,
-  "icims:careers-uti": 0
+  "icims:careers-uti": 0,
+  "lever:knownwell": 1,
+  "ashby:beaconsoftware": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -2652,7 +2653,8 @@
   "workday:target": "Target",
   "workday:usbank": "U.S. Bank",
   "workday:vanguard": "Vanguard",
-  "workday:visa": "Visa"
+  "workday:visa": "Visa",
+  "workday:walmart": "Walmart"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -2685,46 +2687,47 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 230,
-  "greenhouse:notion": 230,
-  "greenhouse:marqeta": 230,
-  "greenhouse:alphahawaii": 230,
-  "lever:knownwell": 230,
-  "workday:walmart:WalmartExternal": 230,
-  "workday:comcast:Comcast_Careers": 230,
-  "workday:dell:External": 230,
-  "workday:qualcomm:External": 230,
-  "bigtech:microsoft": 230,
-  "bigtech:meta": 230,
-  "greenhouse:clickhouse": 215,
-  "greenhouse:visiersolutionsinc": 200,
-  "greenhouse:alignmenthealth": 199,
-  "lever:neednova": 145,
+  "greenhouse:admarketplaceinc": 231,
+  "greenhouse:notion": 231,
+  "greenhouse:marqeta": 231,
+  "greenhouse:alphahawaii": 231,
+  "lever:knownwell": 231,
+  "workday:walmart:WalmartExternal": 231,
+  "workday:comcast:Comcast_Careers": 231,
+  "workday:dell:External": 231,
+  "workday:qualcomm:External": 231,
+  "bigtech:microsoft": 231,
+  "bigtech:meta": 231,
+  "greenhouse:clickhouse": 216,
+  "greenhouse:visiersolutionsinc": 201,
+  "greenhouse:alignmenthealth": 200,
+  "lever:neednova": 146,
   "lever:wandb": 10,
-  "lever:cohere": 158,
-  "ashby:beaconsoftware": 126,
-  "greenhouse:rollstack": 125,
-  "greenhouse:iconiqcapital": 124,
+  "lever:cohere": 159,
+  "ashby:beaconsoftware": 127,
+  "greenhouse:rollstack": 126,
+  "greenhouse:iconiqcapital": 125,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 114,
-  "greenhouse:amplitude": 113,
-  "greenhouse:grammarly": 100,
-  "greenhouse:fireworksai": 100,
+  "greenhouse:generalcatalyst": 115,
+  "greenhouse:amplitude": 114,
+  "greenhouse:grammarly": 101,
+  "greenhouse:fireworksai": 101,
   "lever:mistral": 3,
-  "greenhouse:conductor": 64,
-  "lever:gametime": 64,
-  "greenhouse:beaconsoftware": 63,
-  "greenhouse:trmlabs": 63,
-  "greenhouse:turingportal": 63,
-  "greenhouse:interfaceai": 63,
-  "greenhouse:vannahealth": 61,
+  "greenhouse:conductor": 65,
+  "lever:gametime": 65,
+  "greenhouse:beaconsoftware": 64,
+  "greenhouse:trmlabs": 64,
+  "greenhouse:turingportal": 64,
+  "greenhouse:interfaceai": 64,
+  "greenhouse:vannahealth": 62,
   "rippling:elevationcapital": 6,
-  "greenhouse:changedotorgsourcing": 54,
-  "greenhouse:bedrockrobotics": 35,
-  "greenhouse:xplatform": 30,
+  "greenhouse:changedotorgsourcing": 55,
+  "greenhouse:bedrockrobotics": 36,
+  "greenhouse:xplatform": 31,
   "lever:netflix": 4,
-  "greenhouse:gigs": 26,
-  "greenhouse:cherryventures": 6
+  "greenhouse:gigs": 27,
+  "greenhouse:cherryventures": 7,
+  "lever:jobgether": 1
  },
  "registry": {
   "workday:adobe": {
@@ -3044,6 +3047,14 @@
    "domain": "",
    "ats": "workday",
    "token": "visa",
+   "discoveredVia": "talent board",
+   "firstSeen": "2026-11-22T03:22:48.888+00:00"
+  },
+  "workday:walmart": {
+   "name": "Walmart",
+   "domain": "",
+   "ats": "workday",
+   "token": "walmart",
    "discoveredVia": "talent board",
    "firstSeen": "2026-11-22T03:22:48.888+00:00"
   }
