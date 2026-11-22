@@ -3,7 +3,7 @@
 // and adds any matching leadership people/talent role to jobs.json as "new".
 // It also records which jobs are in the employer's feed today (evidence the role is open).
 const fs = require("fs");
-const { wanted, wantedIC, borderline, isNA, cleanCompany, keepListing } = require("./lib");
+const { wanted, wantedIC, borderline, isNA, cleanCompany, keepListing, parseRegistry, mergeRegistry, REGISTRY_CAP } = require("./lib");
 const kindOf = (t) => wanted(t) ? "role" : wantedIC(t) ? "ic" : borderline(t) ? "review" : null;
 let prevReport = {}; try { prevReport = JSON.parse(fs.readFileSync("crawl-report.json", "utf8")); } catch (e) {}
 const boards = JSON.parse(fs.readFileSync("boards.json", "utf8"));
@@ -254,10 +254,44 @@ async function probe(name) {
   return null;
 }
 
-const report = { ok: 0, fail: [], scanned: 0, probed: 0, cov: [] };
+const report = { ok: 0, fail: [], scanned: 0, probed: 0, cov: [], registry: null };
+const REGISTRY_URL = "https://my.soundherald.com/api/registry.json";
+async function readRegistry() {
+  let res;
+  try {
+    const c = new AbortController(); const timer = setTimeout(() => c.abort(), 20000);
+    res = await fetch(REGISTRY_URL, { signal: c.signal, redirect: "follow" });
+    clearTimeout(timer);
+  } catch (e) {
+    return { ok: false, status: 0, companies: [], note: "registry could not be reached, kept the existing crawl list" };
+  }
+  if (res.status === 404) return { ok: false, status: 404, companies: [], note: "registry is not available yet, kept the existing crawl list" };
+  if (res.status !== 200) return { ok: false, status: res.status, companies: [], note: "registry returned " + res.status + ", kept the existing crawl list" };
+  if (!/\/api\/registry\.json(?:$|\?)/.test(res.url || "")) return { ok: false, status: res.status, companies: [], note: "registry is not public yet, kept the existing crawl list" };
+  let body = null;
+  const text = await res.text();
+  try { body = JSON.parse(text); } catch (e) { body = null; }
+  const companies = parseRegistry(body);
+  if (!companies) return { ok: false, status: 200, companies: [], note: "registry was not JSON, kept the existing crawl list" };
+  return { ok: true, status: 200, companies, note: "" };
+}
 async function each(list, fn) { const q = [...list]; await Promise.all(Array.from({ length: 6 }, async () => { while (q.length) { const x = q.shift(); try { await fn(x); } catch (e) { report.fail.push("error:" + e.message.slice(0, 60)); } } })); }
 
 (async () => {
+  try {
+    const got = await readRegistry();
+    if (!got.ok) console.log("registry:", got.note);
+    const merged = got.ok ? mergeRegistry(boards, wdSet, got.companies, REGISTRY_CAP) : { added: [], already: 0, capped: 0 };
+    if (got.ok) console.log("registry: added " + merged.added.length + ", already on the list " + merged.already + ", held for a later run " + merged.capped);
+    report.registry = {
+      ok: got.ok, status: got.status, note: got.note,
+      addedThisRun: merged.added.length, already: merged.already, capped: merged.capped,
+      companies: Object.values(boards.registry || {}).sort((a, b) => (a.name || "").localeCompare(b.name || ""))
+    };
+  } catch (e) {
+    console.log("registry: read failed, kept the existing crawl list");
+    report.registry = { ok: false, status: 0, note: "registry read failed, kept the existing crawl list", addedThisRun: 0, already: 0, capped: 0, companies: Object.values(boards.registry || {}) };
+  }
   const names = boards.candidates.filter((n) => (boards.tried[n] || 0) < 4 || (Date.now() % 30 === 0));
   await each(names, async (n) => {
     report.probed++;
@@ -379,6 +413,6 @@ async function each(list, fn) { const q = [...list]; await Promise.all(Array.fro
   if (prevReport.ok && report.ok < prevReport.ok * 0.85) alerts.push(`Readable feeds fell from ${prevReport.ok} to ${report.ok}`);
   fs.writeFileSync("boards.json", JSON.stringify(boards, null, 1));
   fs.writeFileSync("coverage.json", JSON.stringify({ at: new Date().toISOString(), sources: report.cov.sort((a, b) => a.company.localeCompare(b.company)), waitingForFeed: boards.candidates, gaveUp: boards.dead }, null, 1));
-  fs.writeFileSync("crawl-report.json", JSON.stringify({ at: new Date().toISOString(), ok: report.ok, failed: report.fail, scanned: report.scanned, matched: matches.length, added, alerts }, null, 1));
+  fs.writeFileSync("crawl-report.json", JSON.stringify({ at: new Date().toISOString(), ok: report.ok, failed: report.fail, scanned: report.scanned, matched: matches.length, added, alerts, registry: report.registry }, null, 1));
   if (report.ok === 0) { console.error("No feed could be read at all"); process.exit(1); }
 })();
