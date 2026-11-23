@@ -797,6 +797,34 @@
    "title": "Talent Acquisition leader (Ed Lam; after 14 years; undated)",
    "url": "https://ca.linkedin.com/in/edwhlam",
    "added": "2026-11-21"
+  },
+  {
+   "kind": "Hired",
+   "company": "Qlik",
+   "title": "Chief People Officer (Anna Sharkey; effective 2026-11-23)",
+   "url": "https://sea.peoplemattersglobal.com/news/appointments/qlik-appoints-anna-sharkey-as-chief-people-officer-53266",
+   "added": "2026-11-23"
+  },
+  {
+   "kind": "Hired",
+   "company": "Ford",
+   "title": "Chief Talent Officer (name not given; approx. Oct 2026)",
+   "url": "https://sea.peoplemattersglobal.com/article/leadership/22-leadership-appointments-across-southeast-asia-that-made-headlines-in-october-2026-53070",
+   "added": "2026-11-23"
+  },
+  {
+   "kind": "Hired",
+   "company": "Verizon",
+   "title": "Chief People Officer (name not given; approx. Oct 2026)",
+   "url": "https://sea.peoplemattersglobal.com/article/leadership/22-leadership-appointments-across-southeast-asia-that-made-headlines-in-october-2026-53070",
+   "added": "2026-11-23"
+  },
+  {
+   "kind": "Hired",
+   "company": "Ranovus",
+   "title": "VP People & Culture (Heidi Hauver; undated)",
+   "url": "https://obj.ca/?p=272775",
+   "added": "2026-11-23"
   }
  ],
  "funding": [
@@ -1954,6 +1982,48 @@
    "amount": "undisclosed (plus ~$5M Québec expansion)",
    "url": "https://betakit.com/float-to-open-montreal-office-invest-5-million-in-quebec-expansion",
    "added": "2026-11-22"
+  },
+  {
+   "company": "Northwood Space",
+   "round": "Series C",
+   "amount": "$375M (2026-11-02)",
+   "url": "https://app.fundz.net/funding-rounds/2026-11-02",
+   "added": "2026-11-23"
+  },
+  {
+   "company": "Pigment",
+   "round": "Series E",
+   "amount": "$250M (2026-10-21)",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-19",
+   "added": "2026-11-23"
+  },
+  {
+   "company": "Harbinger",
+   "round": "Series D",
+   "amount": "$240M (2026-11-05)",
+   "url": "https://app.fundz.net/funding-rounds/2026-11-02",
+   "added": "2026-11-23"
+  },
+  {
+   "company": "Whop",
+   "round": "Series D",
+   "amount": "$200M (2026-10-22)",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-19",
+   "added": "2026-11-23"
+  },
+  {
+   "company": "Tractian",
+   "round": "Series D",
+   "amount": "$130M (2026-10-22)",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-19",
+   "added": "2026-11-23"
+  },
+  {
+   "company": "LaunchDarkly",
+   "round": "Series C",
+   "amount": "$44M (2026-11-03)",
+   "url": "https://app.fundz.net/funding-rounds/2026-11-02",
+   "added": "2026-11-23"
   }
  ]
 }
