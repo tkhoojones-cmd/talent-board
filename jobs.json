@@ -6039,7 +6039,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-23",
-   "closedStreak": 123
+   "closedStreak": 124
   },
   {
    "id": "681b5a5acb",
@@ -9015,7 +9015,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-23",
-   "closedStreak": 56
+   "closedStreak": 57
   },
   {
    "id": "bad760ffba",
@@ -9152,16 +9152,16 @@
    "url": "https://job-boards.greenhouse.io/coinbase/jobs/8260302",
    "comp": "$166,345—$195,700",
    "added": "2026-11-15",
-   "status": "live",
+   "status": "unverifiable",
    "lastChecked": "2026-11-23",
-   "reason": "kept: last check failed (HTTP 403); last confirmed 2026-11-23",
+   "reason": "HTTP 403",
    "source": "feed",
    "feed": "greenhouse:coinbase",
    "inFeed": "2026-11-23",
    "compMax": 195700,
    "pageTitle": "Principal Recruiter",
    "closedStreak": 0,
-   "failStreak": 3,
+   "failStreak": 4,
    "lastLive": "2026-11-23"
   },
   {
@@ -9645,9 +9645,9 @@
    "url": "https://jobs.disneycareers.com/job/burbank/vp-transformation-management-office-tmo/391/97236079920",
    "comp": "",
    "added": "2026-11-18",
-   "status": "new",
+   "status": "unverifiable",
    "lastChecked": "2026-11-23",
-   "reason": null,
+   "reason": "redirected to a different page: https://join.disneycareers.com/global/en",
    "closedStreak": 0
   },
   {
@@ -10717,8 +10717,8 @@
    "added": "2026-11-23",
    "status": "unverifiable",
    "lastChecked": "2026-11-23",
-   "reason": "HTTP 403",
-   "closedStreak": 0
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
    "id": "9a8ee866fb",
@@ -10731,8 +10731,8 @@
    "added": "2026-11-23",
    "status": "unverifiable",
    "lastChecked": "2026-11-23",
-   "reason": "HTTP 403",
-   "closedStreak": 0
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
    "id": "72885e5a1b",
@@ -10826,10 +10826,10 @@
    "url": "https://jobs.intuit.com/job/mountain-view/vp-global-head-of-diversity-equity-and-inclusion/27595/49939957536",
    "comp": "",
    "added": "2026-11-23",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-23",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "a39940ac8f",
@@ -10865,48 +10865,6 @@
    "failStreak": 0,
    "lastLive": "2026-11-23",
    "pageLocation": "London / Austin, Texas"
-  },
-  {
-   "id": "4655fedd2b",
-   "kind": "review",
-   "company": "Micron",
-   "title": "Senior Manager, Talent Acquisition",
-   "location": "Hiroshima - Fab 15, Japan, Japan",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
-   "comp": "",
-   "added": "2026-11-23",
-   "status": "live",
-   "lastChecked": "2026-11-23",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:micron:External",
-   "inFeed": "2026-11-23",
-   "pageTitle": "Senior Manager, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-23",
-   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
-  },
-  {
-   "id": "424f0a7992",
-   "kind": "role",
-   "company": "Intel",
-   "title": "Director, Business HR – APJ",
-   "location": "MYS - Penang, Malaysia",
-   "url": "https://intel.wd1.myworkdayjobs.com/External/job/Malaysia-Penang/Director--Business-HR---APJ_JR0288369",
-   "comp": "",
-   "added": "2026-11-23",
-   "status": "live",
-   "lastChecked": "2026-11-23",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:intel:External",
-   "inFeed": "2026-11-23",
-   "pageTitle": "Director, Business HR – APJ",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-23",
-   "pageLocation": "MYS - Penang, Malaysia"
   }
  ]
 }
