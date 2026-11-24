@@ -3812,7 +3812,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-24",
-   "pageLocation": "Location: ES, Community of Madrid, Madrid"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "780a3e80f9",
@@ -6042,7 +6042,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-24",
-   "closedStreak": 128
+   "closedStreak": 129
   },
   {
    "id": "681b5a5acb",
@@ -9018,7 +9018,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-24",
-   "closedStreak": 61
+   "closedStreak": 62
   },
   {
    "id": "bad760ffba",
@@ -11262,45 +11262,6 @@
    "pageLocation": "USA"
   },
   {
-   "id": "b09f63a10a",
-   "kind": "role",
-   "company": "People.ai",
-   "title": "VP of People",
-   "location": "",
-   "url": "https://jobs.lever.co/people-ai/145cfacf-3f14-4d32-8a63-8b04c7e83908",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "d420bab654",
-   "kind": "role",
-   "company": "ElevenLabs",
-   "title": "Talent Lead",
-   "location": "",
-   "url": "https://elevenlabs.io/careers/34e2d52b-f57a-4833-87a1-0a7b0c4c5532/talent-lead",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b92320fed5",
-   "kind": "role",
-   "company": "Marqeta",
-   "title": "Senior Director, Talent Acquisition",
-   "location": "Remote (US)",
-   "url": "https://www.marqeta.com/careers/1763227",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
    "id": "8afb253b62",
    "kind": "role",
    "company": "Electronic Arts",
@@ -11309,9 +11270,10 @@
    "url": "https://jobs.ea.com/ko_KR/careers/JobDetail/Senior-Director-People-Experience-Technology-Systems/211291",
    "comp": "",
    "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-24",
+   "reason": "no Apply control found",
+   "closedStreak": 0
   },
   {
    "id": "70b92ab2c6",
@@ -11322,9 +11284,10 @@
    "url": "https://jobs.adp.com/en/jobs/278800/sr-director-field-learning-business-partner/",
    "comp": "",
    "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-24",
+   "reason": "HTTP 403",
+   "closedStreak": 0
   },
   {
    "id": "a4e1e9422f",
@@ -11335,9 +11298,10 @@
    "url": "https://www.paylocity.com/company/careers/corporate-functions.job.40677",
    "comp": "",
    "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-24",
+   "reason": "redirected to a different page: https://www.paylocity.com/company/careers/corporate-functions/",
+   "closedStreak": 0
   },
   {
    "id": "51e44c043a",
@@ -11348,61 +11312,10 @@
    "url": "https://paylocity.com/careers/corporate-functions.job.31983",
    "comp": "",
    "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "bd95488012",
-   "kind": "role",
-   "company": "Cohere",
-   "title": "Director - People Operations",
-   "location": "",
-   "url": "https://jobs.lever.co/cohere/ea657534-8260-4797-bb1f-fa0e914381b8",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "a0b5727b0c",
-   "kind": "role",
-   "company": "Tiberius",
-   "title": "Vice President of Human Resources",
-   "location": "",
-   "url": "https://jobs.lever.co/tiberius/8ea51f65-e62d-4f7d-8620-593c5e4cb2ce",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "07d82d9fb3",
-   "kind": "role",
-   "company": "Zoox",
-   "title": "Senior Director of Talent Acquisition",
-   "location": "Foster City, CA",
-   "url": "https://jobs.lever.co/zoox/26d85572-86bc-4076-8347-a2e2b49765c6",
-   "comp": "$296K-$355K + equity",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "6c15d98964",
-   "kind": "role",
-   "company": "Anduril",
-   "title": "Director, People Business Partners, Manufacturing",
-   "location": "Costa Mesa, CA",
-   "url": "https://job-boards.greenhouse.io/andurilindustries/jobs/4791861007",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-24",
+   "reason": "redirected to a different page: https://www.paylocity.com/company/careers/corporate-functions/",
+   "closedStreak": 0
   },
   {
    "id": "c801644a67",
@@ -11413,9 +11326,10 @@
    "url": "https://disneycareers.com/en/job/伯班克/director-hr-business-partner/391/76419338800",
    "comp": "",
    "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-24",
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
    "id": "52ebd5fee5",
@@ -11426,87 +11340,11 @@
    "url": "https://apply.workable.com/raydar/jobs/view/7B2584AC2A.md",
    "comp": "$185K-$225K",
    "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "09b3a22bf1",
-   "kind": "role",
-   "company": "Promise Robotics",
-   "title": "Director/ VP of Human Resources",
-   "location": "Canada / US",
-   "url": "https://jobs.lever.co/promiserobotics/2c492568-6418-44d2-abb1-93c908ccba39",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b616e529ae",
-   "kind": "ic",
-   "company": "interface.ai",
-   "title": "Executive Recruiter",
-   "location": "Palo Alto, CA (in office)",
-   "url": "https://job-boards.greenhouse.io/interfaceai/jobs/4647345006",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "bd4946bff5",
-   "kind": "ic",
-   "company": "interface.ai",
-   "title": "Executive Recruiter (contract)",
-   "location": "San Jose / SF Bay Area",
-   "url": "https://job-boards.greenhouse.io/interfaceai/jobs/4585460006",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "2fa4e08cf0",
-   "kind": "ic",
-   "company": "Babylist",
-   "title": "Principal Executive Recruiter",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/babylist/jobs/5813133004",
-   "comp": "$181K-$219K",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "89fdbb39a5",
-   "kind": "ic",
-   "company": "TRM Labs",
-   "title": "Principal Technical Recruiter (Eng Leadership)",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/trmlabs/jobs/5654756004",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "e6aa3972be",
-   "kind": "ic",
-   "company": "LaunchDarkly",
-   "title": "Principal GTM Recruiter",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/launchdarkly/jobs/7628651003",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-11-24",
+   "reason": "no longer in the employer's job feed",
+   "feed": "workable:raydar",
+   "notInFeed": "2026-11-24"
   },
   {
    "id": "776c4fa299",
@@ -11517,48 +11355,52 @@
    "url": "https://apply.workable.com/move-talent/jobs/view/221BF34E4A.md",
    "comp": "",
    "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "unverifiable",
+   "lastChecked": "2026-11-24",
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
-   "id": "788db653bf",
-   "kind": "ic",
-   "company": "Toast",
-   "title": "Principal TA Partner, Leadership Recruiting",
-   "location": "Remote (US)",
-   "url": "https://careers.toasttab.com/jobs/principal-ta-partner-leadership-recruiting-remote-united-states",
-   "comp": "$102K-$210K",
-   "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "1e556f4a4e",
-   "kind": "ic",
-   "company": "LHH",
-   "title": "Principal Executive Recruiter, Hybrid US",
-   "location": "Hybrid (US)",
-   "url": "https://careers.adeccogroup.com/en/job/usa/lhh-recruitment-solutions-principal-executive-recruiter-hybrid-us/37746/89702815696",
+   "id": "9d88cd5f63",
+   "kind": "role",
+   "company": "Air",
+   "title": "Senior Vice President, Human Resources",
+   "location": "Arlington, Virginia, United States",
+   "url": "https://job-boards.greenhouse.io/air/jobs/4278398009",
    "comp": "",
    "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "live",
+   "lastChecked": "2026-11-24",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:air",
+   "inFeed": "2026-11-24",
+   "pageTitle": "Senior Vice President, Human Resources",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-24",
+   "pageLocation": "Arlington, Virginia, United States"
   },
   {
-   "id": "7e1fe2564b",
-   "kind": "ic",
-   "company": "Joby Aviation",
-   "title": "Senior/Staff G&A & Business Recruiter",
-   "location": "",
-   "url": "https://careers-jobyaviation.icims.com/jobs/5321/senior-staff-g&a-&-business-recruiter/job",
+   "id": "4655fedd2b",
+   "kind": "review",
+   "company": "Micron",
+   "title": "Senior Manager, Talent Acquisition",
+   "location": "Hiroshima - Fab 15, Japan, Japan",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
    "comp": "",
    "added": "2026-11-24",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "live",
+   "lastChecked": "2026-11-24",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:micron:External",
+   "inFeed": "2026-11-24",
+   "pageTitle": "Senior Manager, Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-24",
+   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
   }
  ]
 }
