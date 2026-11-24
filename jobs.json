@@ -3284,9 +3284,9 @@
    "url": "https://jobs.uber.com/en/jobs/300223/",
    "comp": "",
    "added": "2026-10-11",
-   "status": "new",
+   "status": "unverifiable",
    "lastChecked": "2026-11-24",
-   "reason": null,
+   "reason": "HTTP 403",
    "closedStreak": 0
   },
   {
@@ -6042,7 +6042,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-24",
-   "closedStreak": 129
+   "closedStreak": 130
   },
   {
    "id": "681b5a5acb",
@@ -9018,7 +9018,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-24",
-   "closedStreak": 62
+   "closedStreak": 63
   },
   {
    "id": "bad760ffba",
@@ -11326,10 +11326,10 @@
    "url": "https://disneycareers.com/en/job/伯班克/director-hr-business-partner/391/76419338800",
    "comp": "",
    "added": "2026-11-24",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-24",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "52ebd5fee5",
@@ -11355,10 +11355,10 @@
    "url": "https://apply.workable.com/move-talent/jobs/view/221BF34E4A.md",
    "comp": "",
    "added": "2026-11-24",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-24",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
   },
   {
    "id": "9d88cd5f63",
@@ -11380,27 +11380,6 @@
    "failStreak": 0,
    "lastLive": "2026-11-24",
    "pageLocation": "Arlington, Virginia, United States"
-  },
-  {
-   "id": "4655fedd2b",
-   "kind": "review",
-   "company": "Micron",
-   "title": "Senior Manager, Talent Acquisition",
-   "location": "Hiroshima - Fab 15, Japan, Japan",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
-   "comp": "",
-   "added": "2026-11-24",
-   "status": "live",
-   "lastChecked": "2026-11-24",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:micron:External",
-   "inFeed": "2026-11-24",
-   "pageTitle": "Senior Manager, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-24",
-   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
   }
  ]
 }
