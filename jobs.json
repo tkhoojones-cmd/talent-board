@@ -3276,17 +3276,17 @@
    "notInFeed": "2026-11-24"
   },
   {
-   "id": "ad829564d3",
+   "id": "c6cb579ebe",
    "kind": "role",
    "company": "Uber",
    "title": "Sr Director, Global Head of People Partner",
    "location": "New York / San Francisco",
-   "url": "https://www.uber.com/global/en/careers/list/300223/",
+   "url": "https://jobs.uber.com/en/jobs/300223/",
    "comp": "",
    "added": "2026-10-11",
-   "status": "unverifiable",
+   "status": "new",
    "lastChecked": "2026-11-24",
-   "reason": "HTTP 403",
+   "reason": null,
    "closedStreak": 0
   },
   {
