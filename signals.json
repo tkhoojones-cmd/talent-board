@@ -825,6 +825,76 @@
    "title": "VP People & Culture (Heidi Hauver; undated)",
    "url": "https://obj.ca/?p=272775",
    "added": "2026-11-23"
+  },
+  {
+   "kind": "Hired",
+   "company": "Michael Baker International",
+   "title": "VP of Talent Acquisition & HR AI Transformation",
+   "url": "https://completeaitraining.com/news/michael-baker-international-names-alicia-marchman-vp-of/",
+   "added": "2026-11-24"
+  },
+  {
+   "kind": "Hired",
+   "company": "Qlik",
+   "title": "Chief People Officer",
+   "url": "https://sea.peoplemattersglobal.com/news/appointments/qlik-appoints-anna-sharkey-as-chief-people-officer-53266",
+   "added": "2026-11-23"
+  },
+  {
+   "kind": "Hired",
+   "company": "AlphaSense",
+   "title": "Chief People Officer",
+   "url": "https://www.hrdive.com/news/hr-professionals-on-the-move-in-november/806678/",
+   "added": "2026-11-10"
+  },
+  {
+   "kind": "Hired",
+   "company": "CFC",
+   "title": "Chief People Officer",
+   "url": "https://www.insurancetimes.co.uk/news/the-biggest-people-moves-this-week/1460273.article",
+   "added": "2026-11-24"
+  },
+  {
+   "kind": "Hired",
+   "company": "Huntington Ingalls Industries",
+   "title": "CHRO",
+   "url": "https://fortune.com/2026/11/13/fortune-500-power-moves-oct-31-nov-13/",
+   "added": "2026-11-13"
+  },
+  {
+   "kind": "Hired",
+   "company": "Verizon",
+   "title": "Chief People Officer",
+   "url": "https://www.hrdive.com/news/verizon-franklin-electric-announce-new-hr-leaders-in-october/873086/",
+   "added": "2026-11-24"
+  },
+  {
+   "kind": "Hired",
+   "company": "Ford",
+   "title": "Chief Talent Officer",
+   "url": "https://sea.peoplemattersglobal.com/article/leadership/22-leadership-appointments-across-southeast-asia-that-made-headlines-in-october-2026-53070",
+   "added": "2026-11-24"
+  },
+  {
+   "kind": "Left",
+   "company": "AECOM",
+   "title": "Global Head of Talent Acquisition",
+   "url": "https://completeaitraining.com/news/michael-baker-international-names-alicia-marchman-vp-of/",
+   "added": "2026-11-24"
+  },
+  {
+   "kind": "Left",
+   "company": "D2L",
+   "title": "Talent Acquisition Leader",
+   "url": "https://ca.linkedin.com/in/edwhlam",
+   "added": "2026-11-24"
+  },
+  {
+   "kind": "Left",
+   "company": "Prodege",
+   "title": "Chief People & Administrative Officer",
+   "url": "https://ua.linkedin.com/in/alexkarpan",
+   "added": "2026-11-24"
   }
  ],
  "funding": [
@@ -2024,6 +2094,27 @@
    "amount": "$44M (2026-11-03)",
    "url": "https://app.fundz.net/funding-rounds/2026-11-02",
    "added": "2026-11-23"
+  },
+  {
+   "company": "Modal Labs",
+   "round": "Series D",
+   "amount": "$750M",
+   "url": "https://app.fundz.net/funding-rounds/2026-10-12",
+   "added": "2026-10-14"
+  },
+  {
+   "company": "Nominal",
+   "round": "Series C",
+   "amount": "$240M",
+   "url": "https://www.startupresearcher.com/news/nominal-raises-us-240-million-series-c",
+   "added": "2026-11-09"
+  },
+  {
+   "company": "Clara",
+   "round": "Series C",
+   "amount": "$65M",
+   "url": "https://www.securities.io/clara-adds-65m-series-c-to-40m-facility-renewal-in-105m-raise/",
+   "added": "2026-11-10"
   }
  ]
 }

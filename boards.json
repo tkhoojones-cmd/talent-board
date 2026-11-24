@@ -251,7 +251,8 @@
   "avegantcorp",
   "vestwell",
   "suki",
-  "deliveroo"
+  "deliveroo",
+  "air"
  ],
  "lever": [
   "zoox",
@@ -757,7 +758,13 @@
   }
  ],
  "candidates": [
-  "Pantomath"
+  "Pantomath",
+  "Torch.AI",
+  "RADAR",
+  "Clara",
+  "Michael Baker International",
+  "AECOM",
+  "Nominal"
  ],
  "tried": {
   "UniUni": 1,
