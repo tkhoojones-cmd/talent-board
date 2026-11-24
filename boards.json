@@ -299,7 +299,8 @@
   "merlinlabs",
   "tiberius",
   "pigment",
-  "knownwell"
+  "knownwell",
+  "gametime"
  ],
  "ashby": [
   "pylon-labs",
@@ -752,7 +753,10 @@
   }
  ],
  "candidates": [
-  "cohere"
+  "cohere",
+  "Pantomath",
+  "Talentful",
+  "Deliveroo"
  ],
  "tried": {
   "UniUni": 1,
