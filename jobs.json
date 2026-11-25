@@ -1013,16 +1013,17 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-11-25",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: HTTP 404); last confirmed 2026-11-25",
    "source": "feed",
    "feed": "ashby:crusoe",
    "inFeed": "2026-11-25",
    "pageTitle": "Director, Recruiting, Digital Infrastructure",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-11-25",
    "pageLocation": "San Francisco, California, USA",
-   "compMax": 255000
+   "compMax": 255000,
+   "notInFeed": "2026-11-25"
   },
   {
    "id": "21d6d156af",
@@ -2117,16 +2118,17 @@
    "added": "2026-10-08",
    "status": "live",
    "lastChecked": "2026-11-25",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: redirected away from the job: https://www.anduril.com/open-roles); last confirmed 2026-11-25",
    "source": "feed",
    "feed": "greenhouse:andurilindustries",
    "inFeed": "2026-11-25",
    "compMax": 243000,
    "pageTitle": "Senior Executive Recruiter",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-11-25",
-   "pageLocation": "Washington, District of Columbia, United States"
+   "pageLocation": "Washington, District of Columbia, United States",
+   "notInFeed": "2026-11-25"
   },
   {
    "id": "f3f9ab7357",
@@ -3446,15 +3448,16 @@
    "added": "2026-10-12",
    "status": "live",
    "lastChecked": "2026-11-25",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: HTTP 404); last confirmed 2026-11-25",
    "source": "feed",
    "feed": "greenhouse:mongodb",
    "inFeed": "2026-11-25",
    "compMax": 204000,
    "pageTitle": "Senior Manager, GTM Customer Recruiting New York City",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-25"
+   "closedStreak": 1,
+   "failStreak": 1,
+   "lastLive": "2026-11-25",
+   "notInFeed": "2026-11-25"
   },
   {
    "id": "edeae6c176",
@@ -3704,15 +3707,16 @@
    "added": "2026-10-13",
    "status": "live",
    "lastChecked": "2026-11-25",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: page you are looking for doesn't exist); last confirmed 2026-11-25",
    "source": "feed",
    "feed": "workday:cigna:cignacareers",
    "inFeed": "2026-11-25",
    "pageTitle": "Talent &amp; Performance Strategy Principal - Hybrid",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-11-25",
-   "pageLocation": "CT, Bloomfield, 900 Cottage Grove Rd Wilde Bldg, United States of America"
+   "pageLocation": "CT, Bloomfield, 900 Cottage Grove Rd Wilde Bldg, United States of America",
+   "notInFeed": "2026-11-25"
   },
   {
    "id": "bd6e3d254b",
@@ -3812,7 +3816,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-25",
-   "pageLocation": "Location: US, Nebraska, Omaha"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "780a3e80f9",
@@ -4419,7 +4423,7 @@
    "inFeed": "2026-11-25",
    "compMax": 261050,
    "pageTitle": "Head of Executive Recruiting",
-   "closedStreak": 3,
+   "closedStreak": 4,
    "failStreak": 1,
    "lastLive": "2026-11-25",
    "pageLocation": "New York City, New York, United States",
@@ -5891,9 +5895,9 @@
    "url": "https://job-boards.greenhouse.io/pursuit/jobs/8201044",
    "comp": "$175,000 - $200,000",
    "added": "2026-10-30",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-25",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:pursuit",
    "inFeed": "2026-11-25",
@@ -5902,7 +5906,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-25",
-   "pageLocation": "New York City"
+   "pageLocation": "New York City",
+   "notInFeed": "2026-11-25"
   },
   {
    "id": "845ce426fb",
@@ -6044,7 +6049,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-25",
-   "closedStreak": 135
+   "closedStreak": 136
   },
   {
    "id": "681b5a5acb",
@@ -6583,13 +6588,13 @@
    "added": "2026-11-05",
    "status": "live",
    "lastChecked": "2026-11-25",
-   "reason": "opened normally with an Apply control",
+   "reason": "kept: last check failed (looked closed once, rechecking: page says: job is no longer); last confirmed 2026-11-25",
    "source": "feed",
    "feed": "oracle:jpmc.fa.oraclecloud.com:CX_1001",
    "inFeed": "2026-11-05",
    "pageTitle": "Vice President, Social and Culture Lead",
-   "closedStreak": 0,
-   "failStreak": 0,
+   "closedStreak": 1,
+   "failStreak": 1,
    "lastLive": "2026-11-25",
    "pageLocation": "Locations"
   },
@@ -6830,9 +6835,9 @@
    "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8366800",
    "comp": "$272,500 - $317,500",
    "added": "2026-11-09",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-25",
-   "reason": "opened normally with an Apply control",
+   "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:smartsheet",
    "inFeed": "2026-11-25",
@@ -6841,7 +6846,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-25",
-   "pageLocation": "Bellevue, WA, USA"
+   "pageLocation": "Bellevue, WA, USA",
+   "notInFeed": "2026-11-25"
   },
   {
    "id": "6b4669ce0e",
@@ -8833,8 +8839,8 @@
    "added": "2026-11-14",
    "status": "unverifiable",
    "lastChecked": "2026-11-25",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 403",
+   "closedStreak": 0
   },
   {
    "id": "d87b29ba90",
@@ -8887,9 +8893,9 @@
    "url": "https://job-boards.greenhouse.io/momentenergy/jobs/4238520009",
    "comp": "",
    "added": "2026-11-14",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-25",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:momentenergy",
    "inFeed": "2026-11-25",
@@ -8897,7 +8903,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-25",
-   "pageLocation": "Surrey, BC"
+   "pageLocation": "Surrey, BC",
+   "notInFeed": "2026-11-25"
   },
   {
    "id": "6981793d90",
@@ -9021,7 +9028,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-25",
-   "closedStreak": 68
+   "closedStreak": 69
   },
   {
    "id": "bad760ffba",
@@ -11544,25 +11551,48 @@
    "notInFeed": "2026-11-25"
   },
   {
-   "id": "4655fedd2b",
-   "kind": "review",
-   "company": "Micron",
-   "title": "Senior Manager, Talent Acquisition",
-   "location": "Hiroshima - Fab 15, Japan, Japan",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
-   "comp": "",
+   "id": "25bca868fe",
+   "kind": "role",
+   "company": "Smartsheet",
+   "title": "VP, Total Rewards",
+   "location": "Bellevue, WA, USA",
+   "url": "https://job-boards.greenhouse.io/smartsheet/jobs/8418055",
+   "comp": "$272,500 - $317,500",
    "added": "2026-11-25",
    "status": "live",
    "lastChecked": "2026-11-25",
    "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
-   "feed": "workday:micron:External",
+   "feed": "greenhouse:smartsheet",
    "inFeed": "2026-11-25",
-   "pageTitle": "Senior Manager, Talent Acquisition",
+   "compMax": 317500,
+   "pageTitle": "VP, Total Rewards",
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-25",
-   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
+   "pageLocation": "Bellevue, WA, USA"
+  },
+  {
+   "id": "f3902424b0",
+   "kind": "role",
+   "company": "Gumloop",
+   "title": "Head of Talent Acquisition ",
+   "location": "San Francisco Office",
+   "url": "https://jobs.ashbyhq.com/Gumloop/9d24dbf7-ed99-4c3f-8d63-b0a01e65d214",
+   "comp": "$220K – $300K",
+   "added": "2026-11-25",
+   "status": "live",
+   "lastChecked": "2026-11-25",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "ashby:gumloop",
+   "inFeed": "2026-11-25",
+   "compMax": 300000,
+   "pageTitle": "Head of Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-25",
+   "pageLocation": "San Francisco, California, United States"
   }
  ]
 }
