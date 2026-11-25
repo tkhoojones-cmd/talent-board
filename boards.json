@@ -255,7 +255,9 @@
   "air",
   "clara",
   "radar",
-  "oneworkplace"
+  "oneworkplace",
+  "visier",
+  "somethingspecialstudios"
  ],
  "lever": [
   "zoox",
@@ -304,7 +306,8 @@
   "merlinlabs",
   "tiberius",
   "pigment",
-  "knownwell"
+  "knownwell",
+  "cohere"
  ],
  "ashby": [
   "pylon-labs",
@@ -760,7 +763,8 @@
  ],
  "candidates": [
   "HOOPP",
-  "cohere"
+  "cohere",
+  "Apiary Therapeutics"
  ],
  "tried": {
   "UniUni": 1,

@@ -962,13 +962,6 @@
    "added": "2026-10-03"
   },
   {
-   "company": "Multiverse Computing",
-   "round": "Series C",
-   "amount": "up to $570M",
-   "url": "https://thequantuminsider.com/2026/07/27/multiverse-computing-announces-series-c-fundraising-targeting-up-to-570-million/",
-   "added": "2026-07-27"
-  },
-  {
    "company": "Rillet",
    "round": "Series C",
    "amount": "$100M",
@@ -2115,6 +2108,13 @@
    "amount": "$65M",
    "url": "https://www.securities.io/clara-adds-65m-series-c-to-40m-facility-renewal-in-105m-raise/",
    "added": "2026-11-10"
+  },
+  {
+   "company": "Apiary Therapeutics",
+   "round": "Seed",
+   "amount": "C$7.3M",
+   "url": "https://betakit.com/apiary-therapeutics-raises-7-3-million-for-engineered-stem-cell-therapies/",
+   "added": "2026-11-25"
   }
  ]
 }
