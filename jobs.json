@@ -3812,7 +3812,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-25",
-   "pageLocation": "Location: US, South Carolina, West Columbia"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "780a3e80f9",
@@ -4419,7 +4419,7 @@
    "inFeed": "2026-11-25",
    "compMax": 261050,
    "pageTitle": "Head of Executive Recruiting",
-   "closedStreak": 2,
+   "closedStreak": 3,
    "failStreak": 1,
    "lastLive": "2026-11-25",
    "pageLocation": "New York City, New York, United States",
@@ -6044,7 +6044,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-25",
-   "closedStreak": 134
+   "closedStreak": 135
   },
   {
    "id": "681b5a5acb",
@@ -8833,8 +8833,8 @@
    "added": "2026-11-14",
    "status": "unverifiable",
    "lastChecked": "2026-11-25",
-   "reason": "HTTP 403",
-   "closedStreak": 0
+   "reason": "looked closed once, rechecking: HTTP 404",
+   "closedStreak": 1
   },
   {
    "id": "d87b29ba90",
@@ -9021,7 +9021,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-25",
-   "closedStreak": 67
+   "closedStreak": 68
   },
   {
    "id": "bad760ffba",
@@ -10514,10 +10514,12 @@
    "url": "https://job-boards.greenhouse.io/vercel/jobs/5693067004",
    "comp": "",
    "added": "2026-11-21",
-   "status": "new",
+   "status": "closed",
    "lastChecked": "2026-11-25",
-   "reason": null,
-   "closedStreak": 0
+   "reason": "no longer in the employer's job feed",
+   "closedStreak": 0,
+   "feed": "greenhouse:vercel",
+   "notInFeed": "2026-11-25"
   },
   {
    "id": "1e556f4a4e",
@@ -11540,6 +11542,27 @@
    "reason": "no longer in the employer's job feed",
    "feed": "workable:hadley-designs",
    "notInFeed": "2026-11-25"
+  },
+  {
+   "id": "4655fedd2b",
+   "kind": "review",
+   "company": "Micron",
+   "title": "Senior Manager, Talent Acquisition",
+   "location": "Hiroshima - Fab 15, Japan, Japan",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
+   "comp": "",
+   "added": "2026-11-25",
+   "status": "live",
+   "lastChecked": "2026-11-25",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:micron:External",
+   "inFeed": "2026-11-25",
+   "pageTitle": "Senior Manager, Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-25",
+   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
   }
  ]
 }
