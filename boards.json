@@ -257,7 +257,9 @@
   "radar",
   "oneworkplace",
   "visier",
-  "somethingspecialstudios"
+  "somethingspecialstudios",
+  "hightouch",
+  "retool"
  ],
  "lever": [
   "zoox",
@@ -306,7 +308,8 @@
   "merlinlabs",
   "tiberius",
   "pigment",
-  "knownwell"
+  "knownwell",
+  "cohere"
  ],
  "ashby": [
   "pylon-labs",
@@ -768,7 +771,14 @@
   "Lerer Hippeau",
   "SASQ",
   "Vista Equity Partners",
-  "cohere"
+  "cohere",
+  "Leonardo.ai",
+  "ALSO",
+  "SenseNet",
+  "Metropolis",
+  "Rogo",
+  "Epirus",
+  "Vay"
  ],
  "tried": {
   "UniUni": 1,
