@@ -2750,7 +2750,7 @@
    "inFeed": "2026-11-26",
    "compMax": 224000,
    "pageTitle": "Senior Manager, AI and People Transformation New York City; United States",
-   "closedStreak": 4,
+   "closedStreak": 5,
    "failStreak": 1,
    "lastLive": "2026-11-26",
    "notInFeed": "2026-11-26"
@@ -3818,7 +3818,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-26",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: US, Wisconsin, Oak Creek"
   },
   {
    "id": "780a3e80f9",
@@ -6051,7 +6051,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-26",
-   "closedStreak": 141
+   "closedStreak": 142
   },
   {
    "id": "681b5a5acb",
@@ -9034,7 +9034,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-26",
-   "closedStreak": 74
+   "closedStreak": 75
   },
   {
    "id": "bad760ffba",
@@ -11700,27 +11700,6 @@
    "lastChecked": "2026-11-26",
    "reason": "page says: role is no longer",
    "closedStreak": 2
-  },
-  {
-   "id": "4655fedd2b",
-   "kind": "review",
-   "company": "Micron",
-   "title": "Senior Manager, Talent Acquisition",
-   "location": "Hiroshima - Fab 15, Japan, Japan",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
-   "comp": "",
-   "added": "2026-11-26",
-   "status": "live",
-   "lastChecked": "2026-11-26",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:micron:External",
-   "inFeed": "2026-11-26",
-   "pageTitle": "Senior Manager, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-26",
-   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
   }
  ]
 }
