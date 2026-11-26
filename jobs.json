@@ -2474,9 +2474,9 @@
    "url": "https://careers-jobyaviation.icims.com/jobs/4912/talent-acquisition-lead-(head-of-ta)/job?in_iframe=1",
    "comp": "",
    "added": "2026-10-09",
-   "status": "new",
+   "status": "unverifiable",
    "lastChecked": "2026-11-26",
-   "reason": null,
+   "reason": "title mismatch: we have 'Talent Acquisition Lead (Head of TA)', page says 'Careers | Joby Aviation'",
    "feed": "icims:careers-jobyaviation",
    "inFeed": "2026-11-26",
    "closedStreak": 0
@@ -2750,7 +2750,7 @@
    "inFeed": "2026-11-26",
    "compMax": 224000,
    "pageTitle": "Senior Manager, AI and People Transformation New York City; United States",
-   "closedStreak": 3,
+   "closedStreak": 4,
    "failStreak": 1,
    "lastLive": "2026-11-26",
    "notInFeed": "2026-11-26"
@@ -3818,7 +3818,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-26",
-   "pageLocation": "Location: US, Pennsylvania, Philadelphia"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "780a3e80f9",
@@ -6051,7 +6051,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-26",
-   "closedStreak": 140
+   "closedStreak": 141
   },
   {
    "id": "681b5a5acb",
@@ -7206,12 +7206,16 @@
    "title": "Director, People Business Partner – AMER Field Sales",
    "location": "",
    "url": "https://www.okta.com/company/careers/ga/director-people-business-partner-amer-field-sales-8282692/",
-   "comp": "",
+   "comp": "$219,000—$301,000",
    "added": "2026-11-11",
-   "status": "new",
+   "status": "live",
    "lastChecked": "2026-11-26",
-   "reason": null,
-   "closedStreak": 0
+   "reason": "opened normally with an Apply control",
+   "closedStreak": 0,
+   "compMax": 301000,
+   "pageTitle": "Director, People Business Partner – AMER Field Sales",
+   "failStreak": 0,
+   "lastLive": "2026-11-26"
   },
   {
    "id": "7366fcf699",
@@ -7886,9 +7890,9 @@
    "url": "https://hubcareers-docusign.icims.com/jobs/30892/director%2c-talent-acquisition/job?in_iframe=1",
    "comp": "",
    "added": "2026-11-12",
-   "status": "new",
+   "status": "unverifiable",
    "lastChecked": "2026-11-26",
-   "reason": null,
+   "reason": "title mismatch: we have 'Director, Talent Acquisition', page says 'DocuSign Careers'",
    "source": "feed",
    "feed": "icims:hubcareers-docusign",
    "inFeed": "2026-11-26",
@@ -9030,7 +9034,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-26",
-   "closedStreak": 73
+   "closedStreak": 74
   },
   {
    "id": "bad760ffba",
@@ -11692,10 +11696,31 @@
    "url": "https://stripe.com/careers/listing/senior-leadership-recruiter/8167556",
    "comp": "",
    "added": "2026-11-26",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-26",
-   "reason": "looked closed once, rechecking: page says: role is no longer",
-   "closedStreak": 1
+   "reason": "page says: role is no longer",
+   "closedStreak": 2
+  },
+  {
+   "id": "4655fedd2b",
+   "kind": "review",
+   "company": "Micron",
+   "title": "Senior Manager, Talent Acquisition",
+   "location": "Hiroshima - Fab 15, Japan, Japan",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
+   "comp": "",
+   "added": "2026-11-26",
+   "status": "live",
+   "lastChecked": "2026-11-26",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:micron:External",
+   "inFeed": "2026-11-26",
+   "pageTitle": "Senior Manager, Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-26",
+   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
   }
  ]
 }
