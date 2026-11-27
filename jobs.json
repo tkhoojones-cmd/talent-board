@@ -2766,14 +2766,14 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-11-27",
-   "reason": "kept: last check failed (HTTP 503); last confirmed 2026-11-27",
+   "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
    "feed": "greenhouse:mongodb",
    "inFeed": "2026-11-27",
    "compMax": 220000,
    "pageTitle": "Senior Manager, Recruiting Operations Austin; Chicago; New York City; Palo Alto; San Francisco",
    "closedStreak": 0,
-   "failStreak": 1,
+   "failStreak": 0,
    "lastLive": "2026-11-27"
   },
   {
@@ -2941,9 +2941,9 @@
    "url": "https://job-boards.greenhouse.io/banyansoftware/jobs/5246972007",
    "comp": "$160,000 - $180,000",
    "added": "2026-10-09",
-   "status": "live",
+   "status": "closed",
    "lastChecked": "2026-11-27",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "redirected to board with error=true",
    "source": "feed",
    "feed": "greenhouse:banyansoftware",
    "inFeed": "2026-11-27",
@@ -2952,7 +2952,8 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-27",
-   "pageLocation": "United States"
+   "pageLocation": "United States",
+   "notInFeed": "2026-11-27"
   },
   {
    "id": "01e2e50844",
@@ -6051,7 +6052,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-27",
-   "closedStreak": 147
+   "closedStreak": 148
   },
   {
    "id": "681b5a5acb",
@@ -9034,7 +9035,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-27",
-   "closedStreak": 80
+   "closedStreak": 81
   },
   {
    "id": "bad760ffba",
@@ -11735,28 +11736,51 @@
    "status": "closed",
    "lastChecked": "2026-11-27",
    "reason": "HTTP 404",
-   "closedStreak": 2
+   "closedStreak": 2,
+   "feed": "workable:studioxag",
+   "notInFeed": "2026-11-27"
   },
   {
-   "id": "4655fedd2b",
-   "kind": "review",
-   "company": "Micron",
-   "title": "Senior Manager, Talent Acquisition",
-   "location": "Hiroshima - Fab 15, Japan, Japan",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
+   "id": "b4aef1f347",
+   "kind": "role",
+   "company": "Carta",
+   "title": "Director, Talent Network - Private Equity and Private Credit ",
+   "location": "New York City",
+   "url": "https://job-boards.greenhouse.io/carta/jobs/8155611003",
+   "comp": "$232,000 - $290,000",
+   "added": "2026-11-27",
+   "status": "live",
+   "lastChecked": "2026-11-27",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "greenhouse:carta",
+   "inFeed": "2026-11-27",
+   "compMax": 290000,
+   "pageTitle": "Director, Talent Network - Private Equity and Private Credit",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-27",
+   "pageLocation": "New York City"
+  },
+  {
+   "id": "48ab64dcaf",
+   "kind": "role",
+   "company": "Securitas",
+   "title": "Head of HR ",
+   "location": "Breukelen, UT, nl",
+   "url": "https://jobs.smartrecruiters.com/securitas/744000164053320",
    "comp": "",
    "added": "2026-11-27",
    "status": "live",
    "lastChecked": "2026-11-27",
    "reason": "in the employer's job feed today and the page shows the role",
    "source": "feed",
-   "feed": "workday:micron:External",
+   "feed": "smartrecruiters:securitas",
    "inFeed": "2026-11-27",
-   "pageTitle": "Senior Manager, Talent Acquisition",
+   "pageTitle": "Sorry, Internet Explorer 11 is no longer supported by SmartRecruiters",
    "closedStreak": 0,
    "failStreak": 0,
-   "lastLive": "2026-11-27",
-   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
+   "lastLive": "2026-11-27"
   }
  ]
 }
