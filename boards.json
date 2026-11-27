@@ -769,7 +769,10 @@
  ],
  "candidates": [
   "Harper Harrison",
-  "cohere"
+  "cohere",
+  "Hinge",
+  "Pano AI",
+  "Starpath"
  ],
  "tried": {
   "UniUni": 1,
@@ -1745,7 +1748,8 @@
   "flosum",
   "omass-therapeutics",
   "botsync-1",
-  "crossbordertalents"
+  "crossbordertalents",
+  "studioxag"
  ],
  "rippling": [
   "smartsuite",
