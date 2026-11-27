@@ -11904,6 +11904,58 @@
    "status": "new",
    "lastChecked": null,
    "reason": null
+  },
+  {
+   "id": "95e4c395a3",
+   "kind": "role",
+   "company": "Etsy",
+   "title": "Director, People Systems and Technology",
+   "location": "Hybrid (New York, NY)",
+   "url": "https://careers.etsy.com/jobs/director-people-systems-and-technology-new-york-united-states",
+   "comp": "$183K–$237K",
+   "added": "2026-11-27",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "edc4dec4d9",
+   "kind": "role",
+   "company": "Uber",
+   "title": "Sr Director, Global Head of People Partner",
+   "location": "San Francisco, CA or New York, NY",
+   "url": "https://www.uber.com/careers/list/160421/",
+   "comp": "",
+   "added": "2026-11-27",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "6f188bf006",
+   "kind": "role",
+   "company": "Expedia Group",
+   "title": "Talent Strategy Partner, Senior Director",
+   "location": "Seattle, WA",
+   "url": "https://careers.expediagroup.com/job/talent-strategy-partner-senior-director/seattle-wa/R-105725/",
+   "comp": "",
+   "added": "2026-11-27",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
+  },
+  {
+   "id": "8cb8945dbc",
+   "kind": "role",
+   "company": "Expedia Group",
+   "title": "Director, HR Business Partner - Product & Tech",
+   "location": "Seattle, WA",
+   "url": "https://careers.expediagroup.com/job/director-hr-business-partner-product-amp-tech/seattle-WA/R-98794",
+   "comp": "",
+   "added": "2026-11-27",
+   "status": "new",
+   "lastChecked": null,
+   "reason": null
   }
  ]
 }
