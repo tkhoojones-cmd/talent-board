@@ -2766,14 +2766,14 @@
    "added": "2026-10-09",
    "status": "live",
    "lastChecked": "2026-11-27",
-   "reason": "in the employer's job feed today and the page shows the role",
+   "reason": "kept: last check failed (HTTP 503); last confirmed 2026-11-27",
    "source": "feed",
    "feed": "greenhouse:mongodb",
    "inFeed": "2026-11-27",
    "compMax": 220000,
    "pageTitle": "Senior Manager, Recruiting Operations Austin; Chicago; New York City; Palo Alto; San Francisco",
    "closedStreak": 0,
-   "failStreak": 0,
+   "failStreak": 1,
    "lastLive": "2026-11-27"
   },
   {
@@ -3818,7 +3818,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-27",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "780a3e80f9",
@@ -6051,7 +6051,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-27",
-   "closedStreak": 146
+   "closedStreak": 147
   },
   {
    "id": "681b5a5acb",
@@ -9034,7 +9034,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-27",
-   "closedStreak": 79
+   "closedStreak": 80
   },
   {
    "id": "bad760ffba",
@@ -11732,10 +11732,31 @@
    "url": "https://apply.workable.com/studioxag/jobs/view/D3A0E9AA3A",
    "comp": "",
    "added": "2026-11-27",
-   "status": "unverifiable",
+   "status": "closed",
    "lastChecked": "2026-11-27",
-   "reason": "looked closed once, rechecking: HTTP 404",
-   "closedStreak": 1
+   "reason": "HTTP 404",
+   "closedStreak": 2
+  },
+  {
+   "id": "4655fedd2b",
+   "kind": "review",
+   "company": "Micron",
+   "title": "Senior Manager, Talent Acquisition",
+   "location": "Hiroshima - Fab 15, Japan, Japan",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
+   "comp": "",
+   "added": "2026-11-27",
+   "status": "live",
+   "lastChecked": "2026-11-27",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:micron:External",
+   "inFeed": "2026-11-27",
+   "pageTitle": "Senior Manager, Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-27",
+   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
   }
  ]
 }
