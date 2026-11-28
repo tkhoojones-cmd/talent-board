@@ -3819,7 +3819,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-28",
-   "pageLocation": "Location: US, Tennessee, Memphis"
+   "pageLocation": "Location: US, Nebraska, Omaha"
   },
   {
    "id": "780a3e80f9",
@@ -6052,7 +6052,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-28",
-   "closedStreak": 151
+   "closedStreak": 152
   },
   {
    "id": "681b5a5acb",
@@ -9040,7 +9040,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-28",
-   "closedStreak": 84
+   "closedStreak": 85
   },
   {
    "id": "bad760ffba",
@@ -11884,196 +11884,6 @@
    "reason": "no longer in the employer's job feed",
    "feed": "greenhouse:gongio",
    "notInFeed": "2026-11-28"
-  },
-  {
-   "id": "4655fedd2b",
-   "kind": "review",
-   "company": "Micron",
-   "title": "Senior Manager, Talent Acquisition",
-   "location": "Hiroshima - Fab 15, Japan, Japan",
-   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "live",
-   "lastChecked": "2026-11-28",
-   "reason": "in the employer's job feed today and the page shows the role",
-   "source": "feed",
-   "feed": "workday:micron:External",
-   "inFeed": "2026-11-28",
-   "pageTitle": "Senior Manager, Talent Acquisition",
-   "closedStreak": 0,
-   "failStreak": 0,
-   "lastLive": "2026-11-28",
-   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
-  },
-  {
-   "id": "b09f63a10a",
-   "kind": "role",
-   "company": "People.ai",
-   "title": "VP of People",
-   "location": "",
-   "url": "https://jobs.lever.co/people-ai/145cfacf-3f14-4d32-8a63-8b04c7e83908",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "6b5a93f0e2",
-   "kind": "role",
-   "company": "Atlassian",
-   "title": "Head of Talent Enablement",
-   "location": "",
-   "url": "https://careers-americas.icims.com/jobs/14485/head-of-talent-enablement/job",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b92320fed5",
-   "kind": "role",
-   "company": "Marqeta",
-   "title": "Senior Director, Talent Acquisition",
-   "location": "Remote (US)",
-   "url": "https://www.marqeta.com/careers/1763227",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "bd95488012",
-   "kind": "role",
-   "company": "Cohere",
-   "title": "Director - People Operations",
-   "location": "Toronto / New York",
-   "url": "https://jobs.lever.co/cohere/ea657534-8260-4797-bb1f-fa0e914381b8",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "6c15d98964",
-   "kind": "role",
-   "company": "Anduril",
-   "title": "Director, People Business Partners, Manufacturing",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/andurilindustries/jobs/4791861007",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "07d82d9fb3",
-   "kind": "role",
-   "company": "Zoox",
-   "title": "Senior Director of Talent Acquisition",
-   "location": "Foster City, CA",
-   "url": "https://jobs.lever.co/zoox/26d85572-86bc-4076-8347-a2e2b49765c6",
-   "comp": "$296K-$355K",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "0313fdc598",
-   "kind": "role",
-   "company": "Greenhouse",
-   "title": "VP, Talent",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/greenhouse/jobs/7875615",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "2fa4e08cf0",
-   "kind": "ic",
-   "company": "Babylist",
-   "title": "Principal Executive Recruiter",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/babylist/jobs/5813133004",
-   "comp": "$181,770-$219,000",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "b616e529ae",
-   "kind": "ic",
-   "company": "Interface.ai",
-   "title": "Executive Recruiter",
-   "location": "SF Bay Area",
-   "url": "https://job-boards.greenhouse.io/interfaceai/jobs/4647345006",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "bd4946bff5",
-   "kind": "ic",
-   "company": "Interface.ai",
-   "title": "Executive Recruiter",
-   "location": "SF Bay Area",
-   "url": "https://job-boards.greenhouse.io/interfaceai/jobs/4585460006",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "e446099362",
-   "kind": "ic",
-   "company": "Turing",
-   "title": "Executive Recruiter",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/turingportal/jobs/5692817004",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "89fdbb39a5",
-   "kind": "ic",
-   "company": "TRM Labs",
-   "title": "Principal Technical Recruiter",
-   "location": "",
-   "url": "https://job-boards.greenhouse.io/trmlabs/jobs/5654756004",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "788db653bf",
-   "kind": "ic",
-   "company": "Toast",
-   "title": "Principal TA Partner, Leadership Recruiting",
-   "location": "Remote (US)",
-   "url": "https://careers.toasttab.com/jobs/principal-ta-partner-leadership-recruiting-remote-united-states",
-   "comp": "$131K-$210K",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
   }
  ]
 }

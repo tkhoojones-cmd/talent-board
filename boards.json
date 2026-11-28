@@ -314,7 +314,9 @@
   "pigment",
   "angellist",
   "knownwell",
-  "cohere"
+  "cohere",
+  "neednova",
+  "gametime"
  ],
  "ashby": [
   "pylon-labs",
@@ -772,12 +774,10 @@
   }
  ],
  "candidates": [
-  "cohere",
   "APL Logistics",
   "BRINC Drones",
-  "Spectro Cloud",
-  "Tether",
-  "ORO Labs"
+  "ORO Labs",
+  "LarpGPT"
  ],
  "tried": {
   "UniUni": 1,
@@ -1263,7 +1263,11 @@
   "Harper Harrison": 4,
   "Starpath": 4,
   "Firehawk Defense": 4,
-  "Hinge": 4
+  "Hinge": 4,
+  "BRINC Drones": 1,
+  "APL Logistics": 1,
+  "ORO Labs": 1,
+  "LarpGPT": 1
  },
  "dead": [
   "Slate Auto",
@@ -1775,7 +1779,8 @@
   "paramount",
   "hyperlayer",
   "pathos",
-  "lyte"
+  "lyte",
+  "spectrocloud"
  ],
  "smartrecruiters": [
   "glean",
@@ -1815,7 +1820,8 @@
   "amilia",
   "trafilea",
   "snapsoft",
-  "bamboohr"
+  "bamboohr",
+  "tether"
  ],
  "misses": {
   "greenhouse:figma": 0,
@@ -2372,8 +2378,13 @@
   "ashby:pano-ai": 0,
   "workable:studioxag": 0,
   "lever:angellist": 0,
-  "lever:knownwell": 1,
-  "ashby:beaconsoftware": 1
+  "lever:knownwell": 2,
+  "ashby:beaconsoftware": 2,
+  "rippling:spectrocloud": 0,
+  "recruitee:tether": 0,
+  "lever:cohere": 1,
+  "lever:neednova": 1,
+  "lever:gametime": 1
  },
  "names": {
   "rippling:uniuni": "UniUni",
@@ -2823,7 +2834,9 @@
   "greenhouse:vay": "Vay",
   "ashby:pano-ai": "Pano AI",
   "greenhouse:labelbox": "Labelbox",
-  "lever:angellist": "AngelList"
+  "lever:angellist": "AngelList",
+  "rippling:spectrocloud": "Spectro Cloud",
+  "recruitee:tether": "Tether"
  },
  "icims": [
   "careers-uhnjcareers",
@@ -2856,50 +2869,50 @@
  ],
  "successfactors": [],
  "feedFails": {
-  "greenhouse:admarketplaceinc": 267,
-  "greenhouse:notion": 267,
-  "greenhouse:marqeta": 267,
-  "greenhouse:alphahawaii": 267,
-  "lever:knownwell": 267,
-  "workday:walmart:WalmartExternal": 267,
-  "workday:comcast:Comcast_Careers": 267,
-  "workday:dell:External": 267,
-  "workday:qualcomm:External": 267,
-  "bigtech:microsoft": 267,
-  "bigtech:meta": 267,
-  "greenhouse:clickhouse": 252,
-  "greenhouse:visiersolutionsinc": 237,
-  "greenhouse:alignmenthealth": 236,
-  "lever:neednova": 182,
+  "greenhouse:admarketplaceinc": 268,
+  "greenhouse:notion": 268,
+  "greenhouse:marqeta": 268,
+  "greenhouse:alphahawaii": 268,
+  "lever:knownwell": 268,
+  "workday:walmart:WalmartExternal": 268,
+  "workday:comcast:Comcast_Careers": 268,
+  "workday:dell:External": 268,
+  "workday:qualcomm:External": 268,
+  "bigtech:microsoft": 268,
+  "bigtech:meta": 268,
+  "greenhouse:clickhouse": 253,
+  "greenhouse:visiersolutionsinc": 238,
+  "greenhouse:alignmenthealth": 237,
+  "lever:neednova": 183,
   "lever:wandb": 10,
-  "lever:cohere": 195,
-  "ashby:beaconsoftware": 163,
-  "greenhouse:rollstack": 162,
-  "greenhouse:iconiqcapital": 161,
+  "lever:cohere": 196,
+  "ashby:beaconsoftware": 164,
+  "greenhouse:rollstack": 163,
+  "greenhouse:iconiqcapital": 162,
   "recruitee:google": 3,
-  "greenhouse:generalcatalyst": 151,
-  "greenhouse:amplitude": 150,
-  "greenhouse:grammarly": 137,
-  "greenhouse:fireworksai": 137,
+  "greenhouse:generalcatalyst": 152,
+  "greenhouse:amplitude": 151,
+  "greenhouse:grammarly": 138,
+  "greenhouse:fireworksai": 138,
   "lever:mistral": 3,
-  "greenhouse:conductor": 101,
-  "lever:gametime": 101,
-  "greenhouse:beaconsoftware": 100,
-  "greenhouse:trmlabs": 100,
-  "greenhouse:turingportal": 100,
-  "greenhouse:interfaceai": 100,
-  "greenhouse:vannahealth": 98,
+  "greenhouse:conductor": 102,
+  "lever:gametime": 102,
+  "greenhouse:beaconsoftware": 101,
+  "greenhouse:trmlabs": 101,
+  "greenhouse:turingportal": 101,
+  "greenhouse:interfaceai": 101,
+  "greenhouse:vannahealth": 99,
   "rippling:elevationcapital": 6,
-  "greenhouse:changedotorgsourcing": 91,
-  "greenhouse:bedrockrobotics": 72,
-  "greenhouse:xplatform": 67,
+  "greenhouse:changedotorgsourcing": 92,
+  "greenhouse:bedrockrobotics": 73,
+  "greenhouse:xplatform": 68,
   "lever:netflix": 4,
-  "greenhouse:gigs": 63,
-  "greenhouse:cherryventures": 43,
-  "greenhouse:visier": 18,
-  "greenhouse:hightouch": 12,
-  "greenhouse:retool": 12,
-  "greenhouse:shapercapital": 3
+  "greenhouse:gigs": 64,
+  "greenhouse:cherryventures": 44,
+  "greenhouse:visier": 19,
+  "greenhouse:hightouch": 13,
+  "greenhouse:retool": 13,
+  "greenhouse:shapercapital": 4
  },
  "registry": {
   "workday:adobe": {
