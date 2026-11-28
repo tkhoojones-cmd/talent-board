@@ -772,7 +772,9 @@
    "company": "Clio"
   }
  ],
- "candidates": [],
+ "candidates": [
+  "AngelList"
+ ],
  "tried": {
   "UniUni": 1,
   "Cognition AI": 4,
