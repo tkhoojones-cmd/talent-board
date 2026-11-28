@@ -3819,7 +3819,7 @@
    "closedStreak": 0,
    "failStreak": 0,
    "lastLive": "2026-11-28",
-   "pageLocation": "Location: ES, Community of Madrid, Madrid"
+   "pageLocation": "Location: US, Tennessee, Memphis"
   },
   {
    "id": "780a3e80f9",
@@ -6052,7 +6052,7 @@
    "source": "feed",
    "feed": "ashby:greptile",
    "inFeed": "2026-11-28",
-   "closedStreak": 150
+   "closedStreak": 151
   },
   {
    "id": "681b5a5acb",
@@ -9040,7 +9040,7 @@
    "source": "feed",
    "feed": "ashby:turnkey",
    "inFeed": "2026-11-28",
-   "closedStreak": 83
+   "closedStreak": 84
   },
   {
    "id": "bad760ffba",
@@ -11871,19 +11871,6 @@
    "pageLocation": "New York City, NY / San Francisco, CA"
   },
   {
-   "id": "b09f63a10a",
-   "kind": "role",
-   "company": "Backstory",
-   "title": "VP of People",
-   "location": "Remote",
-   "url": "https://jobs.lever.co/people-ai/145cfacf-3f14-4d32-8a63-8b04c7e83908",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
    "id": "68766e5af9",
    "kind": "role",
    "company": "Gong",
@@ -11892,152 +11879,32 @@
    "url": "https://job-boards.greenhouse.io/gongio/jobs/4566540006",
    "comp": "",
    "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "closed",
+   "lastChecked": "2026-11-28",
+   "reason": "no longer in the employer's job feed",
+   "feed": "greenhouse:gongio",
+   "notInFeed": "2026-11-28"
   },
   {
-   "id": "95e4c395a3",
-   "kind": "role",
-   "company": "Etsy",
-   "title": "Director, People Systems and Technology",
-   "location": "Hybrid (New York, NY)",
-   "url": "https://careers.etsy.com/jobs/director-people-systems-and-technology-new-york-united-states",
-   "comp": "$183K-$237K",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "6f188bf006",
-   "kind": "role",
-   "company": "Expedia Group",
-   "title": "Talent Strategy Partner, Senior Director",
-   "location": "Seattle, WA",
-   "url": "https://careers.expediagroup.com/job/talent-strategy-partner-senior-director/seattle-wa/R-105725/",
+   "id": "4655fedd2b",
+   "kind": "review",
+   "company": "Micron",
+   "title": "Senior Manager, Talent Acquisition",
+   "location": "Hiroshima - Fab 15, Japan, Japan",
+   "url": "https://micron.wd1.myworkdayjobs.com/External/job/Hiroshima---Fab-15-Japan/Recruiter_JR106318-24",
    "comp": "",
    "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "8cb8945dbc",
-   "kind": "role",
-   "company": "Expedia Group",
-   "title": "Director, HR Business Partner, Product & Tech",
-   "location": "Seattle, WA",
-   "url": "https://careers.expediagroup.com/job/director-hr-business-partner-product-amp-tech/seattle-WA/R-98794",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "0313fdc598",
-   "kind": "role",
-   "company": "Greenhouse",
-   "title": "VP, Talent",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/greenhouse/jobs/7875615",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "531a97dadb",
-   "kind": "role",
-   "company": "Wellist",
-   "title": "Chief People Officer",
-   "location": "Hybrid (Boston, MA)",
-   "url": "https://job-boards.greenhouse.io/wellist/jobs/8431772002",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "318ae62486",
-   "kind": "role",
-   "company": "Gametime",
-   "title": "Chief People Officer",
-   "location": "Remote",
-   "url": "https://jobs.lever.co/gametime/6710eb48-3de8-4f37-b272-7a321d76e1c9",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "91430c9eb0",
-   "kind": "role",
-   "company": "GitLab",
-   "title": "Senior Director, People Business Partner",
-   "location": "Remote (US)",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8592710002",
-   "comp": "USD 184,800-380,400 + equity",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "13f9e79e35",
-   "kind": "role",
-   "company": "Smartsheet",
-   "title": "Senior Director, Talent Experience",
-   "location": "Bellevue, WA",
-   "url": "https://www.smartsheet.com/careers/position/8191572/senior-director-talent-experience",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "5f535bbdfd",
-   "kind": "role",
-   "company": "Procore Technologies",
-   "title": "Director, Talent Operations & Analytics",
-   "location": "Austin, TX",
-   "url": "https://careers.procore.com/jobs/director-talent-operations-analytics-austin-tx-united-states",
-   "comp": "$172K-$237K",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "7ec1e0fbbf",
-   "kind": "role",
-   "company": "Procore Technologies",
-   "title": "Senior Director, People Partner",
-   "location": "Austin, TX",
-   "url": "https://careers.procore.com/jobs/senior-director-people-partner-austin-texas-united-states",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
-  },
-  {
-   "id": "53d04cce36",
-   "kind": "role",
-   "company": "Asana",
-   "title": "Head of People Partners, R&D",
-   "location": "",
-   "url": "https://asana.com/jobs/apply/8072574",
-   "comp": "",
-   "added": "2026-11-28",
-   "status": "new",
-   "lastChecked": null,
-   "reason": null
+   "status": "live",
+   "lastChecked": "2026-11-28",
+   "reason": "in the employer's job feed today and the page shows the role",
+   "source": "feed",
+   "feed": "workday:micron:External",
+   "inFeed": "2026-11-28",
+   "pageTitle": "Senior Manager, Talent Acquisition",
+   "closedStreak": 0,
+   "failStreak": 0,
+   "lastLive": "2026-11-28",
+   "pageLocation": "Hiroshima - Fab 15, Japan, Japan"
   }
  ]
 }
