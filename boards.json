@@ -313,7 +313,8 @@
   "tiberius",
   "pigment",
   "angellist",
-  "knownwell"
+  "knownwell",
+  "cohere"
  ],
  "ashby": [
   "pylon-labs",
@@ -771,7 +772,12 @@
   }
  ],
  "candidates": [
-  "cohere"
+  "cohere",
+  "APL Logistics",
+  "BRINC Drones",
+  "Spectro Cloud",
+  "Tether",
+  "ORO Labs"
  ],
  "tried": {
   "UniUni": 1,

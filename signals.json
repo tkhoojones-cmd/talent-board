@@ -969,13 +969,6 @@
    "added": "2026-08-19"
   },
   {
-   "company": "Terminal",
-   "round": "Series A",
-   "amount": "$20M",
-   "url": "https://betakit.com/y-combinator-grad-terminal-raises-20-million-usd-series-a-round/",
-   "added": "2026-07-29"
-  },
-  {
    "company": "Monaco",
    "round": "Series B",
    "amount": "$50M",
@@ -1002,13 +995,6 @@
    "amount": "$350M ($4B valuation)",
    "url": "https://aiweekly.co/alerts/eliseai-raises-350m-at-4b-valuation-led-by-a16z-and-bessemer-for-housing-and",
    "added": "2026-10-06"
-  },
-  {
-   "company": "Terminal",
-   "round": "Series A",
-   "amount": "$20M USD",
-   "url": "https://betakit.com/y-combinator-grad-terminal-raises-20-million-usd-series-a-round/",
-   "added": "2026-07-29"
   },
   {
    "company": "Odyssey",
@@ -1156,13 +1142,6 @@
    "amount": "~$5B (valuation ~$32B)",
    "url": "https://seedtable.com/companies/safe-superintelligence/funding-rounds/other-2026-07",
    "added": "2026-09-20"
-  },
-  {
-   "company": "Greentank Technologies",
-   "round": "Investment",
-   "amount": "$20M USD ($56M total raised)",
-   "url": "https://betakit.com/greentank-lands-20-million-usd-investment-from-dubais-air-global/",
-   "added": "2026-07-30"
   },
   {
    "company": "Varda Space Industries",
@@ -2129,6 +2108,27 @@
    "amount": "$100M+ (2026-10-14)",
    "url": "https://siliconvalleyinvestclub.com/funding-rounds/?year=2026",
    "added": "2026-11-27"
+  },
+  {
+   "company": "Apiary Therapeutics",
+   "round": "First venture round",
+   "amount": "$7.3M (2026-11-24)",
+   "url": "https://betakit.com/apiary-therapeutics-raises-7-3-million-for-engineered-stem-cell-therapies/",
+   "added": "2026-11-28"
+  },
+  {
+   "company": "SenseNet",
+   "round": "Series B",
+   "amount": "$43M USD / $62M CAD (date unverified)",
+   "url": "https://betakit.com/as-wildfire-activity-heats-up-sensenet-has-fuelled-up-to-expand-south-of-the-border",
+   "added": "2026-11-28"
+  },
+  {
+   "company": "LarpGPT",
+   "round": "Pre-seed",
+   "amount": "$1M USD (~2026-11-27, unverified)",
+   "url": "https://betakit.com/meet-the-teen-founders-turning-wealth-mogging-into-a-fast-growing-startup/",
+   "added": "2026-11-28"
   }
  ]
 }
